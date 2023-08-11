@@ -1,0 +1,35 @@
+export const bgBackgroundMegaMenu = require('./bg-background-mega-menu.png');
+export const iconCombinedShape = require('./icon-combined-shape.png');
+export const iconHelpMobileGrey = require('./icon-help-mobile-grey.png');
+export const bgBackgroundMegaMenuReskin = require('./bg-background-mega-menu-reskin.png');
+export const iconImageGoogle = require('./icon-image-google.png');
+export const iconLogoGoogleReskin = require('./icon-logo-google-reskin.png');
+export const iconLogoEmailMegaMenu = require('./icon-logo-email-mega-menu.png');
+export const iconLogofbMegaMenu = require('./icon-logofb-mega-menu.png');
+export const iconLogoutMegaMenu = require('./icon-logout-mega-menu.png');
+export const iconModemMobileGrey = require('./icon-modem-mobile-grey.png');
+
+export const iconModemMobileGreyReskin = require('./icon-modem-mobile-grey-reskin.png');
+export const iconPhoneMobileGreyReskin = require('./icon-phone-mobile-grey-reskin.png');
+export const iconFilteringReskin = require('./icon-filtering-reskin.png');
+export const iconStatisticMobileGreyReskin = require('./icon-statistic-mobile-grey-reskin.png');
+export const iconHelpMobileGreyReskin = require('./icon-help-mobile-grey-reskin.png');
+export const iconCombinedShapeReskin = require('./icon-combined-shape-reskin.png');
+export const iconLogoutMegaMenuReskin = require('./icon-logout-mega-menu-reskin.png');
+export const iconCopy = require('./icon-copy.png');
+export const iconArrowDownBlack = require('./icon-arrow-down-black.png');
+
+export const iconOrderMobileGrey = require('./icon-order-mobile-grey.png');
+export const iconPhoneMobileGrey = require('./icon-phone-mobile-grey.png');
+export const iconShapeMegaMenu = require('./icon-shape-mega-menu.png');
+export const iconShapeMegaMenuReskin = require('./icon-shape-mega-menu-reskin.png');
+export const iconStatisticMobileGrey = require('./icon-statistic-mobile-grey.png');
+export const iconLanguage = require('./icon-language.png');
+export const iconInformation = require('./icon-information.png');
+export const iconInformationDarkBlue = require('./icon-information-dark-blue.png');
+export const iconSimCard = require('./icon-simcard.png');
+export const bgRectangle = require('./bg-rectangle.png');
+export const iconFiltering = require('./icon-filtering.png');
+export const bgFeedback = require('./feedback-background.png');
+export const iconApple = require('./icon-apple-logo.png');
+export const iconUserFeedback = require('./icon-user-feedback.png');

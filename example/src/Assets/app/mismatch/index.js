@@ -1,0 +1,1 @@
+export const bgMismatch = require('./mismatch-background.png')

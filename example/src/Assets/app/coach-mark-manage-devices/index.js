@@ -1,0 +1,6 @@
+export const bgManageDevice1 = require("./bgManageDevice-1.png")
+export const bgManageDevice2 = require("./bgManageDevice-2.png")
+export const bgManageDevice3 = require("./bgManageDevice-3.png")
+export const bgManageDevice1en = require("./bgManageDevice-1-en.png")
+export const bgManageDevice2en = require("./bgManageDevice-2-en.png")
+export const bgManageDevice3en = require("./bgManageDevice-3-en.png")

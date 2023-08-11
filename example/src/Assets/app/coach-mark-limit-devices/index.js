@@ -1,0 +1,6 @@
+export const bgLimitDevices1 = require("./bgLimitDevices-1.png")
+export const bgLimitDevices2 = require("./bgLimitDevices-2.png")
+export const bgLimitDevices3 = require("./bgLimitDevices-3.png")
+export const bgLimitDevices1en = require("./bgLimitDevices-1-en.png")
+export const bgLimitDevices2en = require("./bgLimitDevices-2-en.png")
+export const bgLimitDevices3en = require("./bgLimitDevices-3-en.png")

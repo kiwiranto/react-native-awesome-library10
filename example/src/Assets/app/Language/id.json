@@ -1,0 +1,3909 @@
+{
+	"Global": {
+		"Feature": "Fitur",
+		"Product": "Produk",
+		"Setup": "Jangkauan",
+		"Guarantee": "Bantuan",
+		"Login": "Login",
+		"Follow": "Ikuti Kami",
+		"Buy": "Beli",
+		"BuyNow": "Beli Sekarang",
+		"Help": "Bantuan",
+		"Logout": "Keluar",
+		"Terms": "Syarat dan Ketentuan",
+		"Privacy": "Kebijakan Privasi",
+		"Or": "Atau",
+		"Validity": "Berlaku",
+		"ValidFor": "Masa Aktif",
+		"Yes": "Ya",
+		"No": "Tidak",
+		"Copy": "Salin",
+		"TryAgain": "Coba Lagi",
+		"Confirm": "Konfirmasi",
+		"Continue": "Lanjutkan",
+		"Previous": "Sebelumnya",
+		"Days": "Hari",
+		"Hour": "Jam",
+		"Minute": "Menit",
+		"Minutes": "Menit",
+		"Second": "Detik",
+		"Back": "Kembali",
+		"Start": "Mulai",
+		"Done": "Selesai",
+		"Next": "Selanjutnya",
+		"NextCoachmark": "Lanjutkan",
+		"Skip": "Lewati",
+		"Close": "Tutup",
+		"Understand": "Mengerti",
+		"Save": "Simpan",
+		"Delete": "Hapus",
+		"SeeAll": "Lihat Semua",
+		"SuccessfulSettings": "Pengaturan Berhasil",
+		"From": "Dari",
+		"UpTo": "Hingga",
+		"ReturnToHome": "Kembali ke Beranda",
+		"NoInternet": "Tidak terkoneksi dengan internet",
+		"Later": "Nanti Saja",
+		"ConnectNow": "Hubungkan Sekarang",
+		"History": "Riwayat",
+		"ValidUntil": "Berlaku hingga",
+		"ActiveUntil": "Aktif hingga",
+		"Verification": "Verifikasi",
+		"Accepted": "Diterima",
+		"Use": "Gunakan",
+		"Used": "Digunakan",
+		"Poins": "Poin",
+		"At": "di",
+		"BackToDashboard": "Kembali ke Beranda",
+		"ContentNotReady": "Konten belum tersedia",
+		"Bill": "Pemakaian",
+		"ListDay": {
+			"Monday": "Senin",
+			"Tuesday": "Selasa",
+			"Wednesday": "Rabu",
+			"Thursday": "Kamis",
+			"Friday": "Jumat",
+			"Saturday": "Sabtu",
+			"Sunday": "Minggu"
+		},
+		"Payment": "Pembayaran",
+		"AdministrationCosts": "Biaya Administrasi",
+		"Call188": "Hubungi 188",
+		"Cancel": "Batal",
+		"Main": "Utama",
+		"ModalCreditLimitPurchaseLimit": {
+			"Title": "Pembelian Ini Melebihi Batas Pemakaian",
+			"Description": "Jika pemakaian pascabayar mencapai 3 bulan, hubungi Call Center Telkomsel di 188 untuk meningkatkan batas pemakaian."
+		},
+		"ChooseAnotherPackage": "Pilih paket lainnya",
+		"ChangePaymentMethod": "Ubah metode pembayaran",
+		"Refresh": "Muat Ulang",
+		"CopiedTitle": "Tersalin!",
+		"All": "Semua"
+	},
+	"ErrorGlobal": {
+		"FailedLogin": "Login Gagal",
+		"FailedRegister": "Pendaftaran Gagal",
+		"ErrorPromo": "Promo tidak berlaku atau kuota promo habis",
+		"ErrorSystem": "Terjadi kesalahan pada sistem",
+		"TryAgain": "Silakan coba lagi",
+		"ErrorSystemTryAgain": "Terjadi kesalahan pada sistem. Silakan coba lagi",
+		"MsisdnAlreadyExist": "Kartu SIM Sudah Terdaftar",
+		"FailedCreateModemData": "Gagal Membuat Data Modem",
+		"ImeiAlreadyExist": "IMEI Sudah Terdaftar",
+		"ErrorValidation": {
+			"OTPCodeEmpty": "Silakan isi kode verifikasi Anda",
+			"OTPCodeIncorrect": "Kode yang Anda masukkan salah",
+			"OTPCodeFailed": "Maaf, terjadi kesalahan pada sistem. Silakan kirim ulang kode",
+			"OTPCodeExpired": "Kode verifikasi Anda sudah kedaluwarsa, silakan coba lagi."
+		},
+		"ErrorMessage": {
+			"GetTokenID": "Maaf terjadi kesalahan pada sistem saat mendapatkan Akses ID untuk Anda, Silakan coba lagi.",
+			"GetAccessToken": "Maaf terjadi kesalahan pada sistem saat mendapatkan Akses Token untuk Anda, Silakan coba lagi.",
+			"GetSessionCode": "Maaf terjadi kesalahan pada sistem saat mendapatkan Session Code Anda, Silakan coba lagi.",
+			"GetCookies": "Maaf terjadi kesalahan pada sistem saat mendapatkan Cookies Session Code untuk Anda, Silakan coba lagi.",
+			"GetSocmedURL": "Maaf terjadi kesalahan pada sistem saat mendapatkan Social Media URL untuk Anda, Silakan coba lagi.",
+			"GetMembers": "Maaf terjadi kesalahan pada sistem saat mendapatkan data member Anda, Silakan coba lagi.",
+			"SubmitLogin": "Maaf terjadi kesalahan pada sistem saat melakukan submit data login Anda, Silakan coba lagi.",
+			"MsisdnAllReadyExistRegister": "Kartu SIM sudah terdaftar, mohon cek lagi",
+			"AccountAllReadyRegistered": "Akun sudah terdaftar dengan modem Orbit",
+			"ImeiAllreadyExist": "IMEI sudah terdaftar, mohon cek kembali",
+			"FailedCreateSubscriptionMember": "Gagal mengaktifkan paket data,\n silakan hubungi CS di 188",
+			"FailedCreateMemberDevice": "Gagal membuat data member Anda,\nsilakan hubungi CS di 188",
+			"DeviceOrPackageNotFound": "Perangkat atau paket tidak ditemukan",
+			"GetUrlSocmed": "Maaf terjadi kesalahan pada sistem saat mendapatkan Url, Silakan coba lagi.",
+			"FailedCreateMemberOffline": "Gagal membuat modem data, \nSilakan coba lagi",
+			"FailedImeiAlreadyExist": "Imei sudah terdaftar, gagal membuat modem data"
+		}
+	},
+	"LoginScreen": {
+		"LoginWelcome": {
+			"FindAccount": "Lupa Email/No. HP?",
+			"FindAccountRefine": "Lupa Akun?"
+		},
+		"PredefineAccount": {
+			"Title": "Silakan login dengan akun yang Anda gunakan untuk membeli modem.",
+			"LoginWith": "Login dengan",
+			"LoginWithAnother": "login dengan akun lain"
+		},
+		"LoginOption": {
+			"LoginFacebook": "Login dengan Facebook",
+			"LoginGmail": "Login dengan Gmail",
+			"LoginEmail": "Login dengan Email",
+			"LoginWith": "Masuk dengan",
+			"LearnMore": "Pelajari Telkomsel Orbit lebih lanjut"
+		},
+		"LoginWithEmail": {
+			"Headline": "Login dengan Email",
+			"EmailLabel": "Email",
+			"EmailLabelReskin": "Alamat Email",
+			"PhoneLabel": "No.Hp",
+			"EmailPhoneLabel": "Alamat Email/No. HP",
+			"EmailPhoneLabelRefine": "Masukkan Nomor HP atau Email yang Anda Daftarkan",
+			"ErrorEmailEmpty": "Tolong isi email atau nomor telepon Anda",
+			"ErrorEmailIncorrect": "Email yang Anda masukkan salah atau tidak terdaftar",
+			"ErrorEmailIncorrectRefine": "Akun yang Anda masukkan salah atau tidak terdaftar",
+			"ErrorEmailFormatIncorrect": "Format Email yang Anda masukkan salah, silahkan periksa kembali",
+			"ErrorPhoneIncorect": "Nomor HP yang Anda masukkan salah atau tidak terdaftar",
+			"ErrorPhoneFormatIncorect": "Format nomor HP yang Anda masukan salah, silahkan periksa kembali",
+			"PasswordLabel": "Password",
+			"ErrorPasswordEmpty": "Tolong isi password Anda",
+			"ErrorPasswordIncorrect": "Password yang Anda masukkan salah",
+			"ForgotPassword": "Lupa Password",
+			"ButtonAction": "Login",
+			"ButtonActionReskin": "Lanjutkan",
+			"AnotherLogin": "Atau login melalui",
+			"PlaceholderEmail": "Masukkan alamat email Anda",
+			"PlaceholderPassword": "Masukkan Password Anda",
+			"LoginNotes": "Silakan login dengan akun yang Anda gunakan untuk membeli modem"
+		},
+		"LoginWithPhoneNumber": {
+			"TitleOTP": "Masukkan Kode Verifikasi",
+			"SubtitleOTP1": "Cek SMS yang telah kami kirim ke nomor",
+			"SubtitleOTP2": "untuk melihat kode verifikasi.",
+			"ResendOTP": "Kirim ulang kode"
+		},
+		"FailedLoginPopup": {
+			"PopupTitle": "Login Gagal",
+			"PopupSubTitle": "Akun tidak ditemukan, silakan login menggunakan Nomor HP yang Anda Daftarkan",
+			"FailedEmail": "Email atau password Anda salah, user tidak ditemukan. Silakan coba lagi",
+			"FailedEmail2": "Akun salah atau tidak terdaftar",
+			"FailedEmail2Subtitle": "Akun tidak ditemukan, silakan login menggunakan metode lain",
+			"FailedSystem": "Maaf terjadi kesalahan pada sistem. Silakan coba lagi",
+			"FailedLoadData": "Gagal memuat data, silakan coba lagi.",
+			"FailedCreateAccount": "Gagal membuat akun, silakan coba lagi.",
+			"ButtonAction": "Coba Lagi",
+			"FailedApple": "Akun Apple ID Anda belum terdaftar di Telkomsel Orbit. Silakan coba lagi dengan akun lainnya",
+			"FailedFacebook": "Akun Facebook Anda belum terdaftar di Telkomsel Orbit. Silakan coba lagi dengan akun lainnya",
+			"FailedGmail": "Akun Gmail Anda belum terdaftar di Telkomsel Orbit. Silakan coba lagi dengan akun lainnya",
+			"FailedAccountPairing": "Akun ini sudah terdaftar di produk Telkomsel lain. Silakan daftar dengan akun lainnya.",
+			"FailedAccountUnPairing": "Akun ini belum terdaftar di Telkomsel Orbit. Silakan login dengan akun lainnya.",
+			"FailedTokenId": "Terjadi kesalahan sistem pada saat mendapatkan token. Silakan coba lagi.",
+			"PrimaryButtonTitle": "Kembali"
+		},
+		"LoginFailedGetMemberData": {
+			"Title": "Login Gagal",
+			"Description": "Terjadi kesalahan sistem pada saat mendapatkan data user. Silakan coba beberapa saat lagi.",
+			"PrimaryButtonTitle": "Kembali"
+		},
+		"LoginFailedCooldownPopup": {
+			"Title": "Login Gagal",
+			"Description": "Maaf, anda telah mencapai batas maksimum untuk melakukan login. Silakan coba beberapa saat lagi.",
+			"PrimaryButtonTitle": "Kembali"
+		},
+		"LoginFailedTimeout": {
+			"Title": "Login Gagal",
+			"Description": "Mohon Maaf, terjadi kesalahan koneksi, silakan coba kembali.",
+			"PrimaryButtonTitle": "Kembali"
+		},
+		"LoginFailedAndroidOnly": {
+			"Title": "Login Gagal",
+			"Description": "Akun ini terhubung ke Modem",
+			"Description2": "yang sementara hanya dapat dikontrol oleh perangkat Android. Silakan login melalui perangkat yang sesuai.",
+			"PrimaryButtonTitle": "Mengerti"
+		},
+		"LoginFailedGlobal": {
+			"Title": "Login Gagal",
+			"Description": "Tidak dapat login ke aplikasi saat ini. Jika Anda ingin mengunjungi Beranda, silakan login di website Telkomsel Orbit.",
+			"Description2": "Tips: Jika ingin membeli paket data, Anda bisa mengakses fitur Gift di aplikasi MyTelkomsel atau cukup hubungi *363#.",
+			"PrimaryButtonTitle": "Kembali"
+		},
+		"LoginFailedAccountRegistered": {
+			"Title": "Akun ini sudah terdaftar dengan modem Orbit",
+			"Description": "Silakan daftar menggunakan alamat email/No. HP lainnya yang belum terdaftar.",
+			"PrimaryButtonTitle": "Mengerti"
+		},
+		"PrivacyTerm": {
+			"Statement1": "Dengan login ",
+			"Statement2": "menggunakan email, ",
+			"Statement3": "nomor atau ",
+			"Statement4": "metode lain, ",
+			"Statement5": "saya setuju dengan ",
+			"Statement6": "Dengan mendaftar",
+			"Statement7": "saya setuju ",
+			"TnC": "Syarat dan Ketentuan",
+			"And": " dan ",
+			"And2": " serta ",
+			"PrivacyPolicy": "Kebijakan Privasi",
+			"FromTelkomsel": " dari Telkomsel"
+		}
+	},
+	"LoginSocialMediaScreen": {
+		"RegisterSocialMedia": {
+			"Title": "Akun Telah Terdaftar",
+			"Description": "Akun Anda sudah terdaftar, silahkan login untuk melanjutkan proses aktivasi",
+			"PrimaryButtonTitle": "Tutup"
+		}
+	},
+	"ForgotPasswordScreen": {
+		"Headline": "Lupa Password",
+		"Step1": {
+			"Desc": "Silakan masukkan email Anda untuk mendapatkan kode verifikasi",
+			"DescReskin": "Silakan masukkan email Anda untuk mendapatkan kode verifikasi.",
+			"EmailLabel": "Alamat Email",
+			"ButtonAction": "Lanjutkan",
+			"EmailEmpty": "Tolong isi Alamat Email Anda",
+			"EmailIncorrect": "Email yang Anda masukkan salah atau tidak terdaftar",
+			"EmailIncorrectReskin": "Email yang Anda masukkan salah atau tidak terdaftar",
+			"CheckMemberFailed": "User tidak ditemukan, cek kembali Email Anda dan silakan coba lagi."
+		},
+		"Step2": {
+			"Title": "Konfirmasikan Email Anda",
+			"Desc": "Silakan cek email untuk melihat kode verifikasi dan masukkan kode verifikasi",
+			"OTPCodeLabel": "Kode Verifikasi",
+			"ResendCodeTitle": "Kirim ulang kode",
+			"ButtonAction": "Lanjutkan",
+			"OTPCodeEmpty": "Tolong isi Kode Verifikasi Anda",
+			"OTPCodeIncorrect": "Kode Verifikasi yang Anda masukkan salah",
+			"OTPCodeExpired": "Kode verifikasi yang Anda masukan telah expired, silakan kirim ulang"
+		},
+		"Step3": {
+			"Title": "Masukkan Password Baru Anda",
+			"PasswordLabel": "Password",
+			"PasswordLabelReskin": "Password Baru",
+			"RePasswordLabel": "Konfirmasi Password",
+			"RePasswordLabelReskin": "Konfirmasi Password Baru",
+			"ButtonAction": "Ubah Password",
+			"PasswordEmpty": "Tolong isi Password Anda",
+			"RePasswordEmpty": "Tolong isi Konfirmasi Password Anda",
+			"PasswordIncorrect": "Password harus mengandung 8 karakter, alphanumeric, dan karakter khusus",
+			"RePasswordIncorrect": "Konfirmasi Password Tidak Sesuai",
+			"RePasswordIncorrectReskin": "Konfirmasi password harus cocok dengan password"
+		},
+		"VerificationSent": {
+			"Title": "Kode Terkirim",
+			"TitleReskin": "Kode Verifikasi Terkirim",
+			"Desc": "Silakan cek email untuk melihat kode verifikasi yang telah kami kirim ke email Anda",
+			"DescReskin": "Cek email Anda untuk melihat kode verifikasi yang telah kami kirim.",
+			"ButtonAction": "Mengerti"
+		},
+		"PasswordChangeSuccess": {
+			"Title": "Ganti Password Berhasil",
+			"TitleReskin": "Password Berhasil Diubah",
+			"Desc": "Password Telkomsel Orbit Anda berhasil diganti.",
+			"DescReskin": "Sekarang Anda dapat login menggunakan password baru Anda.",
+			"ButtonAction": "Lanjutkan"
+		},
+		"PasswordChangeFailed": {
+			"Title": "Ganti Password Gagal",
+			"Desc": "Maaf sesi anda sudah habis. Silakan coba lagi.",
+			"ButtonAction": "Kembali"
+		}
+	},
+	"OrderStatusScreen": {
+		"CTALogout": "Keluar",
+		"Title": "Masih Memiliki Transaksi",
+		"Desc": "Anda masih memiliki transaksi yang belum selesai. Silakan lanjutkan transaksi Anda",
+		"ButtonAction": "Lanjutkan",
+		"ButtonAction2": "Ulangi Order"
+	},
+	"DeliveryStatusScreen": {
+		"OnBoarding": {
+			"title": "Selamat datang di MyOrbit!",
+			"Subtitle": "Solusi internet Anda, terhubung di mana saja.",
+			"deliveredTitle": "Terima kasih telah memilih Telkomsel Orbit sebagai solusi internet serba digital untuk rumah Anda, klik Lanjutkan untuk melihat status pengiriman modem Anda.",
+			"transactionTitle": "Anda masih memiliki pembayaran yang belum selesai, silakan lanjutkan proses pembayaran Anda.",
+			"transactionSecondTitle": "Anda Belum membuat pesanan, Klik Beli Sekarang untuk memesan modem Telkomsel Orbit Anda.",
+			"nextDelivery": "Lanjutkan",
+			"buyNowDelivery": "Beli Sekarang",
+			"TitleReskin": "Selamat Datang di Telkomsel Orbit",
+			"TitleFailedCallback": "data modem Orbit Anda belum lengkap",
+			"TransactionDescription": "Anda masih memiliki pembayaran yang belum selesai, silakan lanjutkan proses pembayaran Anda.",
+			"TransactionDescriptionReskin": "Anda belum melakukan pemesanan. Klik Beli Sekarang untuk membeli modem Telkomsel Orbit atau keluar dari halaman ini untuk melanjutkan proses aktivasi modem.",
+			"DeliveredDescription": "Terima kasih telah memilih Telkomsel Orbit sebagai solusi internet serba digital untuk rumah Anda, klik Lanjutkan untuk melihat status pengiriman modem Anda.",
+			"FailedCallbackDescription": "Agar modem siap digunakan, kami perlu melengkapi informasi modem Orbit Anda. Silakan klik Hubungi Kami untuk melanjutkan.",
+			"BuyOfflineDescription": "Silakan beli modem melalui Official Store Telkomsel Orbit dan lanjutkan proses dengan aktivasi modem.",
+			"ButtonContinue": "Lanjutkan",
+			"ButtonBuyNow": "Beli Sekarang",
+			"ButtonContactUs": "Hubungi Kami",
+			"ButtonBuyOffline": "Beli di Official Store"
+		},
+		"PopupEcommerce": {
+			"Title": "Official Store Kami",
+			"Description1": "Pilih salah satu dari Telkomsel Official Store \nberikut untuk membeli modem Orbit",
+			"Description2": "*Pembelian modem selain di website \nTelkomsel Orbit tidak mendapatkan \ngaransi 7 hari pengembalian dana"
+		},
+		"LoginActivation": {
+			"Title": "Login Berhasil",
+			"Subtitle": "Anda akan melanjutkan ke proses aktivasi modem.",
+			"ButtonAction": "Lanjutkan"
+		},
+		"OnProcess": {
+			"Logout": "Keluar",
+			"Title": "Telah Dikemas",
+			"Desc": "Modem Orbit sudah dikemas dan siap untuk dikirim.",
+			"ButtonAction": "Cek Status Pengiriman",
+			"TitlePickup": "Modem Orbit Siap Diambil",
+			"DescPickup": "Klik Cek Detail Pengambilan untuk melihat kode unik. Tunjukkan kode unik kepada petugas GraPARI saat mengambil modem Anda.",
+			"ButtonActionPickup": "Cek Detail Pengambilan"
+		},
+		"OnPickup": {
+			"Logout": "Keluar",
+			"Title": "Dalam Perjalanan",
+			"Desc": "Modem Telkomsel Orbit sudah diambil kurir dan dalam proses pengiriman",
+			"ButtonAction": "Cek Status Pengiriman"
+		},
+		"OnDelivery": {
+			"Logout": "Keluar",
+			"Title": "Dalam Perjalanan",
+			"Desc": "Modem Orbit sedang dalam perjalanan. Estimasi sampai tanggal",
+			"ButtonAction": "Cek Status Pengiriman",
+			"Reminder": "Sudah Menerima Modem?",
+			"ButtonAction2": "Aktivasi Modem"
+		},
+		"OnArrive": {
+			"Title": "Telah Diterima",
+			"TitlePickup": "Telah Diterima",
+			"Desc": "Modem Anda telah diterima oleh",
+			"ButtonAction": "Aktivasi Modem",
+			"CheckStatus": "Cek Status Pengiriman?",
+			"CheckStatusReskin": "Sudah menerima modem?",
+			"ButtonAction2": "Cek Status Pengiriman",
+			"CheckStatusPickup": "Cek Status Pengambilan?",
+			"ButtonActionCheckPickup": "Status Pengambilan",
+			"DownloadTutorial": "Download tutorial aktivasi MyOrbit"
+		},
+		"Inactive": {
+			"Title": "Modem Belum Aktif",
+			"Desc": "Silakan lengkapi proses aktivasi modem Anda",
+			"ButtonAction": "Aktivasi Modem",
+			"CheckStatus": "Cek Status Pengiriman",
+			"CheckStatusReskin": "Sudah menerima modem?",
+			"ButtonAction2": "Cek Status Pengiriman",
+			"CheckStatusPickup": "Cek Status Pengambilan",
+			"ButtonActionCheckPickup": "Status Pengambilan"
+		},
+		"NoTransaction": {
+			"Title": "Tidak memiliki transaksi",
+			"Desc": "Anda tidak memiliki transaksi. Silahkan buat transaksi Anda.",
+			"ButtonAction": "Lihat Penawaran"
+		},
+		"StillHaveTransaction": {
+			"Title": "Masih Memiliki Transaksi",
+			"Desc": "Anda masih memiliki transaksi yang belum selesai. Silakan lanjutkan transaksi Anda.",
+			"ButtonAction": "Lanjutkan",
+			"ButtonAction2": "Ulangi Order"
+		},
+		"PickupStatus": {
+			"TitleQr": "Silakan tunjukan QR Code ke petugas GraPARI untuk mengambil modem Anda",
+			"TitleSecondQr": "QR Code Pengambilan Modem",
+			"Delivered": "Telah Diterima",
+			"Pickup": "Siap Diambil",
+			"SeeGoogle": "Lihat di google maps"
+		},
+		"DeilveryStatus": {
+			"Headline": "Cek Status Pengiriman",
+			"StatusLabel": "Status",
+			"DeliveryDateLabel": "Dikirim Tanggal",
+			"TrackShipmentLabel": "Lacak Pengiriman",
+			"TrackingNumberLabel": "No. Resi",
+			"ServiceLabel": "Layanan",
+			"CourierLabel": "Pengirim",
+			"ReceiverLabel": "Penerima",
+			"AddressLabel": "Alamat Pengiriman",
+			"ButtonAction": "Hubungi Kami",
+			"ButtonAction2": "Hubungi via Whatsapp"
+		},
+		"OrderTracker": {
+			"Headline": "Lacak Pengiriman",
+			"HeadlinePickup": "Status Pengambilan",
+			"OrderPacked": "Modem Telkomsel Orbit sedang dalam proses persiapan.",
+			"OrderDelivered": "Pengiriman selesai, harap lakukan Aktifasi untuk proses berikutnya.",
+			"ButtonAction": "Hubungi Kami",
+			"StatusPickup": {
+				"Processed": "Modem Orbit Anda siap diambil.",
+				"Delivered": "Pengambilan selesai, harap lakukan Aktivasi untuk proses berikutnya."
+			}
+		},
+		"PopupDownloadTutorial": {
+			"SuccessDownload": {
+				"Title": "Download Tutorial Berhasil",
+				"Subtitle": "Tutorial berhasil di download, silakan buka folder download dan cari file",
+				"ButtonAction": "Mengerti"
+			},
+			"FailedDownload": {
+				"Title": "Download Tutorial Gagal",
+				"Subtitle": "Terjadi kesalahan pada sistem gagal mendownload tutorial, silakan coba lagi.",
+				"ButtonAction": "Tutup"
+			}
+		},
+		"PopupDownloadInvoice": {
+			"ConfirmationDownload": {
+				"Title": "Download Invoice",
+				"Subtitle": "Apakah Anda ingin mendownload file invoice?",
+				"ButtonAction1": "Ya",
+				"ButtonAction2": "Tidak"
+			},
+			"SuccessDownload": {
+				"Title": "Download Invoice Berhasil",
+				"Subtitle": "Invoice berhasil di download, silakan buka folder download dan cari file",
+				"ButtonAction": "Mengerti"
+			},
+			"FailedDownload": {
+				"Title": "Download Invoice Gagal",
+				"Subtitle": "Terjadi kesalahan pada sistem gagal mendownload invoice, silakan coba lagi.",
+				"ButtonAction": "Tutup"
+			},
+			"InProgressDownload": {
+				"Title": "Invoice Dalam Proses",
+				"Subtitle": "File invoice tidak ditemukan atau masih dalam proses, silahkan tunggu beberapa saat lagi untuk mendownload file invoice.",
+				"ButtonAction": "OK"
+			}
+		}
+	},
+	"TutorialScreenNew": {
+		"Welocme": {
+			"Title": "Selamat Datang",
+			"Desc": "Ikuti langkah mudah ini untuk menikmati internet cepat tanpa batas"
+		},
+		"RegisterSIM": {
+			"Desc1": "Pemasangan Modem dan",
+			"Desc2": "Pendaftaran KTP/KK yang",
+			"Desc3": "Mudah"
+		},
+		"SIM": {
+			"Title": "Pastikan Data Orbit Anda Telah Sesuai",
+			"SimCard": "Nomor Kartu SIM",
+			"WifiName": "Wi-Fi Name",
+			"IMEI": "IMEI",
+			"Desc1": "Nama WiFi & IMEI Modem terletak di bagian bawah modem",
+			"Desc2": "Nama WiFi & IMEI Modem terletak di bagian belakang modem"
+		}
+	},
+	"TutorialScreen": {
+		"Welcome": {
+			"Title": "Selamat Datang",
+			"Desc": "Cukup 2 langkah mudah untuk menikmati internet cepat tanpa batas"
+		},
+		"RegisterSIM": {
+			"Title": "Daftarkan kartu SIM",
+			"Label": "Masukkan NIK & KK Anda"
+		},
+		"ConnectModem": {
+			"Title": "Nyalakan modem untuk menghubungkan dengan Aplikasi MyOrbit",
+			"Label": "Memasang"
+		}
+	},
+	"PairingProcessScreen": {
+		"Step1": {
+			"Title": "Hubungkan Modem",
+			"ContentOne1": "Pastikan Anda melakukan langkah ini",
+			"ContentOne2": "dengan benar sebelum",
+			"ContentOne3": "menghubungkan modem",
+			"ContentSecond1": "Nyalakan Modem Anda",
+			"ContentSecond1Desc": "Pasang modem ke adaptor listrik dan tunggu sampai lampu indikator power menyala",
+			"ContentSecond2": "Matikan Mobile Data",
+			"ContentSecond2Desc": "Pastikan mobile data perangkat Anda tidak aktif",
+			"ContentSecond3": "Tidak terhubung Wifi Lain",
+			"ContentSecond3Desc": "Pastikan Anda tidak tersambung dengan koneksi WiFi lain",
+			"Desc": "Nyalakan modem Anda menggunakan adaptor listrik yang tersedia. Tunggu sampai lampu indikator WiFi menyala",
+			"List1": "Nyalakan modem",
+			"List2": "Matikan mobile data di handphone Anda",
+			"List3": "Matikan jaringan Wi-Fi lain di tempat anda selain jaringan Telkomsel Orbit",
+			"ButtonAction": "Hubungkan Modem"
+		},
+		"Step2": {
+			"Title": "Menghubungkan",
+			"Desc": "Proses ini akan memakan waktu hingga 5 menit. Pastikan Anda berada di dekat modem yang sudah menyala",
+			"Desc1": "Mohon untuk tetap berada di halaman ini dan pastikan WiFi di handphone Anda sudah aktif.",
+			"Desc2": "Silakan tunggu, proses pengaturan modem akan memakan waktu hingga 5 menit"
+		},
+		"SuccessConnectModem": {
+			"Title": "Modem Berhasil Terhubung",
+			"TitleReset": "Pengaturan Ulang Berhasil",
+			"Desc": "Sekarang Anda bisa menikmati fitur-fitur lengkap dari aplikasi MyOrbit.",
+			"Desc2": "Modem Anda berhasil diatur ulang. Klik Lanjutkan untuk menghubungkan perangkat Anda ke jaringan Telkomsel Orbit kembali.",
+			"Desc2Reskin": "Klik Lanjutkan untuk kembali menghubungkan perangkat Anda ke jaringan Telkomsel Orbit.",
+			"Desc3": "Modem Anda berhasil diatur ulang. Klik Lanjutkan untuk kembali menikmati jaringan Telkomsel Orbit.",
+			"Desc3Reskin": "Klik Lanjutkan untuk kembali menikmati jaringan Telkomsel Orbit.",
+			"ButtonAction": "Lanjutkan",
+			"AdvanceSetting": "Pengaturan Lanjutan"
+		},
+		"SuccessConnectModemByod": {
+			"Desc": "Sekarang Anda bisa menikmati fitur-fitur lengkap dari aplikasi MyOrbit."
+		},
+		"FailedConnectModem": {
+			"Title": "Modem Gagal Tersambung",
+			"Desc": "Pastikan WiFi di Handphone Anda aktif dan hubungi Customer Service kami jika proses menghubungkan modem kembali gagal",
+			"ButtonAction": "Atur Ulang Modem",
+			"ButtonAction2": "Hubungi Kami",
+			"ButtonActionReset": "Buat Laporan"
+		},
+		"FailedProcess": {
+			"Title": "Proses Gagal",
+			"TitleReset": "Pengaturan Ulang Gagal",
+			"DescReset": "Modem Anda gagal diatur ulang, silakan klik Coba Lagi atau klik Buat Laporan untuk melaporkan masalah modem Telkomsel Orbit Anda.",
+			"Desc": "Proses pengaturan modem gagal, mohon dipastikan kembali bahwa:",
+			"NoteList1": "Indikator WiFi di modem menyala berwarna putih atau biru",
+			"NoteList2": "WiFi di handphone sudah dinyalakan",
+			"NoteList3": "Posisikan modem di dekat Anda",
+			"ButtonAction": "Coba Lagi"
+		},
+		"ConnectionNotOptimal": {
+			"Title": "Koneksi Telkomsel Orbit Belum Optimal",
+			"Desc": "Saat ini kami sedang melakukan optimasi jaringan untuk memastikan Anda mendapatkan pengalaman terbaik dalam menggunakan layanan internet kami",
+			"ButtonAction": "Lanjutkan",
+			"ButtonAction2": "Hubungi Kami"
+		},
+		"ConnectionNotOptimal2": {
+			"Title": "Koneksi Telkomsel Orbit Belum Optimal",
+			"Desc": "Kecepatan internet Anda belum optimal, kami sarankan untuk memindahkan modem Anda",
+			"ButtonAction": "Coba Lagi"
+		},
+		"ConnectionOptimal": {
+			"Title": "Modem Berhasil Terhubung",
+			"Desc": "Modem Telkomsel Orbit telah terhubung dan paket data akan aktif dalam waktu maksimal 1x24 jam.",
+			"ButtonAction": "Lanjutkan"
+		},
+		"PopupReportSuccess": {
+			"Title": "Laporan Telah Diterima",
+			"Desc": "Laporan Anda telah kami terima, kami akan memeriksa masalah Anda dalam waktu maksimal 24 jam",
+			"ButtonAction": "Lanjutkan"
+		},
+		"PopupReportFailed": {
+			"Title": "Gagal Terkirim",
+			"Desc": "Laporan anda gagal terkirim silahkan coba lagi",
+			"ButtonAction": "Gagal"
+		},
+		"ToastMessage": {
+			"ErrorMessage": "Error message",
+			"SuccessUnlockModem": "Sukses unlock modem",
+			"FailedUnlockModem": "Gagal unlock modem",
+			"FailedUnlockModem100003": "Gagal Unlocking Modem, error modem : 100003",
+			"FailedUnlockModemReset": "Gagal unlock modem, harap hard reset modem anda ditombol belakang modem..",
+			"AlertResetModem": "Lakukan reset modem, harap tahan tombol kecil dibelakang modem disebelah power selama 10 detik..",
+			"SuccessOptiomationNetwork": "Sukses melakukan optimasi network!",
+			"FailedOptiomationNetwork": "Gagal melakukan optimasi network!",
+			"ModemNoQuota": "Modem tidak memiliki quota!!",
+			"FailedConnectModem": "Gagal koneksi ke modem",
+			"RestartModemAlert": "Harap restart modem anda dan coba lagi",
+			"RestartModemProcess": "Harap restart modem anda, MyOrbit akan mencoba untuk menjalankan ulang.",
+			"ResetModemProcess": "Merestart modem untuk aktivasi Router anda, harap menunggu!",
+			"FailedProvisioning": "Aktivasi paket anda sedang berlangsung"
+		},
+		"ResultActivationFailed": {
+			"Title": "Modem Telah Terhubung",
+			"Subtitle": "Modem Anda berhasil dihubungkan ke jaringan internet Telkomsel Orbit. Jangan khawatir, paket data Anda akan aktif secara otomatis dalam waktu 1x24 jam.",
+			"ButtonAction": "Lanjutkan"
+		},
+		"CProsesResultSpeedTest": {
+			"Failed": {
+				"NoteList1": "Ke tempat yang lebih tinggi.",
+				"NoteList2": "Tidak terhalang objek besar.",
+				"NoteList3": "Dekat dengan jendela"
+			},
+			"Success": {
+				"ReferrFriend": "Ajak Teman Sekarang",
+				"WifiNameLabel": "Nama Wifi",
+				"WifiPasswordLabel": "Password Wifi"
+			}
+		},
+		"ManualConnect": {
+			"Title": "Hubungkan Perangkat ke Jaringan",
+			"Subtitle": "Di Pengaturan WiFi perangkat Anda, pilih nama WiFi dan masukkan password WiFi Telkomsel Orbit.",
+			"ButtonAction": "Lanjutkan",
+			"ButtonAction2": "Saya Tidak Menemukan Nama WiFi"
+		},
+		"InputManualPassword": {
+			"Headline": "Pengaturan Pabrik",
+			"TutorialScreen": {
+				"Title": "Masukkan Password Modem",
+				"Subtitle": "Lihat bagian bawah modem, kemudian masukkan password sejumlah 8 digit yang terletak di bawah nomor IP.",
+				"ButtonAction": "Lanjutkan",
+				"ButtonAction2": "Buat Laporan"
+			},
+			"InputScreen": {
+				"Title": "Password Modem",
+				"ErrorMessageEmpty": "Password tidak boleh kosong",
+				"ErrorMessageSymbol": "Password tidak boleh menggunakan simbol",
+				"Placeholder": "Masukkan password modem",
+				"ButtonAction": "Lanjutkan"
+			}
+		},
+		"FailedUnlocking": {
+			"Title": "Pengaturan Ulang Gagal",
+			"Subtitle": "Password yang Anda masukkan salah, silakan coba lagi dan pastikan untuk memasukkan password yang benar.",
+			"ButtonActionContinue": "Lanjutkan",
+			"ButtonActionTryAgain": "Coba Lagi",
+			"ButtonActionReport": "Buat Laporan",
+			"ButtonActionHome": "Kembali ke Beranda"
+		},
+		"FailedMaxLimit": {
+			"Title": "Anda Mencapai Limit Gagal Percobaan",
+			"SubtitleOnline": "Silakan melanjutkan ke proses pendaftaran kartu SIM.",
+			"SubtitleOffline": "Silakan tunggu 1 menit lagi untuk mengatur ulang modem Anda kembali.",
+			"ButtonActionContinue": "Lanjutkan",
+			"ButtonActionTryAgain": "Coba Lagi",
+			"ButtonActionReport": "Buat Laporan",
+			"ButtonActionHome": "Kembali ke Beranda"
+		}
+	},
+	"PairingRestart": {
+		"Title": "Hubungkan Modem",
+		"Headline": "Restart Modem Anda",
+		"Subheadline": "Cabut dan colok kabel power yang berada di belakang modem. Tunggu sekitar 1 menit sampai lampu indikator WiFi menyala.",
+		"CTA": "Modem Sudah Di-restart"
+	},
+	"ActivationProgress": {
+		"Title": "Silakan Tunggu, Modem Telkomsel Orbit Anda Sedang dalam Proses Aktivasi",
+		"TitleReskin": "Mohon untuk tetap berada di halaman ini, modem Anda sedang dalam proses aktivasi.",
+		"TitleIsetup": "Jangan tutup halaman ini, modem Anda sedang dalam proses aktivasi",
+		"SuccessActivation": {
+			"Title": "Modem Berhasil Diaktifkan",
+			"Subtitle": "Proses aktivasi berhasil dan modem siap untuk Anda gunakan.",
+			"PrimaryButtonTitle": "Kunjungi Beranda",
+			"ButtonAction": "Lanjutkan",
+			"ButtonReskin": "Selesai"
+		},
+		"SuccessActivationReskin": {
+			"Title": "Restart Modem untuk Menyelesaikan Proses Aktivasi",
+			"Subtitle": "Silahkan matikan dan nyalakan kembali modem Anda.",
+			"ToastLabel": "Selamat aktivasi modem telah berhasil."
+		},
+		"CardLabel": {
+			"LabelName": "Nama Wifi",
+			"LabelPassword": "Password Wifi"
+		},
+		"PopUpSuccess": {
+			"Title": "Selamat aktivasi modem telah berhasil."
+		}
+	},
+	"RegistrationSimCard": {
+		"NIK_NOKK": {
+			"Heading": "Registrasi Kartu",
+			"PlaceholderKTP": "(16 digit No KTP)",
+			"PlaceholderKK": "(16 digit No KK)",
+			"Title": "Siapkan KTP dan KK Anda untuk melanjutkan proses registrasi kartu SIM",
+			"NIKLabel": "Nomor Kartu Tanda Penduduk",
+			"NIKLabelReskin": "Nomor KTP",
+			"ErrorNIKEmpty": "Nomor KTP tidak boleh kosong",
+			"ErrorNIK16Digit": "Nomor KTP harus 16 digit",
+			"KKLabel": "Nomor Kartu Keluarga",
+			"KKLabelReskin": "Nomor Kartu Keluarga",
+			"ErrorKKEmpty": "Nomor KK tidak boleh kosong",
+			"ErrorKK16Digit": "Nomor KK harus 16 digit",
+			"Disclaimer": "Pastikan nomor KTP & KK Anda telah sesuai, terdapat limit percobaan pendaftaran sebanyak 3 kali per hari.",
+			"DisclaimerReskin": "Pastikan nomor KTP & KK Anda belum didaftarkan lebih dari 3 nomor.",
+			"TNC": "Saya menyatakan bahwa identitas di atas benar dan dapat dipertanggung jawabkan. Serta, mematuhi ketentuan hukum yang berlaku atas pemakaian Kartu SIM ini.",
+			"TNCReskin": "",
+			"ButtonAction": "Lanjutkan",
+			"AlertTNC": "Anda belum menyetujui syarat & ketentuan",
+			"NonNIKLabel": "Pendaftaran KITAS/KITAP/PASPOR",
+			"NonNIK": "Anda dapat melakukan pendaftaran dengan KITAS/KITAP/PASPOR di GraPARI terdekat.",
+			"ButtonAction2": "Cari GraPARI Terdekat",
+			"ButtonActive": "Aktifkan Modem"
+		},
+		"ToastMessage": {
+			"PrepaidSuccess": "Aktivasi prepaid Berhasil!! harap menunggu untuk proses selanjutnya.",
+			"ProvisioningProcess": "Melakukan provisioning paket data. harap tunggu.."
+		},
+		"PopupBack": {
+			"Title": "Anda yakin ingin meninggalkan halaman ini?",
+			"Subtitle": "Data tidak tersimpan dan Anda harus memulai lagi dari awal untuk memasukkan data kembali.",
+			"firstButtonTitle": "Tinggalkan halaman",
+			"secondButtonTitle": "Batal"
+		},
+		"PopupSystemProblem": {
+			"Title": "Pendaftaran Kartu SIM Gagal ",
+			"Desc": "Terdapat gangguan pada sistem, hubungi *444# untuk registrasi kartu SIM secara mandiri atau hubungi Customer Service untuk meminta bantuan.",
+			"ButtonAction": "Coba Lagi"
+		},
+		"PopupSystemBusy": {
+			"Title": "Pendaftaran Kartu SIM Gagal",
+			"Desc": "Sistem sedang sibuk, silakan tunggu beberapa saat lagi dan ulangi proses pendaftaran",
+			"ButtonAction": "Coba Lagi"
+		},
+		"PopupRegistrationSuccess": {
+			"Title": "Pendaftaran Kartu SIM Berhasil",
+			"Desc": "Selanjutnya adalah proses pengaturan modem secara otomatis yang akan memakan waktu hingga 5 menit.",
+			"ButtonAction": "Lanjutkan"
+		},
+		"PopupLimitHitNiknok": {
+			"Title": "Limit Pendaftaran Telah Habis",
+			"Desc": "Silakan mengulangi proses pendaftaran kartu SIM Anda esok hari.",
+			"ButtonAction": "Kembali"
+		},
+		"PopupInvalidNiknok": {
+			"Title": "Pendaftaran Kartu SIM Gagal",
+			"Desc": "Nomor KTP dan KK Anda tidak terdaftar atau salah. Mohon cek kembali data KTP dan KK Anda.",
+			"ButtonAction": "Coba Lagi"
+		},
+		"PopupConnectionProblem": {
+			"Title": "Koneksi Bermasalah",
+			"Desc": "Maaf, saat ini terjadi gangguan koneksi. Mohon dicoba lagi dalam beberapa saat",
+			"ButtonAction": "Coba Lagi"
+		},
+		"PopupNIKNOKKLimit": {
+			"Title": "KTP dan KK mencapai limit",
+			"Desc": "KTP dan KK Anda telah digunakan oleh 3 kartu SIM Telkomsel. Mohon untuk mendaftarkan KTP dan KK lainnya",
+			"ButtonAction": "Coba Lagi"
+		},
+		"PopUpAlreadyActivated": {
+			"Title": "Nomor Anda telah diaktivasi",
+			"Desc": "Silahkan pilih Lanjutkan untuk menjalankan proses selanjutnya",
+			"ButtonAction": "Lanjutkan"
+		},
+		"PopUpInProgress": {
+			"Title": "Permintaan Anda Sedang Diproses",
+			"Desc": "Silakan tunggu sampai permintaan Anda selesai diproses atau hubungi Customer Service untuk informasi lebih lanjut",
+			"ButtonAction": "Mengerti"
+		},
+		"PopUpExceedDukcapilHour": {
+			"Title": "Aktivasi tidak dapat dilakukan diluar jam operasional",
+			"Desc": "Silakan Anda melakukan proses registrasi saat jam operasional yaitu mulai pukul 06.00 - 20.00",
+			"ButtonAction": "Mengerti"
+		},
+		"PopUpExceedDukcapilTransaction": {
+			"Title": "Aktivasi sudah mencapai maksimum harian",
+			"Desc": "Silakan Anda coba registrasi besok saat jam operasional yaitu mulai pukul 06.00 - 20.00",
+			"ButtonAction": "Mengerti"
+		},
+		"PopUpSystemErrorFromOrbit": {
+			"Title": "Pendaftaran Kartu SIM Gagal",
+			"Desc": "Terdapat gangguan pada sistem, hubungi *444# untuk registrasi kartu SIM secara mandiri atau hubungi Customer Service untuk meminta bantuan.",
+			"ButtonAction": "Mengerti"
+		},
+		"Loading": {
+			"Desc": "Silakan tunggu, proses pengaturan modem akan memakan waktu hingga 5 menit"
+		},
+		"PopUpGeneralError": {
+			"Desc_1": "Terjadi kesalahan saat memproses permintaan anda, silahkan coba lagi.",
+			"Desc_2": "Anda juga dapat mendaftar dengan cara:",
+			"Desc_3": "- Buka tempat kartu SIM yang berada di bagian belakang/bawah modem",
+			"Desc_4": "- Masukan kartu SIM Orbit ke HP Anda dan hubungi"
+		}
+	},
+	"AccountRegistrationScreen": {
+		"AccountRegistration": {
+			"HeadingEmail": "Daftar Akun",
+			"HeadingPhone": "Daftar Akun",
+			"Heading2": "Masukkan No. Handphone/Email Anda",
+			"Subtitle1": "Akan digunakan untuk login & menerima kode OTP. Harap tidak menggunakan nomor SIM Card Orbit.",
+			"Textfield": "Nomor handphone atau alamat email",
+			"Register": "Daftar",
+			"Subtitle2": "Atau daftar melalui",
+			"Disclimer": "Pendaftaran tidak dapat menggunakan nomor simcard Orbit",
+			"Info": {
+				"HeadingEmail": "Email Sudah Terdaftar",
+				"HeadingMsisdn": "Nomor Handphone Sudah Terdaftar",
+				"SubtitleEmail": "Silakan login dengan menggunakan email ini untuk ke proses selanjutnya.",
+				"SubtitleMsisdn": "Silakan login dengan menggunakan nomor handphone ini untuk ke proses selanjutnya.",
+				"Button": "Lanjutkan",
+				"Heading2": "Pendaftaran Berhasil",
+				"Subtitle2": "Selamat, akun Telkomsel Orbit Anda telah aktif! Klik Lanjutkan untuk menuju ke beranda."
+			},
+			"Error": {
+				"InputEmpty": "Tolong isi nomor handphone atau email Anda",
+				"InputEmptyEmail": "Tolong isi email Anda",
+				"InputEmptyMsisdn": "Tolong isi nomor handphone Anda",
+				"EmailIncorrect": "Format email salah",
+				"PhoneIncorrect": "Nomor HP yang Anda masukkan salah",
+				"PhoneEmpty": "Silahkan Masukan Nomor SIM Terlebih Dahulu",
+				"LengthIncorrect": "Nomor HP yang Anda masukkan lebih dari 13",
+				"IncorrectProvider": "Saat ini provider Anda tidak dapat menerima SMS verifikasi.",
+				"CredentialIncorrectProvider": "Nomor provider ini tidak diizinkan untuk digunakan",
+				"ErrorPhoneFormatIncorect": "Format nomor Handphone salah.",
+				"ErrorPhoneIncorect": "Nomor salah atau tidak terdaftar",
+				"OnlyCanUseOrbitNumber": "Hanya bisa menggunakan nomor kartu SIM Orbit",
+				"EntryYourSimcardOrbit": "Masukkan nomor kartu SIM Orbit Anda"
+			},
+			"Field": {
+				"InputPhone": "Masukkan No. Handphone Anda",
+				"InputEmail": "Masukkan Email Anda",
+				"DescriptionEmail": "Akan digunakan untuk login & menerima email verifikasi.",
+				"DescriptionPhone": "Akan digunakan untuk login & menerima SMS Harap tidak menggunakan nomor Sim Card Orbit."
+			},
+			"Popup": {
+				"ErrorSystem": {
+					"Title2": "Tidak Dapat Mendaftar",
+					"Title3": "Tidak Dapat Login",
+					"Subtitle1": "Telah terjadi kesalahan saat pengecekan akun",
+					"Subtitle2": "silahkan ulangi kembali.",
+					"Subtitle3": "Silahkan gunakan email untuk mendaftar.",
+					"Subtitle4": "Silahkan gunakan email untuk login.",
+					"ButtonAction": "Mengerti"
+				},
+				"LoginFailedOTPBlacklistPopup": {
+					"Title": "Mencapai Limit Request OTP",
+					"Description": "Anda terdeteksi melakukan percobaan verifikasi OTP 5 kali dalam 10 menit. Silakan coba lagi dalam 10 menit berikutnya atau gunakan nomor lain.",
+					"PrimaryButtonTitle": "Mengerti"
+				},
+				"AccountRegistered": {
+					"Title": "Akun Sudah Terdaftar",
+					"Subtitle": "Apakah Anda ingin melanjutkan dengan akun yang sudah ada?",
+					"ButtonAccept": "Ya",
+					"ButtonCancel": "Tidak"
+				}
+			}
+		},
+		"AccountRegistrationForm": {
+			"Subtitle": {
+				"Email": "Alamat Email",
+				"Phone": "Nomor Handphone",
+				"BirthDate": "Tanggal Lahir"
+			},
+			"Label": {
+				"ConfirmPassword": "Konfirmasi Password",
+				"FullName": "Nama Lengkap",
+				"Email": "Alamat Email",
+				"Phone": "No. Handphone",
+				"Date": "Tanggal",
+				"Month": "Bulan",
+				"Year": "Tahun"
+			},
+			"LabelOpsional": {
+				"FullName": "Nama Lengkap",
+				"Email": "Alamat Email (Opsional)",
+				"Phone": "Nomor Handphone (Opsional)"
+			},
+			"Placeholder": {
+				"FullNamePhone": "(Masukkan nama lengkap Anda)",
+				"FullNameEmail": "(Masukkan Nama Anda)",
+				"Email": "(Masukkan alamat Email Anda)",
+				"Phone": "08xx xxxx xxxx",
+				"Password": "(Minimum 8 karakter)",
+				"ConfirmPassword": "(Ketik ulang password Anda)"
+			},
+			"Button": {
+				"ButtonEmail": "Kirim Email Verifikasi",
+				"ButtonPhone": "Kirim SMS Verifikasi"
+			},
+			"AdditionalInformation": "Informasi Tambahan",
+			"FormValidation": {
+				"PasswordIncorrect": "Password harus mengandung 8 karakter, alphanumeric, dan karakter khusus",
+				"RePasswordIncorrect": "Konfirmasi Password Tidak Sesuai",
+				"FullNameIncorrect": "Nama Lengkap Tidak Sesuai",
+				"PhoneNumberIncorrect": "Nomor Telepon Anda Tidak Sesuai",
+				"PhoneNumberEmpty": "Tolong isi Nomor Telepon Anda",
+				"PasswordEmpty": "Tolong isi Password Anda",
+				"RePasswordEmpty": "Tolong isi Konfirmasi Password Anda",
+				"FullNameEmpty": "Tolong isi Nama Lengkap Anda",
+				"DateEmpty": "Tanggal lahir tidak boleh kosong",
+				"DateIncorrect": "Masukkan tanggal lahir yang benar",
+				"MonthEmpty": "Bulan lahir tidak boleh kosong",
+				"MonthIncorrect": "Masukkan Bulan lahir yang benar",
+				"YearEmpty": "Tahun lahir tidak boleh kosong",
+				"YearIncorrect": "Masukkan tahun lahir yang benar",
+				"YearLengthIncorrect": "Masukkan 4 digit tahun lahir Anda"
+			},
+			"Popup": {
+				"PopupButton": "Mengerti",
+				"AlreadyRegistered": {
+					"EmailTitle": "Email Sudah Terdaftar",
+					"EmailSubtitle": "Silakan login dengan menggunakan email ini untuk ke proses selanjutnya.",
+					"PhoneTitle": "Nomor Handphone Anda sudah terdaftar",
+					"PhoneSubtitle": "Silakan login dengan menggunakan nomor handphone ini untuk ke proses selanjutnya."
+				},
+				"ErrorSystem": {
+					"Subtitle": "Telah terjadi kesalahan saat mengirim data, silahkan ulangi kembali."
+				}
+			}
+		},
+		"VerificationCode": {
+			"HeadingPhoneTitle": "Verifikasi No. Handphone",
+			"HeadingEmailTitle": "Verifikasi Email",
+			"HeadingEmail": "Konfirmasi Email",
+			"HeadingMsisdn": "Konfirmasi Nomor Handphone",
+			"Subtitle1Email": "Cek email Anda untuk melihat kode verifikasi. Lihat folder spam di email jika kode tidak ditemukan.",
+			"Subtitle1Msisdn": "Cek SMS di",
+			"Subtitle2": "untuk melihat kode verifikasi.",
+			"Resend": "Kirim ulang kode",
+			"Button": "Lanjutkan",
+			"ErrorMessage": {
+				"OTPEmpty": "Kode verifikasi harus diisi",
+				"OTPInvalid": "Kode verifikasi yang Anda masukkan salah",
+				"OTPExpired": "Kode verifikasi yang Anda masukkan sudah kedaluwarsa"
+			},
+			"Popup": {
+				"PopupButton": "Mengerti",
+				"VerificationCodeSent": {
+					"Title": "Kode Verifikasi",
+					"Subtitle1": "Kami telah mengirim kode verifikasi ke",
+					"Subtitle2Email": "melalui email.",
+					"Subtitle2Msisdn": "melalui SMS."
+				},
+				"SuccessRegistration": {
+					"Title": "Pendaftaran Berhasil",
+					"Subtitle": "Selamat, akun Telkomsel Orbit Anda telah aktif! Klik Scan QR Code untuk ke proses selanjutnya.",
+					"Button": "Scan QR Code"
+				},
+				"SuccessRegistrationRevamp": {
+					"Title": "Pendaftaran Berhasil",
+					"Subtitle": "Selamat, akun Telkomsel Orbit Anda telah aktif!",
+					"Button": "Lanjutkan"
+				},
+				"FailedGetSession": {
+					"Subtitle": "Gagal mendapatkan Session, silahkan ulangi kembali."
+				},
+				"FailedGetToken": {
+					"Subtitle": "Gagal mendapatkan Token, silahkan ulangi kembali."
+				},
+				"FailedSubmitOtp": {
+					"Subtitle": "Gagal mengirim kode verifikasi, silahkan ulangi kembali."
+				},
+				"FailedResendOtp": {
+					"Subtitle": "Gagal mendapatkan kode verifikasi, silahkan ulangi kembali."
+				}
+			}
+		},
+		"changeAccountProcess": {
+			"title": "Akun dalam Proses Perubahan",
+			"subtitle": "Dengan melanjutkan login ke beranda Telkomsel Orbit, maka proses perubahan akun akan dibatalkan.",
+			"buttonText": "Lanjutkan",
+			"cancelChangeAccount": {
+				"title": "Perubahan Akun Dibatalkan",
+				"subtitle": "Klik lanjutkan untuk ke halaman beranda MyOrbit."
+			},
+			"successChangeAccount": {
+				"title": "Akun Telah Diubah",
+				"subtitle": "Data akun ini telah dipindahkan ke akun baru, setelah ini Anda akan dialihkan ke halaman utama MyOrbit."
+			},
+			"cancelAccountMigration": {
+				"title": "Limit Pembatalan Migrasi Akun",
+				"subtitle": "Permintaan pembatalan migrasi akun telah dilakukan, tidak bisa mengulang kembali.",
+				"buttonText": "Mengerti"
+			}
+		}
+	},
+	"ScanQrCode": {
+		"instructions": {
+			"first": {
+				"HeaderTitle": "Scan QR Code",
+				"Title": "Siapkan Kartu SIM Telkomsel Orbit",
+				"subtitle1": "Kartu SIM berada di dalam kemasan",
+				"subtitle2": "modem.",
+				"ButtonTitle": "Lihat Langkah Selanjutnya",
+				"TitleReskin": "Siapkan Kartu SIM \nTelkomsel Orbit",
+				"SubtitleReskin": "Kartu SIM berada di dalam kemasan \nTelkomsel Orbit.",
+				"ButtonTitleReskin": "Lanjutkan"
+			},
+			"second": {
+				"Title": "Scan QR code di Kartu SIM Anda",
+				"subtitle1": "QR code terletak di sebelah kiri atas.",
+				"subtitle2": "pada kemasan kartu SIM.",
+				"ButtonTitle": "Scan QR Code",
+				"TitleReskin": "Scan QR Code di Kemasan \nKartu SIM Anda",
+				"SubtitleReskin": "QR code terletak di sebelah kiri atas pada \nkemasan kartu SIM.",
+				"ButtonTitleReskin": "Scan QR Code"
+			},
+			"enhancement": {
+				"Title": "Panduan Aktivasi",
+				"TitleModemInfo": "Tambah modem"
+			}
+		},
+		"TutorialScan": {
+			"SetupModem": {
+				"PageHeader": "Panduan Aktivasi",
+				"Title": "Scan QR Code di Kemasan \nKartu SIM Anda",
+				"Desc": "QR code terletak di sebelah nomor orbit.",
+				"Button": "Scan QR Code"
+			},
+			"AddModem": {
+				"PageHeader": "Tambah Modem",
+				"Title": "Siapkan dan Scan Kartu SIM \nTelkomsel Orbit Anda",
+				"Desc": "Kode QR Kartu SIM Anda berada di dalam \nkemasan Telkomsel Orbit.",
+				"Button": "Scan QR Code"
+			}
+		},
+		"Scanning": {
+			"ScanOnSimcard": "Scan QR code di kartu SIM Anda",
+			"ScanOnSimcardSubtitle": "QR code terletak di sebelah kiri atas pada kemasan kartu SIM.",
+			"ProblemScan": "Scan Anda Bermasalah?",
+			"WriteManual": "Tulis Nomor Manual",
+			"WriteManualReskin": "Tulis nomor manual",
+			"EnterNumber": "Masukan Nomor Kartu SIM anda",
+			"EnterNumberSubtitle": "Masukkan nomor kartu SIM modem yang terdapat di kemasan kartu SIM Anda.",
+			"SimcardNumber": "Nomor Kartu SIM",
+			"PleaseEnterNUmber": "Silahkan Masukan Nomor SIM Terlebih Dahulu",
+			"Continue": "Lanjutkan",
+			"WrongSimcardNumber": "Nomor Kartu SIM Salah",
+			"WrongSimcardNumberSubtitle": "Masukkan nomor kartu SIM modem Anda kembali dan pastikan telah sesuai.",
+			"SimcardNotFound": "Nomor Kartu SIM Orbit tidak ditemukan",
+			"SimcardNotFoundSubtitle": "Nomor Kartu SIM Orbit tidak ditemukan",
+			"TryAgain": "Coba Lagi",
+			"ScanFailed": "QR Code Salah",
+			"ScanFailedSubtitle": "Telah terjadi kesalahan, silakan coba lagi atau masukkan nomor handphone dengan menulis secara manual.",
+			"WriteManualModal": "Tulis Manual",
+			"WriteManualModalReskin": "Tulis Nomor Manual",
+			"WifiName": "Nama Wifi",
+			"ProblemWithPackage": "Data tidak sesuai di kemasan modem?",
+			"MakeReport": "Buat Laporan",
+			"ToastMessage": "Proses berhasil! Pastikan data modem telah sesuai",
+			"PopUpTitlePostpaid": "Kartu SIM Orbit Belum Aktif",
+			"PopUpSubtitlePostpaid": "Kunjungi GraPARI dengan membawa KTP untuk aktivasi kartu SIM Orbit pascabayar.",
+			"PopUpLabelButtonPostpaid": "Lihat GraPARI Terdekat"
+		},
+		"DataModemNotFound": {
+			"Title": "Data Modem Tidak Ditemukan",
+			"Subtitle": "Kami tidak dapat menemukan data akun Anda. Silakan hubungi Customer Service kami untuk informasi selengkapnya.",
+			"PrimaryButtonTitle": "Hubungi Customer Service",
+			"SecondaryButtonTitle": "Kembali"
+		},
+		"DataModemNotMatch": {
+			"Title": "Data Akun Tidak Sesuai Modem",
+			"Subtitle": "Informasi modem ini tidak sesuai dengan akun yang Anda gunakan. Silakan hubungi Customer Service kami untuk bantuan dalam proses aktivasi modem Anda.",
+			"PrimaryButtonTitle": "Hubungi Customer Service",
+			"SecondaryButtonTitle": "Kembali"
+		},
+		"DataAccountNotFound": {
+			"Title": "Data Akun Tidak Ditemukan",
+			"Subtitle": "Kami tidak dapat menemukan data akun Anda. Silakan hubungi Customer Service kami untuk informasi selengkapnya.",
+			"SubtitleReskin": "Kami tidak dapat menemukan data akun dan nomor handphone Anda. Silakan hubungi Customer Service untuk informasi selengkapnya.",
+			"PrimaryButtonTitle": "Hubungi Customer Service",
+			"SecondaryButtonTitle": "Kembali"
+		},
+		"ModemBelongToAccount": {
+			"Title": "Modem Ini Sudah Ada di Akun Anda",
+			"Subtitle": "Silakan cek kembali daftar modem Anda atau scan modem Orbit lainnya.",
+			"ButtonLabel": "Kembali"
+		},
+		"PopupRequestModem": {
+			"Title": "Informasi Modem dan Akun Belum Diperbarui",
+			"Subtitle1": "Lanjutkan proses dengan mengirim informasi ke pemilik modem atau hubungi",
+			"Subtitle2": "untuk proses pemindahan modem.",
+			"PrimaryButtonLabel": "Lanjutkan",
+			"SecondaryButtonLabel": "Kembali"
+		},
+		"PopupAddModemUsed": {
+			"Title": "Modem Sudah Terdaftar di Akun Lain",
+			"Subtitle": "Silakan hubungi Customer Service untuk memutuskan akun modem. Setelah akun berhasil diputuskan, buka aplikasi MyOrbit untuk aktivasi modem kembali.",
+			"PrimaryButtonLabel": "Hubungi Customer Service",
+			"SecondaryButtonLabel": "Kembali ke Beranda"
+		},
+		"PopupRequestModemSuccess": {
+			"Title": "Permintaan Telah Dikirim",
+			"Subtitle": "Silakan tunggu hingga permintaan diterima atau hubungi pemilik modem untuk menyetujui proses pemindahan.",
+			"PrimaryButtonLabel": "Tambah Modem Lain",
+			"SecondaryButtonLabel": "Kembali Ke Beranda"
+		},
+		"RequestFailed": "Permitaan gagal, silakan ulangi kembali."
+	},
+	"GrapariLocation": {
+		"Headline": "GraPARI Terdekat",
+		"Title": "Daftar KITAS/KITAP/PASPOR",
+		"Desc": "Siapkan KITAS/KITAP/PASPOR Anda untuk melakukan pendaftaran.",
+		"ButtonAction": "Lihat Lebih Banyak",
+		"Detail": {
+			"Title": "GraPARI Telkomsel 24 Jam",
+			"ButtonAction": "Telepon",
+			"ButtonAction2": "Arahkan"
+		}
+	},
+	"DashboardScreen": {
+		"WifiNameTitle": "Nama WiFi",
+		"WebsiteFilteringStatus": "Website filtering aktif",
+		"InternetStatus": "",
+		"QuotaTitle": "Paket Data Saya",
+		"QuotaStatus": "Total Paket Data",
+		"DataPackageTitle": "Paket Data",
+		"ReferralTitle": "Ajak Teman, Tambah Paket Data",
+		"ReferralDesc": "Ayo! Ajak teman dan keluarga bergabung dengan Telkomsel Orbit, dapatkan tambahan paket data 5GB!",
+		"ReferralCodeLabel": "Kode Referral",
+		"ReferralButtonAction": "Ajak Teman",
+		"ReferralButtonActionReskin": "Undang Teman",
+		"ConnectedWifiStatus": "Anda terhubung ke",
+		"DisconnectedWifiStatus": "Anda tidak terhubung ke",
+		"DepletedQuotaNotif500mb": "Paket data Anda kurang dari 500MB",
+		"DepletedQuotaNotif": "Paket data sudah habis",
+		"DepletedQuotaDetail": "Anda tidak memiliki paket data aktif",
+		"AddonValidity": "Berlaku",
+		"NotificationTitle": "Gagal Menampilkan Paket Data",
+		"NotificationDescription": "Maaf, paket data Anda gagal ditampilkan. Silakan klik Muat Ulang untuk kembali memuat halaman ini.",
+		"NotificationButton": "Muat Ulang",
+		"PromoTitle": "Promo Terbaru",
+		"SeeAllPromo": "Lihat Semua Promo",
+		"SeeAllPromoReskin": "Lihat Semua",
+		"popUpButton": "Lihat Detail Promo",
+		"All": "Semua",
+		"ShareVia": "Bagikan Melalui:",
+		"Share": "Bagikan",
+		"PeriodePromo": "Periode Promo",
+		"PromoCode": "Kode Promo",
+		"Description": "Deskripsi",
+		"TermAndCondition": "Syarat dan Ketentuan",
+		"UseVoucher": "Gunakan Sekarang",
+		"UsePromoCode": "Gunakan Kode Promo",
+		"UsePromoCodeYouSure": "Apakah Anda ingin menggunakan kode promo ini?",
+		"Use": "Gunakan",
+		"PromoCodeUsed": "Kode Promo Digunakan",
+		"NowPromo": "Sekarang Anda dapat membeli produk Telkomsel Orbit dengan Kode Promo ini.",
+		"Continue": "Lanjutkan",
+		"CopyLink": "Salin Tautan",
+		"Later": "Nanti Saja",
+		"PremiumContent": "Konten Premium",
+		"PremiumContentReskin": "Paket Entertainment",
+		"Byod": "Coba fitur lengkap MyOrbit dengan menghubungkan modem",
+		"PromoNotFoundTitle": "Promo Tidak Ditemukan",
+		"PromoNotFoundSubtitle": "Maaf saat ini promo sudah tidak tersedia",
+		"Understand": "Mengerti",
+		"RenewalDataPackage": {
+			"Title": "Beli Paket yang Sama"
+		},
+		"Coachmark": {
+			"Welcome": {
+				"Active": {
+					"Title": "Selamat Datang di MyOrbit!",
+					"Description": "Ayo jelajahi berbagai fitur menarik MyOrbit untuk pemakaian modem Anda.",
+					"ButtonAccept": "Lihat Panduan"
+				},
+				"Skip": {
+					"Title": "Selamat menjelajahi MyOrbit!",
+					"Description": "Banyak fitur menarik dari MyOrbit untuk modem Anda."
+				}
+			},
+			"MegaMenu": {
+				"Title": "Mega Menu",
+				"Message": "Tap di sini untuk melihat menu fitur MyOrbit atau profil pengguna.",
+				"WifiSettings": "Anda dapat mengatur nama & password WiFi serta pengaturan aktivasi WiFi bagi tamu Anda.",
+				"DeviceSettings": "Pengaturan terhadap perangkat yang tersambung dengan modem Anda.",
+				"WebsiteFiltering": "Blokir situs web yang Anda inginkan sehingga tidak dapat diakses oleh pengguna WiFi.",
+				"StatisticUsage": "Lihat secara detail bagaimana Anda menggunakan paket data setiap bulannya."
+			},
+			"Notification": {
+				"Title": "Notifikasi",
+				"Message": "Notifikasi terbaru dari semua aktivitas Anda bisa dilihat di sini"
+			},
+			"AdditionalQuota": {
+				"Title": "Internet quota",
+				"Message": "Anda dapat membeli paket data untuk modem anda di sini"
+			},
+			"TotalKuota": {
+				"Title": "Total Kuota",
+				"Message": "Lihat total paket data aktif Anda di sini. Ketika paket data akan habis, Anda akan mendapat notifikasi dari Telkomsel Orbit"
+			},
+			"WifiName": {
+				"Title": "WiFi Anda",
+				"Message": "Di sini, Anda bisa mengatur WiFi Anda sesuai dengan yang diinginkan"
+			}
+		},
+		"CheckDetail": "Cek Detail",
+		"ModalLogout": {
+			"Title": "Anda yakin ingin logout?",
+			"Subtitle": "Anda akan keluar dari akun MyOrbit dan kembali ke halaman login.",
+			"Button": {
+				"Yes": "Logout",
+				"No": "Batal"
+			}
+		},
+		"ModalPostpaidError": {
+			"Title": "Tidak dapat memproses permintaan Anda",
+			"Subtitle": "Untuk terus menikmati layanan kami, silakan selesaikan pembayaran tagihan Telkomsel Orbit Anda."
+		},
+		"ChooseLanguage": "Pilih Bahasa",
+		"PackageAddOn": {
+			"FailedLoadTitle": "Gagal Menampilkan Data",
+			"FailedLoadDescription": "Pastikan modem dalam keadaan menyala untuk kembali memuat data.",
+			"FailedLoadButtonLabel": "Muat Ulang",
+			"NotActiveDescription": "Untuk mengakses layanan ini, silakan membayar tagihan pascabayar terlebih dahulu.",
+			"OverLimitTitle": "Pembelian Ini Melebihi Batas Pemakaian.",
+			"OverLimitDescription": "Jika pemakaian pascabayar mencapai 3 bulan, hubungi Call Center Telkomsel di 188 untuk meningkatkan batas pemakaian."
+		},
+		"ExpiredSimcard": {
+			"WidgetDashboard": {
+				"GracePeriod": {
+					"LabelText": "Kartu dalam masa tenggang. Beli paket untuk mengaktifkan.",
+					"Button": "Beli Paket"
+				},
+				"Expired": {
+					"LabelText": "Kartu tidak Aktif. Kunjungi GraPARI untuk aktifkan.",
+					"Button": "Lihat GraPARI"
+				}
+			},
+			"WidgetActiveUntil": {
+				"Active": {
+					"LabelText": "Aktif hingga",
+					"TooltipText": "Beli paket data untuk perpanjang masa aktif 12 bulan sejak paket data diisi ulang."
+				},
+				"GracePeriod": {
+					"LabelText": "Masa tenggang hingga",
+					"TooltipText": "Segera isi ulang pulsa & paket data untuk perpanjang masa aktif hingga 12 bulan."
+				},
+				"Expired": {
+					"LabelText": "Kartu SIM Orbit tidak aktif",
+					"TooltipText": "Kunjungi GraPARI untuk aktifkan kartu."
+				}
+			},
+			"PopupGracePeriodInOneWeek": {
+				"Title": "Kartu SIM Orbit akan memasuki masa tenggang 7 hari lagi",
+				"Desc": "Segera beli paket data Orbit untuk memperpanjang masa aktif kartu selama 12 bulan sejak tanggal paket data dibeli.",
+				"Button": "Beli Paket Data"
+			},
+			"PopupGracePeriod": {
+				"Title": "Kartu SIM dalam masa tenggang karena tidak isi ulang paket data",
+				"Desc1": "Nomor akan nonaktif pada",
+				"Desc2": "Segera beli paket data untuk aktifkan kartu.",
+				"Button": "Beli Paket Data"
+			},
+			"PopupExpired": {
+				"Title": "Kartu tidak aktif karena melewati masa tenggang",
+				"Desc": "Untuk aktifkan kartu SIM, kunjungi GraPARI dengan membawa KTP maksimal 31 hari setelah nomor tidak aktif.",
+				"Button": "Lihat GraPARI Terdekat"
+			}
+		}
+	},
+	"HomeScreen": {
+		"HomebaseInfo": {
+			"HomeTitle": "Home",
+			"OutsideTitle": "Bepergian",
+			"NotSetTitle": "Belum diatur",
+			"FailedTitle": "Gagal memuat",
+			"NotFoundTitle": "Tidak ditemukan"
+		},
+		"QuotaInfo": {
+			"FromLimitTitle": "Dari batas",
+			"ValidUntilTitle": "Aktif s.d",
+			"ViewDetailTitle": "Lihat Detail",
+			"EmptyTitle": "Tidak ada paket data yang aktif",
+			"BuyPackageButtonTitle": "Beli Paket"
+		},
+		"PackageRenewal": {
+			"Title": "Beli Paket yang Sama",
+			"BalancePaymentMethods": {
+				"BalanceTitle": "Pulsa",
+				"BillingTitle": "Tagihan Pemakaian"
+			}
+		},
+		"PackageAddonList": {
+			"HeaderTitle": "Beli Paket Data",
+			"ViewAllButtonTitle": "Lihat Semua",
+			"Badge": {
+				"BuyAgainTitle": "Beli Lagi"
+			}
+		},
+		"UsageStatisticInfo": {
+			"HeaderTitle": "App & Web Favorit Anda",
+			"UsageTitle": "Pemakaian",
+			"FailedInfo": {
+				"FailedTitle": "Gagal memuat data. Silakan tap untuk memuat ulang.",
+				"NoDataTitle": "Data bulan ini belum tersedia. Silakan tap untuk lihat data bulan lalu."
+			}
+		},
+		"PromoList": {
+			"HeaderTitle": "Promo",
+			"ViewAllButtonTitle": "Lihat Semua"
+		},
+		"WidgetInfo": {
+			"ExpiredSimcard": {
+				"Title": "Kartu SIM Anda kedaluwarsa",
+				"Description": "Kunjungi GraPARI terdekat untuk aktifkan kartu SIM",
+				"CTAButtonTitle": "Lihat GraPARI"
+			},
+			"GracePeriodSimcard": {
+				"Title": "Kartu SIM dalam masa tenggang",
+				"Description": "Beli paket data untuk mengaktifkan kartu SIM",
+				"CTAButtonTitle": "Beli Paket"
+			},
+			"HomebaseOutsideHome": {
+				"Title": "Anda berada di luar lokasi utama",
+				"Description": "Beli kuota Mobility agar tetap terhubung ke internet.",
+				"CTAButtonTitle": "Beli Paket"
+			},
+			"PairingModem": {
+				"Title": "Coba fitur lengkap MyOrbit",
+				"Description": "Hubungkan modem untuk menggunakan fitur",
+				"CTAButtonTitle": "Hubungkan"
+			},
+			"SetHomebaseLocation": {
+				"Title": "Atur Lokasi Utama Anda sekarang",
+				"Description": "Agar bisa beli kuota home untuk pemakaian internet di rumah!",
+				"CTAButtonTitle": "Atur Lokasi"
+			},
+			"PendingPayment": {
+				"Title": "Menunggu Pembayaran",
+				"Description": "",
+				"CTAButtonTitle": "Bayar Sekarang"
+			}
+		},
+		"FailedInfo": {
+			"FailedTitle": "Gagal memuat data",
+			"NoDataTitle": "Belum ada data",
+			"RetryButtonTitle": "Muat Ulang"
+		}
+	},
+	"PackageRenewalPopup": {
+		"MainTitle": "Apakah Anda yakin akan membeli paket ini?",
+		"OptionTitle": "Piihan paket",
+		"ValidityTitle": "Berlaku",
+		"BalanceTitle": "Pulsa Anda:",
+		"BillingTitle": "Tagihan Pemakaian:",
+		"PaymentMethodTitle": "Metode Pembayaran",
+		"PrimaryButtonTitle": "Beli",
+		"ChangePaymentButtonTitle": "Ubah Metode Pembayaran",
+		"ChooseAnotherPackageButtonTitle": "Pilih Paket Lainnya",
+		"ErrorMessage": {
+			"InsufficientBalanceTitle": "Pulsa tidak mencukupi. Silakan ubah metode pembayaran",
+			"InsufficientBillingTitle": "Pembelian melebihi batas pemakaian bulan ini, silakan pilih paket lainnya",
+			"InvalidOfferIdBalanceTitle": "Paket ini tidak dapat dibeli menggunakan pulsa. Silakan ubah metode pembayaran.",
+			"InvalidOfferIdBillingTitle": "Paket ini tidak dapat dibeli menggunakan tagihan pemakaian. Silakan ubah metode pembayaran."
+		}
+	},
+	"ExpiredSimcardPopup": {
+		"Title": "Kartu tidak aktif karena melewati masa tenggang",
+		"Description": "Untuk aktifkan kartu SIM, kunjungi GraPARI dengan membawa KTP maksimal 31 hari setelah nomor tidak aktif.",
+		"PrimaryButtonTitle": "Lihat GraPARI Terdekat"
+	},
+	"GracePeriodSimcardPopup": {
+		"Title": "Kartu SIM dalam masa tenggang karena tidak isi ulang paket data",
+		"DescriptionStart": "Nomor akan nonaktif pada",
+		"DescriptionEnd": "Segera beli paket data untuk aktifkan kartu.",
+		"PrimaryButtonTitle": "Beli Paket Data"
+	},
+	"WeekToGracePeriodSimcardPopup": {
+		"Title": "Kartu SIM Orbit akan memasuki masa tenggang 7 hari lagi",
+		"Description": "Segera beli paket data Orbit untuk memperpanjang masa aktif kartu selama 12 bulan sejak tanggal paket data dibeli.",
+		"PrimaryButtonTitle": "Beli Paket Data"
+	},
+	"HomebaseAlreadySetPopup": {
+		"Title": "Anda sudah pernah mengatur lokasi utama",
+		"HomebaseTitle": "Lokasi Utama Anda",
+		"ChangeDateTitle": "Anda dapat mengubah kembali pada ",
+		"SecondaryButtonTitle": "Mengerti"
+	},
+	"HomebaseErrorLocationUpdatePopup": {
+		"Title": "Lokasi belum bisa diubah",
+		"Description": "Anda dapat mengubah lokasi utama kembali pada ",
+		"PrimaryButtonTitle": "Mengerti"
+	},
+	"HomebaseNotSetPopup": {
+		"Title": "Lokasi utama belum diatur",
+		"TitleFromCoachmark": "Atur lokasi utama dulu, yuk!",
+		"Description": "Lokasi utama digunakan untuk memprioritaskan penggunaan kuota modem Anda saat ini.",
+		"DescriptionFromCoachmark": "Silakan atur dengan memasang lokasi rumah Anda sebagai lokasi utama.",
+		"PrimaryButtonTitle": "Atur Lokasi",
+		"SecondaryButtonTitle": "Nanti Saja"
+	},
+	"HomebaseFailedPopup": {
+		"Title": "Lokasi Anda saat ini tidak terdeteksi",
+		"Description": "Silakan muat ulang untuk menampilkan lokasi.",
+		"SecondaryButtonTitle": "Perbarui Lokasi"
+	},
+	"HomebaseHomePopup": {
+		"Title": "Modem di lokasi utama.\nPrioritas kuota: Home",
+		"HomebaseTitle": "Lokasi Utama Anda",
+		"Description": "Lokasi utama digunakan untuk memprioritaskan penggunaan kuota modem Anda saat ini.",
+		"SecondaryButtonTitle": "Perbarui Lokasi"
+	},
+	"HomebaseOutsideHomePopup": {
+		"Title": "Modem di luar lokasi utama.\nPrioritas kuota: Mobility",
+		"Description": "Penggunaan internet mengonsumsi kuota Mobility selama modem berada di luar lokasi utama.",
+		"HomebaseTitle": "Lokasi Utama Anda",
+		"PrimaryButtonTitle": "Beli Kuota Mobility",
+		"SecondaryButtonTitle": "Perbarui Lokasi"
+	},
+	"PackageAddOnAdjustmentPopup": {
+		"Title": "Penyesuaian Harga Paket Data",
+		"Description": "Terdapat perubahan pada paket data yang Anda pilih, silakan pilih paket data lainnya.",
+		"PrimaryButtonTitle": "Kembali ke Paket Data"
+	},
+	"PackageAddOnTopupFailedPopup": {
+		"Title": "Pembayaran Gagal",
+		"Description": "Terjadi kesalahan saat memuat halaman, silakan ulangi proses pembelian paket data. Jangan khawatir, dana transaksi Anda belum dipotong oleh sistem.",
+		"PrimaryButtonTitle": "Kembali ke Paket Data"
+	},
+	"PackageAddOnMsisdnFailedPopup": {
+		"Title": "Nomor Kartu SIM Tidak Sesuai",
+		"Description": "Silakan hubungi Customer Service untuk informasi lebih lanjut mengenai pembelian paket data ini.",
+		"PrimaryButtonTitle": "Hubungi Kami",
+		"SecondaryButtonTitle": "Kembali ke Beranda"
+	},
+	"CurrentTransactionPaidPopup": {
+		"Title": "Transaksi Sedang Diproses",
+		"Description": "Pembayaran Anda sudah kami terima dan sedang diproses. Mohon tunggu beberapa saat lagi",
+		"PrimaryButtonTitle": "Cek Transaksi"
+	},
+	"UserPurchaseExceedsTheUsageLimitPopup": {
+		"Title": "Pembelian Ini Melebihi Batas Pemakaian",
+		"Description": "Jika pemakaian pascabayar mencapai 3 bulan, hubungi Call Center Telkomsel di 188 untuk meningkatkan batas pemakaian.",
+		"PrimaryButtonTitle": "Mengerti"
+	},
+	"PaymentFailedPopup": {
+		"Title": "Pembayaran Gagal",
+		"Description": "Proses pembayaran Anda telah gagal, klik Coba Lagi untuk kembali ke proses pembayaran",
+		"PrimaryButtonTitle": "Coba Lagi",
+		"SecondaryButtonTitle": "Buat Laporan"
+	},
+	"LogoutConfirmationPopup": {
+		"Title": "Anda yakin ingin logout?",
+		"Description": "Anda akan keluar dari akun MyOrbit dan kembali ke halaman login.",
+		"PrimaryButtonTitle": "Logout",
+		"SecondaryButtonTitle": "Batal"
+	},
+	"MainMenuScreen": {
+		"WifiSettingTitle": "Pengaturan WiFi",
+		"ConnectedDeviceTitle": "Perangkat Terhubung",
+		"BlockSiteTitle": "Blok Situs",
+		"UsageStatisticTitle": "Statistik Pemakaian",
+		"TelkomselPoin": "Telkomsel Poin",
+		"ReferralTitle": "Referensikan Orbit",
+		"HelpTitle": "Bantuan"
+	},
+	"QuotaInfoScreen": {
+		"HeaderTitle": "Paket Data Saya",
+		"TotalQuotaLeftTitle": "Total Sisa Kuota",
+		"LocationTitle": "Lokasi Utama",
+		"RemainingTitle": "Sisa",
+		"ValidUntilTitle": "Berlaku s.d",
+		"PriorityQuotaTitle": "Prioritas kuota:",
+		"CheckUsageStatisticTitle": "Ingin cek pemakaian kuota di aplikasi favorit Anda?",
+		"ViewTitle": "Lihat disini",
+		"PrimaryButtonTitle": "Beli Kuota",
+		"SecondaryButtonTitle": "Kelola Paket"
+	},
+	"ManagePackageScreen": {
+		"HeaderTitle": "Kelola Paket",
+		"DescriptionTitle": "Anda dapat melakukan pengaturan paket berlangganan & paket keluarga di sini.",
+		"EmptyPackage": {
+			"Title": "Anda Belum Berlangganan",
+			"DescriptionTitle": "Pilih paket untuk mulai berlangganan.",
+			"PrimaryButtonTitle": "Beli Paket Belangganan"
+		},
+		"ErrorPackage": {
+			"Title": "Terjadi Kesalahan Sistem",
+			"DescriptionTitle": "Silakan ulangi beberapa saat lagi.",
+			"PrimaryButtonTitle": "Coba Lagi"
+		}
+	},
+	"PromoListScreen": {
+		"NotFoundTitle": "Promo tidak ditemukan, silakan pilih kategori lain"
+	},
+	"PromoDetailScreen": {
+		"PromoDetailTitle": "Detail Promo",
+		"PromoCodeTitle": "Kode Promo",
+		"UseTitle": "Gunakan",
+		"DescriptionTitle": "Deskripsi",
+		"TermsAndConditionTitle": "Syarat dan ketentuan",
+		"CopiedTitle": "Tersalin!",
+		"ShareViaTitle": "Bagikan Melalui:"
+	},
+	"MegaMenu": {
+		"NoModemLabel": "No. Modem",
+		"BalanceLabel": "Pulsa",
+		"WifiSetting": "Pengaturan WiFi",
+		"ManageDevice": "Pengaturan Perangkat",
+		"StatisticUsage": "Statistik Pemakaian",
+		"WebFiltering": "Website Filtering",
+		"Help": "Bantuan",
+		"Refferal": "Referensikan Orbit",
+		"Language": "Bahasa",
+		"Logout": "Keluar",
+		"ValidUntil": "hingga",
+		"FeedbackTitle": "Berikan Tanggapan Anda",
+		"FeedbackSubTitle": "Tanggapan Anda penting untuk kami",
+		"CopyClipboardMsisdn": "Nomor sudah disalin",
+		"ForLimit": "dari batas ",
+		"ModalCreditLimitService": {
+			"Title": "Mendekati Batas Pemakaian",
+			"Description": "Jika pemakaian pascabayar mencapai 3 bulan, hubungi Call Center Telkomsel di 188 untuk meningkatkan batas pemakaian."
+		}
+	},
+	"WifiSetting": {
+		"TitleHeaderPageReskin": "Pengaturan WiFi",
+		"TitlePage": "Pengaturan WiFi",
+		"TitlePageReskin": "Informasi WiFi",
+		"WifiNameLabel": "Nama WiFi",
+		"WifiPasswordLabel": "Password WiFi",
+		"ButtonAction": "Ubah Nama & Password",
+		"Disclaimer1": "Pengaturan nama & password WiFi untuk modem 5G belum tersedia saat ini.",
+		"Disclaimer2": "Nama dan password WiFi yang ditampilkan saat ini adalah pengaturan default modem.",
+		"DisclaimerDefault": "Informasi di atas adalah pengaturan default. Lihat buku panduan di dalam box modem untuk mengubah nama dan password WiFi."
+	},
+	"WifiSettingChangeName": {
+		"Headline": "Ubah Nama & Password Wifi",
+		"WifiNameLabel": "Nama Wifi",
+		"WifiNameLabelReskin": "Nama WiFi",
+		"ErrorNameEmpty": "Nama perangkat tidak boleh kosong",
+		"ErrorNameEmptyReskin": "Nama WiFi tidak boleh kosong",
+		"ErrorNameLimit": "Nama WiFi tidak boleh lebih dari 16",
+		"ErrorNameLimitReskin": "Nama WiFi tidak boleh lebih dari 16 karakter",
+		"ErrorNameEmoticon": "Nama WiFi tidak boleh mengandung emoticon",
+		"WifiPasswordLabel": "Password Wifi",
+		"WifiPasswordLabelReskin": "Password WiFi",
+		"ErrorPasswordEmpty": "Password Wifi tidak boleh kosong",
+		"ErrorPasswordEmptyReskin": "Password Wifi tidak boleh kosong",
+		"ErrorPasswordLessThan8": "Password tidak boleh kurang dari 8",
+		"ErrorPasswordMoreThan16": "Password tidak boleh lebih dari 32",
+		"ErrorPasswordContainUpperAndLower": "Password harus mengandung huruf besar dan huruf kecil",
+		"ErrorPasswordCombinedWithNumber": "Password harus dikombinasikan dengan angka",
+		"NoteList1": "Password harus terdiri setidaknya 8-32 karakter",
+		"NoteList1Reskin": "Password harus terdiri dari 8-32 karakter",
+		"NoteList2": "Password harus mengandung huruf besar dan huruf kecil",
+		"NoteList2Reskin": "Password harus mengandung huruf besar dan kecil",
+		"NoteList3": "Password harus dikombinasikan dengan Angka",
+		"NoteList3Reskin": "Password harus dikombinasikan dengan angka",
+		"ButtonAction": "Simpan",
+		"ToastModemNotDetected": "Modem tidak terdeteksi!!",
+		"GuestSsidTitle": "Pengaturan Akses Tamu"
+	},
+	"WifiChangeNameProgressScreen": {
+		"ToastFailedChangeSSid": "Gagal mengubah SSID dan Password!!",
+		"WaitingProgress": "Silakan tunggu, Modem Anda sedang dalam proses pengaturan",
+		"WaitingProgressReskin": "Mohon tunggu, perubahan WiFi sedang disimpan",
+		"ResultFailed": {
+			"Title": "Pengaturan Gagal",
+			"Subtitle": "Koneksi sedang dalam masalah, silakan melakukan pengaturan ulang",
+			"ButtonAction": "Coba Lagi"
+		},
+		"ResultFailedReskin": {
+			"Title": "Pengaturan Gagal",
+			"Subtitle": "Terdapat gangguan koneksi, silakan atur ulang nama & password WiFi Anda.",
+			"ButtonAction": "Coba Lagi"
+		},
+		"ResultSuccess": {
+			"Title": "Pengaturan Berhasil",
+			"Subtitle": "Nama & Password Wifi sudah berhasil diperbarui.",
+			"ButtonAction": "Mengerti"
+		},
+		"ResultSuccessReskin": {
+			"Title": "Pengaturan Berhasil",
+			"Subtitle": "Nama & Password WiFi berhasil diperbarui.",
+			"ButtonAction": "OK"
+		},
+		"ResultSuccessGuest": {
+			"Title": "Pengaturan Berhasil",
+			"Subtitle": "Pengaturan Akses tamu Anda sudah berhasil diperbarui.",
+			"ButtonAction": "Mengerti"
+		},
+		"ResultDuplicate": {
+			"Title": "Gagal mengubah SSID dan Password",
+			"Subtitle": "SSID atau password tidak boleh sama antara wifi utama dan wifi guest, silahkan coba lagi",
+			"ButtonAction": "Coba Lagi"
+		}
+	},
+	"WifiSettingHomeLocationCard": {
+		"Desc": "dapat diubah kembali pada ",
+		"WarningUpdateLocationPopup": {
+			"Title": "Lokasi belum bisa diubah",
+			"Desc": "Anda dapat mengubah lokasi utama kembali pada"
+		},
+		"ButtonAction": "Ubah"
+	},
+	"ManageDevice": {
+		"ScreenTitle": "Pengaturan Perangkat",
+		"AllLabel": "Semua",
+		"FavoriteLabel": "Favorit",
+		"ScheduleLabel": "Jadwal",
+		"DevicesLabel": "Perangkat",
+		"ListTitle": "Daftar Perangkat",
+		"ActiveFor": "Aktif Selama",
+		"InActive": "Tidak Aktif",
+		"InActiveDescription": "Untuk menggunakan fitur ini, Anda harus terhubung dengan",
+		"EmptyState": "Belum ada perangkat favorit yang tersedia",
+		"DetailScreen": {
+			"Title": "Detail Perangkat",
+			"ChangeLabel": "Ubah",
+			"FavoritLabel": "Favorit",
+			"BlockLabel": "Blokir",
+			"UnblockLabel": "Batal Blokir",
+			"UnblockLabelReskin": "Buka Blokir",
+			"LimitTitle": "Jadwal Penggunaan",
+			"LimitTitleReskin": "Jadwal Penggunaan",
+			"LimitNotes": "Klik Jadwal Baru untuk mengatur waktu penggunaan internet dari Telkomsel Orbit.",
+			"ErrorToastDisableRule": "Gagal mengaktifkan jadwal. Silakan coba lagi.",
+			"ErrorToastEnableRule": "Gagal mematikan jadwal. Silakan coba lagi.",
+			"Coachmark": {
+				"ManageFeature": {
+					"Title": "Fitur perangkat",
+					"SubTitle": "3 icon ini berfungsi untuk mengatur tampilan perangkat, menjadikan perangkat favorit, dan memblokir perangkat agar tidak menggunakan internet Anda.",
+					"SubTitle2Feature": "2 icon ini berfungsi untuk mengatur tampilan perangkat dan menjadikan perangkat favorit."
+				},
+				"EditProfileLabel": {
+					"Title": "Ubah Profil",
+					"SubTitle": "Personalisasi perangkat ini dengan menentukan avatar dan nama yang Anda inginkan"
+				},
+				"FavoriteDeviceLabel": {
+					"Title": "Favorit perangkat",
+					"SubTitle": "Tambah perangkat favorit Anda dengan perangkat yang sering Anda gunakan"
+				},
+				"BlockDeviceLabel": {
+					"Title": "Blokir perangkat",
+					"SubTitle": "Blokir perangkat untuk menonaktifkan akses internet dari perangkat ini"
+				},
+				"AddNewLimitLabel": {
+					"Title": "Tambah limit baru",
+					"SubTitle": "Tambahkan limit baru untuk mengontrol penggunaan internet dari perangkat ini"
+				},
+				"LimitLabel": {
+					"Title": "Limit",
+					"SubTitle": "Buat,ubah, dan hapus limit di sini"
+				}
+			},
+			"LimitRuleKlikButton": "Klik Tambah ke Jadwal untuk mengatur waktu penggunaan internet dari Telkomsel Orbit.",
+			"LimitRuleNotAvailable": "Perangkat ini tidak dapat ditambahkan ke Jadwal",
+			"LimitRuleNotAvailable2": "Fitur Pengaturan Jadwal belum tersedia pada modem ini."
+		},
+		"EditDetail": {
+			"Headline": "Ubah Detail",
+			"HeadlineReskin": "Ubah Profil",
+			"Title": "Ubah Detail Perangkat",
+			"Subtitle": "Pilih avatar dan tentukan nama perangkat sesuai dengan yang Anda inginkan",
+			"SubtitleReskin": "Pilih ikon dan tetapkan nama untuk personalisasi perangkat ini",
+			"PlaceholderDeviceName": "Nama Perangkat",
+			"ErrorDeviceNameEmpty": "Nama perangkat tidak boleh kosong",
+			"ButtonAction": "Simpan",
+			"NotifSuccessEdit": "Berhasil Tersimpan",
+			"NotifSuccessEditReskin": "Perangkat ini telah diubah"
+		},
+		"PopupBlockDevice": {
+			"Title": "Blokir Perangkat",
+			"Subtitle": "Apakah Anda yakin untuk memblokir perangkat ini?",
+			"ButtonActionYes": "Ya",
+			"ButtonActionNo": "Tidak",
+			"NotifBlock": "Perangkat ini telah diblokir",
+			"NotifUnblock": "Perangkat sudah tidak diblokir"
+		},
+		"PopupUnblockDevice": {
+			"Title": "Buka Blokir Perangkat",
+			"Subtitle": "Apakah Anda yakin untuk membuka blokir perangkat ini?",
+			"ButtonActionYes": "Ya",
+			"ButtonActionNo": "Tidak"
+		},
+		"PopupRemoveFavorite": {
+			"Title": "Hapus dari Favorit",
+			"Subtitle": "Apakah Anda yakin untuk menghapus perangkat ini dari favorit?",
+			"ButtonActionYes": "Ya",
+			"ButtonActionNo": "Tidak"
+		},
+		"PopupFavoriteDevice": {
+			"NotifFovorite": "Perangkat ini ditambahkan ke favorit",
+			"NotifUnfavorite": "Perangkat ini telah dihapus dari favorit"
+		},
+		"PopupUsageSchedule": {
+			"Title": "Jadwal",
+			"Description": "Anda bisa buat, ubah, dan hapus jadwal penggunaan internet untuk perangkat ini."
+		},
+		"PopupUsageDays": {
+			"Title": "Pilih hari",
+			"Description": "Tentukan hari apa saja internet dapat diakses oleh perangkat ini.",
+			"DescriptionZTE": "Tentukan hari apa saja internet tidak dapat diakses oleh perangkat ini."
+		},
+		"PopupUsageDuration": {
+			"Title": "Pilih durasi jadwal",
+			"Description": "Atur batas waktu perangkat ini untuk mengakses internet pada hari yang ditentukan.",
+			"DescriptionZTE": "Atur batas waktu perangkat ini untuk tidak dapat mengakses internet pada hari yang ditentukan."
+		},
+		"SetNewLimit": {
+			"Headline": "Pengaturan Limit Baru",
+			"LimitDaysLabel": "Hari Penggunaan",
+			"LimitTimeLabel": "Waktu Penggunaan",
+			"LimitFromLabel": "Dari",
+			"LimitToLabel": "Hingga",
+			"ButtonAction": "Simpan",
+			"AlertTimeMustHigher": "Jam akhir harus lebih besar dari pada jam awal",
+			"AlertLimitDay": "Silakan pilih hari untuk limit ini",
+			"AlertSelectdays": "Silakan pilih hari terlebih dahulu",
+			"NotifSetLimit": "Jadwal penggunaan telah diatur",
+			"Coachmark": {
+				"DaysOfUseLabel": {
+					"Title": "Pilih hari",
+					"SubTitle": "Pilih hari untuk menentukan kapan saja internet dapat diakses oleh perangkat ini"
+				},
+				"DurationOfUseLabel": {
+					"Title": "Pilih durasi limit",
+					"SubTitle": "Atur batas waktu perangkat ini dalam mengakses internet di hari yang telah ditentukan"
+				}
+			},
+			"ModalTitleDelete": "Gagal menghapus data",
+			"ModalSubtitleDelete": "Terjadi kesalahan pada sistem silakan coba lagi",
+			"ModalSubtitleSave": "Terdapat gangguan koneksi, silakan atur jadwal penggunaan Anda.",
+			"TryAgain": "Coba Lagi",
+			"ModalTitleSave": "Pengaturan Gagal"
+		},
+		"EditLimit": {
+			"Headline": "Ubah Jadwal",
+			"LimitDaysLabel": "Hari Penggunaan",
+			"LimitTimeLabel": "Durasi Penggunaan",
+			"LimitFromLabel": "Dari",
+			"LimitToLabel": "Hingga",
+			"ButtonActionSave": "Simpan",
+			"ButtonActionDelete": "Hapus Jadwal",
+			"ButtonActionDeleteReskin": "Hapus Jadwal",
+			"AlertTimeMustHigher": "Jam akhir harus lebih besar dari pada jam awal",
+			"AlertLimitDay": "Silakan pilih hari untuk limit ini",
+			"AlertSelectdays": "Silakan pilih hari terlebih dahulu",
+			"NotifEditLimit": "Jadwal penggunaan telah diatur",
+			"NotifDeleteLimit": "Jadwal penggunaan telah dihapus"
+		},
+		"PopupDeleteLimit": {
+			"Title": "Hapus Jadwal",
+			"Subtitle": "Anda yakin ingin menghapus jadwal untuk perangkat ini?",
+			"ButtonActionYes": "Ya",
+			"ButtonActionNo": "Tidak"
+		},
+		"Coachmark": {
+			"AllLabel": {
+				"Title": "Semua",
+				"SubTitle": "Daftar perangkat yang pernah terhubung ke modem Orbit Anda"
+			},
+			"FavoriteLabel": {
+				"Title": "Favorit",
+				"SubTitle": "Daftar perangkat favorit Anda"
+			},
+			"ConnectedLabel": {
+				"Title": "Perangkat terhubung",
+				"TitleReskin": "Fitur perangkat",
+				"SubTitle": "Perangkat yang sedang terhubung ke modem Orbit Anda ditandai hijau",
+				"SubTitleReskin": "Anda dapat mengatur penggunaan internet dari perangkat yang sedang terhubung ke WiFi."
+			}
+		}
+	},
+	"NotificationScreen": {
+		"Headline": "Notifikasi",
+		"NoNotification": "Tidak ada notifikasi baru",
+		"MenuBar": {
+			"Menu1": "Semua",
+			"Menu2": "Promo",
+			"Menu3": "Info",
+			"Menu4": "Transaksi"
+		},
+		"NotificatonDetailButton": {
+			"ButtonActionDashboard": "Kunjungi Beranda",
+			"ButtonActionHelp": "Bantuan",
+			"ButtonActionCheckPackage": "Cek Paket Data",
+			"ButtonActionReport": "Buat Laporan",
+			"ButtonActionReferral": "Gunakan Sekarang",
+			"ButtonActionReferralUsed": "Sudah Digunakan",
+			"ButtonActionReferralExpired": "Sudah Kedaluwarsa",
+			"ButtonActionBuy": "Beli Sekarang",
+			"ButtonActionTryAgain": "Coba Lagi",
+			"ButtonActionConfirm": "Konfirmasi",
+			"ButtonActionRefund": "Beli Paket Data Lain",
+			"ButtonActionExpired": "Sudah Kedaluwarsa",
+			"ButtonActionDashboardReversal": "Kembali ke Beranda",
+			"ButtonActionVisitLink": "Buat Laporan",
+			"ButtonActionRefundPoint": "Cek Riwayat Poin",
+			"ButtonActionBackToDashboard": "Kembali ke Beranda"
+		},
+		"TransactionDetail": {
+			"Headline": "Transaksi",
+			"ButtonAction": "Cek Kuota"
+		},
+		"PromoDetail": {
+			"Headline": "Promo",
+			"CopyVoucherTitle": "Salin Kode Promo di Bawah ini",
+			"CopyVoucherLabel": "Kode Promo",
+			"ButtonAction": "Beli Sekarang"
+		},
+		"PopupUseReferral": {
+			"Title": "Gunakan reward paket data",
+			"Title2": "sekarang?",
+			"Subtitle": "Setelah digunakan, paket data akan segera diaktifkan.",
+			"ButtonActionYes": "Ya",
+			"ButtonActionLater": "Nanti Saja"
+		},
+		"PopupUseReferralFailed": {
+			"Title": "Gagal Mengaktifkan Paket Data",
+			"Desc": "Terjadi kesalahan, silakan coba lagi untuk mengaktifkan paket data kembali.",
+			"ButtonActionYes": "Coba Lagi",
+			"ButtonActionLater": "Nanti Saja"
+		},
+		"UseReferralSuccess": {
+			"Title": "Paket data berhasil digunakan ke modem utama"
+		},
+		"PopupTimer": {
+			"Title": "Waktu Pembayaran Telah Habis",
+			"Desc": "Silahkan Ulangi Pembelian Paket Data Anda Kembali",
+			"ButtonAction": "Kembali"
+		},
+		"PopupSuccessPayment": {
+			"Title": "Pembayaran telah dikonfirmasi",
+			"Desc": "Terima kasih atas pembayaran Anda, paket data akan segera diaktifkan.",
+			"ButtonAction": "Mengerti"
+		},
+		"PopupRedeemAdditionalSuccess": {
+			"Subtitle": "Anda telah berhasil menggunakan tambahan kuota",
+			"Subtitle2": "untuk waktu pemakaian 7 Hari.",
+			"ButtonAction": "Ya"
+		},
+		"TransactionFailed": {
+			"Title": "Pembayaran Gagal",
+			"Desc": "Proses pembayaran Anda telah gagal, klik Coba Lagi untuk kembali ke proses pembayaran",
+			"ButtonAction": "Coba Lagi"
+		},
+		"TransactionPending": {
+			"Title": "Menunggu Pembayaran",
+			"Desc": "Kami membutuhkan konfirmasi dari Anda. Silakan klik Konfirmasi setelah transaksi Anda berhasil.",
+			"ButtonAction": "Konfirmasi"
+		},
+		"TransactionPendingEmoney": {
+			"Title": "Menunggu Pembayaran",
+			"DescGojek": "Kami membutuhkan konfirmasi dari Anda. Mohon segera selesaikan proses pembayaran Anda di aplikasi Gojek.",
+			"DescOvo": "Kami membutuhkan konfirmasi dari Anda. Mohon segera selesaikan proses pembayaran Anda di aplikasi OVO.",
+			"ButtonAction": "Konfirmasi"
+		},
+		"AdditionalInformation": {
+			"PendingPayment": {
+				"TimerLimitsTitle": "Batas Konfirmasi Pembayaran",
+				"PaymentTotalLabel": "Total Pembayaran",
+				"PaymentDetailLabel": "Detail Pembayaran",
+				"PaymentMethodLabel": "Metode Pembayaran",
+				"PaymentDatesLabel": "Tanggal dan waktu transaksi",
+				"TransactionIdLabel": "ID Transaksi",
+				"Purchase": "Pembelian",
+				"FamilyMember": "Anggota Keluarga",
+				"NomorList": "Nomor Terdaftar",
+				"PaymentTotalTransaksi": "Total Transaksi"
+			},
+			"Reversal": {
+				"Desc": "Dana Anda telah berhasil dikembalikan ke saldo akun OVO Anda.",
+				"PaymentTotalLabel": "Total Pembayaran",
+				"PaymentDetailLabel": "Detail Pembayaran",
+				"PaymentMethodLabel": "Metode Pembayaran",
+				"PaymentDatesLabel": "Tanggal dan waktu transaksi",
+				"TransactionIdLabel": "ID Transaksi",
+				"RefundNotes": "Ketentuan Pengembalian Dana Paket Data",
+				"RefundCondition1": "Pastikan Akun OVO Anda telah aktif",
+				"RefundCondition2": "Pastikan Saldo OVO Anda belum mencapai limit (2 juta untuk Club/10 juta untuk Premier)"
+			},
+			"FailedProvisioning": {
+				"PaymentTotalLabel": "Total Pembayaran",
+				"PaymentDetailLabel": "Detail Pembayaran",
+				"PaymentMethodLabel": "Metode Pembayaran",
+				"PaymentDatesLabel": "Tanggal dan waktu transaksi",
+				"TransactionIdLabel": "ID Transaksi"
+			},
+			"Referral": {
+				"UseBefore": "Gunakan Sebelum :"
+			},
+			"PaymentSuccess": {
+				"QuotaPurchase": "Pembelian Paket Data",
+				"TotalTransaction": "Total Pembayaran",
+				"PaymentDetails": "Detail Pembayaran",
+				"PaymentMethod": "Metode Pembayaran",
+				"TransactionDate": "Tanggal dan waktu transaksi",
+				"TransactionId": "ID Transaksi",
+				"OrderSummary": "Ringkasan Belanja",
+				"DataPackage": "Paket Data",
+				"YouGotPromoDiscount": "Anda mendapatkan potongan sebesar",
+				"YouGotDataPackage": "Anda mendapatkan paket data sebesar",
+				"Purchase": "Pembelian",
+				"6MonthSubscription": "Berlangganan 6 bulan",
+				"AdministrationCosts": "Biaya Administrasi"
+			},
+			"RefundPoint": {
+				"TotalPoint": "Poin yang dikembalikan"
+			}
+		},
+		"RequestModem": {
+			"CardInfo": {
+				"Label1": "Wi-Fi Name",
+				"Label2": "Akun Pemohon",
+				"Label3": "Nomor Modem Orbit"
+			},
+			"ButtonExpired": "Sudah Kedaluwarsa",
+			"ButtonAccept": "Setujui Pemindahan",
+			"ButtonReject": "Abaikan",
+			"PopupApprove": {
+				"Title": "Pindahkan modem ke akun lain?",
+				"Subtitle": "Data modem akan dihapus dari akun Anda dan kontrol modem akan dipindahkan ke akun tujuan."
+			},
+			"PopupReject": {
+				"Title": "Tolak pemindahan modem ke akun lain?"
+			},
+			"ResultApprove": {
+				"Title": "Modem Berhasil Dipindahkan",
+				"Subtitle": "Modem ini telah dihapus dari daftar modem di akun Anda.",
+				"SubtitleLastModem": "Modem telah dihapus dari daftar modem dan Anda akan keluar dari halaman Beranda. Silakan login kembali ketika Anda memiliki modem Orbit lainnya.",
+				"ButtonLabel": "Kembali ke Beranda",
+				"ButtonLabelLastModem": "Mengerti"
+			},
+			"ResultReject": {
+				"Title": "Pemindahan Modem Ditolak",
+				"Subtitle": "Proses pemindahan telah dibatalkan oleh pemilik modem.",
+				"ButtonLabel": "Kembali ke Beranda"
+			},
+			"ResultFailed": {
+				"Title": "Gagal Melakukan Proses",
+				"Subtitle": "Telah terjadi kesalahan pada sistem. Silahkan coba lagi.",
+				"ButtonLabel": "Coba Lagi"
+			},
+			"ResultExpired": {
+				"Title": "Permintaan Sudah Kedaluwarsa",
+				"Subtitle": "Anda sudah melewati batas waktu permintaan 5 menit, silakan tunggu permintaan baru dari pemohon.",
+				"ButtonLabel": "Kembali ke Beranda"
+			}
+		},
+		"CategoryNotification": {
+			"All": "Semua",
+			"Promo": "Promo",
+			"Information": "Info",
+			"Transaction": "Transaksi",
+			"Security": "Keamanan"
+		}
+	},
+	"HelpScreen": {
+		"ScreenTitle": "Bantuan",
+		"SearchPlaceholder": "Apa yang bisa kami bantu...",
+		"SearchPlaceholderReskin": "Cari kata kunci",
+		"SearchResult": {
+			"Title": "Hasil pencarian untuk",
+			"Subtitle": {
+				"Show": "Menampilkan",
+				"Result": "hasil"
+			},
+			"NotFound": {
+				"Title": "Tidak Ditemukan",
+				"Description": "Kami tidak dapat menemukan hasil pencarian. Coba ubah kata pencarian.",
+				"DescriptionReskin": "Cari kata kunci lain atau periksa kesalahan ejaan."
+			}
+		},
+		"DeeplinkErrorTitle1": "Data tidak ditemukan",
+		"DeeplinkErrorDesc1": "Telah terjadi kesalahan, silakan kembali untuk melanjutkan",
+		"DeeplinkErrorButtonTitle1": "Kembali",
+		"DeeplinkErrorTitle2": "Gagal memuat halaman",
+		"DeeplinkErrorDesc2": "Telah terjadi kesalahan, silakan coba lagi untuk memuat ulang halaman",
+		"DeeplinkErrorButtonTitle2": "Coba Lagi",
+		"CategoryTitle": "Kategori Pertanyaan",
+		"CategoryTitleReskin": "Bantuan Berdasarkan Kategori",
+		"FAQ": "Pertanyaan Terpopuler",
+		"FAQReskin": "Paling Sering Ditanyakan",
+		"FAQResult": "Hasil Pencarian",
+		"QuestionAbout": "Pertanyaan Tentang ",
+		"SocialMediaTitle": "Media Sosial",
+		"AdvanceSetting": "Pengaturan Lanjutan",
+		"RelatedArticles": "Artikel Terkait",
+		"TitleFeedback": "Apakah Artikel ini membantu?",
+		"TitleForm": "Alasan tidak menyukai artikel ini karena...",
+		"TitleSubTitle": "Penilaian Anda dapat membantu kualitas layanan kami",
+		"Note": "Catatan:",
+		"Warning": "Perhatian!",
+		"ButtonFeedback": {
+			"Send": "Kirim",
+			"Later": "Nanti Saja"
+		},
+		"CautionForm": "Silahkan isi alasan terlebih dahulu.",
+		"RadioQuestion": {
+			"first": "Artikelnya membingungkan",
+			"second": "Informasi tidak lengkap",
+			"third": "Solusi tidak berhasil",
+			"fourth": "Tidak suka dengan kebijakan/produk",
+			"fifth": "Lainnya"
+		},
+		"PlaceholderInput": "Saya tidak menyukai artikel ini karena...",
+		"DataView": {
+			"DataAll": "Lihat Semua",
+			"DataPartially": "Lihat Sebagian"
+		},
+		"ContactUs": {
+			"ContactUsTitle": "Atau hubungi kami di",
+			"ContactUsTitleReskin": "Butuh Informasi Lebih Lanjut?",
+			"GeneralQuestion": "Pertanyaan Umum",
+			"TelkomselCustomer": "Pelanggan Telkomsel",
+			"ContactWithVeronika": "Chat dengan Veronika",
+			"ContactWithEmail": "Kirim Pertanyaan Dengan Email"
+		},
+		"LegalInformation": {
+			"LegalInformationTitle": "Ketentuan dan Kebijakan",
+			"LegalInformationTitleReskin": "Ketentuan dan Kebijakan",
+			"TNC": "Syarat dan Ketentuan",
+			"PrivacyPolicy": "Kebijakan Privasi"
+		},
+		"CategoryDetail": {
+			"Headline": "Tentang Telkomsel Orbit",
+			"NotFound": "Kami tidak dapat menemukan hasil pencarian.",
+			"ChangeWord": "Coba ubah kata pencarian."
+		},
+		"LiveChat": {
+			"Title": "Hubungi kami melalui",
+			"CallCenter": "Hubungi Orbit",
+			"Email": "Email Orbit",
+			"WhatsApp": "WhatsApp Orbit"
+		}
+	},
+	"TermsAndConditionScreen": {
+		"Headline": "Syarat dan Ketentuan"
+	},
+	"PrivacyPolicyScreen": {
+		"Headline": "Kebijakan Privasi",
+		"TitleDate": "Pembaruan"
+	},
+	"ReferralCodeScreen": {
+		"HeaderTitle": "Referensikan Orbit",
+		"MainTitle": "Dapatkan kuota gratis 5GB",
+		"MainDescriptionTitle": "Anda bisa mendapatkan kuota gratis 5GB dengan membagikan kode referal Orbit ke teman Anda.",
+		"ShareTitle": "Ajak teman-mu dan dapatkan 5GB Kuota",
+		"YourReferralCodeTitle": "Kode Referral Anda",
+		"ShareCodeTitle": "Bagikan Kode",
+		"LearnMoreTitle": "Pelajari Lebih Lanjut",
+		"CopiedTitle": "Tersalin!"
+	},
+	"EntertainmentScreen": {
+		"TitleHeader": "Isi Nomor HP Penerima SMS",
+		"ButtonAction": "Lanjutkan",
+		"Message": {
+			"MessageFirst": "Pastikan nomor HP harus Telkomsel yang terhubung dengan akun WhatsApp dan dapat menerima telepon.",
+			"MessageSecond": "Link aktivasi akan dikirim melalui SMS ke nomor HP ini.",
+			"MessageThird": "Nomor HP yang dimasukkan tidak boleh nomor kartu SIM Telkomsel Orbit atau By.U.",
+			"OnlyTelkomsel": "Hanya nomor telkomsel yang dapat digunakan",
+			"NotTelkomsel": "Nomor ini bukan nomor Telkomsel",
+			"NotOrbit": "Tidak dapat menggunakan nomor kartu SIM Telkomsel Orbit",
+			"FormatNumber": "Format nomor handphone salah",
+			"Length": "Mohon masukkan 10-16 digit nomor Telkomsel Anda",
+			"PhoneNumberEmpty": "Tolong isi nomor handphone Anda",
+			"PhoneNumberNotActive": "Nomor Tidak Dapat Digunakan",
+			"PhoneNumberNotPlayHome": "Tidak dapat menggunakan nomor Price Plan Home",
+			"PhoneNumberNotAvail": "Nomor Telkomsel ini dalam masa tenggang",
+			"PhoneNumberNotPricePlanHome": "Tidak dapat menggunakan nomor Price Plan Home"
+		},
+		"InputText": {
+			"Title": "SMS link aktivasi akan dikirim ke"
+		},
+		"Modal": {
+			"Title": "Pilih Kontak",
+			"Title2": "Nomor Tidak Dapat Digunakan",
+			"SubDesc": "Silakan melakukan aktivasi kartu Telkomsel dengan menghubungi *888*89#.",
+			"Title3": "Nomor dalam Masa Tenggang",
+			"SubDesc2": "Selesaikan pembayaran pemakaian Anda pada bulan lalu untuk dapat melanjutkan proses pembelian ini.",
+			"Button": "Mengerti"
+		}
+	},
+	"ComingSoonScreen": {
+		"Headline": "Statistik Pemakaian",
+		"Title": "Segera Hadir",
+		"Desc": "Lihat rincian pemakaian WiFi Anda di Statistik Pemakaian",
+		"ButtonAction": "Kembali ke Beranda"
+	},
+	"PackageDetailScreen": {
+		"ScreenTitle": "Tambahan Kuota",
+		"Validity": "Masa Aktif",
+		"ValidityReskin": "Masa Aktif",
+		"QuotaZoom": "Kuota",
+		"Internet": "Internet",
+		"DataPackage": "Paket Data",
+		"HomeDataPackage": "Kuota Home",
+		"HomeLocation": "Untuk Lokasi",
+		"PriceLabel": "Harga",
+		"DetailPackageTitle": "Detail Paket",
+		"TNCTitle": "Syarat dan Ketentuan",
+		"ButtonAction": "Beli Paket Data",
+		"ButtonActionReskin": "Beli",
+		"ButtonActionZoomPro": "Isi Nomor HP Penerima SMS",
+		"titleFailed": "Pemesanan Ulang Gagal",
+		"subtitleFailed": "Anda tidak dapat melakukan pemesanan ulang karena produk sudah tidak tersedia",
+		"understand": "Mengerti",
+		"DeskripsiPaket": "Deskripsi Paket",
+		"SnK": "Syarat & Ketentuan",
+		"ModalCreditLimitService": {
+			"Title": "Pembelian Ini Melebihi Batas Pemakaian",
+			"Description": "Jika pemakaian pascabayar mencapai 3 bulan, hubungi Call Center Telkomsel di 188 untuk meningkatkan batas pemakaian."
+		},
+		"PopupConfirmLocation": {
+			"Title": "Anda yakin ingin membeli  paket ini?",
+			"Desc": "Jika melanjutkan, kuota akan aktif saat modem Anda berada di lokasi utama.",
+			"ContentTitle": "Lokasi Utama Anda saat ini:",
+			"LabelAccept": "Ya, beli Kuota Home ini",
+			"LabelCancel": "Batal"
+		},
+		"PopupFamilyQuota": {
+			"AlreadyRegistered": {
+				"Title": "Anda Sudah Terdaftar Jadi Pengelola Kuota Keluarga Lain",
+				"Desc": "Silakan tunggu masa berlaku Kuota Keluarga Anda saat ini selesai dahulu.",
+				"ButtonAccept": "Mengerti"
+			},
+			"Error": {
+				"Title": "Terjadi Kesalahan Pada Sistem",
+				"Desc": "Telah terjadi kesalahan pada sistem pada saat melakukan pengecekan nomor utama Anda, silakan coba lagi.",
+				"ButtonAccept": "Mengerti"
+			}
+		},
+		"PopupPackageNotFound": {
+			"Title": "Paket sudah tidak tersedia",
+			"Description": "Silakan lihat pilihan paket lainnya.",
+			"PrimaryButtonTitle": "Lihat Pilihan Paket Lainnya"
+		}
+	},
+	"FamilyQuotaScreen": {
+		"Headline": "Klaim Kuota Keluarga Orbit",
+		"SeeDetail": "Lihat Detail",
+		"Title": "Pendaftaran Anggota",
+		"Desc": "Harap pastikan nomor yang Anda masukkan belum terdaftar pada Kuota Keluarga Orbit lain",
+		"Notes": "Tambahkan minimal 1 nomor untuk mendaftarkan",
+		"TextInput": {
+			"Placeholder": "Nomor Handphone",
+			"ErrorMessage": ""
+		},
+		"ButtonAction": "Daftarkan"
+	},
+	"PaymentMethodScreen": {
+		"Headline": "Metode Pembayaran",
+		"QuotaLabel": "Paket Data",
+		"SubTitleKuota": "Paket Data Orbit",
+		"ValidityLabel": "Berlaku",
+		"ValidityLabelReskin": "Berlaku",
+		"PaymentListTitle": "Pilih Metode Pembayaran",
+		"MsisdnTitle": "Nomor Terdaftar",
+		"SecurePaymentTitle": "Keamanan Pembayaran",
+		"PaymentPulsa": {
+			"Title": "Metode Pembayaran Tidak Sesuai",
+			"NotEnoughBalance": "Pulsa Anda tidak cukup.",
+			"NotSupport": "Mohon maaf produk ini tidak didukung pembayaran pulsa",
+			"BillingTitle": "Biaya Tagihan",
+			"BalanceTitle": "Pulsa Anda:",
+			"UsageTitle": "Pemakaian:",
+			"TopupTitle": "Isi Pulsa"
+		},
+		"PaymentVA": {
+			"Title": "Transfer ke Virtual Account"
+		},
+		"PaymentEWallet": {
+			"Title": "Uang Elektronik",
+			"TitleReskin": "Uang Elektronik"
+		},
+		"PaymentCC": {
+			"Title": "Kartu Kredit",
+			"TitleReskin": "Kartu Kredit / Kartu Debit",
+			"Desc": "Pembayaran dengan kartu kredit terproteksi dengan sistem keamanan terbaik."
+		},
+		"PaymentOffline": {
+			"Title": "Pembayaran di Gerai Retail"
+		},
+		"PaymentDana": {
+			"Headline": "Pembayaran DANA",
+			"ConnectDana": "Hubungkan DANA",
+			"YourBalance": "Saldo Anda",
+			"InsufficientBalance": "Maaf saldo anda tidak mencukupi untuk melanjutkan transaksi ini. Silakan top up saldo DANA anda terlebih dahulu sebelum melanjutkan. Refresh page ini setelah proses topup selesai",
+			"DisconnectDana": "Putuskan koneksi DANA",
+			"Pairing": {
+				"TNCTitle": "Syarat Ketentuan",
+				"TNCTitleReskin": "Syarat & Ketentuan",
+				"TNCContent1": "Sudah memiliki akun DANA dan aktivasi DANA Payment",
+				"TNCContent2": "Saldo DANA cukup untuk membeli produk di Telkomsel Orbit",
+				"TNCContent3": "Anda akan menghubungkan akun DANA Anda dengan Telkomsel Orbit dan setelah dihubungkan DANA baru bisa digunakan sebagai pembayaran di Telkomsel Orbit",
+				"TNCAgreement": "Dengan menekan tombol, Anda setuju dengan Syarat & Ketentuan Telkomsel Orbit diatas.",
+				"ButtonActionPairing": "Lanjut",
+				"ButtonActionPairingReskin": "Hubungkan Akun Dana"
+			},
+			"Unpairing": {
+				"Title": "Putuskan Koneksi Akun",
+				"Subtitle": "Apakah Anda yakin ingin memutuskan koneksi akun DANA Anda di Telkomsel Orbit?",
+				"ButtonActionUnpairing": "Lanjutkan",
+				"ButtonActionCancel": "Batal"
+			},
+			"PopupFailedPairing": {
+				"Subtitle": "Telah terjadi kesalahan pada sistem, gagal menautkan akun DANA Anda. Silahkan coba lagi.",
+				"ButtonAction": "Tutup"
+			}
+		},
+		"PromoCodeInput": {
+			"PlaceholderTitle": "Kode Promo",
+			"SubmitButtonTitle": "Gunakan"
+		},
+		"PromoFailedPopup": {
+			"Title": "Kode Promo Salah",
+			"Subtitle1": "Kode promo ini untuk pembayaran",
+			"Subtitle2": "Pastikan kode promo telah sesuai atau ulangi proses pembelian"
+		},
+		"ModalCreditLimitServicePromo": {
+			"Title": "Kode promo tidak bisa digunakan saat pemakaian mencapai batas",
+			"Description": "Jika pemakaian pascabayar mencapai 3 bulan, hubungi Call Center Telkomsel di 188 untuk meningkatkan batas pemakaian."
+		},
+		"ModalCreditLimitServicePayment": {
+			"Title": "Pembelian Ini Melebihi Batas Pemakaian",
+			"Description": "Jika pemakaian pascabayar mencapai 3 bulan, hubungi Call Center Telkomsel di 188 untuk meningkatkan batas pemakaian."
+		},
+		"ModalCreditLimitServicePaymentPromo": {
+			"Title": "Kode promo tidak bisa digunakan saat pemakaian mencapai batas",
+			"Description": "Jika pemakaian pascabayar mencapai 3 bulan, hubungi Call Center Telkomsel di 188 untuk meningkatkan batas pemakaian."
+		},
+		"Error": {
+			"FailedGetPaymentMethod": {
+				"Subtitle": "Telah terjadi kesalahan pada sistem, gagal memuat metode pembayaran. Silahkan coba lagi.",
+				"ButtonAction": "Coba Lagi"
+			},
+			"FailedKuotaBelajar": {
+				"Title": "Gagal Membeli Kuota Belajar",
+				"Subtitle": "Anda tidak dapat melakukan pembelian karena kuota belajar hanya dapat dibeli satu kali.",
+				"ButtonAction": "Mengerti"
+			},
+			"FailedPaymentAkulakuEmail": {
+				"Title": "Pembayaran Gagal",
+				"Subtitle": "Email yang Anda gunakan pada pendaftaran terindikasi tidak aman, silakan coba lagi dengan menggunakan email lainnya.",
+				"ButtonAction": "Coba Lagi"
+			}
+		},
+		"ButtonAction": "Bayar",
+		"RecommendedTitle": "Rekomendasi",
+		"Promo": {
+			"TitleModal": "Mengerti",
+			"SuccessCode": "Kode Berhasil Digunakan",
+			"Potensial": "Anda berpotensi mendapatkan potongan diskon",
+			"PotensialReskin": "Selamat! Anda berpotensi mendapatkan diskon maks.",
+			"Max": "Maks",
+			"PotensialPackage": "Selamat! Anda mendapatkan paket data tambahan",
+			"PotensialPackageReskin": "Selamat! Anda mendapatkan paket data tambahan",
+			"Discount": "Diskon",
+			"OrbitPackage": "untuk pembelian Paket Data Orbit",
+			"OrbitIndibox": "untuk pembelian"
+		},
+		"ChangeOtherPackage": "Ganti Paket Lain",
+		"RedirectMessage": "Proses pembayaran akan dilanjutkan dihalaman",
+		"errorOfferId": {
+			"title": "Penyesuaian Harga Paket Data",
+			"subtitle": "Terdapat perubahan pada paket data yang Anda pilih, silakan pilih paket data lainnya.",
+			"buttonlabel": "Kembali ke Paket Data"
+		},
+		"errorMsisdn": {
+			"title": "Nomor Kartu SIM Tidak Sesuai",
+			"subtitle": "Silakan hubungi Customer Service untuk informasi lebih lanjut mengenai pembelian paket data ini.",
+			"buttonlabel": "Hubungi Customer Service",
+			"buttonlabelTwo": "Kembali ke Beranda"
+		},
+		"errorLimit": {
+			"title": "Pembelian Ini Melebihi Batas Pemakaian",
+			"subtitle": "Jika pemakaian pascabayar mencapai 3 bulan, hubungi Call Center Telkomsel di 188 untuk meningkatkan batas pemakaian.",
+			"buttonlabel": "Hubungi 188",
+			"buttonlabelTwo": "Kembali ke Beranda"
+		},
+		"errorGeneral": {
+			"title": "Pembayaran Gagal",
+			"subtitle": "Terjadi kesalahan saat memuat halaman, silakan ulangi proses pembelian paket data. Jangan khawatir, dana transaksi Anda belum dipotong oleh sistem.",
+			"buttonlabel": "Kembali ke Paket Data"
+		},
+		"errorPulsaPromo": {
+			"title": "Kode Promo Akan Dihapus",
+			"subtitle": "Menggunakan metode pembayaran Pulsa akan menghapus kode promo dari pembayaran. Apakah Anda ingin melanjutkan?",
+			"buttonlabel": "Lanjutkan",
+			"buttonlabelTwo": "Kembali"
+		},
+		"MaintenancePayment": {
+			"Title": "Sedang dalam perbaikan"
+		}
+	},
+	"VerificationPaymentScreen": {
+		"PaymentInstruction": {
+			"AccordionTitle": "Cara Melakukan Pembayaran",
+			"AccordionTitleReskin": "Cara Melakukan Pembayaran"
+		},
+		"SuccessScreen": {
+			"Headline": "Detail Pembayaran",
+			"Title": "Pembayaran Berhasil",
+			"Desc": "Paket data akan segera diaktifkan",
+			"Desc2": "Paket disney+ akan segera di aktifkan",
+			"Desc3": "Cek inbox SMS untuk melihat link aktivasi akun.",
+			"BoxPackageTitle": "Paket Data",
+			"Validity": "Berlaku untuk",
+			"ValidityReskin": "Berlaku untuk",
+			"TotalLabel": "Total Pembayaran",
+			"DetailLabel": "Detail Pembayaran",
+			"AdministrationCosts": "Biaya Administrasi",
+			"PaymentMethodLabel": "Metode Pembayaran",
+			"DateLabel": "Tanggal dan waktu transaksi",
+			"InvoiceLabel": "ID Transaksi",
+			"FamilyMembers": "Anggota Keluarga",
+			"ButtonAction": "Kembali ke Beranda",
+			"Summary": "Ringkasan Belanja",
+			"Activation": "Paket data akan segera diaktifkan dalam waktu maksimal",
+			"Time": "1x24 jam",
+			"Promo": "Promo yang digunakan",
+			"BoxPromoTitle": "Promo",
+			"Reward": "Anda mendapatkan",
+			"DiscountReward": "potongan sebesar",
+			"PackageDataReward": "paket data sebesar",
+			"SeeMore": "LIHAT",
+			"ZoomEntertaiment": {
+				"Info": "Link aktivasi akun",
+				"Info2": "akan segera dikirimkan melalui SMS ke",
+				"Info3": "dalam waktu"
+			},
+			"Feedback": {
+				"Title": "Nilai Pengalaman Anda",
+				"Subtitle": "Bagaimana proses pembelian paket data di aplikasi Myorbit?",
+				"Send": "Kirim",
+				"Form": {
+					"Title": "Apa yang bisa kami tingkatkan?",
+					"Option1": "Kegunaan",
+					"Option2": "Tampilan",
+					"Option3": "Efektivitas",
+					"Option4": "Informatif",
+					"Placeholder": "Yang bisa ditingkatkan dari proses pembelian Telkomsel Orbit..."
+				},
+				"Information": {
+					"Title": "Tanggapan Anda Telah Kami Terima",
+					"Subtitle": "Terima kasih telah mempercayai Telkomsel Orbit. Kami menghargai kontribusi Anda dalam membantu meningkatkan kualitas layanan kami.",
+					"RatePlaystore": "Beri Penilaian di Play Store",
+					"RateAppstore": "Beri Penilaian di App Store"
+				}
+			}
+		},
+		"BusyScreen": {
+			"Title": "Sistem Sedang Sibuk",
+			"Desc": "Sistem saat ini sedang sibuk, silakan tunggu beberapa saat dan ulangi proses pembayaran.",
+			"ButtonAction": "Coba Lagi"
+		},
+		"FailedScreen": {
+			"Title": "Pembayaran Gagal",
+			"Desc": "Proses pembayaran Anda telah gagal, klik Coba Lagi untuk kembali ke proses pembayaran",
+			"ButtonAction": "Coba Lagi",
+			"ButtonAction2": "Buat Laporan"
+		},
+		"FailedSendDataScreen": {
+			"Title": "Gagal Mengirim Data",
+			"Desc": "Maaf terjadi kesalahan pada sistem. Silahkan coba lagi.",
+			"ButtonAction": "Coba Lagi"
+		},
+		"ConfirmationVAOffline": {
+			"Headline": "Transfer Virtual Account",
+			"HeadlineReskin": "Transfer Virtual Account",
+			"HeadlineGerai": "Tranfer Gerai Retail",
+			"Title": "Konfirmasi Pembayaran",
+			"TitleReskin": "Konfirmasi Pembayaran Anda",
+			"Desc1": "Kami membutuhkan konfirmasi Anda.",
+			"Desc2": "Silakan klik Konfirmasi setelah proses pembayaran Anda berhasil.",
+			"BoxTitle": "Batas Konfirmasi Pembayaran",
+			"BoxDescVA": "Segera selesaikan pembayaran Anda dengan transfer ke:",
+			"BoxDescOffline": "Segera selesaikan pembayaran Anda di salah satu outlet ini:",
+			"TotalLabel": "Total Pembayaran",
+			"ButtonAction": "Konfirmasi",
+			"TimeoutScreen": {
+				"Title": "Waktu Pembayaran Habis",
+				"DescVA": "Maaf batas waktu pembayaran Virtual Account Anda telah habis, klik Coba Lagi untuk kembali ke proses pembayaran",
+				"DescOffline": "Nomor virtual account Anda sudah kedaluwarsa. Klik Coba Lagi untuk kembali ke proses pembayaran.",
+				"ButtonAction": "Coba Lagi",
+				"ButtonAction2": "Buat Laporan"
+			},
+			"PendingScreen": {
+				"Title": "Belum Menerima Pembayaran Anda",
+				"TitleReskin": "Pembayaran Belum Diterima",
+				"Desc": "Maaf kami belum menerima pembayaran, Silakan selesaikan transaksi melalui",
+				"ExpiredLabel": "Tagihan akan kedaluwarsa pada",
+				"ExpiredLabelReskin": "Pembayaran akan kedaluwarsa pada:",
+				"ButtonAction": "Coba Lagi"
+			}
+		},
+		"PaymentCC": {
+			"ConfirmationPayment": {
+				"Headline": "Transfer Kartu Kredit",
+				"HeadlineReskin": "Transfer Kartu Kredit/Debit",
+				"Title": "Pembayaran Penuh"
+			},
+			"FailedScreen": {
+				"Title": "Pembayaran Kartu Kredit Gagal",
+				"Desc": "Pastikan Kartu Kredit Anda tidak terblokir atau tidak melewati limit kredit, klik Coba Lagi untuk kembali ke proses pembayaran",
+				"ButtonAction": "Coba Lagi",
+				"ButtonAction2": "Buat Laporan"
+			}
+		},
+		"PaymentGopay": {
+			"Step1": {
+				"Headline": "Pembayaran Gopay",
+				"Title": "Masukkan No. Handphone Anda yang terdaftar di aplikasi Gojek",
+				"TitleReskin": "Masukkan nomor handphone Anda yang terdaftar di aplikasi Gojek",
+				"Placeholder": "Masukkan No. Handphone Anda",
+				"PlaceholderReskin": "Masukkan Nomor Gojek Anda",
+				"Notes": "Setelah memasukkan No. Handphone, Anda akan dialihkan ke aplikasi Gojek",
+				"NotesReskin": "Anda selanjutnya akan dialihkan ke aplikasi Gojek. Pastikan aplikasi Gojek telah ter-install di HP anda",
+				"ButtonAction": "Lanjutkan"
+			},
+			"Step2": {
+				"Headline": "Pembayaran Gopay",
+				"Title": "Konfirmasi Pembayaran",
+				"TitleReskin": "Konfirmasi Pembayaran Anda",
+				"Desc": "Kami membutuhkan konfirmasi Anda. Silakan klik Konfirmasi setelah proses pembayaran Anda berhasil.",
+				"BoxTitle": "Batas Konfirmasi Pembayaran",
+				"BoxDesc": "Pembayaran sudah terkirim. Mohon segera selesaikan pembayaran Anda di aplikasi Gojek.",
+				"TotalLabel": "Total Pembayaran",
+				"ButtonAction": "Konfirmasi"
+			},
+			"AppNotFound": {
+				"Title": "Pembayaran Gopay Gagal",
+				"Desc": "Maaf, aplikasi GOJEK di handphone Anda tidak ditemukan. Mohon download aplikasi GOJEK dan klik Coba Lagi untuk melanjutkan pembayaran.",
+				"ButtonAction": "Coba Lagi"
+			},
+			"TimeoutScreen": {
+				"Title": "Waktu Pembayaran Habis",
+				"Desc": "Maaf batas waktu pembayaran untuk Pembayaran GOJEK berakhir, klik Coba Lagi untuk kembali ke proses pembayaran",
+				"ButtonAction": "Coba Lagi",
+				"ButtonAction2": "Buat Laporan"
+			},
+			"PendingScreen": {
+				"Title": "Belum Menerima Pembayaran Anda",
+				"Desc": "Maaf kami belum menerima pembayaran, Silakan selesaikan transaksi melalui aplikasi GOJEK Anda",
+				"ExpiredLabel": "Tagihan akan kedaluwarsa pada",
+				"ButtonAction": "Coba Lagi"
+			}
+		},
+		"PaymentOvo": {
+			"Step1": {
+				"Headline": "Pembayaran OVO",
+				"Title": "Masukkan No. Handphone Anda yang terdaftar di aplikasi OVO",
+				"TitleReskin": "Masukkan nomor handphone Anda yang terdaftar di aplikasi OVO",
+				"Placeholder": "Masukkan No. Handphone Anda",
+				"PlaceholderReskin": "Masukkan Nomor OVO Anda",
+				"Notes": "Setelah memasukkan No. Handphone, Silakan melanjutkan proses pembayaran di aplikasi OVO Anda",
+				"NotesReskin": "Setelah memasukkan nomor OVO, Silakan melanjutkan proses pembayaran di aplikasi OVO Anda.",
+				"ButtonAction": "Lanjutkan"
+			},
+			"Step2": {
+				"Headline": "Pembayaran OVO",
+				"Title": "Konfirmasi Pembayaran",
+				"TitleReskin": "Konfirmasi Pembayaran Anda",
+				"Desc": "Kami membutuhkan konfirmasi Anda. Silakan klik Konfirmasi setelah proses pembayaran Anda berhasil.",
+				"BoxTitle": "Batas Konfirmasi Pembayaran",
+				"BoxDesc": "Pembayaran sudah terkirim. Mohon segera selesaikan pembayaran Anda di aplikasi OVO.",
+				"TotalLabel": "Total Pembayaran",
+				"ButtonAction": "Konfirmasi"
+			},
+			"AppNotFound": {
+				"Title": "Pembayaran OVO Gagal",
+				"Desc": "Maaf, aplikasi OVO di handphone Anda tidak ditemukan. Mohon download aplikasi OVO dan klik Coba Lagi untuk melanjutkan pembayaran.",
+				"ButtonAction": "Coba Lagi"
+			},
+			"TimeoutScreen": {
+				"Title": "Waktu Pembayaran Habis",
+				"Desc": "Maaf batas waktu pembayaran untuk Pembayaran OVO berakhir, klik Coba Lagi untuk kembali ke proses pembayaran",
+				"DescReskin": "Nomor virtual account Anda sudah kedaluwarsa. Klik Coba Lagi untuk kembali ke proses pembayaran.",
+				"ButtonAction": "Coba Lagi"
+			},
+			"PendingScreen": {
+				"Title": "Belum Menerima Pembayaran Anda",
+				"TitleReskin": "Pembayaran Belum Diterima",
+				"Desc": "Maaf kami belum menerima pembayaran, Silakan selesaikan transaksi melalui aplikasi OVO Anda",
+				"DescReskin": "Maaf, kami belum menerima pembayaran Anda. Silakan selesaikan pembayaran melalui aplikasi OVO.",
+				"ExpiredLabel": "Tagihan akan kedaluwarsa pada",
+				"ButtonAction": "Coba Lagi"
+			},
+			"InvalidNumberScreen": {
+				"Title": "Nomor OVO Tidak Ditemukan",
+				"Desc": "Nomor OVO Anda tidak ditemukan. Klik Coba Lagi dan gunakan nomor OVO lain untuk melanjutkan proses pembayaran.",
+				"ButtonAction": "Coba Lagi"
+			},
+			"PaymentCanceledScreen": {
+				"Title": "Pembayaran Dibatalkan",
+				"TitleReskin": "Pembayaran Telah Dibatalkan",
+				"Desc": "Pembayaran telah Anda batalkan, klik Coba Lagi untuk melanjutkan proses pembayaran.",
+				"DescReskin": "Silakan pilih pembayaran lainnya untuk mengulang proses pembayaran Anda.",
+				"ButtonAction": "Coba Lagi",
+				"ButtonCanceled": "Pilih Pembayaran Lainnya"
+			}
+		},
+		"PaymentDana": {
+			"Headline": "Pembayaran DANA",
+			"PendingScreen": {
+				"Title": "Belum Menerima Pembayaran",
+				"Subtitle": "Maaf kami belum menerima pembayaran atau pembayaran Anda sedang dalam proses, Silakan ulangi kembali",
+				"ButtonAction": "Coba Lagi"
+			}
+		},
+		"PaymentRetailOutlets": {
+			"Headline": "Transfer Gerai Retail"
+		},
+		"CreditCardInstallmentForm": {
+			"MainTitle": "Isi Data Kartu Kredit Anda",
+			"MainTitleReskin": "Isi Data Diri Anda",
+			"CardNumberTitle": "Nomor Kartu Kredit",
+			"CardNumberTitleReskin": "Nomor Kartu Kredit/Debit",
+			"CardHolderTitle": "Nama Pemilik Kartu",
+			"ValidityTitle": "Masa Berlaku",
+			"CVVTitle": "CVV",
+			"ExampleTitle": "Contoh: 123",
+			"EnterCVVMessage": "*Masukkan 3-4 digit nomor CVV Anda",
+			"SubmitButtonTitle": "Lanjutkan",
+			"FormValidation": {
+				"CardNumberEmpty": "Tolong isi Nomor Kartu Kredit",
+				"CardHolderEmpty": "Tolong isi Nama Pemilik Kartu",
+				"ValidityEmpty": "Tolong isi info masa berlaku dan CVV",
+				"CardNumberIncorrect": "Nomor Kartu Kredit yang Anda masukkan salah",
+				"CardHolderIncorrect": "Format nama Pemilik Kartu salah",
+				"ValidityIncorrect": "*Nomor CVV atau Masa Berlaku yang Anda masukan salah",
+				"ValidityIncorrectReskin": "Masa Berlaku yang Anda masukan salah"
+			},
+			"ChooseInstallmentTitle": "Pilih Tenor",
+			"ChooseInstallmentFirstMessage": "Harap pilih tenor terlebih dahulu",
+			"MonthTitle": "Bulan",
+			"ServiceFeeTitle": "Biaya Layanan",
+			"CVVPopupDesc": "CVV Berada di belakang kartu debit/kredit Anda",
+			"CvvRule": "Telkomsel Orbit tidak menyimpan data apapun dari transaksi kartu kredit Anda. Selanjutnya, pembayaran dengan cicilan kartu kredit akan disesuaikan di halaman Midtrans"
+		},
+		"NotFound": {
+			"Title": "Pembayaran tidak ditemukan",
+			"Desc": "Maaf pembayaran tidak ditemukan atau waktu pembayaran telah habis",
+			"ButtonAction": "Kembali ke dashboard"
+		}
+	},
+	"ModemDisconectModal": {
+		"Title": "Anda tidak terhubung ke",
+		"Desc": "Untuk menggunakan fitur di bawah ini, Anda harus terhubung dengan",
+		"List1": "Lihat status WiFi, router, dan koneksi.",
+		"List2": "Pengaturan perangkat",
+		"List3": "Konfigurasi SSID dan koneksi otomatis",
+		"List4": "Pengaturan detail admin",
+		"List5": "Konfigurasi screen time/batas penggunaan"
+	},
+	"HelpEmailScreen": {
+		"Headline": "Tinggalkan pesan Anda",
+		"Inquiry": "Pertanyaan",
+		"Refund": "Pengembalian",
+		"InquiryForm": {
+			"Title": "Formulir Pertanyaan",
+			"Subtitle": "Untuk informasi selengkapnya, kami akan menghubungi Anda dalam 1-2 hari",
+			"SubtitleReskin": "Kami akan mengirimkan informasi lebih lanjut tentang masalah Anda dalam 1-2 hari kerja.",
+			"NameLabel": "Nama",
+			"EmailLabel": "Alamat Email",
+			"SubjectLabel": "Subjek",
+			"DescriptionLabel": "Deskripsi",
+			"DescriptionNotes": "Mohon deskripsikan detail masalah Anda agar kami dapat membantu Anda dengan maksimal.",
+			"DescriptionNotesReskin": "Silakan deskripsikan masalah Anda dengan jelas.",
+			"CategoryLabel": "Kategori",
+			"SubCategoryLabel": "Sub-kategori",
+			"CustomerName": "Nama Pelanggan (Pilihan)",
+			"AttachmentLabel": "Lampiran",
+			"AddAttachmentLabel": "Tambahkan lampiran",
+			"ButtonAction": "Kirim",
+			"PlaceholderEmail": "Contoh: example@gmail.com",
+			"PlaceholderSubject": "Contoh: Koneksi tidak stabil",
+			"PlaceHolderDescription": "Contoh: Internet sering terputus dan modem harus sering di-restart"
+		},
+		"RefundForm": {
+			"Title": "Formulir Pengembalian",
+			"RefundReason": "Alasan Pengembalian (pilihan)",
+			"Modified": "Apakah hardware/software sudah pernah di modifikasi ? (pilihan)",
+			"Payment": "Metode Pembayaran (pilihan)"
+		},
+		"SuccessSend": {
+			"Title": "Pertanyaan Anda Sudah Diterima",
+			"Desc": "Kami akan memproses pertanyaan Anda dalam waktu 1-2 hari.",
+			"ButtonAction": "Selesai"
+		},
+		"FailedAttachment": {
+			"Title": "Lampiran kosong",
+			"Desc": "Lampiran anda tidak boleh kosong",
+			"ButtonAction": "Coba Lagi"
+		},
+		"Failed": {
+			"Title": "Gagal Terkirim",
+			"Desc": "Masukan anda gagal terkirim silahkan coba lagi",
+			"ButtonAction": "Coba Lagi"
+		},
+		"Validation": {
+			"Name": "Nama tidak boleh kosong",
+			"Email": "Email tidak boleh kosong",
+			"EmailFailed": "Tolong isi email Anda dengan benar",
+			"EmailFailed2": "Tolong isi email Anda",
+			"Subject": "Subject tidak boleh kosong",
+			"Desc": "Deskripsi tidak boleh kosong"
+		}
+	},
+	"LoginLanguageScreen": {
+		"TitleScreen": "Nikmati jaringan Orbit dengan login dan aktivasi modem",
+		"TitleScreenReskin": "Selamat datang di Telkomsel Orbit! Silakan mulai dengan login atau aktivasi modem",
+		"ButtonActionLogin": "Login",
+		"ButtonActionLoginSubtitle": "Kunjungi beranda dan cek status pengiriman.",
+		"getOrbitFromTheOutlet": "Aktivasi Modem",
+		"getOrbitFromTheOutletSubtitle": "Modem sudah sampai? Aktifkan sekarang.",
+		"GetOrbitNotes": "Belum memiliki orbit?",
+		"ButtonActionGetOrbit": "Dapatkan Orbit",
+		"ModemDescription": "Punya modem Orbit baru?",
+		"ActivationDescription": "Aktivasi di sini",
+		"Or": "atau",
+		"PopUpCrash": {
+			"Title": "Aplikasi MyOrbit Telah Berhenti",
+			"Desc": "Silakan logout dan bersihkan cache di perangkat Anda sebelum membuka aplikasi kembali.",
+			"ButtonAction": "Ok"
+		},
+		"PopUpRooted": {
+			"Title": "Rooted Device",
+			"Desc": "Kami mendeteksi perangkat Anda telah dimodifikasi (Rooting/Jailbreak/Xposed). Untuk keamanan akun Anda segera kembalikan perangkat Anda ke pengaturan awal",
+			"ButtonAction": "Keluar"
+		}
+	},
+	"CFactoryReset": {
+		"Title": "Atur Ulang Modem",
+		"Description": "Kami mendeteksi perubahan pengaturan standar modem Anda. Hubungkan ulang untuk menggunakan modem Telkomsel Orbit.",
+		"DescriptionIsReset": "Proses selanjutnya akan menghapus pengaturan modem Anda saat ini dan tidak akan mempengaruhi paket data Anda",
+		"DescriptionIsResetReskin": "Proses ini akan menghapus pengaturan modem saat ini dan tidak akan memengaruhi paket data Anda.",
+		"ButtonHubungkan": "Hubungkan Ulang",
+		"ButtonAccept": "Lanjutkan",
+		"ButtunNantiSaja": "Batal"
+	},
+	"CPopupResetModem": {
+		"Title": "Tekan Tombol Reset",
+		"Title2": "Matikan Mobile Data di Handphone Anda",
+		"Title3": "Pastikan Anda Tidak Tersambung dengan Koneksi WiFi Lain",
+		"Description": "Tusuk dan tahan selama 5 detik lubang yang berada di belakang modem Anda dengan pin untuk pengaturan ulang modem.",
+		"DescriptionTop": "Temukan tombol \"RESET\" (terletak di belakang/atas/bawah modem) dan tekan selama 3 detik untuk mengatur ulang modem Anda.",
+		"DescriptionBottom": "Tusuk lubang yang berada di bawah modem selama 3 detik dengan pin yang sesuai terlebih dahulu untuk mengatur ulang modem Anda.",
+		"Description2": "Pastikan mobile data perangkat Anda tidak aktif agar perangkat dapat terhubung ke jaringan WiFi Telkomsel Orbit",
+		"Description3": "Hapus jaringan WiFi selain dari Telkomsel Orbit yang terhubung ke perangkat Anda di menu Pengaturan",
+		"buttonModemReseted": "Sudah Reset",
+		"buttonCreateReport": "Buat Laporan",
+		"buttonCancel": "Batal",
+		"NextStep": "Lihat Langkah Selanjutnya",
+		"buttonDone": "Selesai",
+		"ModalResetData": {
+			"Desc": "Terjadi kesalahan pada sistem saat melakukan reset data",
+			"Desc2": "silahkan coba lagi.",
+			"ButtonAction": "Coba Lagi"
+		}
+	},
+	"StatisticUsage": {
+		"Title": "Statistik Pemakaian",
+		"AmonthAgo": "Bulan lalu",
+		"ThisMonth": "Bulan ini",
+		"SeeUsageDaily": "Rata-rata harian",
+		"ListApplication": "Daftar Aplikasi",
+		"More": "Lainnya",
+		"DataNotAccurate": "Data disesuaikan dan mungkin tidak sepenuhnya akurat",
+		"TitleNoData": "Belum ada data yang tersedia",
+		"ButtonDone": "Selesai",
+		"ButtonNext": "Lanjut",
+		"Coachmark": {
+			"LastMonth": {
+				"Title": "Bulan lalu",
+				"Subtitle": "Di sini, Telkomsel Orbit akan menampilkan statistik pemakaian internet di bulan lalu"
+			},
+			"ThisMonth": {
+				"Title": "Bulan ini",
+				"Subtitle": "Di Tab ini, Anda dapat melihat statistik penggunaan internet di bulan ini"
+			},
+			"DataPackageTotal": {
+				"Title": "Total quota",
+				"Subtitle": "Telkomsel Orbit menampilkan total penggunaan paket data per bulan dan menghitung rata-rata penggunaan per hari."
+			},
+			"DailyUse": {
+				"Title": "Pemakaian harian",
+				"Subtitle": "Grafik ini akan memudahkan Anda menganalisis penggunaan internet setiap harinya, Ini akan membantu Anda memantau pemakaian paket data modem Anda."
+			},
+			"Aplication": {
+				"Title": "Aplikasi",
+				"Subtitle": "Di sini, Anda dapat melihat total paket data yang telah digunakan untuk aplikasi yang ada di perangkat Anda."
+			}
+		},
+		"PopupFailedUsageStatistic": {
+			"Title": "Gagal memuat data",
+			"Desc": "Terjadi kesalahan pada sistem saat mendapatkan data statistik Anda, silakan coba beberapa saat lagi.",
+			"Button": "Mengerti"
+		},
+		"PopupListApplication": {
+			"Title": "Daftar Aplikasi",
+			"Description": "Menampilkan daftar aplikasi dengan total pemakaian paket datanya."
+		}
+	},
+	"AdvanceSettingScreen": {
+		"FactoryReset": "Pengaturan Pabrik",
+		"FactoryResetReskin": "Pengaturan Pabrik",
+		"SystemPassword": "Password Sistem",
+		"Modem": "Modem",
+		"Account": "Akun",
+		"ChangeAccount": "Ubah Akun Email",
+		"DeleteAccount": "Hapus Akun",
+		"FullName": "Nama Lengkap",
+		"EmailAddress": "Alamat Email",
+		"Change": "Ubah",
+		"Popup": {
+			"Label": "Ya",
+			"Subtitle": "Mengubah email juga akan mengubah akun Telkomsel Orbit Anda. Untuk membuat akun baru, Anda perlu melakukan pendaftaran ulang. Lanjutkan?",
+			"ErrorTitle": "Anda Mencapai Limit Pergantian Email",
+			"ErrorSubtitle": "Silakan coba lagi untuk mengubah email akun Telkomsel Orbit Anda di bulan selanjutnya.",
+			"PrimaryButtonTitle": "Kembali ke Halaman Utama"
+		},
+		"EmailSent": {
+			"Heading": "Link Perubahan Akun Terkirim",
+			"Subtitle": "Anda akan logout dari akun ini secara otomatis, silakan cek email untuk melihat link perubahan akun. Anda dapat login kembali ke akun Telkomsel Orbit setelah perubahan akun selesai dengan login menggunakan email baru yang telah terdaftar.",
+			"Button": "Login"
+		}
+	},
+	"AdvancePasswordScreen": {
+		"SystemPassword": "Password Sistem",
+		"CopyPassword": "Salin Password",
+		"CopyClipboard": "Berhasil menyalin password!"
+	},
+	"CFactoryAdminPassword": {
+		"Title": "Informasi Sensitif",
+		"Description": "Halaman ini mengandung password admin, apakah Anda ingin membuka halaman ini?",
+		"DescriptionReskin": "Membuka halaman ini untuk melihat password sistem akan membuat garansi 7 hari modem hangus. Apakah Anda ingin melanjutkan?",
+		"ButtonConfirm": "Lanjutkan",
+		"ButtonCancel": "Batal"
+	},
+	"TutorialManualWifi": {
+		"Title": "Hubungkan Modem",
+		"TitleSetting": "Pengaturan Modem",
+		"Step1Title": "Nyalakan Modem",
+		"Step1Desc": "Pasang modem ke adaptor listrik yang tersedia dan tunggu sekitar 2 menit sampai lampu indikator power menyala",
+		"Step1Button": "Modem Sudah Dinyalakan",
+		"Step2Title": "Buka Pengaturan Perangkat",
+		"Step2Desc": "Hubungkan perangkat Anda ke jaringan WiFi Orbit di Pengaturan",
+		"Step2Button": "Lihat Langkah Selanjutnya",
+		"Step3Title": "Pilih Nama WiFi dan Masukkan Password",
+		"Step3Ssid": "Nama WiFi",
+		"Step3Password": "Password WiFi",
+		"Step3Button": "Saya Sudah Terhubung ke Orbit"
+	},
+	"TutorialManualWifiReskin": {
+		"TitlePage": "Hubungkan Modem",
+		"TitleSettingPage": "Pengaturan Modem",
+		"Android": {
+			"Title": "Hubungkan Perangkat ke Jaringan",
+			"Subtitle": "Di Pengaturan WiFi perangkat Anda, pilih nama WiFi dan masukkan password WiFi Telkomsel Orbit.",
+			"WifiName": "Nama WiFi",
+			"WifiPassword": "Password WiFi",
+			"Button": "Lanjutkan"
+		},
+		"Ios": {
+			"Step1": {
+				"Title": "Nyalakan Modem",
+				"SubTitle": "Pasang modem ke adaptor listrik yang tersedia dan tunggu sekitar 2 menit sampai lampu indikator power menyala",
+				"Button": "Modem Sudah Dinyalakan"
+			},
+			"Step2": {
+				"Title": "Buka Pengaturan Perangkat",
+				"SubTitle": "Hubungkan perangkat Anda ke jaringan WiFi Orbit di Pengaturan",
+				"Button": "Lihat Langkah Selanjutnya"
+			},
+			"Step3": {
+				"Title": "Hubungkan Perangkat",
+				"SubTitle": "Pilih nama WiFi dan masukkan password WiFi Telkomsel Orbit",
+				"WifiName": "Nama WiFi",
+				"WifiPassword": "Password WiFi",
+				"Button": "Saya Sudah Terhubung ke Orbit"
+			}
+		}
+	},
+	"AdvanceSettingPairingScreen": {
+		"Title": "Pengaturan Lanjutan",
+		"Description": "Konfigurasi Modem Aplikasi MyOrbit harus terhubung kembali ke sistem konfigurasi modem. Perubahan apa pun akan bersifat permanen.",
+		"ButtonConfirm": "Konfigurasi",
+		"ButtonCancel": "Kembali"
+	},
+	"AdvanceSettingConfigScreen": {
+		"Title": "Pengaturan Lanjutan",
+		"SystemPassword": "Password Sistem",
+		"FailedPassword": "Password Minimum 8 Karakter",
+		"FailedPassword2": "Konfirmasi Password tidak sama dengan Password",
+		"ButtonConfirm": "Lanjutkan"
+	},
+	"TurnOffMobileData": {
+		"Title": "Matikan Mobile Data di Handphone Anda",
+		"SubTitle": "Pastikan mobile data perangkat Anda tidak aktif agar perangkat dapat terhubung ke jaringan WiFi Telkomsel Orbit",
+		"Button": "Lanjutkan"
+	},
+	"CSurvey": {
+		"Title": "Berikan Pendapat Anda",
+		"Subtitle": "Seberapa mungkinkah Anda merekomendasikan Telkomsel Orbit ke keluarga dan teman Anda?",
+		"ButtonAction": "Kirim",
+		"IndicatorNegative": "Sangat Tidak Mungkin",
+		"IndicatorPositive": "Sangat Mungkin",
+		"TextInputPlaceholder": "Yang paling saya suka dari Telkomsel Orbit...",
+		"SuccessSubmit": {
+			"Title": "Tanggapan Anda Telah Kami Terima",
+			"Subtitle": "Terima kasih atas tanggapan Anda. Kami menghargai keterlibatan Anda dalam membantu meningkatkan kualitas layanan Telkomsel Orbit.",
+			"ButtonAction": "Kunjungi Beranda",
+			"ButtonRatingGooglePlay": "Berikan Rating di Google Play"
+		},
+		"FailedSubmit": {
+			"Title": "Tanggapan Anda Gagal Dikirim",
+			"Subtitle": "Telah terjadi kesalahan pada sistem, silahkan ulangi kembali.",
+			"ButtonAction": "Kembali"
+		}
+	},
+	"OnBoarding": {
+		"WantToAskSomething": "Ingin Bertanya Tentang Telkomsel Orbit"
+	},
+	"ProfileScreen": {
+		"Title": "Profil Pengguna",
+		"ValidUntilTitle": "Berlaku hingga:",
+		"BalanceTitle": "Pulsa",
+		"UsageTitle": "Pemakaian",
+		"FromLimitTitle": "Dari batas",
+		"HistoryTransactionTitle": "Riwayat Transaksi",
+		"ShareDescriptionTitle": "Ayo! Ajak teman dan keluarga bergabung dengan Telkomsel Orbit, dapatkan tambahan paket data 5GB!",
+		"ShareButtonTitle": "Undang Teman",
+		"OtherMenu": {
+			"AdvanceSettingTitle": "Pengaturan Lanjutan",
+			"FeedbackTitle": "Tanggapan Anda",
+			"LogoutTitle": "Logout"
+		},
+		"UpdateProfile": {
+			"DescriptionTitle": "Tinggal sedikit lagi untuk lengkapi info akun Anda!",
+			"CTAButtonTitle": "Lengkapi"
+		}
+	},
+	"HistoryTransactionScreen": {
+		"Title": "Riwayat Transaksi",
+		"OngoingTitle": "Berlangsung",
+		"CompleteTitle": "Selesai",
+		"Status": {
+			"PaidTitle": "Selesai",
+			"PendingTitle": "Sedang diproses",
+			"FailedTitle": "Kedaluwarsa"
+		},
+		"EmptyTransaction": {
+			"Title": "Tidak ada transaksi aktif",
+			"DescriptionTitle": "Anda dapat melihat status pembayaran transaksi di sini."
+		},
+		"ErrorTransaction": {
+			"Title": "Terjadi Kesalahan Sistem",
+			"DescriptionTitle": "Silakan ulangi beberapa saat lagi.",
+			"PrimaryButtonTitle": "Coba Lagi"
+		}
+	},
+	"ErrorCheckTransactionPopup": {
+		"Title": "Terjadi Kesalahan Sistem",
+		"DescriptionTitle": "Silakan ulangi beberapa saat lagi.",
+		"PrimaryButtonTitle": "Mengerti"
+	},
+	"HistoryTransactionDetailScreen": {
+		"Title": "Detail Transaksi",
+		"SummaryTitle": "Ringkasan Belanja",
+		"TotalPaymentTitle": "Total Pembayaran",
+		"DetailPaymentTitle": "Detail Pembayaran",
+		"PaymentMethodTitle": "Metode Pembayaran",
+		"DateTimeTitle": "Tanggal dan waktu transaksi",
+		"InvoiceNumberTitle": "Nomor Invoice",
+		"TransactionIDTitle": "ID Transaksi",
+		"DownloadInvoiceTitle": "Download Invoice",
+		"PrimaryButtonTitle": "Pesan Ulang",
+		"SecondaryButtonTitle": "Butuh Bantuan?"
+	},
+	"TransactionProgressScreen": {
+		"TransactionTitle": "Transaksi diproses",
+		"DescriptionTitle": "Paket data akan segera diaktifkan.",
+		"DescriptionTimeTitle": "Selesaikan pembayaran dalam:",
+		"PaymentMethodTitle": "Metode Pembayaran",
+		"VANumberTitle": "Nomor Virtual Account",
+		"DateTimeTitle": "Tanggal dan waktu transaksi",
+		"TransactionIDTitle": "ID Transaksi",
+		"TotalPaymentTitle": "Total Pembayaran",
+		"ValidForTitle": "Berlaku",
+		"PrimaryButtonDashboardTitle": "Kembali ke Beranda",
+		"PrimaryButtonCheckTitle": "Saya Sudah Membayar",
+		"PrimaryButtonInboxTitle": "Lihat Inbox Notifikasi",
+		"SecondaryButtonTitle": "Lihat Cara Bayar",
+		"HowToPayTitle": "Cara bayar",
+		"CloseTitle": "Tutup"
+	},
+	"TransactionPendingPopup": {
+		"Title": "Memproses transaksi Anda",
+		"DescriptionTitle": "Paket akan segera diaktifkan, silakan tunggu beberapa saat.",
+		"PrimaryButtonViewTitle": "Lihat Riwayat Transaksi",
+		"PrimaryButtonBackTitle": "Kembali ke Riwayat Transaksi",
+		"SecondaryButtonTitle": "Kembali ke Beranda"
+	},
+	"UsageStatisticScreen": {
+		"Title": "App & Web Favorit Anda",
+		"LastMonthTitle": "Bulan lalu",
+		"ThisMonthTitle": "Bulan ini",
+		"AppListTitle": "Daftar App & Web",
+		"AppListDescriptionTitle": "Data ini bersifat estimasi dan tidak sepenuhnya akurat. Anda dapat menggunakannya untuk mengontrol pemakaian aplikasi & website dari modem.",
+		"AverageTitle": "Rata-rata:",
+		"DayTitle": "hari",
+		"OthersTitle": "Lainnya",
+		"EstimationTitle": "(perkiraan)",
+		"Tooltip": {
+			"OtherAppTitle": "terdiri dari aplikasi dengan penggunaan kuota rendah (<0.01 MB/hari) dan aplikasi yang tidak teridentifikasi oleh MyOrbit. Angka yang tertera merupakan angka estimasi dan mungkin tidak sepenuhnya akurat.",
+			"StoreAppTitle": "Kuota terpakai untuk update aplikasi ini. Jika kuota tidak ingin terpakai, silakan ubah pengaturan perangkat Anda."
+		},
+		"EmptyData": {
+			"Title": "Belum ada data yang tersedia"
+		},
+		"ErrorData": {
+			"Title": "Gagal Menampilkan Halaman",
+			"DescriptionTitle": "Terjadi kesalahan saat memuat halaman ini. Silakan coba lagi.",
+			"PrimaryButtonTitle": "Muat Ulang"
+		}
+	},
+	"UsageStatisticDetailScreen": {
+		"Title": "Pemakaian Harian",
+		"OthersTitle": "Lainnya",
+		"EstimationTitle": "(perkiraan)"
+	},
+	"UserProfile": {
+		"Title": "Profil Pengguna",
+		"EditTitle": "Ubah Profil",
+		"YourCredit": "Pulsa Anda",
+		"YourCreditReskin": "Pulsa:",
+		"LastTransaction": "Transaksi Terakhir",
+		"SeeAll": "Lihat Semua",
+		"Purchase": "Pembelian",
+		"OrderAgain": "Pesan Ulang",
+		"InviteYourFriend": "Ayo! Ajak teman dan keluarga bergabung dengan Orbit, dapatkan tambahan kuota 5GB!",
+		"InviteYourFriendReskin": "Ayo! Ajak teman dan keluarga bergabung dengan Orbit, dapatkan tambahan paket data 5GB!",
+		"ReferralCode": "Kode Referral :",
+		"InviteYourFriendNow": "Ajak Teman Sekarang",
+		"InviteYourFriendNowReskin": "Undang Teman",
+		"Help": "Bantuan",
+		"Logout": "Log Out",
+		"LogoutReskin": "Logout",
+		"TitleModalLogout": "Log Out dari Orbit",
+		"SubtitleModalLogout": "Apa Anda yakin untuk log out dari Orbit?",
+		"TitleDetail": "Riwayat Transaksi",
+		"ConnectWithFacebook": "Terhubung dengan facebook",
+		"Setting": "Pengaturan Lanjutan",
+		"ValidUntil": "Berlaku s/d :",
+		"ValidUntilReskin": "Berlaku hingga:",
+		"TitleHistory": "Riwayat Transaksi",
+		"SubtitleHistory": "Hanya menampilkan riwayat transaksi pada 3 bulan terakhir.",
+		"Feedback": "Tanggapan Anda",
+		"UpdateProfile": {
+			"ProfileTextUpdate": "Tinggal sedikit lagi untuk lengkapi info akun Anda!",
+			"ProfileText2Update": "Yuk, lengkapi profil Anda sekarang!",
+			"ProfileText3Update": "Untuk menerima info terbaru, promo, dan surprise dari Orbit di hari ulang tahun Anda!",
+			"TermsTextUpdate": "Syarat & Ketentuan Berlaku",
+			"ProfileButtonTextUpdate": "Lengkapi",
+			"Form": {
+				"Name": "Nama",
+				"RegisteredEmail": "Email yang Terdaftar",
+				"RegisteredPhoneNumber": "Nomor HP yang Terdaftar",
+				"Email": "Email",
+				"PhoneNumber": "Nomor HP",
+				"BirdDate": "Tanggal Lahir",
+				"PlaceholderPhone": "628xxxxxxxxxx",
+				"PlaceholderEmail": "name@gmail.com",
+				"PlaceholderDate": "DD/MM/YY"
+			},
+			"FormValidation": {
+				"FullNameEmpty": "Tolong isi Nama Lengkap Anda",
+				"PhoneNumberEmpty": "Tolong isi Nomor Telepon Anda",
+				"FullNameIncorrect": "Nama Lengkap Tidak Sesuai",
+				"PhoneNumberIncorrect": "Nomor Telepon Tidak Sesuai",
+				"EmailIncorrect": "Email Tidak Sesuai",
+				"PhoneLength": "Mohon masukkan 10-16 nomor phone Anda",
+				"DateEmpty": "Tanggal lahir tidak boleh kosong",
+				"DateLower": "Usia tidak boleh di bawah 13 tahun"
+			},
+			"Error": {
+				"ErrorEmail": "Email Tidak Valid",
+				"PopupTitle": "Tanggal lahir hanya dapat diubah 1 tahun sekali",
+				"PopupMessage": "Terakhir diubah",
+				"PopupButton": "Mengerti"
+			},
+			"ModalDiscardChanges": {
+				"Title": "Batalkan Perubahan?",
+				"Description": "Meninggalkan halaman ini akan menghapus perubahan yang telah Anda buat. Apakah Anda yakin?",
+				"Button": {
+					"Accept": "Ya, batalkan perubahan",
+					"Cancel": "Kembali"
+				}
+			},
+			"ErrorResult": {
+				"BAU": {
+					"Title": "Ubah Profil Gagal",
+					"Description": "Maaf terjadi kesalahan pada sistem kami saat mengubah profil Anda, Silakan coba lagi."
+				},
+				"CIAM": {
+					"Title": "Ubah Profil Gagal",
+					"Description": "Maaf terjadi kesalahan pada sistem saat mengubah profil Anda, Silakan coba lagi."
+				}
+			}
+		},
+		"TransactionDetails": {
+			"TransactionDetail": "Detail Transaksi",
+			"TransactionDetailReskin": "Transaksi",
+			"Title": "Lihat Detail Transaksi",
+			"ShoppingSummary": "Ringkasan Belanja",
+			"ShoppingSummaryReskin": "Ringkasan Belanja",
+			"SuccessPaymentTitleReskin": "Pembayaran berhasil",
+			"SuccessPaymentSubTitleReskin": "Paket data akan segera diaktifkan",
+			"BadgePackageActivatedTitle": "Paket data akan segera diaktifkan dalam waktu ",
+			"BadgePackageActivatedTitleTime": "1x24 Jam",
+			"PackageDataValidity": "Berlaku untuk",
+			"ProductDetail": "Termasuk",
+			"SubscriptionMonth": "Bulan Berlangganan",
+			"DataPackage": "Paket Data",
+			"Valid": "Berlaku",
+			"Day": "hari",
+			"TotalModemDataPackage": "Total Modem",
+			"ShippingCosts": "Biaya Pengiriman",
+			"AdministrationCosts": "Biaya Administrasi",
+			"TotalPayment": "Total Pembayaran",
+			"TotalPackageAddOn": "Total",
+			"TotalPaymentReskin": "Total Pembayaran",
+			"PaymentDetail": "Detail Pembayaran",
+			"TransactionId": "ID Transaksi",
+			"See": "LIHAT",
+			"SeeReskin": "Lihat",
+			"TransactionDate": "Tanggal dan waktu transaksi",
+			"TransactionDateReskin": "Tanggal dan waktu transaksi",
+			"PaymentMethod": "Metode Pembayaran",
+			"PromoUsed": "Kode promo yang digunakan",
+			"YouGetDiscount": "Anda mendapatkan potongan sebesar",
+			"PromoEnterpriseUsed": "Kode promo yang digunakan",
+			"YouGet": "Anda mendapatkan ",
+			"ReferralCodeUsed": "Kode Referral yang digunakan",
+			"YouGetDataPackage": "Anda mendapatkan paket data sebesar",
+			"OrderAgain": "Pesan Ulang",
+			"dataPackageBonus": "Bonus Paket Data",
+			"FamilyMembers": "Anggota Keluarga",
+			"Package": "Paket",
+			"PercentageTax": "Harga sudah termasuk PPN 11%",
+			"ProofPayment": "Bukti pembayaran elektronik ini sah tanpa tanda tangan dan cap.",
+			"Invoice": {
+				"title": "Download Invoice",
+				"title2": "File Invoice Masih Dalam Proses",
+				"message": "Apakah Anda yakin ingin download invoice?",
+				"message2": "Invoice tidak ditemukan atau masih dalam proses, silahkan tunggu beberapa saat lagi untuk mengunduh file invoice.",
+				"Yes": "Ya",
+				"No": "Tidak",
+				"Date": "Tanggal",
+				"DeliveryTrackingNumber": "Nomor Resi Pengiriman",
+				"InvoiceNumber": "Nomor Invoice",
+				"Qty": "Jumlah",
+				"CustomerNumber": "Nomor pelanggan",
+				"PaymentSummary": "Ringkasan Pembayaran",
+				"Receipt": "Receipt",
+				"Promo": "Promo",
+				"Price": "Total Harga",
+				"Item": "Barang",
+				"QuotaAddOn": "Paket Data Orbit",
+				"FeeAdministration": "Biaya Administrasi",
+				"Interest": "Biaya Bunga"
+			}
+		},
+		"TransactionHistory": {
+			"title": "Riwayat Transaksi",
+			"NotYetPaid": "BELUM DIBAYAR",
+			"NotYetPaidReskin": "Belum Dibayar",
+			"Done": "SELESAI",
+			"DoneReskin": "Selesai",
+			"subtitle1": "Paket data akan segera diaktifkan dalam waktu 1x24 Jam",
+			"subtitle2": "Paket data akan segera diaktifkan",
+			"subtitle3": "Sisa waktu pembayaran",
+			"subtitle4": "Sedang Menunggu Pembayaran",
+			"PayNow": "Bayar Sekarang",
+			"Canceled": "Dibatalkan",
+			"Reversal": "Dikembalikan",
+			"Shipment": "Masa Pengiriman",
+			"Success": "Sukses",
+			"Failed": "Gagal",
+			"Expired": "Kedaluwarsa",
+			"Info": "Informasi Pesanan",
+			"WaitingPayment": "Menunggu Pembayaran",
+			"NoTransactions": {
+				"title1": "Anda tidak memiliki riwayat transaksi",
+				"title2": "Anda tidak memiliki riwayat transaksi yang sedang diproses saat ini",
+				"TitleReskin": "Anda belum memiliki riwayat transaksi"
+			}
+		},
+		"InsuranceInfo": {
+			"PriceTitle": "Asuransi Pengiriman"
+		}
+	},
+	"MismatchMsisdn": {
+		"PopupHeaderTitle": "SIM Tidak Sesuai",
+		"PopupTitle": "Perbedaan Nomor Kartu SIM di Kemasan",
+		"PopupSubTitle": "Nomor kartu SIM Anda tidak sesuai. Klik Buat Laporan untuk mengajukan kendala Anda kepada Tim Telkomsel Orbit.",
+		"PopupButton": "Buat Laporan",
+		"FormAlertImageSize": "Ukuran gambar tidak boleh lebih dari 10MB",
+		"FormHeaderTitle": "Buat Laporan",
+		"FormTitle": "Kirim Laporan Anda",
+		"FormReportType": "Jenis Laporan",
+		"FormReport": "Data Modem Tidak Sesuai",
+		"FormWhatsAppTextField": "No Whatsapp Anda",
+		"FormReportTextField": "Isi Laporan (opsional)",
+		"FormImageCaption": "Foto Bagian Bawah Modem",
+		"FormImageCaption2": "Foto Kemasan Kartu SIM",
+		"FormHowToReport": "Cara Pengisian Laporan",
+		"FormReportDescription1": "Tulis nomor WhatsApp Anda dan deskripsikan kendala yang dimiliki.",
+		"FormReportDescription2": "Lampirkan foto bagian bawah modem dan kemasan kartu SIM untuk menunjukkan kondisi modem Anda.",
+		"FormButton": "Kirim Laporan",
+		"CallBackPopupSuccessErrorToast": "Nomor SIM masih belum sama",
+		"CallBackPopupSuccessTitle": "Nomor Kartu SIM Sudah Sesuai",
+		"CallBackPopupSuccessSubTitle": "Klik Lanjutkan untuk ke proses pendaftaran kartu SIM.",
+		"CallBackPopupSuccessButton": "Lanjutkan",
+		"CallBackPopupTitle": "Laporan Sudah Terkirim",
+		"CallBackPopupSubTitle": "Laporan sedang diproses dan aktivasi modem dapat dilakukan kembali dalam waktu maksimal 1x24 jam. Notifikasi mengenai laporan ini akan kami kirim ke Email Anda."
+	},
+	"Feedback": {
+		"FeedbackFormHeader": "Beri Tanggapan",
+		"FeedbackFormHeaderReskin": "Beri Tanggapan Anda",
+		"FeedbackFormTitle": "Berikan Tanggapan Anda",
+		"FeedbackFormSubTitle": "Tanggapan Anda penting demi memaksimalkan pelayanan Telkomsel Orbit agar lebih sesuai dengan kebutuhan Anda.",
+		"FeedbackFormSubTitleReskin": "Kami sangat menghargai Anda meluangkan waktu untuk memberikan kritik dan saran demi meningkatkan kualitas layanan.",
+		"FeedbackFormTextFieldLabel": "Tanggapan",
+		"FeedbackFormTextFieldMax3StarLabel": "Apa yang bisa kami tingkatkan?",
+		"FeedbackFormTextFieldMax5StarLabel": "Terima kasih atas penilaiannya! Apa yang Anda sukai?",
+		"FeedbackFormPlaceholder": "Tulis tanggapan Anda di sini",
+		"FeedbackFormButton": "Kirim",
+		"FeedbackSuccessTitle": "Tanggapan Anda Telah Kami Terima",
+		"FeedbackSuccessSubTitle": "Terima kasih atas tanggapan Anda. Kami menghargai keterlibatan Anda dalam membantu meningkatkan kualitas layanan Telkomsel Orbit.",
+		"FeedbackSuccessSubTitleMax3StarReskin": "Mohon maaf atas ketidaknyamanannya, kami menghargai kontribusi Anda dalam meningkatkan layanan Telkomsel Orbit.",
+		"FeedbackSuccessSubTitleMax5StarReskin": "Terima kasih telah memilih Telkomsel Orbit! Kami berharap untuk selalu memberikan Anda pengalaman terbaik dengan layanan kami.",
+		"FeedbackSuccessButton": "Kembali ke Beranda",
+		"FeedbackSuccessButtonReskin": "Lanjutkan"
+	},
+	"BlacklistScreen": {
+		"PopupTitle": "Anda Belum Mengaktifkan atau Menambah URL",
+		"PopupSubtitle": "Aktifkan atau tambahkan URL website yang diinginkan untuk menggunakan filter domain.",
+		"PopupButton": "Mengerti",
+		"Title": "Website Filtering",
+		"Title2": "Website Terblokir",
+		"NoData": "Tap",
+		"NoData2": "untuk menambahkan URL",
+		"NoData2Reskin": "untuk menambahkan website",
+		"NoData3": "yang ingin Anda blokir",
+		"ButtonEdit": "Ubah",
+		"PopupFailedActivation": {
+			"Title": "Gagal Mengaktifkan Website Filtering",
+			"Desc": "Mohon periksa kembali website yg Anda daftarkan, pastikan url yang Anda masukkan benar dan tidak terdapat url yang duplikat.",
+			"Button": "Mengerti"
+		},
+		"PopupFailedLimit": {
+			"Title": "Anda Telah Mencapai Limit Website Filtering",
+			"Desc": "Anda tidak bisa menambahkan URL baru karena Anda hanya dapat memiliki 32 URL/ kategori di Website Filtering. Hapus salah satu URL/kategori atau lebih untuk menambahkan URL/kategori baru.",
+			"Button": "Mengerti"
+		},
+		"PopupFailedLimitReskin": {
+			"Title": "Anda telah mencapai limit website filtering",
+			"Desc": "Hanya dapat memblokir maks. 32 alamat website. Hapus salah satu atau lebih untuk memblokir website lainnya.",
+			"Button": "Mengerti"
+		},
+		"PopupFailedAction": {
+			"Title": "Gagal Melakukan Aksi",
+			"Desc": "Sialahkan tutup dan buka kembali aplikasi My Orbit.",
+			"Button": "Tutup"
+		}
+	},
+	"AddingDomainBlacklist": {
+		"TitleAdd": "Blokir Website",
+		"TitleChange": "Ubah URL",
+		"TitleChangeReskin": "Blokir Website",
+		"Recommendation": "Pilih dari Rekomendasi",
+		"Manual": "Atau Tambah URL Secara Manual",
+		"ManualReskin": "Atau Tulis Alamat Website",
+		"WebsiteName": "Nama Website (Opsional)",
+		"WebsiteUrl": "URL",
+		"WebsiteUrlReskin": "Alamat Website",
+		"WebsiteUrlExample": "contoh : website.com",
+		"Failed": "Gagal",
+		"Add": "Menambahkan",
+		"Change": "Merubah",
+		"FailedBlockWebsite": "Gagal Memblokir Website",
+		"NotConnected": "Perangkat Anda tidak terkoneksi dengan modem, silahkan kembali dan refresh untuk terkoneksi dengan modem.",
+		"NotConnectedReskin": "Perangkat Anda tidak terhubung ke modem. Pastikan modem sudah terhubung untuk memblokir website.",
+		"ButtonSave": "Simpan",
+		"ButtonDelete": "Hapus",
+		"PopupSuccess": {
+			"Title": "Berhasil",
+			"Desc": "Berhasil menambahkan",
+			"Button": "Lanjutkan"
+		},
+		"PopupSuccessReskin": {
+			"Title": "Website Berhasil Diblokir",
+			"Desc": "Perangkat terhubung tidak dapat mengakses website ini selama website filtering sedang aktif.",
+			"Button": "Mengerti"
+		},
+		"PopupFailed": {
+			"Title": "Gagal",
+			"Desc": "Gagal Menambahkan",
+			"Button": "Coba Lagi"
+		},
+		"PopupSuccessEdit": {
+			"Title": "Berhasil",
+			"Desc": "Berhasil mengubah",
+			"Button": "Lanjutkan"
+		},
+		"PopupFailedEdit": {
+			"Title": "Gagal",
+			"Desc": "Gagal mengubah",
+			"Button": "Coba Lagi"
+		},
+		"PopUpNoDataAdd": {
+			"Title": "Isi Kolom URL atau Pilih Kategori",
+			"Desc": "Silakan masukkan URL website atau pilih kategori yang sesuai sebelum menyimpan.",
+			"Button": "Mengerti"
+		},
+		"PopUpNoDataAddReskin": {
+			"Title": "Isi alamat website atau pilih kategori",
+			"TitleZTE": "Isi alamat website",
+			"DescZTE": "Silakan masukkan alamat website yang sesuai sebelum menyimpan.",
+			"Desc": "Silakan masukkan alamat website atau pilih kategori yang sesuai sebelum menyimpan.",
+			"Button": "Mengerti"
+		},
+		"PopUpNoDataEdit": {
+			"Title": "Isi Kolom URL",
+			"Desc": "Silakan masukkan URL website yang sesuai sebelum menyimpan.",
+			"Button": "Mengerti"
+		},
+		"PopupDelete": {
+			"Title": "Hapus URL",
+			"Desc": "Anda yakin ingin menghapus URL ini?",
+			"Button1": "Ya",
+			"Button2": "Tidak"
+		},
+		"PopupDeleteReskin": {
+			"Title": "Berhenti Blokir Website",
+			"Desc": "Anda yakin ingin berhenti memblokir website ini?",
+			"Button1": "Ya",
+			"Button2": "Tidak"
+		},
+		"PopupChangeCategory": {
+			"Title": "Ganti Kategori",
+			"Desc": "Meninggalkan halaman ini akan menghapus perubahan yang telah Anda buat. Apakah Anda yakin?",
+			"Button1": "Ya, pindah kategori",
+			"Button1Reskin": "Ya, ganti kategori",
+			"Button2": "Tidak"
+		}
+	},
+	"ListUrlCategory": {
+		"PopupDelete": {
+			"Title": "Berhasil",
+			"Desc": "Berhasil menghapus kategori.",
+			"Button": "Lanjutkan"
+		},
+		"PopupNoData": {
+			"Title": "Tidak Ada URL Dipilih",
+			"Desc": "Silahkan pilih url untuk menyimpan.",
+			"Button": "Mengerti"
+		}
+	},
+	"CModal": {
+		"limit": "Limit percobaan",
+		"time": "kali"
+	},
+	"DisneyPackageScreen": {
+		"Max": "Maks.",
+		"Account": "akun",
+		"ContactTitle": "Kontak",
+		"ContactMessage": "Aplikasi ini ingin melihat kontak Anda.",
+		"ContactButton": "Terima",
+		"ContactAlert": "Silahkan aktifkan permission kontak terlebih dahulu",
+		"PackageListHeaderTitle": "Konten Premium Disney+",
+		"PackageListDevicesPerAccount": "device per akun",
+		"PackageDetaiPrice": "Harga Paket",
+		"PackageDetaiValidityDays": "Masa Berlaku",
+		"PackageDetaiPopupTitle": "Konfigurasi Nomor",
+		"PackageDetaiPopupErrorTitle": "Paket sudah tidak tersedia",
+		"PhoneNumberFormHeaderTitle": "Tambah Nomor Keluarga",
+		"PhoneNumberFormInputPlaceholder": "No. HP (Telkomsel)",
+		"PhoneNumberFormErrorMessageLessThan10": "Nomor tidak boleh kurang dari 10.",
+		"PhoneNumberFormErrorMessageNotMatch": "Format nomor telepon tidak sesuai.",
+		"PhoneNumberFormErrorMessageSameNumber": "Nomor tidak boleh sama.",
+		"PhoneNumberFormErrorMessageNotEligible": "Hanya untuk pengguna kartu prabayar Telkomsel.",
+		"PhoneNumberFormErrorMessageNotActive": "Nomor harus dalam kondisi aktif.",
+		"PhoneNumberFormErrorMessageNotTelkomsel": "Pastikan Anda memasukkan nomor Telkomsel.",
+		"PhoneNumberFormErrorMessageNotOrbit": "Pastikan Anda tidak memasukkan nomor Telkomsel Orbit.",
+		"PhoneNumberFormSuccessMessage": "Nomor terverifikasi!",
+		"PhoneNumberFormGetContactError": "Silahkan aktifkan permission kontak terlebih dahulu",
+		"PhoneNumberFormInformationOne": "Pastikan Anda memasukkan nomor Telkomsel.",
+		"PhoneNumberFormInformationTwo": "Pastikan Anda tidak memasukkan nomor Telkomsel Orbit.",
+		"PhoneNumberFormInformationThree": "Hanya untuk pengguna kartu prabayar Telkomsel.",
+		"PhoneNumberFormInformationFour": "Nomor harus dalam kondisi aktif.",
+		"PhoneNumberFormLoading": "Tunggu sebentar...",
+		"PhoneNumberPickerHeaderTitle": "Pilih Nomor Kontak",
+		"PhoneNumberPickerModalTitle": "Terdapat Lebih dari Satu Nomor",
+		"PhoneNumberPickerModalSubTitle": "Pilih salah satu nomor dari kontak ini untuk ditambahkan ke",
+		"MultiplePhoneNumberHeaderTitle": "Pilih Nomor",
+		"MultiplePhoneNumberContactName": "Nama Kontak",
+		"MultiplePhoneNumberCaption": "Nomor"
+	},
+	"GuestSsid": {
+		"Desc": "Dengan Akses Tamu, Anda dapat membuat WiFi khusus untuk pengunjung rumah Anda",
+		"Title": "Sisa Waktu Akses Tamu",
+		"Connected": "User Terhubung",
+		"Minute": "Menit",
+		"TurnOn": "Aktifkan",
+		"TurnOff": "Non-Aktifkan",
+		"Title2": "Nama WiFi Tamu",
+		"PasswordLabel": "Password WiFi Tamu",
+		"Duration": "Durasi",
+		"Hour": "Jam",
+		"Password": "Password WiFi",
+		"Setting": "Pengaturan Akses Tamu",
+		"Title3": "WiFi Tamu"
+	},
+	"DeviceScheduleScreen": {
+		"NewScheduleHeaderTitle": "Jadwal Baru",
+		"NewScheduleTitle": "Tambah Jadwal Penggunaan",
+		"NewScheduleSubTitle": "Untuk mengatur waktu penggunaan internet, silakan gunakan Rekomendasi Jadwal, Riwayat Jadwal, atau Buat Jadwal Baru.",
+		"NewScheduleSubRecommendation": "Rekomendasi Jadwal",
+		"NewScheduleSubHistory": "Riwayat Jadwal",
+		"NewScheduleSubCreateNewSchedule": "Buat Jadwal Baru",
+		"ScheduleRecommendationsHeaderTitle": "Rekomendasi Jadwal",
+		"ScheduleRecommendationsTile": "Preset Jadwal Penggunaan",
+		"HistoryScheduleHeaderTitle": "Riwayat Jadwal",
+		"HistoryScheduleTitle": "Riwayat Jadwal Penggunaan",
+		"HistoryScheduleEmptyTitle": "Anda belum memiliki jadwal penggunaan. Klik Jadwal Baru untuk mengatur waktu penggunaan internet dari Telkomsel Orbit.",
+		"HistoryScheduleEmptyDescription": "klik icon",
+		"HistoryScheduleEmptyDescriptionTwo": "untuk mengatur waktu pemakaian",
+		"HistoryScheduleEmptyDescriptionThree": "internet Telkomsel Orbit.",
+		"NewScheduleSettingHeaderTitle": "Pengaturan Jadwal Baru",
+		"NewScheduleSettingDay": "Hari Penggunaan",
+		"NewScheduleSettingInputLabel": "Nama Jadwal",
+		"NewScheduleSettingDuration": "Durasi Penggunaan",
+		"NewScheduleSettingErr": "Tidak diizinkan menggunakan aturan yang sama di perangkat ini",
+		"NewScheduleSettingErrTwo": "Aturan waktu memiliki batas jangkauan",
+		"NewScheduleSettingErrThree": "Modem tidak terhubung",
+		"NewScheduleSettingErrFour": "Ada yang tidak beres, coba lagi!",
+		"NewScheduleSettingErrFive": "Tidak dapat menghapus aturan yang dimiliki oleh perangkat lain",
+		"NewScheduleSettingPopupSubTitle": "Jadwal penggunaan baru telah disimpan",
+		"NewScheduleSettingWaitFiveMinutes": "Terjadi kesalahan sistem, silakan tunggu 5 menit dan coba lagi."
+	},
+	"ByodPairingScreen": {
+		"Title": "Fitur Lengkap MyOrbit",
+		"SubTitle": "Hubungkan modem Anda untuk menikmati fitur-fitur di bawah ini:",
+		"SettingWifi": "Pengaturan WiFi",
+		"SettingWifiDesc": "Akses WiFi aman di bawah kendali penuh Anda.",
+		"SettingDevice": "Pengaturan Perangkat",
+		"SettingDeviceDesc": "Kontrol perangkat yang terhubung dengan modem.",
+		"WebsiteFiltering": "Website Filtering",
+		"WebsiteFilteringDesc": "Atur akses halaman website yang dapat dikunjungi.",
+		"ModalTitle": "Hubungkan Modem Nanti?",
+		"ModalSubTitle": "Untuk melengkapi proses pemasangan modem, silakan akses halaman ini pada mega menu yang terdapat di beranda."
+	},
+	"ByodMismatchMsisdScreen": {
+		"SuccessPopup": "Laporan sedang diproses dan aktivasi modem dapat dilakukan kembali dalam waktu maksimal 1x24 jam. Anda tetap dapat menggunakan modem Orbit untuk mengakses internet."
+	},
+	"TelkomselPoinScreen": {
+		"CouponDetails": "Detail Promo",
+		"DashboardExpiredDate": "Poin akan kadaluarsa pada tanggal",
+		"DashboardLatestReward": "Reward Terbaru",
+		"DataPackageTotal": "Total Paket Data",
+		"FailedToLoad": "Gagal memuat",
+		"FailedToLoadPageButton": "Muat Ulang",
+		"FailedToLoadPageSubtitle": "Silakan periksa koneksi internet Anda dan muat ulang.",
+		"FailedToLoadPageTitle": "Gagal Memuat Halaman",
+		"HistoryPoinTitle": "Riwayat Poin",
+		"NotEnoughPointsSubTitle": "Silakan beli paket data modem Orbit atau top up pulsa Telkomsel Anda untuk mendapat lebih banyak poin.",
+		"NotEnoughPointsTitle": "Poin Tidak Cukup",
+		"Point": "Poin",
+		"PointsNeeded": "Poin yang dibutuhkan",
+		"PointsToBeEarned": "Poin yang akan didapat",
+		"PointsToBeEarnedReskin": "Poin yang akan didapat",
+		"Received": "Diterima",
+		"SuccessRedeemButton": "Kunjungi Katalog",
+		"SuccessRedeemTitle": "Poin Berhasil Digunakan",
+		"TotalPoint": "Poin Anda",
+		"UsePoints": "Gunakan Poin",
+		"UsePointsSuccess": "Poin Berhasil Digunakan",
+		"ValidUntil": "Berlaku hingga",
+		"EmptyTitle": "Anda Belum Memiliki Riwayat Poin",
+		"EmptyDescription": "Silakan lakukan pembelian produk Telkomsel Orbit untuk mendapatkan lebih banyak poin.",
+		"MissingExpirationDate": "Beli paket data Orbit untuk dapat poin lebih banyak!"
+	},
+	"IndiboxScreen": {
+		"SliderContent1": "Akses ke 1000+ koleksi film dari IndiBOX",
+		"SliderContent2": "Kontrol suara via remote dengan Google Assistant",
+		"SliderContent3": "Buka game di handphone dan mainkan di layar TV",
+		"SliderContent4": "Pakai suara Anda untuk menonton video di YouTube",
+		"Guarantee1": "Gratis Ongkir",
+		"Guarantee2": "Pemasangan Mudah",
+		"Guarantee3": "7-Hari Garansi Pengembalian",
+		"TitleFreeOngkir": "Gratis ongkir hingga Rp 20.000",
+		"ProductDetailTitle": "Beragam Hiburan Dalam Satu Layar Besar",
+		"ProductDetailSubtitle": "Nikmati ribuan koleksi Video-On-Demand (VOD) dari IndiBOX. Buka aplikasi dan game di Google Play Store dari layar TV. Kontrol tontonan dengan suara Anda dengan remote yang dilengkapi Google Assistant.",
+		"ProductDetailTitle2": "Ubah TV Kamu Jadi Smart TV dengan IndiBOX",
+		"ProductDetailSubtitle2": "Cukup sambungkan IndiBOX ke internet dan TV di rumah, Anda sudah bisa menonton video YouTube dan main game Android di layar TV. Dapatkan juga akses tontonan seru dari Vidio, iflix, hingga Catchplay yang aman untuk anak.",
+		"RemindMe": "Ingatkan Saya",
+		"BuyNow": "Beli Sekarang",
+		"IndiboxInformStockTitle": "Informasi Ketersediaan IndiBOX",
+		"IndiboxInformStockSubtitle": "Kami akan mengirimkan notifikasi melalui aplikasi MyOrbit ketika stok indiBOX kembali tersedia",
+		"Understand": "Mengerti",
+		"Cancel": "Batal",
+		"TransactionOnproccesTitle": "Transaksi Belum Selesai",
+		"TransactionOnproccesSubtitle": "Anda memiliki transaksi yang belum diselesaikan. Apakah ingin melanjutkan transaksi?",
+		"DeleteTransaction": "Hapus Transaksi",
+		"SuccessSubscribeTitle": "Terima Kasih Atas Ketertarikan Anda",
+		"SuccessSubscribeSubtitle": "Selanjutnya Anda dapat menunggu sampai email mengenai informasi ketersediaan stok IndiBOX diterima",
+		"IsAlreadySubscribeTitle": "Anda telah melakukan subscribe",
+		"IsAlreadySubscribeSubtitle": "Email Anda telah terdaftar",
+		"SixMonth": "+6 Bulan",
+		"HavePurchased": "Anda telah membeli produk IndiBox, satu product hanya untuk satu akun email",
+		"TitleShipment": "Pengiriman",
+		"ShippingAddress": "Alamat Pengiriman",
+		"RecipientData": "Data Penerima",
+		"FullName": "Nama Lengkap",
+		"PhoneNumber": "Nomor Handphone",
+		"FullAddress": "Alamat Lengkap",
+		"DataNotFound": "DATA TIDAK DITEMUKAN",
+		"Province": "Provinsi",
+		"City": "Kota/Kabupaten",
+		"District": "Kecamatan",
+		"PostalCode": "Kode Pos",
+		"AddressDetail": "Masukan Detail Alamat",
+		"ShipmentOptions": "Pilihan Pengiriman",
+		"ShipmentDuration": "Durasi Pengiriman",
+		"ShipmentDurationSubtitle": "Jarak maksimal kurir pengiriman Instan dan SameDay 30km",
+		"CourierOptions": "Pilihan Kurir",
+		"SpecialPrice": "Harga Spesial",
+		"Free": "Gratis",
+		"Continue": "Lanjutkan",
+		"PleaseEnterDetailAddress": "Silahkan isi detail alamat Anda",
+		"PleaseEnterFullName": "Silahkan Masukan Nama Lengkap Anda",
+		"PleaseEnterPhoneNumber": "Silahkan Masukan Nomor Telepon Anda",
+		"WrongFormatNumber": "Format Nomor Telepon Salah",
+		"WrongFormatName": "Nama Lengkap tidak sesuai",
+		"PleaseEnterCityName": "Silahkan isi nama Kota/Kabupaten Anda",
+		"PleaseEnterDistrictName": "Silahkan isi nama Kecamatan Anda",
+		"PleaseEnterPostalCode": "Silahkan isi Kode Pos Anda",
+		"PleaseEnterProvinceName": "Silahkan isi nama Provinsi Anda",
+		"NoteDelivery1": "Pembelian di hari libur / di atas jam 2",
+		"NoteDelivery2": "siang akan dikirimkan dihari kerja",
+		"NoteDelivery3": "berikutnya",
+		"InsuranceIndibox": {
+			"InsuranceFee": "Biaya asuransi pengiriman",
+			"InsuranceInfo": "Anda akan mendapatkan jaminan risiko bila barang hilang atau rusak saat pengiriman",
+			"InsuranceNote": "Biaya asuransi akan diberikan dalam jumlah",
+			"InsuranceJNE": "0,25% dari harga barang dan biaya admin Rp 5.000",
+			"InsuranceSICEPAT": "0,25% dari harga barang",
+			"InsuranceANTERAJA": "0,20% dari harga barang"
+		},
+		"ActivePackageName": "anda sudah aktif",
+		"ValidDateAddonIndibox": "Berlaku pada 30 hari"
+	},
+	"IndiboxStatusWidget": {
+		"DeliveryStatus": {
+			"Delivered": {
+				"Title": "Telah Diterima",
+				"Subtitle": "IndiBOX Anda telah diterima oleh",
+				"NotesDate": "Produk sudah diterima pada"
+			},
+			"OnProgress": {
+				"Title": "Dalam Perjalanan",
+				"Subtitle": "IndiBOX sedang dalam perjalanan menuju alamat pengiriman.",
+				"NotesDate": "Produk sudah dikirimkan pada"
+			},
+			"OnProcess": {
+				"Title": "Telah Dikemas",
+				"Subtitle": "IndiBOX sudah dikemas dan siap untuk dikirim.",
+				"NotesDate": "Produk akan dikirimkan pada"
+			},
+			"ActivationTitle": "Untuk Aktivasi IndiBOX Anda, klik tombol Aktivasi di bawah ini",
+			"ActivationButton": "Aktivasi"
+		},
+		"SubscriptionStatus": {
+			"PackageStatusLabel": "Status Paket",
+			"ValidityLabel": "Berlaku s/d"
+		},
+		"ErrorMessage": {
+			"FailedResponse": {
+				"Title": "Gagal Menampilkan Indibox Status",
+				"Subtitle": "Maaf, status Indibox Anda gagal ditampilkan. Silakan klik Muat Ulang untuk kembali memuat halaman ini."
+			}
+		}
+	},
+	"IndiboxSetup": {
+		"IndiboxTutorialScreen": {
+			"Step1Title": "Nyalakan IndiBOX untuk proses pemasangan",
+			"Step2Title": "Sambungkan IndiBOX ke TV di rumah Anda",
+			"Step3Title": "Hubungkan IndiBOX dengan WiFi Orbit Anda",
+			"Step3Notes": "Masukkan password WiFi Orbit pada kolom yang ditampilkan pada layar TV Anda.",
+			"Step3LabelWifi": "Nama Wifi",
+			"Step3LabelPassword": "Password Wifi"
+		},
+		"IndiboxPairingScreen": {
+			"Title": "Mengaktifkan...",
+			"Subtitle": "Pastikan IndiBOX sudah terhubung dengan WiFi Orbit",
+			"ResultSuccess": {
+				"Title": "IndiBOX Anda Telah Aktif",
+				"Subtitle": "Sekarang Anda dapat menikmati beragam fitur hiburan IndiBOX dari TV Anda.",
+				"ButtonPrimary": "Kembali ke Beranda"
+			},
+			"ResultFailedIndiboxBindToAnotherNumber": {
+				"Title": "Aktivasi IndiBOX Anda Gagal",
+				"Subtitle": "IndiBOX device sudah aktif di nomor lain",
+				"ButtonPrimary": "Coba Lagi",
+				"ButtonSecondary": "Hubungi Kami"
+			},
+			"ResultFailed": {
+				"Title": "Aktivasi IndiBOX Anda Gagal",
+				"Subtitle2": "silahkan ulangi kembali.",
+				"ButtonPrimary": "Coba Lagi",
+				"ButtonSecondary": "Hubungi Kami"
+			}
+		}
+	},
+	"Onboarding": {
+		"Step1": {
+			"Title": "Statistik Pemakaian",
+			"Subtitle": "Lihat pemakaian paket data tiap bulan secara detail.",
+			"TitleReskin": "Statistik Pemakaian",
+			"SubtitleReskin": "Lihat pemakaian paket data tiap bulan secara detail."
+		},
+		"Step2": {
+			"Title": "Kontrol Penggunaan",
+			"Subtitle": "Batasi akses penggunaan internet rumah Anda secara real time.",
+			"TitleReskin": "Kontrol Penggunaan",
+			"SubtitleReskin": "Batasi akses penggunaan internet rumah Anda secara real time."
+		},
+		"Step3": {
+			"Title": "Berbagai Keuntungan",
+			"Subtitle": "Kumpulkan Telkomsel poin untuk ditukarkan dengan berbagai reward menarik.",
+			"TitleReskin": "Berbagai Keuntungan",
+			"SubtitleReskin": "Kumpulkan Telkomsel poin untuk ditukarkan dengan berbagai reward menarik."
+		}
+	},
+	"CoachmarkStatistic": {
+		"LastMonth": {
+			"Title": "Bulan lalu",
+			"Subtitle": "Di sini, Telkomsel Orbit akan menampilkan statistik pemakaian internet di bulan lalu"
+		},
+		"ThisMonth": {
+			"Title": "Bulan ini",
+			"Subtitle": "Di Tab ini, Anda dapat melihat statistik penggunaan internet di bulan ini"
+		},
+		"DataPackageTotal": {
+			"Title": "Total quota",
+			"Subtitle": "Telkomsel Orbit menampilkan total penggunaan paket data per bulan dan menghitung rata-rata penggunaan per hari."
+		},
+		"DailyUse": {
+			"Title": "Pemakaian harian",
+			"Subtitle": "Grafik ini akan memudahkan Anda menganalisis penggunaan internet setiap harinya, Ini akan membantu Anda memantau pemakaian paket data modem Anda."
+		},
+		"Aplication": {
+			"Title": "Aplikasi",
+			"Subtitle": "Di sini, Anda dapat melihat total paket data yang telah digunakan untuk aplikasi yang ada di perangkat Anda."
+		},
+		"Button": {
+			"Next": "Lanjutkan",
+			"Skip": "Lewati",
+			"Finish": "Selesai"
+		}
+	},
+	"MaintenanceScreen": {
+		"MaintenanceTips": "Tips: Jika ingin membeli paket data, Anda bisa mengakses fitur Gift di aplikasi MyTelkomsel atau cukup hubungi *363#."
+	},
+	"KaleidoscopeScreen": {
+		"TitleDashboard": "Catatan perjalananmu",
+		"SubtitleDashboard": "Cek perjalanan kita bersama di sini",
+		"ReferralName": "Penjelajah",
+		"ButtonClose": {
+			"Title": "Tutup Kilas Balik?",
+			"Subtitle": "Kamu belum selesai melihat kilas balik, masih ada hal-hal menarik lainnya tentang perjanalanmu untuk dibaca!",
+			"Action": "Ya, Tutup Kilas Balik",
+			"CancelAction": "Batal"
+		},
+		"Slide1": {
+			"Title": "Kita telah mengOrbit bersama",
+			"Subtitle": "Banyak petualangan seru yang sudah kita lalui.",
+			"Desc": "Yuk, liat histori perjalanan kita.",
+			"AdditionalInfo": "Swipe Kanan untuk Mulai"
+		},
+		"Slide2": {
+			"Subtitle": {
+				"One": "Pada",
+				"Two": "dan sudah",
+				"Three": "kamu memulai petualangan bersama Orbit sebagai penjelajah ke-",
+				"Four": "\n Temanmu",
+				"Five": "memberikan kode referral agar kamu dapat memulai petualanganmu dengan kami."
+			}
+		},
+		"Slide3": {
+			"Title": "Modem Orbitmu",
+			"Desc": "Kamu mempercayakan perjalananmu bersama modem ini dengan muatan kuota ",
+			"DescLanjutan": "untuk mengorbit dan menjelajahi berbagai planet favoritmu."
+		},
+		"Slide4": {
+			"Title": "Total kuota sudah dihabiskan",
+			"Desc": "Sepanjang waktu kamu bertualang, pemakaian supply bahan bakarmu mencapai",
+			"DescLanjutan": "dari awal kamu mengOrbit"
+		},
+		"Slide5": {
+			"Title": "Jadi supply \nkuota favoritmu",
+			"Desc": "Terhitung sudah",
+			"DescLanjutan": "kamu membawa supply kuota ini untuk menjelajah"
+		},
+		"Slide6": {
+			"Title": "Supply kuota \n lebih mudah didapat \n lewat aplikasi MyOrbit",
+			"Desc": "Kamu sering menggunakan",
+			"DescLanjutan": "untuk mengisi supply kuota modem Orbit-mu!"
+		},
+		"Slide7": {
+			"Title": "Planet \nyang sering \nKamu kunjungi",
+			"Subtitle": "Selama kamu mengOrbit, kamu sangat sering mengunjungi planet-planet ini."
+		},
+		"Slide8": {
+			"Title": "Banyak petualangan menanti di tahun 2022",
+			"Desc": "Terima kasih telah mempercayakan perjalananmu dengan Orbit! Untuk ke depannya juga, kami ingin terus memberikan layanan terbaik di perjalananmu selanjutnya, agar kamu tetap aktif dan produktif bersama Orbit."
+		},
+		"Slide9": {
+			"Title": "Orbit Space Report",
+			"Desc": "Kamu sudah membagikan kode referralmu sebanyak",
+			"DescLanjutan": "bagikan ke temanmu untuk sama-sama mendapat tambahan",
+			"AdditionalInfo": "paket data 5GB",
+			"Table": {
+				"TitleName": "Nama",
+				"TitleOrbit": "Tanggal mengOrbit",
+				"TitleTotalKuota": "Jumlah supply kuota 1 tahun"
+			},
+			"Kadet": "Selamat, pangkat kamu adalah"
+		},
+		"Popup": {
+			"Title": "Terima Kasih telah mengOrbit bersama kami",
+			"Subtitle": "Selama kita bertualang bersama, banyak kenangan yang telah terjadi. Masih ingatkah dengan masa pertama kali kamu beli modem? cek kilas balik kita di bawah ini.",
+			"Action": "Lihat Kilas Balik"
+		}
+	},
+	"LuckyDrawScreen": {
+		"Heading": "Undi Poin",
+		"Widget": {
+			"Announcement": "Pengumuman pemenang \nundian di",
+			"Button": "Cek Detail",
+			"Lottery": "Kupon Undian",
+			"Title": "Anda memiliki:"
+		},
+		"Detail": {
+			"Heading": "Detail Kupon",
+			"Total": {
+				"Title": "Total kupon undian Anda:",
+				"Value": "Kupon"
+			},
+			"Description": {
+				"Title": "Deskripsi"
+			},
+			"Disclaimer": {
+				"Title": "Syarat dan Ketentuan"
+			}
+		},
+		"Error": {
+			"Title": "Gagal Menampilkan Kupon Undian",
+			"Subtitle": "Silakan klik Muat Ulang untuk melihat halaman ini.",
+			"Button": "Muat Ulang"
+		}
+	},
+	"FindAccountScreen": {
+		"Header": "Pencarian Akun Orbit",
+		"Greeting": "Silakan masukkan data modem Anda untuk mendapatkan informasi akun.",
+		"InputImeiModem": {
+			"Title": "IMEI Modem atau Nomor Orbit",
+			"Placeholder": "Contoh: 081234567890",
+			"ErrorMessage": {
+				"ModemEmpty": "Silakan isi nomor orbit atau IMEI",
+				"ModemIncorrect": "IMEI atau nomor Orbit yang Anda masukkan salah atau tidak terdaftar",
+				"ModemNotLinked": "Belum ada akun Telkomsel Orbit yang terhubung dengan nomor ini"
+			}
+		},
+		"Note": "Temukan IMEI di bagian belakang atau bawah modem.",
+		"InvalidPopUp": {
+			"Title": "Perlu Bantuan Lebih Lanjut?",
+			"Description": "Nomor Orbit/IMEI yang Anda masukkan masih belum benar, mohon periksa kembali atau klik tombol di bawah ini untuk melihat informasi lengkap nomor Orbit/IMEI."
+		}
+	},
+	"FindAccountDetailScreen": {
+		"Greeting": {
+			"Title": "Akun Orbit Ditemukan",
+			"Description": "Akun di bawah terhubung dengan data modem yang Anda masukkan. Anda akan diarahkan untuk login kembali dengan klik Lanjutkan."
+		},
+		"LoginWith": {
+			"Email": "Login dengan Email",
+			"PhoneNumber": "Login dengan No. Handphone",
+			"Google": "Login dengan Gmail",
+			"Apple": "Login dengan Apple ID",
+			"Facebook": "Login dengan Facebook"
+		}
+	},
+	"PackageAddOnListScreen": {
+		"MainTitle": "Paket Data",
+		"MainPackageTitle": "Spesial untuk Anda",
+		"PackageListTitle": "Pilihan Paket",
+		"DefaultCategoryTitle": "Semua",
+		"Badge": {
+			"BuyAgainTitle": "Beli Lagi"
+		},
+		"FilterInfo": {
+			"FilterTitle": "Filter",
+			"ResetTitle": "Reset",
+			"CategoryTitle": "Kategori"
+		},
+		"SetHomebaseLocationInfo": {
+			"Title": "Atur lokasi utama dulu, ya!",
+			"DescriptionTitle": "Pilihan Kuota Home akan ditampilkan setelah lokasi utama sudah ditentukan.",
+			"PrimaryButtonTitle": "Atur Lokasi"
+		},
+		"EmptyResultInfo": {
+			"Title": "Paket data tidak tersedia",
+			"ResetTitle": "Reset Filter"
+		},
+		"FailedInfo": {
+			"FailedTitle": "Gagal memuat data. Pastikan modem dalam keadaan menyala untuk kembali memuat data.",
+			"FailedInactiveTitle": "Gagal memuat data. Untuk mengakses layanan ini, silakan membayar tagihan pascabayar Anda",
+			"FailedOverLimitTitle": "Pembelian ini melebihi batas pemakaian. Silakan hubungi Customer Service di 188 untuk meningkatkan batas pemakaian.",
+			"NoDataTitle": "Belum ada data",
+			"RetryButtonTitle": "Muat Ulang",
+			"CallCSButtonTitle": "Hubungi Customer Service"
+		}
+	},
+	"DataPackage": {
+		"Header": "Paket Data",
+		"Package": {
+			"Spesial": "Promo Paket Data Lebih Hemat",
+			"Options": "Pilihan Paket"
+		},
+		"DefaultCategory": "Semua",
+		"MobilityPackageBannerTitle": "Beli kuota Mobility agar modem Orbit bisa dipakai di luar rumah!",
+		"LocationNotYetSet": {
+			"Title": "Atur lokasi utama dulu, ya!",
+			"Desc": "Pilihan Kuota Home akan ditampilkan setelah lokasi utama sudah ditentukan.",
+			"ButtonAction": "Atur Lokasi"
+		},
+		"MainLocation": "Lokasi Utama",
+		"Error": {
+			"FailedLoad": {
+				"Title": "Gagal Menampilkan Data",
+				"Desc": "Pastikan modem dalam keadaan menyala untuk kembali memuat data.",
+				"ButtonLabel": "Muat Ulang"
+			},
+			"NotActive": {
+				"Desc": "Untuk mengakses layanan ini, silakan membayar tagihan pascabayar Anda."
+			},
+			"OverLimit": {
+				"Title": "Pembelian ini melebihi batas pemakaian ",
+				"Desc": "Silakan hubungi Customer Service di 188 untuk meningkatkan batas pemakaian.",
+				"ButtonLabel": "Hubungi Customer Service"
+			}
+		},
+		"Filter": {
+			"TitleFilter": "Filter",
+			"Button": {
+				"Title": "Terapkan"
+			}
+		},
+		"Badge": {
+			"Title": "Beli Lagi"
+		},
+		"Empty": {
+			"Title": "Paket data tidak tersedia",
+			"Subtitle": "Reset Filter"
+		}
+	},
+	"Insider": {
+		"PushNotif": {
+			"Title": "Navigasi Halaman",
+			"Subtitle": "Apakah anda yakin ingin menuju halaman lain?"
+		}
+	},
+	"DeleteAccountScreen": {
+		"ProgressScreen": {
+			"Title": "Menghapus Akun",
+			"Desc": "Proses ini akan memakan waktu hingga 1 menit untuk menghapus koneksi akun."
+		},
+		"PopupConfirmation": {
+			"Title": "Apakah Anda ingin menghapus akun ini?",
+			"Desc": "Akses Anda ke dalam aplikasi akan hilang secara permanen. Lanjutkan proses penghapusan akun?",
+			"ButtonPrimary": "Batalkan",
+			"ButtonSecondary": "Hapus Akun"
+		},
+		"ResultSuccess": {
+			"Title": "Akun Berhasil Terhapus",
+			"Desc": "Jika ada kendala, silakan hubungi Call Center Orbit di 188.",
+			"Button": "Tutup"
+		},
+		"ResultRetry": {
+			"Title": "Terjadi Kesalahan",
+			"Desc": "Silakan klik Coba Lagi untuk mengulangi proses penghapusan akun.",
+			"Button": "Coba Lagi"
+		},
+		"ResultFailed": {
+			"Title": "Server Sedang Sibuk",
+			"Desc": "Silakan menunggu 5 menit untuk menghapus akun kembali.",
+			"Button": "Tutup"
+		},
+		"ResultNoConnection": {
+			"Title": "Tidak ada koneksi internet",
+			"Desc": "Pastikan Anda terhubung dengan jaringan internet untuk menghapus akun.",
+			"Button": "Tutup Aplikasi"
+		},
+		"PrivacyTerm": {
+			"Statement": "Dengan melanjutkan proses penghapusan akun, saya setuju dengan ",
+			"TnC": "Syarat dan Ketentuan",
+			"And": " dan ",
+			"PrivacyPolicy": "Kebijakan Privasi",
+			"FromTelkomsel": " dari Telkomsel"
+		}
+	},
+	"PrimaryModemConfigScreen": {
+		"Heading": "Pengaturan Modem Utama",
+		"Title": "Modem utama adalah modem yang akan menerima reward kuota.",
+		"Badges": "Utama",
+		"ButtonSet": "Pilih Modem Utama",
+		"DisablePostpaid": "Modem Pascabayar tidak dapat digunakan sebagai modem utama.",
+		"DisableInactive": "Selesaikan proses aktivasi modem ini untuk dijadikan sebagai modem utama.",
+		"NotSupportIOS": "Modem ini belum didukung iOS.",
+		"PopupModemList": {
+			"Title": "Pilih Modem",
+			"ButtonAddModem": "Tambah Modem",
+			"ButtonChangeMainModem": "Atur Modem Utama"
+		},
+		"ErrorInfo": {
+			"Message": "Terjadi Kesalahan pada sistem, silakan coba lagi.",
+			"Button": "Muat Ulang"
+		},
+		"ToastSuccess": {
+			"Title": "Perubahan Modem Utama berhasil disimpan"
+		},
+		"Coachmark": {
+			"Title": "Lihat & atur modem Orbit Anda",
+			"Subtitle": "Kelola semua modem Orbit milik Anda dari sini. Modem utama saat ini adalah",
+			"ButtonPrimary": "Mengerti",
+			"ButtonSecondary": "Ubah Modem Utama"
+		},
+		"PopupConfirmationAddModem": {
+			"Title": "Tambah Modem",
+			"Subtitle": "Modem yang dapat ditambahkan adalah modem yang belum memiliki akun atau belum diaktivasi.",
+			"ButtonPrimary": "Lanjutkan",
+			"ButtonSecondary": "Kembali"
+		}
+	},
+	"RenewalDataPackage": {
+		"Widget": {
+			"Balance": "Pulsa",
+			"Billing": "Tagihan"
+		},
+		"SwipUpModal": {
+			"Title": "Apakah Anda yakin\nakan membeli paket ini?",
+			"PackageOption": "Pilihan Paket",
+			"Validity": "Berlaku ",
+			"PaymentMethod": "Metode Pembayaran",
+			"Error": {
+				"OfferIdPrepaid": "Paket ini tidak dapat dibeli menggunakan pulsa. Silakan ubah metode pembayaran.",
+				"OfferIdPostpaid": "Paket ini tidak dapat dibeli menggunakan tagihan pemakaian. Silakan ubah metode pembayaran.",
+				"InsufficientBalance": "Pulsa tidak mencukupi. Silakan ubah metode pembayaran.",
+				"LimitReached": "Pembelian melebihi batas pemakaian bulan ini, silakan pilih paket lainnya."
+			},
+			"Balance": "Pulsa Anda:",
+			"Billing": "Biaya Tagihan Pemakaian:"
+		}
+	},
+	"HomebaseTransitionScreen": {
+		"Title": "Pilih lokasi utama dulu yuk!",
+		"Description": "Untuk area penggunaan kuota Home Anda, karena modem Orbit harus aktif dan berada di Lokasi Utama untuk dapat menggunakan kuota Home.",
+		"MainLocation": "Lokasi Utama",
+		"InfoTitle": "Perubahan lokasi hanya bisa ",
+		"Duration": "6 bulan sekali",
+		"LocationNotYetSet": "Belum diatur",
+		"TncDesc": "Dengan ini saya menyetujui bahwa lokasi terpilih akan menjadi lokasi utama modem saya.",
+		"ChangeLocation": "Atur",
+		"ButtonAction": "Simpan",
+		"PopupIneligibleUpdateLoc": {
+			"Title": "Anda sudah pernah mengatur lokasi utama",
+			"ContentTitle": "Lokasi Utama Anda",
+			"ContentDesc": "Anda dapat mengubah kembali pada"
+		},
+		"PopupErrorGeneral": {
+			"Title": "Gagal memuat",
+			"Description": "Terjadi kesalahan saat memproses permintaan anda, silahkan coba lagi."
+		}
+	},
+	"HomebaseLocationScreen": {
+		"Title": "Lokasi Utama",
+		"Search": "Search",
+		"InfoTitle": "Baca tentang Lokasi Utama",
+		"CtaAboutMainLoc": "di sini",
+		"TncDesc": "Dengan ini saya menyetujui bahwa lokasi terpilih akan menjadi lokasi utama modem saya.",
+		"ButtonAction": "Simpan",
+		"YourMainLocation": "Lokasi Utama Anda",
+		"MainLocation": "Lokasi Utama",
+		"Popup": {
+			"NotCovered": {
+				"Title": "Lokasi ini belum terjangkau Orbit",
+				"Desc": "Silakan coba pindahkan pin ke lokasi lain."
+			}
+		},
+		"ToastSuccess": {
+			"Title": "Lokasi Utama berhasil di{{status}}",
+			"Updated": "ubah",
+			"Saved": "simpan"
+		}
+	},
+	"Coachmark": {
+		"HomeScreen": {
+			"ModalLanguage": "MyOrbit kini hadir dengan tampilan dan fitur baru!",
+			"Explore": "Mulai Eksplorasi",
+			"WifiName": "Lihat password & nama WiFi",
+			"WifiInformation": "Cek informasi WiFi Orbit Anda di sini!",
+			"ModemLocation": "Lokasi modem saat ini",
+			"ModemLocationDescription": "Sekarang penggunaan jenis kuota akan disesuaikan berdasarkan lokasi modem",
+			"Quotas": "Cek kuota & pulsa",
+			"Credit": "Anda bisa pantau berapa jumlah kuota dan pulsa yang masih tersisa.",
+			"AccessMenu": "Akses menu lainnya",
+			"AccessMenuDescriptions": "Anda bisa lihat Profil Pengguna, Fitur MyOrbit, dan pengaturan lainnya disini!"
+		}
+	}
+}

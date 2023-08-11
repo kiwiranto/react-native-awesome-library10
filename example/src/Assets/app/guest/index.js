@@ -1,0 +1,1 @@
+export const bgAksesTamu = require("./bg-akses-tamu.png");

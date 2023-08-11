@@ -1,0 +1,11 @@
+export const iconArrowRightDark = require("./icon-arrow-right-dark.png");
+export const iconArrowRightWhite = require("./icon-arrow-right-white.png");
+export const iconArrowTopGreen = require("./icon-arrow-top-green.png");
+export const iconAvatar = require("./icon-avatar.png");
+export const iconProfile = require("./icon-profile.png");
+export const iconGLobeDark = require("./icon-globe-darkblue.png");
+export const iconGLobeGrey = require("./icon-globe-grey.png");
+export const iconGlobeWhite = require("./icon-globe-white.png");
+export const iconOtherApp = require("./icon-other-app.png");
+export const iconArrowRightRed = require("./icon-arrow-right-red.png");
+export const iconNoDataStatistic = require("./icon-no-data-statistic.png");

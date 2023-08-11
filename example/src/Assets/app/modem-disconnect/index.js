@@ -1,0 +1,8 @@
+export const iconModemFail = require("./icon-modem-fail.png")
+export const iconModemGrey = require("./icon-modem-grey.png")
+export const iconPhoneSilver = require("./icon-phone-silver.png")
+export const iconSignalGrey = require("./icon-signal-grey.png")
+export const iconStatistic = require("./icon-statistic-grey.png")
+export const iconUserGrey = require("./icon-user-grey.png")
+export const iconHub = require("./icon-hub-offline.png")
+export const iconHubOffline = require("./icon-hub-offline.png")

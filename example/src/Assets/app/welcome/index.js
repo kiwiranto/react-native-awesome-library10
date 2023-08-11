@@ -1,0 +1,9 @@
+export const onboardingBackground1Reskin = require('./onboarding-background-1.png');
+export const onboardingBackground2Reskin = require('./onboarding-background-2.png');
+export const onboardingBackground3Reskin = require('./onboarding-background-3.png');
+export const onboardingWave1Reskin = require('./onboarding-wave-1.png');
+export const onboardingWave2Reskin = require('./onboarding-wave-2.png');
+export const onboardingWave3Reskin = require('./onboarding-wave-3.png');
+export const onboardingPhone1Reskin = require('./onboarding-phone-1.png');
+export const onboardingPhone2Reskin = require('./onboarding-phone-2.png');
+export const onboardingPhone3Reskin = require('./onboarding-phone-3.png');

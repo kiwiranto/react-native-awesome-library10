@@ -1,0 +1,1 @@
+export const bgForget = require("./bg-forget.png");

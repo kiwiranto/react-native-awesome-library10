@@ -1,0 +1,181 @@
+import {
+  REACT_APP_BASE_URL,
+  REACT_APP_BASE_DOMAIN,
+
+  REACT_APP_BASE_URL_CONFIG,
+  REACT_APP_BASE_URL_CONTENT,
+  REACT_APP_BASE_URL_CONTENT_MS,
+  REACT_APP_BASE_URL_CONVERSION_POINT_MS,
+  REACT_APP_BASE_URL_COVERAGE,
+  REACT_APP_BASE_URL_COVERAGE_MS,
+  REACT_APP_BASE_URL_DANA_AUTH,
+  REACT_APP_BASE_URL_DELIVERY_MS,
+  REACT_APP_BASE_URL_NEW_DELIVERY_MS,
+  REACT_APP_BASE_URL_DEVICE,
+  REACT_APP_BASE_URL_DEVICE_MS,
+  REACT_APP_BASE_URL_HOME_COVERAGE,
+  REACT_APP_BASE_URL_INSIDER_MESSAGE_CENTER,
+  REACT_APP_BASE_URL_LOG,
+  REACT_APP_BASE_URL_LOG_INFLUX,
+  REACT_APP_BASE_URL_LOYALTY,
+  REACT_APP_BASE_URL_LOYALTY_MS,
+  REACT_APP_BASE_URL_MEMBER,
+  REACT_APP_BASE_URL_MEMBER_DEV,
+  REACT_APP_BASE_URL_NEWMEMBER,
+  REACT_APP_BASE_URL_NOTIFICATION,
+  REACT_APP_BASE_URL_OFFER,
+  REACT_APP_BASE_URL_PACKAGE,
+  REACT_APP_BASE_URL_PACKAGE_DATA_ORDER,
+  REACT_APP_BASE_URL_PACKAGE_MS,
+  REACT_APP_BASE_URL_PAYMENTS,
+  REACT_APP_BASE_URL_SHIPMENTS,
+  REACT_APP_BASE_URL_SUBSCRIPTION,
+  REACT_APP_BASE_URL_SUBSCRIPTION_MS,
+  REACT_APP_BASE_URL_USAGE_STATISTIC,
+  REACT_APP_BASE_URL_VERONIKA,
+
+  REACT_APP_BLOG_BASE_URL,
+  REACT_APP_GROWTHBOOK_BASE_URL,
+  REACT_APP_BASE_URL_CART,
+  REACT_APP_NOMINATIM_BASE_URL,
+  REACT_APP_ZENDESK_BASE_URL,
+
+  REACT_APP_FR_OAUTH2_IG_URL,
+  REACT_APP_FR_OAUTH2_REDIRECT_URL,
+
+  REACT_APP_ENABLE_INFLUX_LOG,
+  REACT_APP_MIDTRANS_DATA_ENV,
+  REACT_APP_STAGE,
+  REACT_APP_VERSION_WEB
+} from '@env';
+
+import {
+  BASE_URL_CART_API_KEY,
+  BASE_URL_CONFIG_API_KEY,
+  BASE_URL_CONTENT_API_KEY,
+  BASE_URL_CONTENT_CHANNEL_API_KEY,
+  BASE_URL_COVERAGE_API_KEY,
+  BASE_URL_DEVICE_API_KEY,
+  BASE_URL_DELIVERY_API_KEY_MS,
+  BASE_URL_HOME_COVERAGE_API_KEY,
+  BASE_URL_INSIDER_MESSAGE_CENTER_API_KEY,
+  BASE_URL_LOG_API_KEY,
+  BASE_URL_LOYALTY_API_KEY,
+  BASE_URL_LOYALTY_API_KEY_MS,
+  BASE_URL_MEMBER_API_KEY,
+  BASE_URL_NEWMEMBER_API_KEY,
+  BASE_URL_NOTIFICATION_API_KEY,
+  BASE_URL_OFFER_API_KEY,
+  BASE_URL_ORDER_API_KEY,
+  BASE_URL_PACKAGE_API_KEY,
+  BASE_URL_PACKAGE_DATA_ORDER_API_KEY,
+  BASE_URL_PAYMENTS_API_KEY,
+  BASE_URL_SHIPMENTS_API_KEY,
+  BASE_URL_SUBSCRIPTION_API_KEY,
+  BASE_URL_USAGE_STATISTIC_API_KEY,
+  BASE_URL_VERONIKA_SECRET,
+
+  FR_OAUTH2_CLIENT_ID,
+  FR_OAUTH2_CLIENT_ID_MOBILE,
+  FR_OAUTH2_CLIENT_SECRET,
+  FR_OAUTH2_SCOPE,
+
+  ADJUST_TOKEN,
+  ADJUST_FCM_TOKEN,
+  GEOCODE_AUTOCOMPLETE_TOKEN,
+  GROWTHBOOK_KEY,
+  MAPBOX_TOKEN,
+  MIDTRANS_DATA_CLIENT_KEY,
+  RECAPTCHA_SITE_KEY,
+  REDUCER_KEY_1,
+  REDUCER_KEY_2,
+
+  gv
+} from './CRS';
+
+export const baseUrl = REACT_APP_BASE_URL;
+export const baseDomain = REACT_APP_BASE_DOMAIN;
+export const baseUrlCart = REACT_APP_BASE_URL_CART;
+export const baseUrlConfig = REACT_APP_BASE_URL_CONFIG;
+export const baseUrlContent = REACT_APP_BASE_URL_CONTENT;
+export const baseUrlContentMs = REACT_APP_BASE_URL_CONTENT_MS;
+export const baseUrlConversionPoint = REACT_APP_BASE_URL_CONVERSION_POINT_MS;
+export const baseUrlCoverage = REACT_APP_BASE_URL_COVERAGE;
+export const baseUrlCoverageMs = REACT_APP_BASE_URL_COVERAGE_MS;
+export const baseUrlDanaAuth = REACT_APP_BASE_URL_DANA_AUTH;
+export const baseUrlDeliveryMs = REACT_APP_BASE_URL_DELIVERY_MS;
+export const baseUrlDevices = REACT_APP_BASE_URL_DEVICE;
+export const baseUrlDevicesMs = REACT_APP_BASE_URL_DEVICE_MS;
+export const baseUrlHomeCoverage = REACT_APP_BASE_URL_HOME_COVERAGE;
+export const baseUrlInsiderMessageCenter = REACT_APP_BASE_URL_INSIDER_MESSAGE_CENTER;
+export const baseUrlLog = REACT_APP_BASE_URL_LOG;
+export const baseUrlLogInflux = REACT_APP_BASE_URL_LOG_INFLUX;
+export const baseUrlLoyalty = REACT_APP_BASE_URL_LOYALTY;
+export const baseUrlLoyaltyMs = REACT_APP_BASE_URL_LOYALTY_MS;
+export const baseUrlMember = REACT_APP_BASE_URL_MEMBER;
+export const baseUrlMemberDev = REACT_APP_BASE_URL_MEMBER_DEV;
+export const baseUrlNewDeliveryMs = REACT_APP_BASE_URL_NEW_DELIVERY_MS;
+export const baseUrlNewMember = REACT_APP_BASE_URL_NEWMEMBER;
+export const baseUrlNotification = REACT_APP_BASE_URL_NOTIFICATION;
+export const baseUrlOffer = REACT_APP_BASE_URL_OFFER;
+export const baseUrlPackage = REACT_APP_BASE_URL_PACKAGE;
+export const baseUrlPackageDataOrder = REACT_APP_BASE_URL_PACKAGE_DATA_ORDER;
+export const baseUrlPackageMs = REACT_APP_BASE_URL_PACKAGE_MS;
+export const baseUrlPayment = REACT_APP_BASE_URL_PAYMENTS;
+export const baseUrlShipment = REACT_APP_BASE_URL_SHIPMENTS;
+export const baseUrlSubscriptions = REACT_APP_BASE_URL_SUBSCRIPTION;
+export const baseUrlSubscriptionsMs = REACT_APP_BASE_URL_SUBSCRIPTION_MS;
+export const baseUrlUsageStatistic = REACT_APP_BASE_URL_USAGE_STATISTIC;
+export const baseUrlVeronika = REACT_APP_BASE_URL_VERONIKA;
+
+export const baseUrlCartApiKey = gv(BASE_URL_CART_API_KEY);
+export const baseUrlConfigApiKey = gv(BASE_URL_CONFIG_API_KEY);
+export const baseUrlContentApiKey = gv(BASE_URL_CONTENT_API_KEY);
+export const baseUrlContentChannelApiKey = gv(BASE_URL_CONTENT_CHANNEL_API_KEY);
+export const baseUrlCoverageApiKey = gv(BASE_URL_COVERAGE_API_KEY);
+export const baseUrlDeliveryApiKeyMs = gv(BASE_URL_DELIVERY_API_KEY_MS);
+export const baseUrlDevicesApiKey = gv(BASE_URL_DEVICE_API_KEY);
+export const baseUrlHomeCoverageApiKey = gv(BASE_URL_HOME_COVERAGE_API_KEY);
+export const baseUrlInsiderMessageCenterApiKey = gv(BASE_URL_INSIDER_MESSAGE_CENTER_API_KEY);
+export const baseUrlLogApiKey = gv(BASE_URL_LOG_API_KEY);
+export const baseUrlLoyaltyApiKey = gv(BASE_URL_LOYALTY_API_KEY);
+export const baseUrlLoyaltyApiKeyMs = gv(BASE_URL_LOYALTY_API_KEY_MS);
+export const baseUrlMemberApiKey = gv(BASE_URL_MEMBER_API_KEY);
+export const baseUrlNewMemberApiKey = gv(BASE_URL_NEWMEMBER_API_KEY);
+export const baseUrlNotificationApiKey = gv(BASE_URL_NOTIFICATION_API_KEY);
+export const baseUrlOfferApiKey = gv(BASE_URL_OFFER_API_KEY);
+export const baseUrlOrderApiKey = gv(BASE_URL_ORDER_API_KEY);
+export const baseUrlPackageApiKey = gv(BASE_URL_PACKAGE_API_KEY);
+export const baseUrlPackageDataOrderApiKey = gv(BASE_URL_PACKAGE_DATA_ORDER_API_KEY);
+export const baseUrlPaymentApiKey = gv(BASE_URL_PAYMENTS_API_KEY);
+export const baseUrlShipmentApiKey = gv(BASE_URL_SHIPMENTS_API_KEY);
+export const baseUrlSubscriptionsApiKey = gv(BASE_URL_SUBSCRIPTION_API_KEY);
+export const baseUrlUsageStatisticApiKey = gv(BASE_URL_USAGE_STATISTIC_API_KEY);
+export const baseUrlVeronikaSecret = gv(BASE_URL_VERONIKA_SECRET);
+
+export const adjustToken = gv(ADJUST_TOKEN);
+export const adjustFCMToken = gv(ADJUST_FCM_TOKEN);
+export const geocodeAutocompleteToken = gv(GEOCODE_AUTOCOMPLETE_TOKEN);
+export const growthbookKey = gv(GROWTHBOOK_KEY);
+export const mapboxToken = gv(MAPBOX_TOKEN);
+export const midtransDataClientKey = gv(MIDTRANS_DATA_CLIENT_KEY);
+export const recaptchaSiteKey = gv(RECAPTCHA_SITE_KEY);
+
+export const baseUrlBlog = REACT_APP_BLOG_BASE_URL;
+export const baseUrlNominatim = REACT_APP_NOMINATIM_BASE_URL;
+export const baseUrlZendesk = REACT_APP_ZENDESK_BASE_URL;
+export const growthbookBaseUrl = REACT_APP_GROWTHBOOK_BASE_URL;
+
+export const frIGUrl = REACT_APP_FR_OAUTH2_IG_URL;
+export const frOAUTHClientID = gv(FR_OAUTH2_CLIENT_ID);
+export const frOAUTHClientIDMobile = gv(FR_OAUTH2_CLIENT_ID_MOBILE);
+export const frOAUTHClientSecret = gv(FR_OAUTH2_CLIENT_SECRET);
+export const frOAUTHRedirectUrl = REACT_APP_FR_OAUTH2_REDIRECT_URL;
+export const frOAUTHScope = gv(FR_OAUTH2_SCOPE);
+
+export const enableLog = REACT_APP_ENABLE_INFLUX_LOG;
+export const midtransDataEnv = REACT_APP_MIDTRANS_DATA_ENV;
+export const reactAppReducerKey1 = gv(REDUCER_KEY_1);
+export const reactAppReducerKey2 = gv(REDUCER_KEY_2);
+export const softwareStage = REACT_APP_STAGE;
+export const version = REACT_APP_VERSION_WEB;

@@ -1,0 +1,16 @@
+export const iconHeksaWhite = require("./bg-heksa-white.png");
+export const bgGroupTutorial = require("./bg-group-tutorial.gif");
+export const iconChecklistTutorial = require("./icon-checklist-tutorial.png");
+export const bgGroupPengaturan = require("./bg-group-pengaturan.gif");
+export const bgBackgoundTutorial = require("./bg-background-tutorial.png");
+export const bgMaskTutorial = require("./bg-mask-tutorial.png");
+export const bgIphoneTutorial = require("./bg-iphone-tutorial.png");
+export const bgModemTutorial = require("./bg-modem-tutorial.gif");
+export const iconArrowrightTutorial = require("./icon-arrow-right-tutorial.png");
+export const bgCombineShape2 = require("./bg-combined-shape-2.png");
+export const bgCombineShape3 = require("./bg-combined-shape-3.png");
+export const bgCombineShape4 = require("./bg-combined-shape-4.png");
+export const bgBackgoundTutorial1 = require("./bg-background-tutorial-1.png");
+export const bgBackgoundTutorial2 = require("./bg-background-tutorial-2.png");
+export const bgBackgoundTutorial3 = require("./bg-background-tutorial-3.png");
+export const iconLogoOrbit = require("./icon-logo-orbit.png");

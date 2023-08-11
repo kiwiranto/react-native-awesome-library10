@@ -1,0 +1,9 @@
+export const bgWifiTurnOn = require('./bg-wifi-turn-on.png');
+export const bgWifiSetting = require('./bg-wifi-setting.png');
+export const bgWifiSelect = require('./bg-wifi-select.png');
+export const iconCheck = require('./icon-check.png');
+export const bgPopupSuccess = require('./icon-check-reskin.png');
+export const bgPhone = require('./bg-phone.png');
+export const bgPhoneReskin = require('./bg-phone-reskin.png');
+export const bgTurnOnWifiIos = require('./bg-turnon-wifi-ios.png');
+export const bgFindSsidIos = require('./bg-find-ssid-ios.png');

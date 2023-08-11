@@ -1,0 +1,102 @@
+* {
+  font-family: "Muli", sans-serif;
+}
+
+button.button-wrapper-default {
+  width: 40%;
+  height: 48px;
+  border-radius: 24px;
+  border: solid 1px #646464;
+  background-color: transparent;
+  margin-right: 16px;
+  transition: all 0.3s;
+}
+
+button.button-wrapper-coral {
+  width: 128px;
+  height: 48px;
+  border-radius: 24px;
+  background-color: #ff4c47;
+  border: 0;
+  transition: all 0.3s;
+}
+
+button.button-wrapper-discover {
+  width: 338px !important;
+  height: 48px;
+  border-radius: 24px;
+  background-color: #ff4c47;
+  border: 0;
+  transition: all 0.3s;
+}
+
+button.button-wrapper-default:hover,
+button.button-wrapper-coral:hover,
+button.button-wrapper-discover:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.button-text-default {
+  width: 111.8px;
+  height: 24px;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #111111;
+}
+
+.button-text-coral {
+  width: 67.8px;
+  height: 24px;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.button-text-discover {
+  width: 67.8px;
+  height: 24px;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.button-wrapper-all {
+  display: flex;
+}
+
+/**
+ * RESPONSIVE
+ */
+@media screen and (max-width: 768px) {
+  button.button-wrapper-default,
+  button.button-wrapper-coral
+  button.button-wrapper-discover {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    justify-content: center;
+  }
+
+  .button-text-default,
+  .button-text-coral
+  .button-text-discover {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}

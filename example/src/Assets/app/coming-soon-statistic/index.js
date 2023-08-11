@@ -1,0 +1,5 @@
+export const bgAsset = require("./bg-asset.png")
+export const bgCombinedShape = require("./bg-combined-shape.png")
+export const bgGroup = require("./bg-group.png")
+export const iconArrowSideLeft = require("./icon-arrow-side-left.png")
+export const iconArrowSideLeftBlack = require("./icon-arrow-side-left-black.png")

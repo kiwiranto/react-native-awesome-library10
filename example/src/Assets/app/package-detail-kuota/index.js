@@ -1,0 +1,13 @@
+export const iconArrowDown = require('./icon-arrow-down.png');
+export const iconOrderKuota = require('./icon-order-kuota.png');
+export const iconSummaryKuota = require('./icon-summary-kuota.png');
+export const iconTambahanKuota = require('./icon-tambahan-kuota.png');
+export const iconQuotaReskin = require('./icon-quota-reskin.png');
+export const iconTimerKuota = require('./icon-timer-kuota.png');
+export const bgDetailKuota = require('./bg-detail-kuota.png');
+export const bgReskinDetailKuota = require('./bg-reskin-package-addon.png');
+export const iconTimerReskinKuota = require('./icon-timer-reskin-kuota.png');
+export const iconLeft = require('./icon-left.png');
+export const iconLeftBlack = require('./icon-left-black.png');
+export const iconArrowUpNew = require('./icon-arrow-up.png');
+export const iconArrowDownNew = require('./icon-arrow-down-new.png');

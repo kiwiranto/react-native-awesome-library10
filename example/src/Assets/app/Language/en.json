@@ -1,0 +1,3907 @@
+{
+	"Global": {
+		"Feature": "Feature",
+		"Product": "Product",
+		"Setup": "Coverage",
+		"Guarantee": "Help",
+		"Login": "Login",
+		"Follow": "Follow Us",
+		"Buy": "Buy",
+		"BuyNow": "Buy Now",
+		"Help": "Help",
+		"Logout": "Logout",
+		"Terms": "Terms and Condition",
+		"Privacy": "Privacy Policy",
+		"Or": "Or",
+		"Validity": "Validity",
+		"ValidFor": "Valid For",
+		"Yes": "Yes",
+		"No": "No",
+		"Copy": "Copy",
+		"TryAgain": "Try Again",
+		"Confirm": "Confirm",
+		"Continue": "Continue",
+		"Previous": "Previous",
+		"Days": "Days",
+		"Hour": "Hours",
+		"Minute": "Minute",
+		"Minutes": "Minutes",
+		"Second": "Seconds",
+		"Back": "Back",
+		"Start": "Start",
+		"Done": "Done",
+		"Next": "Next",
+		"NextCoachmark": "Continue",
+		"Skip": "Skip",
+		"Close": "Close",
+		"Understand": "Understand",
+		"Save": "Save",
+		"Delete": "Delete",
+		"SeeAll": "See All",
+		"SuccessfulSettings": "Successful Settings",
+		"From": "From",
+		"UpTo": "Up To",
+		"ReturnToHome": "Return to Home",
+		"NoInternet": "Not connected to the internet",
+		"Later": "Later",
+		"ConnectNow": "Connect Now",
+		"History": "History",
+		"ValidUntil": "Valid until",
+		"ActiveUntil": "Active until",
+		"Verification": "Verify",
+		"Accepted": "Acepted",
+		"Use": "Use",
+		"Used": "Used",
+		"Points": "Points",
+		"At": "at",
+		"BackToDashboard": "Back to Dashboard",
+		"ContentNotReady": "Content not available",
+		"Bill": "Usage",
+		"ListDay": {
+			"Monday": "Mon",
+			"Tuesday": "Tues",
+			"Wednesday": "Wed",
+			"Thursday": "Thurs",
+			"Friday": "Fri",
+			"Saturday": "Sat",
+			"Sunday": "Sun"
+		},
+		"Payment": "Payment",
+		"AdministrationCosts": "Administrative Costs",
+		"Call188": "Call 188",
+		"Cancel": "Cancel",
+		"ModalCreditLimitPurchaseLimit": {
+			"Title": "This Purchase Exceeds The Usage Limit",
+			"Description": "If postpaid usage reaches 3 months, call the Telkomsel Call Center at 𝟏𝟖𝟖 to increase the usage limit."
+		},
+		"ChooseAnotherPackage": "Choose another package",
+		"ChangePaymentMethod": "Change payment method",
+		"Main": "Main",
+		"Refresh": "Refresh",
+		"CopiedTitle": "Copied!",
+		"All": "All"
+	},
+	"ErrorGlobal": {
+		"FailedLogin": "Login Failed",
+		"FailedRegister": "Registration Failed",
+		"ErrorPromo": "The promo is not valid or the quota is used up",
+		"ErrorSystem": "A system error has occurred",
+		"TryAgain": "Please try again later",
+		"ErrorSystemTryAgain": "A system error has occurred. Please try again later",
+		"MsisdnAlreadyExist": "SIM Card Already Registered",
+		"FailedCreateModemData": "Failed Create Modem Data",
+		"ImeiAlreadyExist": "IMEI Already Registered",
+		"ErrorValidation": {
+			"OTPCodeEmpty": "Please fill your verification code",
+			"OTPCodeIncorrect": "The code you entered is incorrect",
+			"OTPCodeFailed": "Sorry, system error just occurred. Plese try to resend code",
+			"OTPCodeExpired": "Your verification code is already expired, please try again"
+		},
+		"ErrorMessage": {
+			"GetTokenID": "Sorry, system error just occurred while getting the Access ID for you, Please try again.",
+			"GetAccessToken": "Sorry, system error just occurred while getting the Access Token for you, Please try again.",
+			"GetSessionCode": "Sorry, system error just occurred while getting the Session Code for you, Please try again.",
+			"GetCookies": "Sorry, system error just occurred while getting the Cookies Session Code for you, Please try again.",
+			"GetSocmedURL": "Sorry, system error just occurred while getting the Social Media URL for you, Please try again.",
+			"GetMembers": "Sorry, system error just occurred while getting your member data, Please try again.",
+			"SubmitLogin": "Sorry, system error just occurred while submitting your login data, Please try again.",
+			"MsisdnAllReadyExistRegister": "SIM card already registered, please check",
+			"AccountAllReadyRegistered": "Account already registered with Orbit modem",
+			"ImeiAllreadyExist": "IMEI already registered, please check",
+			"FailedCreateSubscriptionMember": "Failed to activate data package,\n please contact CS at 188",
+			"FailedCreateMemberDevice": "Failed to create your data member,\nplease contact CS at 188",
+			"DeviceOrPackageNotFound": "Device or package not found",
+			"GetUrlSocmed": "Sorry, system error just occurred while getting the Url, Please try again.",
+			"FailedCreateMemberOffline": "Failed to create modem data, \nPlease try again",
+			"FailedImeiAlreadyExist": "IMEI already registered, failed to create a data modem"
+		}
+	},
+	"LoginScreen": {
+		"LoginWelcome": {
+			"FindAccount": "Forgot Email/Phone Number?",
+			"FindAccountRefine": "Forgot Account?"
+		},
+		"PredefineAccount": {
+			"Title": "Please login with the account you used to buy the modem.",
+			"LoginWith": "Login With",
+			"LoginWithAnother": "login with another account"
+		},
+		"LoginOption": {
+			"LoginFacebook": "Login with Facebook",
+			"LoginGmail": "Login with Gmail",
+			"LoginEmail": "Login with Email",
+			"LoginWith": "Sign in with",
+			"LearnMore": "Learn more about Telkomsel Orbit"
+		},
+		"LoginWithEmail": {
+			"Headline": "Login with Email",
+			"EmailLabel": "Email",
+			"PhoneLabel": "Phone",
+			"EmailPhoneLabel": "Email Address/Phone Number",
+			"EmailPhoneLabelRefine": "Enter Mobile Number or Email That You Registered",
+			"ErrorEmailEmpty": "Please fill in your Email or Phone Number",
+			"ErrorEmailIncorrect": "The email you entered is incorrect or not registered",
+			"ErrorEmailIncorrectRefine": "The account you entered is incorrect or not registered",
+			"ErrorEmailFormatIncorrect": "Email format is incorrect",
+			"ErrorPhoneIncorect": "The phone number you entered is incorrect or not registered",
+			"ErrorPhoneFormatIncorect": "Phone number format is incorrect",
+			"PasswordLabel": "Password",
+			"ErrorPasswordEmpty": "Please fill in your Password",
+			"ErrorPasswordIncorrect": "The password is incorrect",
+			"ForgotPassword": "Forgot Password",
+			"ButtonAction": "Login",
+			"ButtonActionReskin": "Continue",
+			"AnotherLogin": "Or login with",
+			"PlaceholderEmail": "Enter your email address",
+			"PlaceholderPassword": "Enter your Password",
+			"LoginNotes": "Please login with the account you used to buy the modem"
+		},
+		"LoginWithPhoneNumber": {
+			"TitleOTP": "Enter the Verification Code",
+			"SubtitleOTP1": "Check the SMS that we have sent to the number",
+			"SubtitleOTP2": "to see the verification code.",
+			"ResendOTP": "Resend code"
+		},
+		"FailedLoginPopup": {
+			"PopupTitle": "Login Failed",
+			"PopupSubTitle": "Account not found, please login by enter Your Registered Phone Number",
+			"FailedEmail": "Your Email or password is incorrect, user not found. Please try again later",
+			"FailedEmail2": "Incorrect or unregistered account",
+			"FailedEmail2Subtitle": "Account not found, please login using another method",
+			"FailedSystem": "A system error has occurred. Please try again later",
+			"FailedLoadData": "Failed to load data, please try again.",
+			"FailedCreateAccount": "Failed to create account, please try again.",
+			"ButtonAction": "Try Again",
+			"FailedApple": "Your Apple ID account has not been registered on Orbit yet, please try again with another account.",
+			"FailedFacebook": "Your Facebook account has not been registered on Orbit yet, please try again with another account.",
+			"FailedGmail": "Your Gmail account has not been registered on Telkomsel Orbit yet. Please try again with another account.",
+			"FailedAccountPairing": "This account is already registered with other Telkomsel products. Please register with another account.",
+			"FailedAccountUnPairing": "Your account has not been registered on Telkomsel Orbit yet, please try again with another account.",
+			"PrimaryButtonTitle": "Back"
+		},
+		"LoginFailedGetMemberData": {
+			"Title": "Login Failed",
+			"Description": "A system error occurred when getting user data. Please try again later.",
+			"PrimaryButtonTitle": "Back"
+		},
+		"LoginFailedCooldownPopup": {
+			"Title": "Login Failed",
+			"Description": "Sorry, you have reached the maximum limit to perform login. Please try again later.",
+			"PrimaryButtonTitle": "Back"
+		},
+		"LoginFailedTimeout": {
+			"Title": "Login Failed",
+			"Description": "Sorry, a connection error occurred. Please try again.",
+			"PrimaryButtonTitle": "Back"
+		},
+		"LoginFailedAndroidOnly": {
+			"Title": "Login Failed",
+			"Description": "This account is connected to the modem",
+			"Description2": "which can only be temporarily controlled by an Android device. Please login via the appropriate device.",
+			"PrimaryButtonTitle": "Understand"
+		},
+		"LoginFailedGlobal": {
+			"Title": "Login Failed",
+			"Description": "Cannot login to the app at this time. If you want to visit the Dashboard, please login on Telkomsel Orbit website.",
+			"Description2": "Tips: If you want to buy a data package, you can access the Gift feature on MyTelkomsel app or simply call *363#.",
+			"PrimaryButtonTitle": "Back"
+		},
+		"LoginFailedAccountRegistered": {
+			"Title": "This account is already registered with the Orbit modem",
+			"Description": "Please register using another email address/mobile number that has not been registered.",
+			"PrimaryButtonTitle": "Understand"
+		},
+		"PrivacyTerm": {
+			"Statement1": "By logging ",
+			"Statement2": "in with email,",
+			"Statement3": "number, or ",
+			"Statement4": "another method, ",
+			"Statement5": "I agree to the ",
+			"Statement6": "By registering",
+			"Statement7": "I agree to the ",
+			"TnC": "Terms and Conditions",
+			"And": " and ",
+			"And2": " and ",
+			"PrivacyPolicy": "Privacy Policy",
+			"FromTelkomsel": " of Telkomsel"
+		}
+	},
+	"LoginSocialMediaScreen": {
+		"RegisterSocialMedia": {
+			"Title": "Account Registered",
+			"Description": "Your account is already registered, please login to continue the activation process",
+			"PrimaryButtonTitle": "Close"
+		}
+	},
+	"ForgotPasswordScreen": {
+		"Headline": "Forgot Password",
+		"Step1": {
+			"Desc": "Please enter your email address to get your verification code.",
+			"DescReskin": "Please enter your email to get a verification code.",
+			"EmailLabel": "Email Address",
+			"ButtonAction": "Continue",
+			"EmailEmpty": "Please fill your email",
+			"EmailIncorrect": "Your Email is Incorrect",
+			"EmailIncorrectReskin": "The email you entered is incorrect or not registered",
+			"CheckMemberFailed": "User not found, check your email address and try again."
+		},
+		"Step2": {
+			"Title": "Confirm Your Email",
+			"Desc": "Please check your email to see the verification code and enter the verification code",
+			"OTPCodeLabel": "Verification Code",
+			"ResendCodeTitle": "Resend the code",
+			"ButtonAction": "Continue",
+			"OTPCodeEmpty": "Please fill your Verification Code",
+			"OTPCodeIncorrect": "Your Verification Code is Incorrect",
+			"OTPCodeExpired": "Your Verification Code is Expired. Plese try to Resend Code"
+		},
+		"Step3": {
+			"Title": "Enter Your New Password",
+			"PasswordLabel": "Forgot Password",
+			"PasswordLabelReskin": "New Password",
+			"RePasswordLabel": "Enter Your New Password",
+			"RePasswordLabelReskin": "Confirm New Password",
+			"ButtonAction": "Confirm Password",
+			"PasswordEmpty": "Please fill your Password",
+			"PasswordIncorrect": "Password must include 8 characters, alphanumeric, and special character",
+			"RePasswordEmpty": "Please fill your Confirm Password",
+			"RePasswordIncorrect": "Confirm Password is Incorrect",
+			"RePasswordIncorrectReskin": "Confirm password must match password"
+		},
+		"VerificationSent": {
+			"Title": "Code Sent",
+			"TitleReskin": "Verification Code Sent",
+			"Desc": "Please check your email to get the verification code we have sent.",
+			"DescReskin": "Check your email to see the verification code we have sent.",
+			"ButtonAction": "OK"
+		},
+		"PasswordChangeSuccess": {
+			"Title": "Password Changed Successfully",
+			"TitleReskin": "Password Changed Successfully",
+			"Desc": "Your Telkomsel Orbit password has been changed successfully.",
+			"DescReskin": "Now you can login using your new password.",
+			"ButtonAction": "Continue"
+		},
+		"PasswordChangeFailed": {
+			"Title": "Change Password Failed",
+			"Desc": "Sorry, your session has expired. Please try again.",
+			"ButtonAction": "Back"
+		}
+	},
+	"OrderStatusScreen": {
+		"CTALogout": "Logout",
+		"Title": "Pending Transaction",
+		"Desc": "You still have an incomplete transaction. Please complete your payment process.",
+		"ButtonAction": "Continue",
+		"ButtonAction2": "Order Again"
+	},
+	"DeliveryStatusScreen": {
+		"OnBoarding": {
+			"title": "Welcome to Telkomsel Orbit!",
+			"Subtitle": "Your internet solution, connected anywhere.",
+			"deliveredTitle": "Thank you for choosing Telkomsel Orbit as an all-digital internet solution for your home, click Continue to see the shipping status of your modem",
+			"transactionTitle": "You still have unfinished payments, please continue your payment process.",
+			"transactionSecondTitle": "You have not made an order, Click Buy Now to order your Telkomsel Orbit modem",
+			"nextDelivery": "Next",
+			"buyNowDelivery": "Buy Now",
+			"TitleReskin": "Welcome to Telkomsel Orbit",
+			"TitleFailedCallback": "Your Orbit modem data is incomplete",
+			"DeliveredDescription": "Thank you for choosing Telkomsel Orbit as an all-digital internet solution for your home, click Continue to see the shipping status of your modem.",
+			"TransactionDescription": "You still have unfinished payments, please continue your payment process.",
+			"TransactionDescriptionReskin": "You have not placed an order. Click Buy Now to buy Telkomsel Orbit modem or go back to continue the modem activation process.",
+			"FailedCallbackDescription": "In order for the modem to be ready for use, we need to complete your Orbit modem information. Please click Contact Us to continue.",
+			"BuyOfflineDescription": "Please buy modem at Telkomsel Orbit Official Store and continue the process with modem activation.",
+			"ButtonContinue": "Continue",
+			"ButtonBuyNow": "Buy Now",
+			"ButtonContactUs": "Contact Us",
+			"ButtonBuyOffline": "Buy at Official Store"
+		},
+		"PopupEcommerce": {
+			"Title": "Our Official Store",
+			"Description1": "Choose one of the following Telkomsel Official Stores to purchase an Orbit modem",
+			"Description2": "*Purchases of modems other than on the Telkomsel Orbit website do not get a 7-day refund guarantee"
+		},
+		"LoginActivation": {
+			"Title": "Login Successful",
+			"Subtitle": "You will proceed to the modem activation process.",
+			"ButtonAction": "Continue"
+		},
+		"OnProcess": {
+			"Logout": "Logout",
+			"Title": "Has Been Packed",
+			"Desc": "Orbit Modem has been packed and ready for shipping.",
+			"ButtonAction": "Order Status",
+			"TitlePickup": "Orbit Modem Ready To Pickup",
+			"DescPickup": "Click Check Retrieval Details to view the unique code. Show the unique code to the GraPARI staff when you pick up your modem.",
+			"ButtonActionPickup": "Chek Pickup Detail"
+		},
+		"OnPickup": {
+			"Logout": "Logout",
+			"Title": "Modem Shipped",
+			"Desc": "Your Telkomsel Orbit modem is on its way to the recipient address",
+			"ButtonAction": "Order Status"
+		},
+		"OnDelivery": {
+			"Logout": "Logout",
+			"Title": "On Delivery",
+			"Desc": "Modem Orbit is on the way. Estimated till date",
+			"ButtonAction": "Order Status",
+			"Reminder": "Already received your modem?",
+			"ButtonAction2": "Activate Modem"
+		},
+		"OnArrive": {
+			"Title": "Modem Received",
+			"TitlePickup": "Modem Received",
+			"Desc": "Your modem has been received by",
+			"ButtonAction": "Activate Modem",
+			"CheckStatus": "Check Order Status",
+			"CheckStatusReskin": "Already received the modem?",
+			"ButtonAction2": "Order Status",
+			"CheckStatusPickup": "Check Pickup Status",
+			"ButtonActionCheckPickup": "Pickup Status",
+			"DownloadTutorial": "Download MyOrbit activation tutorial"
+		},
+		"Inactive": {
+			"Title": "Modem is Inactive",
+			"Desc": "Immediately carry out the process of activating your modem",
+			"ButtonAction": "Activate Modem",
+			"CheckStatus": "Check Order Status?",
+			"CheckStatusReskin": "Already received the modem?",
+			"ButtonAction2": "Order Status",
+			"CheckStatusPickup": "Check Pickup Status?",
+			"ButtonActionCheckPickup": "Pickup Status"
+		},
+		"NoTransaction": {
+			"Title": "No Transaction",
+			"Desc": "You don't have a transaction. Please make your transaction.",
+			"ButtonAction": "See Offer"
+		},
+		"StillHaveTransaction": {
+			"Title": "Still Have Transactions",
+			"Desc": "You still have unfinished transactions. Please continue your transaction.",
+			"ButtonAction": "Continue",
+			"ButtonAction2": "Repeat Order"
+		},
+		"PickupStatus": {
+			"TitleQr": "Please show the QR Code to the GraPARI staff to pick up your modem",
+			"TitleSecondQr": "QR Code Modem Pick Up",
+			"Delivered": "Received",
+			"Pickup": "Pick Up",
+			"SeeGoogle": "See to Google Maps"
+		},
+		"DeilveryStatus": {
+			"Headline": "Delivery Status",
+			"StatusLabel": "Status",
+			"DeliveryDateLabel": "Delivered On",
+			"TrackShipmentLabel": "Track Shipment",
+			"TrackingNumberLabel": "Tracking Number",
+			"ServiceLabel": "Service",
+			"CourierLabel": "Courier",
+			"ReceiverLabel": "Received By",
+			"AddressLabel": "Address",
+			"ButtonAction": "Contact Us",
+			"ButtonAction2": "Contact via Whatsapp"
+		},
+		"OrderTracker": {
+			"Headline": "Delivery Status",
+			"HeadlinePickup": "Pickup Status",
+			"OrderPacked": "Telkomsel Orbit modem is in the process of preparation.",
+			"OrderDelivered": "Delivery complete, please activate for the next process.",
+			"ButtonAction": "Contact Us",
+			"StatusPickup": {
+				"Processed": "Your Orbit modem is ready to take.",
+				"Delivered": "The pickup is complete, please do the activation for the next process."
+			}
+		},
+		"PopupDownloadTutorial": {
+			"SuccessDownload": {
+				"Title": "Download Tutorial Success",
+				"Subtitle": "Tutorial was downloaded successfully, please open the download folder and find file",
+				"ButtonAction": "Understand"
+			},
+			"FailedDownload": {
+				"Title": "Download Tutorial Failed",
+				"Subtitle": "An error occurred in the system failed to download tutorial file, please try again.",
+				"ButtonAction": "Close"
+			}
+		},
+		"PopupDownloadInvoice": {
+			"ConfirmationDownload": {
+				"Title": "Download Invoice",
+				"Subtitle": "Do you want to download the invoice?",
+				"ButtonAction1": "Yes",
+				"ButtonAction2": "No"
+			},
+			"SuccessDownload": {
+				"Title": "Download Invoice Success",
+				"Subtitle": "Invoice was downloaded successfully, please open the download folder and find file",
+				"ButtonAction": "Understand"
+			},
+			"FailedDownload": {
+				"Title": "Download Invoice Failed",
+				"Subtitle": "An error occurred in the system failed to download invoice file, please try again.",
+				"ButtonAction": "Close"
+			},
+			"InProgressDownload": {
+				"Title": "Download Invoice Failed",
+				"Subtitle": "The invoice file cannot be found or is still in process, please wait a few more moments to download the invoice file.",
+				"ButtonAction": "OK"
+			}
+		}
+	},
+	"TutorialScreenNew": {
+		"Welocme": {
+			"Title": "Welcome",
+			"Desc": "Follow these easy steps to enjoy unlimited fast internet"
+		},
+		"RegisterSIM": {
+			"Desc1": "Easy Modem Installation",
+			"Desc2": "and KTP/KK Registration",
+			"Desc3": ""
+		},
+		"SIM": {
+			"Title": "Make Sure Your Orbit Data Is Correct",
+			"SimCard": "SIM Card Number",
+			"WifiName": "Wi-Fi Name",
+			"IMEI": "IMEI",
+			"Desc1": "The WiFi & IMEI Modem name is located at the bottom of the modem",
+			"Desc2": "The WiFi & IMEI Modem name is located at the back of the modem"
+		}
+	},
+	"TutorialScreen": {
+		"Welcome": {
+			"Title": "Welcome",
+			"Desc": "Just 2 easy steps to enjoy fast and unlimited internet"
+		},
+		"RegisterSIM": {
+			"Title": "Register your SIM card",
+			"Label": "Enter your ID Card & Family Registers Number"
+		},
+		"ConnectModem": {
+			"Title": "Turn on your modem to connect to MyOrbit App",
+			"Label": "Installing"
+		}
+	},
+	"PairingProcessScreen": {
+		"Step1": {
+			"Title": "Connect Modem",
+			"ContentOne1": "Make sure you are doing this step",
+			"ContentOne2": "correctly before",
+			"ContentOne3": "connecting the modem",
+			"ContentSecond1": "Turn On Your Modem",
+			"ContentSecond1Desc": "Plug the modem into the power adapter and wait until the power indicator light is on",
+			"ContentSecond2": "Turn Off Mobile Data",
+			"ContentSecond2Desc": "Make sure your device's mobile data is not active",
+			"ContentSecond3": "No Other WiFi Connected",
+			"ContentSecond3Desc": "Make sure you are not connected to another WiFi connection",
+			"Desc": "Turn on your modem using available adapter. Wait until the WiFi indicator light turns on",
+			"List1": "Turn on Modem",
+			"List2": "Turn off mobile data on your handphone",
+			"List3": "Turn off other Wi-fi network at your place except Telkomsel Orbit's network",
+			"ButtonAction": "Connect Modem"
+		},
+		"Step2": {
+			"Title": "Connecting",
+			"Desc": "Make sure that your phone WiFi has been enabled",
+			"Desc1": "Please stay on this page and make sure the WiFi on your phone is active.",
+			"Desc2": "Please wait, the modem setup process will take up to 5 minutes"
+		},
+		"SuccessConnectModem": {
+			"Title": "Modem Connected Successfully",
+			"TitleReset": "Reset Modem Successfully",
+			"Desc": "Now you can enjoy the full features of MyOrbit app.",
+			"Desc2": "Your modem has been successfully reset. Click Continue to connect your device to the Telkomsel Orbit network again.",
+			"Desc2Reskin": "Click Continue to reconnect your device to Telkomsel Orbit network.",
+			"Desc3": "Your modem has been successfully reset. Click Continue to enjoy the Telkomsel Orbit network again.",
+			"Desc3Reskin": "Click Continue to enjoy the Telkomsel Orbit network again.",
+			"ButtonAction": "Continue",
+			"AdvanceSetting": "Advance Setting"
+		},
+		"SuccessConnectModemByod": {
+			"Desc": "Now you can enjoy the full features of MyOrbit application."
+		},
+		"FailedConnectModem": {
+			"Title": "Failed to Connect",
+			"Desc": "Make sure the WiFi on your cellphone is active and contact our Customer Service if the process of connecting the modem fails again",
+			"ButtonAction": "Reset Modem",
+			"ButtonAction2": "Try Again",
+			"ButtonActionReset": "Create Report"
+		},
+		"FailedProcess": {
+			"Title": "Unable to Connect",
+			"TitleReset": "Reset Modem Failed",
+			"DescReset": "Your modem failed to reset, please click Try Again or click Create Report to report your Telkomsel Orbit modem problem.",
+			"Desc": "Failed to connect to your modem, please make sure that:",
+			"NoteList1": "Modem WiFi indicator light turns white or blue",
+			"NoteList2": "WiFi on the mobile phone has been turned on",
+			"NoteList3": "Place the modem near you",
+			"ButtonAction": "Try Again"
+		},
+		"ConnectionNotOptimal": {
+			"Title": "Poor Telkomsel Orbit Connection",
+			"Desc": "We are currently working on network optimization to make sure you have the best experience in using our internet services",
+			"ButtonAction": "Continue",
+			"ButtonAction2": "Contact Us"
+		},
+		"ConnectionNotOptimal2": {
+			"Title": "Poor Telkomsel Orbit Connection",
+			"Desc": "Your internet speed is not optimal, we recommend moving your modem",
+			"ButtonAction": "Try Again"
+		},
+		"ConnectionOptimal": {
+			"Title": "Modem Connected Successfully",
+			"Desc": "The Telkomsel Orbit modem has been connected and the data package will be active within a maximum of 1x24 hours.",
+			"ButtonAction": "Continue"
+		},
+		"PopupReportSuccess": {
+			"Title": "Report Received",
+			"Desc": "We have received your report, we will examine your problem within a maximum of 24 hours",
+			"ButtonAction": "Continue"
+		},
+		"PopupReportFailed": {
+			"Title": "Sent Failed",
+			"Desc": "Your report failed to send, please try again",
+			"ButtonAction": "Failed"
+		},
+		"ToastMessage": {
+			"ErrorMessage": "Error message",
+			"SuccessUnlockModem": "Modem unlock successful",
+			"FailedUnlockModem": "Failed to unlock modem",
+			"FailedUnlockModem100003": "Failed to Unlock Modem, modem error : 100003",
+			"FailedUnlockModemReset": "Fail to unlock the modem, please hard reset your modem on the modem back button..",
+			"AlertResetModem": "Please reset modem, hold the small button behind the modem next to the power for 10 seconds..",
+			"SuccessOptiomationNetwork": "Network optimization successful!!",
+			"FailedOptiomationNetwork": "Network optimization failed!!",
+			"ModemNoQuota": "The modem has no quota!!",
+			"FailedConnectModem": "Failed to connect to the modem",
+			"RestartModemAlert": "Please restart your modem and try again",
+			"RestartModemProcess": "Please restart your modem, MyOrbit will try to restart.",
+			"ResetModemProcess": "Restart the modem to activate your Router, please wait!",
+			"FailedProvisioning": "Activation package is on progress"
+		},
+		"ResultActivationFailed": {
+			"Title": "Modem Connected Successfully",
+			"Subtitle": "Your modem has been successfully connected to Telkomsel Orbit internet network. Don’t worry, your data package will be activated automatically within 1x24 hours.",
+			"ButtonAction": "Continue"
+		},
+		"CProsesResultSpeedTest": {
+			"Failed": {
+				"NoteList1": "To a higher place.",
+				"NoteList2": "Not blocked by large objects.",
+				"NoteList3": "Close to the window"
+			},
+			"Sucsess": {
+				"Referral": "Invite Friends Now",
+				"WifiNameLabel": "Wifi Name",
+				"WifiPasswordLabel": "Wifi Password"
+			}
+		},
+		"ManualConnect": {
+			"Title": "Connect the Device to the Network",
+			"Subtitle": "In your device's WiFi Settings, select the WiFi name and enter Telkomsel Orbit WiFi password.",
+			"ButtonAction": "Continue",
+			"ButtonAction2": "I Didn't Find the WiFi Name"
+		},
+		"InputManualPassword": {
+			"Headline": "Factory Reset",
+			"TutorialScreen": {
+				"Title": "Input Modem Password",
+				"Subtitle": "Look at the bottom of the modem, then enter the 8-digit password which is located under the IP number.",
+				"ButtonAction": "Continue",
+				"ButtonAction2": "Make a report"
+			},
+			"InputScreen": {
+				"Title": "Password Modem",
+				"ErrorMessageEmpty": "Password cannot be empty",
+				"ErrorMessageSymbol": "Password cannot use symbols",
+				"Placeholder": "Enter modem password",
+				"ButtonAction": "Continue"
+			}
+		},
+		"FailedUnlocking": {
+			"Title": "Reset Failed",
+			"Subtitle": "The password you entered is incorrect, please try again and make sure to enter the correct password.",
+			"ButtonAction": "Try again",
+			"ButtonActionContinue": "Continue",
+			"ButtonActionTryAgain": "Try again",
+			"ButtonActionReport": "Make a report",
+			"ButtonActionHome": "Back to Home"
+		},
+		"FailedMaxLimit": {
+			"Title": "You Reached the Failed Limit",
+			"SubtitleOnline": "Please proceed to the SIM card registration process.",
+			"SubtitleOffline": "Please wait another 1 minute to reset your modem again.",
+			"ButtonActionContinue": "Continue",
+			"ButtonActionTryAgain": "Try again",
+			"ButtonActionReport": "Make a report",
+			"ButtonActionHome": "Back to Home"
+		}
+	},
+	"PairingRestart": {
+		"Title": "Connect Modem",
+		"Headline": "Restart Your Modem",
+		"Subheadline": "Unplug and plug the power cable that is behind the modem. Wait for about 1 minute until the WiFi indicator lights up.",
+		"CTA": "Modem Has Been Restarted"
+	},
+	"ActivationProgress": {
+		"Title": "Please Wait, Your Telkomsel Orbit Modem Is In the Process of Activation",
+		"TitleReskin": "Please Stay on This Page, Your Telkomsel Orbit Modem In the Process of Activation.",
+		"TitleIsetup": "Do not close this page, your modem is in the process of activation",
+		"SuccessActivation": {
+			"Title": "Modem Activated Successfully",
+			"Subtitle": "The activation process is successful and the modem is ready for you to use.",
+			"PrimaryButtonTitle": "Go To Dashboard",
+			"ButtonAction": "Continue",
+			"ButtonReskin": "Done"
+		},
+		"SuccessActivationReskin": {
+			"Title": "Restart Modem to Complete Activation Prosess",
+			"Subtitle": "Please turn off and turn on your modem again.",
+			"ToastLabel": "Modem activation has been successful"
+		},
+		"CardLabel": {
+			"LabelName": "Wifi Name",
+			"LabelPassword": "Wifi Password"
+		}
+	},
+	"RegistrationSimCard": {
+		"NIK_NOKK": {
+			"Heading": "SIM Card Registration",
+			"PlaceholderKTP": "(16 digits KTP number)",
+			"PlaceholderKK": "(16 digits KK number)",
+			"Title": "Prepare your KTP (ID card) and KK (Family ID) for SIM card registration",
+			"NIKLabel": "KTP Number",
+			"NIKLabelReskin": "KTP Number",
+			"ErrorNIKEmpty": "KTP number cannot be empty",
+			"ErrorNIK16Digit": "KTP number must 16 digits",
+			"KKLabel": "KK Number",
+			"KKLabelReskin": "Family ID (KK) Number",
+			"ErrorKKEmpty": "KK number cannot be empty",
+			"ErrorKK16Digit": "KK number must 16 digits",
+			"Disclaimer": "Make sure your ID & KK number is correct, there is a limit of 3 times registration trials per day.",
+			"DisclaimerReskin": "Make sure your KTP & KK are not registered with more than 3 numbers.",
+			"TNC": "I declare that the identity of the KTP and KK above is mine. I am responsible for and comply with the applicable legal provisions for all consequences arising from the use of this SIM card.",
+			"ButtonAction": "Continue",
+			"AlertTNC": "Please sign the Terms & Condition",
+			"NonNIKLabel": "KITAS/KITAP/PASPOR Registration",
+			"NonNIK": "Register with Stay Permit Cards or Passport at the nearest GraPARI.",
+			"ButtonAction2": "Find the Nearest GraPARI",
+			"ButtonActive": "Activate Modem"
+		},
+		"InfoMessage": {
+			"Regulation": "Berdasarkan kebijakan terbaru Dukcapil, mulai 23 September 2022 proses registrasi kartu hanya dapat dilakukan mulai pukul 06.00-20.00 WIB."
+		},
+		"ToastMessage": {
+			"PrepaidSuccess": "Prepaid Activation Success !! please wait for the next process.",
+			"ProvisioningProcess": "Providing data packet provisioning. please wait.."
+		},
+		"PopupBack": {
+			"Title": "Are you sure you want to leave this page?",
+			"Subtitle": "Your data is not saved and you have to start over to enter the data again.",
+			"firstButtonTitle": "Leave Page",
+			"secondButtonTitle": "Cancel"
+		},
+		"PopupSystemProblem": {
+			"Title": "SIM Card Registration Failed ",
+			"Desc": "There was a system error, contact *444# for SIM card self-registration or contact Customer Service for assistance.",
+			"ButtonAction": "Try Again"
+		},
+		"PopupSystemBusy": {
+			"Title": "SIM Card Registration Failed",
+			"Desc": "The system is busy, please try again later",
+			"ButtonAction": "Try Again"
+		},
+		"PopupRegistrationSuccess": {
+			"Title": "SIM Card Registration Successful",
+			"Desc": "Please proceed to set your WiFi name and password",
+			"ButtonAction": "Continue"
+		},
+		"PopupLimitHitNiknok": {
+			"Title": "Registration Limit Has Expired",
+			"Desc": "Please repeat the registration process for your SIM card the next day.",
+			"ButtonAction": "Back"
+		},
+		"PopupInvalidNiknok": {
+			"Title": "SIM Card Registration Failed",
+			"Desc": "Your KTP and KK numbers are not registered or incorrect. Please check your data to register again.",
+			"ButtonAction": "Try Again"
+		},
+		"PopupConnectionProblem": {
+			"Title": "Connection Error",
+			"Desc": "Sorry, there is a connection problem. Please try again later.",
+			"ButtonAction": "Try Again"
+		},
+		"PopupNIKNOKKLimit": {
+			"Title": "KTP and KK cards reach the limit",
+			"Desc": "Your KTP and KK have been used by 3 Telkomsel SIM cards. Please register with other family registers and ID card.",
+			"ButtonAction": "Try Again"
+		},
+		"PopUpAlreadyActivated": {
+			"Title": "Your number has been activated",
+			"Desc": "Please select Continue to proceed to the next process",
+			"ButtonAction": "Continue"
+		},
+		"PopUpInProgress": {
+			"Title": "Your Request Is Being Processed",
+			"Desc": "Please wait while we are processing your request or contact Customer Service for more information",
+			"ButtonAction": "Understand"
+		},
+		"PopUpExceedDukcapilHour": {
+			"Title": "Activation cannot be done outside of operating hours",
+			"Desc": "Please do the registration process during operating hours starting at 06.00 - 20.00",
+			"ButtonAction": "Understand"
+		},
+		"PopUpExceedDukcapilTransaction": {
+			"Title": "Activation has reached the maximum daily limit",
+			"Desc": "Please try to register tomorrow during operating hour starting at 06.00 - 20.00",
+			"ButtonAction": "Understand"
+		},
+		"PopUpSystemErrorFromOrbit": {
+			"Title": "SIM Card Registration Failed",
+			"Desc": "There is a problem with the system, dial * 444 # for SIM card registration independently or contact Customer Service for assistance.",
+			"ButtonAction": "Try Again"
+		},
+		"Loading": {
+			"Desc": "We are currently preparing your modem, please wait"
+		},
+		"PopUpGeneralError": {
+			"Desc_1": "There was a problem while processing your request, please try again.",
+			"Desc_2": "You can also register by:",
+			"Desc_3": "- Opening the SIM card holder on the back/bottom of the modem.",
+			"Desc_4": "- Insert the Orbit SIM card into your phone and call"
+		}
+	},
+	"AccountRegistrationScreen": {
+		"AccountRegistration": {
+			"HeadingEmail": "Register an Account",
+			"HeadingPhone": "Register Account",
+			"Heading2": "Enter Your Phone Number/Email",
+			"Subtitle1": "Will be used for login & receiving OTP code. Please do not use Orbit SIM Card number.",
+			"Textfield": "Phone number or email address",
+			"Register": "Register",
+			"Subtitle2": "Or register with",
+			"Disclimer": "Cannot use Orbit simcard number for registration.",
+			"Info": {
+				"HeadingEmail": "Email Already Registered",
+				"HeadingMsisdn": "Phone Number Already Registered",
+				"SubtitleEmail": "Please log in using this email for the next process.",
+				"SubtitleMsisdn": "Please log in using this phone number for the next process.",
+				"Button": "Continue",
+				"Heading2": "Registration Successful",
+				"Subtitle2": "Congratulations, your Telkomsel Orbit account is active! Click Continue to go to the homepage."
+			},
+			"Error": {
+				"InputEmpty": "Please fill phone number or email",
+				"InputEmptyMsisdn": "Please fill email",
+				"InputEmptyEmail": "Please fill phone number",
+				"EmailIncorrect": "Incorrect email format",
+				"PhoneIncorrect": "Phone Number is Incorrect",
+				"PhoneEmpty": "Please Enter SIM Card Number",
+				"LengthIncorrect": "Phone Number more than 13",
+				"IncorrectProvider": "Your provider is currently unable to receive a verification SMS.",
+				"CredentialIncorrectProvider": "This provider number is not allowed to use",
+				"ErrorPhoneFormatIncorect": "Incorrect phone number format",
+				"ErrorPhoneIncorect": "Number is incorrect or not registered",
+				"OnlyCanUseOrbitNumber": "Can only use Orbit SIM card numbers",
+				"EntryYourSimcardOrbit": "Enter your Orbit SIM card number"
+			},
+			"Field": {
+				"InputPhone": "Enter Your Phone Number",
+				"InputEmail": "Enter your Email",
+				"DescriptionEmail": "Will be used for login & receiving email verifications",
+				"DescriptionPhone": "Will be used for login & receving SMS. please do not use Orbit Sim Card number."
+			},
+			"Popup": {
+				"ErrorSystem": {
+					"Title2": "Unable to Register",
+					"Title3": "Cannot Login",
+					"Subtitle1": "An error occurred while checking account",
+					"Subtitle2": "please try again.",
+					"Subtitle3": "Please use email to register.",
+					"Subtitle4": "Please use email to login.",
+					"ButtonAction": "Understand"
+				},
+				"LoginFailedOTPBlacklistPopup": {
+					"Title": "OTP Request Limit Reached",
+					"Description": "You have been detected for attempting OTP verification 5 times in 10 minutes. Please try again in the next 10 minutes or use another number.",
+					"PrimaryButtonTitle": "Understand"
+				},
+				"AccountRegistered": {
+					"Title": "Account Already Registered",
+					"Subtitle": "Do you want to continue with an existing account?",
+					"ButtonAccept": "Yes",
+					"ButtonCancel": "No"
+				}
+			}
+		},
+		"AccountRegistrationForm": {
+			"Subtitle": {
+				"Email": "Email Address",
+				"Phone": "Phone Number",
+				"BirthDate": "Date of birth"
+			},
+			"Label": {
+				"ConfirmPassword": "Confirm Password",
+				"FullName": "Full Name",
+				"Email": "Email Address",
+				"Phone": "Phone Number",
+				"Date": "Date",
+				"Month": "Month",
+				"Year": "Year"
+			},
+			"LabelOpsional": {
+				"FullName": "Nama Lengkap",
+				"Email": "Email Address (optional)",
+				"Phone": "Phone Number (optional)"
+			},
+			"Placeholder": {
+				"FullNamePhone": "(Enter your full name)",
+				"FullNameEmail": "(Enter Your Name)",
+				"Email": "(Enter your email address)",
+				"Phone": "08xx xxxx xxxx",
+				"Password": "(Minimum 8 characters)",
+				"ConfirmPassword": "(Retype your password)"
+			},
+			"Button": {
+				"ButtonEmail": "Send Email Verification",
+				"ButtonPhone": "Send SMS Verification"
+			},
+			"AdditionalInformation": "Additional information",
+			"FormValidation": {
+				"PasswordIncorrect": "Password must include 8 characters, alphanumeric, and special character",
+				"RePasswordIncorrect": "Confirm Password is Incorrect",
+				"FullNameIncorrect": "Fullname is Incorrect",
+				"PhoneNumberIncorrect": "Phone Number is Incorrect",
+				"PhoneNumberEmpty": "Please fill your Phone Number",
+				"PasswordEmpty": "Please fill your Password",
+				"RePasswordEmpty": "Please fill your Confirmation Password",
+				"FullNameEmpty": "Please fill your Fullname",
+				"DateEmpty": "Please fill your date of birth",
+				"DateIncorrect": "Enter the correct date",
+				"MonthEmpty": "Please select your month of birth",
+				"MonthIncorrect": "Enter the correct month",
+				"YearEmpty": "Please fill your year of birth",
+				"YearIncorrect": "Enter the correct year",
+				"YearLengthIncorrect": "Please fill 4 digit year"
+			},
+			"Popup": {
+				"PopupButton": "Understand",
+				"AlreadyRegistered": {
+					"EmailTitle": "Your Email Already Registered",
+					"EmailSubtitle": "Please log in using this email for the next process.",
+					"PhoneTitle": "Your phone number has been registered",
+					"PhoneSubtitle": "Please log in using this mobile number to go to the next process."
+				},
+				"ErrorSystem": {
+					"Subtitle": "An error occurred while sending data, please try again."
+				}
+			}
+		},
+		"VerificationCode": {
+			"HeadingPhoneTitle": "Phone Number Verification",
+			"HeadingEmailTitle": "Email Verification",
+			"HeadingEmail": "Email Confirmation",
+			"HeadingMsisdn": "Confirm Mobile Number",
+			"Subtitle1Email": "Check your email to see the verification code. See spam folder in the email if the code is not found",
+			"Subtitle1Msisdn": "Check SMS at",
+			"Subtitle2": "to see the verification code.",
+			"Resend": "Resend code",
+			"Button": "Continue",
+			"ErrorMessage": {
+				"OTPEmpty": "Verification code must filled",
+				"OTPInvalid": "You entered the wrong verification code",
+				"OTPExpired": "Verification code you have entered has expired"
+			},
+			"Popup": {
+				"VerificationCodeSent": {
+					"Title": "Verification Code",
+					"Subtitle1": "We've sent a verification code to",
+					"Subtitle2Email": "by email.",
+					"Subtitle2Msisdn": "by SMS."
+				},
+				"SuccessRegistration": {
+					"Title": "Registration Successful",
+					"Subtitle": "Congratulations, your Telkomsel Orbit account is active! Click Scan QR Code to go to the next process.",
+					"Button": "Scan QR Code"
+				},
+				"SuccessRegistrationRevamp": {
+					"Title": "Registration Successful",
+					"Subtitle": "Congratulations, your Telkomsel Orbit account is active!",
+					"Button": "Continue"
+				},
+				"FailedGetSession": {
+					"Subtitle": "Failed to get Session, please try again."
+				},
+				"FailedGetToken": {
+					"Subtitle": "Failed to get Session, please try again."
+				},
+				"FailedSubmitOtp": {
+					"Subtitle": "Failed to send verification code, please try again."
+				},
+				"FailedResendOtp": {
+					"Subtitle": "Failed to get verification code, please try again."
+				}
+			}
+		},
+		"changeAccountProcess": {
+			"title": "Account In Progress Change Account",
+			"subtitle": "By continuing to login to the dashboard MyOrbit, then the change account process will be canceled.",
+			"buttonText": "Continue",
+			"cancelChangeAccount": {
+				"title": "Change Account Canceled",
+				"subtitle": "Click continue to go to the dashboard MyOrbit."
+			},
+			"successChangeAccount": {
+				"title": "Account Changed",
+				"subtitle": "This account has been moved to a new account, after this you will be redirected to the main page MyOrbit."
+			},
+			"cancelAccountMigration": {
+				"title": "Account Migration Cancellation Limit",
+				"subtitle": "An account migration cancellation request has been made, can't be repeated.",
+				"buttonText": "Understand"
+			}
+		}
+	},
+	"ScanQrCode": {
+		"instructions": {
+			"first": {
+				"HeaderTitle": "Scan QR Code",
+				"Title": "Prepare Telkomsel Orbit SIM Card",
+				"subtitle1": "The SIM card is in the box",
+				"subtitle2": "modem.",
+				"ButtonTitle": "See Next Steps",
+				"TitleReskin": "Prepare Telkomsel Orbit \nSIM Card",
+				"SubtitleReskin": "The SIM card is in the box modem.",
+				"ButtonTitleReskin": "Continue"
+			},
+			"second": {
+				"Title": "Scan QR code on your SIM Card",
+				"subtitle1": "The QR code is located on the top left.",
+				"subtitle2": "on the SIM card packaging.",
+				"ButtonTitle": "Scan QR Code",
+				"TitleReskin": "Scan the QR Code on Your SIM Card Packaging",
+				"SubtitleReskin": "QR code located in the upper left \non the SIM card packaging.",
+				"ButtonTitleReskin": "Scan QR Code"
+			},
+			"enhancement": {
+				"Title": "Activation Guide",
+				"TitleModemInfo": "Add Modem"
+			}
+		},
+		"TutorialScan": {
+			"SetupModem": {
+				"PageHeader": "Activation Guide",
+				"Title": "Scan the QR Code on Your SIM Card Packaging",
+				"Desc": "The QR code is located next to the orbit number.",
+				"Button": "Scan QR Code"
+			},
+			"AddModem": {
+				"PageHeader": "Add Modem",
+				"Title": "Prepare and Scan Your Orbit SIM Card",
+				"Desc": "Your SIM card QR code is in \nTelkomsel Orbit package.",
+				"Button": "Scan QR Code"
+			}
+		},
+		"Scanning": {
+			"ScanOnSimcard": "Scan QR code on Your SIM Card",
+			"ScanOnSimcardSubtitle": "The QR code is located on the top left on the SIM card packaging.",
+			"ProblemScan": "Having trouble scanning?",
+			"WriteManual": "Enter the Manual Number",
+			"WriteManualReskin": "Write manually",
+			"EnterNumber": "Enter your SIM Card Number",
+			"EnterNumberSubtitle": "Enter the modem SIM card number that is on the packaging of your SIM card.",
+			"SimcardNumber": "SIM Card Number",
+			"PleaseEnterNUmber": "Please enter your SIM number first",
+			"Continue": "Continue",
+			"WrongSimcardNumber": "Incorrect SIM Card Number",
+			"WrongSimcardNumberSubtitle": "Enter your modem SIM card number again and make sure it is correct.",
+			"SimcardNotFound": "Orbit SIM card number not found",
+			"SimcardNotFoundSubtitle": "Orbit SIM card number not found",
+			"TryAgain": "Try Again",
+			"ScanFailed": "An error has occurred, please try again or enter the mobile number by writing manually.",
+			"WriteManualModal": "Input Manually",
+			"WriteManualModalReskin": "Input Number Manually",
+			"WifiName": "Wifi Name",
+			"ProblemWithPackage": "Incorrect data on modem packaging?",
+			"MakeReport": "Make a Report",
+			"ToastMessage": "Process successful! Make sure the modem data is correct",
+			"PopUpTitlePostpaid": "Orbit SIM Card Not Active",
+			"PopUpSubtitlePostpaid": "Visit GraPARI with your ID Card to activate the postpaid Orbit SIM card.",
+			"PopUpLabelButtonPostpaid": "See Nearest GraPARI"
+		},
+		"DataModemNotFound": {
+			"Title": "Modem Data Not Found",
+			"Subtitle": "We can't find your modem data. Please contact our Customer Service for assistance.",
+			"PrimaryButtonTitle": "Contact Customer Service",
+			"SecondaryButtonTitle": "Back"
+		},
+		"DataModemNotMatch": {
+			"Title": "Account Data Does Not Match Modem",
+			"Subtitle": "This modem information does not match the account you are using. Please contact our Customer Service for assistance in the process of activating your modem.",
+			"PrimaryButtonTitle": "Contact Customer Service",
+			"SecondaryButtonTitle": "Back"
+		},
+		"DataAccountNotFound": {
+			"Title": "Account Data Not Found",
+			"Subtitle": "We couldn't find your account data. Please contact our Customer Service for more information.",
+			"PrimaryButtonTitle": "Contact Customer Service",
+			"SecondaryButtonTitle": "Back"
+		},
+		"ModemBelongToAccount": {
+			"Title": "This modem already exists on your account",
+			"Subtitle": "Please check your modem list again or scan other Orbit modems.",
+			"ButtonLabel": "Back"
+		},
+		"PopupRequestModem": {
+			"Title": "Modem and Account Information Not Updated",
+			"Subtitle1": "Continue the process by sending the information to the modem owner or call",
+			"Subtitle2": "for the modem transfer process.",
+			"PrimaryButtonLabel": "Continue",
+			"SecondaryButtonLabel": "Back"
+		},
+		"PopupAddModemUsed": {
+			"Title": "Modem Already Registered on Another Account",
+			"Subtitle": "Contact Customer Service to unbind the modem account. After the account has been successfully unbinded, open MyOrbit app to reactivate the modem.",
+			"PrimaryButtonLabel": "Contact Customer Service",
+			"SecondaryButtonLabel": "Go to Dashboard"
+		},
+		"PopupRequestModemSuccess": {
+			"Title": "Request Sent",
+			"Subtitle": "Please wait until the request is accepted or contact the modem owner to approve the transfer process.",
+			"PrimaryButtonLabel": "Add Another Modem",
+			"SecondaryButtonLabel": "Back to Dashboard"
+		},
+		"RequestFailed": "Request failed, please try again."
+	},
+	"GrapariLocation": {
+		"Headline": "The Nearest GraPARI",
+		"Title": "KITAS/KITAP/PASPOR Registration",
+		"Desc": "Prepare your KITAS / KITAP / PASSPOR to register.",
+		"ButtonAction": "See More",
+		"Detail": {
+			"Title": "GraPARI Telkomsel 24 Jam",
+			"ButtonAction": "Call",
+			"ButtonAction2": "Direct Me"
+		}
+	},
+	"DashboardScreen": {
+		"WifiNameTitle": "WiFi Name",
+		"WebsiteFilteringStatus": "Website Filtering is on",
+		"InternetStatus": "",
+		"QuotaTitle": "My Internet Data",
+		"QuotaStatus": "Total Data",
+		"DataPackageTitle": "Data Package",
+		"ReferralTitle": "Invite Friends, Get Free Data",
+		"ReferralDesc": "Invite your friends to join Telkomsel Orbit and get free 5 GB data package!",
+		"ReferralCodeLabel": "Referral Code",
+		"ReferralButtonAction": "Invite Friends",
+		"ReferralButtonActionReskin": "Invite Friends",
+		"WifiStatusConnected": "You are connected to",
+		"WifiStatusDisconnected": "You are not connected to",
+		"DepletedQuotaNotif500mb": "Your data package is less than 500MB",
+		"DepletedQuotaNotif": "Your Data Package Has Run Out",
+		"DepletedQuotaDetail": "You don't have active data package",
+		"AddonValidity": "Valid for",
+		"NotificationTitle": "Failed to Load Data Package",
+		"NotificationDescription": "Sorry, your data package has been failed to display. Please click Reload to display the data package.",
+		"NotificationButton": "Reload",
+		"PromoTitle": "Latest Promo",
+		"SeeAllPromo": "See All Promo",
+		"SeeAllPromoReskin": "See All",
+		"popUpButton": "See Promo Detail",
+		"All": "All",
+		"ShareVia": "Share On:",
+		"Share": "Share",
+		"PeriodePromo": "Promo Periode",
+		"PromoCode": "Promo Code",
+		"Description": "Description",
+		"TermAndCondition": "Term and Condition",
+		"UseVoucher": "Use Now",
+		"UsePromoCode": "Use Promo Code",
+		"UsePromoCodeYouSure": "Do you want to use this promo code?",
+		"Use": "Use",
+		"PromoCodeUsed": "Promo Code Used",
+		"NowPromo": "Now you can buy Telkomsel Orbit products with this Promo Code.",
+		"Continue": "Continue",
+		"CopyLink": "Copy Link",
+		"Later": "Later",
+		"PremiumContent": "Premium Content",
+		"PremiumContentReskin": "Entertainment Package",
+		"Byod": "Try MyOrbit's full features by connecting your modem",
+		"PromoNotFoundTitle": "Promo Not Found",
+		"PromoNotFoundSubtitle": "Sorry at this time the promo is no longer available",
+		"Understand": "Understand",
+		"RenewalDataPackage": {
+			"Title": "Buy The Same Package"
+		},
+		"Coachmark": {
+			"Welcome": {
+				"Active": {
+					"Title": "Welcome to MyOrbit!",
+					"Description": "Let's explore the exciting features of MyOrbit for your modem use.",
+					"ButtonAccept": "View Guide"
+				},
+				"Skip": {
+					"Title": "Have fun exploring MyOrbit!",
+					"Description": "A lot of interesting features of MyOrbit for your modem."
+				}
+			},
+			"MegaMenu": {
+				"Title": "Mega Menu",
+				"Message": "Tap here to view MyOrbit features menu or user profile.",
+				"WifiSettings": "You can set WiFi name & password as well as WiFi activation settings for your guests.",
+				"DeviceSettings": "Settings for the devices connected to your modem.",
+				"WebsiteFiltering": "Block websites to be inaccessible to WiFi users.",
+				"StatisticUsage": "See in detail how you use your data package each month."
+			},
+			"Notification": {
+				"Title": "Notification",
+				"Message": "The latest notifications of all your activites can be seen here"
+			},
+			"AdditionalQuota": {
+				"Title": "Data Package Add-on",
+				"Message": "You can buy a data package for your modem here"
+			},
+			"TotalKuota": {
+				"Title": "Data Package Total",
+				"Message": "You can see the total details of active data packages on your modem. When the data package will run out, you will get a notification from Telkomsel Orbit"
+			},
+			"WifiName": {
+				"Title": "Your WiFi",
+				"Message": "Here, you can set your WiFi however you want"
+			}
+		},
+		"CheckDetail": "Check Detail",
+		"ModalLogout": {
+			"Title": "Are you sure you want to logout?",
+			"Subtitle": "You will be logged out of your MyOrbit account and returned to the login page.",
+			"Button": {
+				"Yes": "Logout",
+				"No": "Cancel"
+			}
+		},
+		"ModalPostpaidError": {
+			"Title": "Unable to process your request",
+			"Subtitle": "To continue enjoying our services, please complete your Telkomsel Orbit bill payment."
+		},
+		"ChooseLanguage": "Choose Language",
+		"PackageAddOn": {
+			"FailedLoadTitle": "Failed to Display Data",
+			"FailedLoadDescription": "Make sure the modem is turned on to reload the data.",
+			"FailedLoadButtonLabel": "Reload",
+			"NotActiveDescription": "To access this service, please pay the postpaid bill in advance.",
+			"OverLimitTitle": "Reaching Usage Limit",
+			"OverLimitDescription": "If postpaid usage reaches 3 months, contact Telkomsel Call Center at 188 to increase the usage limit."
+		},
+		"ExpiredSimcard": {
+			"WidgetDashboard": {
+				"GracePeriod": {
+					"LabelText": "Card is in grace period. Buy package to activate.",
+					"Button": "Buy Package"
+				},
+				"Expired": {
+					"LabelText": "Card not active. Visit GraPARI to activate.",
+					"Button": "See GraPARI"
+				}
+			},
+			"WidgetActiveUntil": {
+				"Active": {
+					"LabelText": "Active until",
+					"TooltipText": "Buy data package to extend active period of 12 months since data package is topped up."
+				},
+				"GracePeriod": {
+					"LabelText": "Grace period until",
+					"TooltipText": "Top up balance & data package to extend active period up to 12 months."
+				},
+				"Expired": {
+					"LabelText": "Orbit SIM card is not active",
+					"TooltipText": "Visit GraPARI to activate your card."
+				}
+			},
+			"PopupGracePeriodInOneWeek": {
+				"Title": "Orbit SIM card will enter grace period in 7 days",
+				"Desc": "Buy Orbit data package to extend the card's active period for 12 months since the date of the data package is purchased.",
+				"Button": "Buy Data Package"
+			},
+			"PopupGracePeriod": {
+				"Title": "SIM card is in grace period because there’s not any data package topped up",
+				"Desc1": "Number will be inactive",
+				"Desc2": "Buy data package to activate your card.",
+				"Button": "Buy Data Package"
+			},
+			"PopupExpired": {
+				"Title": "The card is not active because it has passed the grace period",
+				"Desc": "To activate the SIM card, visit GraPARI with your ID card up to 31 days maximum after the number is inactive.",
+				"Button": "See Nearest GraPARI"
+			}
+		}
+	},
+	"HomeScreen": {
+		"HomebaseInfo": {
+			"HomeTitle": "Home",
+			"OutsideTitle": "Away",
+			"NotSetTitle": "Not set",
+			"FailedTitle": "Failed to load",
+			"NotFoundTitle": "Not found"
+		},
+		"QuotaInfo": {
+			"FromLimitTitle": "From limit",
+			"ValidUntilTitle": "Active until",
+			"ViewDetailTitle": "See Details",
+			"EmptyTitle": "No active data package",
+			"BuyPackageButtonTitle": "Buy Package"
+		},
+		"PackageRenewal": {
+			"Title": "Buy The Same Package",
+			"BalancePaymentMethods": {
+				"BalanceTitle": "Balance",
+				"BillingTitle": "Billing"
+			}
+		},
+		"PackageAddonList": {
+			"HeaderTitle": "Buy Data Package",
+			"ViewAllButtonTitle": "See All",
+			"Badge": {
+				"BuyAgainTitle": "Buy Again"
+			}
+		},
+		"UsageStatisticInfo": {
+			"HeaderTitle": "Your Favorit App & Web",
+			"UsageTitle": "Usage",
+			"FailedInfo": {
+				"FailedTitle": "Failed to load data. Tap to refresh",
+				"NoDataTitle": "Data not yet available. Tap to see last month data."
+			}
+		},
+		"PromoList": {
+			"HeaderTitle": "Promo",
+			"ViewAllButtonTitle": "See All"
+		},
+		"WidgetInfo": {
+			"ExpiredSimcard": {
+				"Title": "Your SIM card has expired",
+				"Description": "Visit the nearest GraPARI to activate the SIM card",
+				"CTAButtonTitle": "See GraPARI"
+			},
+			"GracePeriodSimcard": {
+				"Title": "SIM card in grace period",
+				"Description": "Buy a data plan to activate the SIM card",
+				"CTAButtonTitle": "Buy Package"
+			},
+			"HomebaseOutsideHome": {
+				"Title": "You are currently outside the main location",
+				"Description": "Buy Mobility quota to stay connected to the internet.",
+				"CTAButtonTitle": "Buy Package"
+			},
+			"PairingModem": {
+				"Title": "Try MyOrbit's full features",
+				"Description": "Connect the modem to use the features",
+				"CTAButtonTitle": "Connect"
+			},
+			"SetHomebaseLocation": {
+				"Title": "Set Your Main Location Now",
+				"Description": "So that you can buy a home quota for internet use at home!",
+				"CTAButtonTitle": "Set Location"
+			},
+			"PendingPayment": {
+				"Title": "Waiting for Payment",
+				"Description": "",
+				"CTAButtonTitle": "Pay Now"
+			}
+		},
+		"FailedInfo": {
+			"FailedTitle": "Failed to load data",
+			"NoDataTitle": "No data",
+			"RetryButtonTitle": "Refresh"
+		}
+	},
+	"PackageRenewalPopup": {
+		"MainTitle": "Are you sure you want to buy this package?",
+		"OptionTitle": "Package options",
+		"ValidityTitle": "Validity",
+		"BalanceTitle": "Your Balance:",
+		"BillingTitle": "Billing Usage:",
+		"PaymentMethodTitle": "Payment method",
+		"PrimaryButtonTitle": "Buy",
+		"ChangePaymentButtonTitle": "Change Payment Method",
+		"ChooseAnotherPackageButtonTitle": "Choose Another Package",
+		"ErrorMessage": {
+			"InsufficientBalanceTitle": "Insufficient credit. Please change the payment method",
+			"InsufficientBillingTitle": "Purchases exceed the usage limit for this month, please choose another package",
+			"InvalidOfferIdBalanceTitle": "This package cannot be purchased using credit. Please change the payment method.",
+			"InvalidOfferIdBillingTitle": "This package cannot be purchased using billing usage. Please change the payment method."
+		}
+	},
+	"ExpiredSimcardPopup": {
+		"Title": "The card is not active because it has passed the grace period",
+		"Description": "To activate the SIM card, visit GraPARI with your ID card up to 31 days after the number is inactive.",
+		"PrimaryButtonTitle": "Find Nearest GraPARI"
+	},
+	"GracePeriodSimcardPopup": {
+		"Title": "The SIM card is in the grace period because it doesn't top up the data package",
+		"DescriptionStart": "Number will be deactivated on",
+		"DescriptionEnd": "Immediately buy a data package to activate the card.",
+		"PrimaryButtonTitle": "Buy Data Package"
+	},
+	"WeekToGracePeriodSimcardPopup": {
+		"Title": "Orbit SIM card will enter 7 days grace period",
+		"Description": "Purchase the Orbit data package immediately to extend the card's active period for 12 months from the date of the data package purchased.",
+		"PrimaryButtonTitle": "Buy Data Package"
+	},
+	"HomebaseAlreadySetPopup": {
+		"Title": "You have already set the main location",
+		"HomebaseTitle": "Your Main Location",
+		"ChangeDateTitle": "You can change again on ",
+		"SecondaryButtonTitle": "Understand"
+	},
+	"HomebaseErrorLocationUpdatePopup": {
+		"Title": "Can't change location yet",
+		"Description": "You can change Main Location again on ",
+		"PrimaryButtonTitle": "Understand"
+	},
+	"HomebaseNotSetPopup": {
+		"Title": "Main location is not set yet",
+		"TitleFromCoachmark": "Let’s set the main location!",
+		"Description": "This location is used to prioritize your current modem quota usage.",
+		"DescriptionFromCoachmark": "Please put your home address as the main location",
+		"PrimaryButtonTitle": "Set Location",
+		"SecondaryButtonTitle": "Later"
+	},
+	"HomebaseExploration": {
+		"Title": "MyOrbit now comes with a new look!!",
+		"PrimaryButtonTitle": "Start Exploration"
+	},
+	"HomebaseFailedPopup": {
+		"Title": "Your current location is not detected",
+		"Description": "Please reload to display location.",
+		"SecondaryButtonTitle": "Update Location"
+	},
+	"HomebaseHomePopup": {
+		"Title": "Modem is in the main location.\nQuota priority: Home",
+		"HomebaseTitle": "Your Main Location",
+		"Description": "This location is used to prioritize your current modem quota usage.",
+		"SecondaryButtonTitle": "Update Location"
+	},
+	"HomebaseOutsideHomePopup": {
+		"Title": "Modem isn't in main location.\nQuota priority: Mobility",
+		"HomebaseTitle": "Your Main Location",
+		"Description": "Internet usage consumes Mobility quota as long as the modem is outside the main location.",
+		"PrimaryButtonTitle": "Buy Mobility Quota",
+		"SecondaryButtonTitle": "Update Location"
+	},
+	"PackageAddOnAdjustmentPopup": {
+		"Title": "Data Package Price Adjustment",
+		"Description": "There are changes to the data package you selected, please choose another data package.",
+		"PrimaryButtonTitle": "Back to Data Package"
+	},
+	"PackageAddOnTopupFailedPopup": {
+		"Title": "Payment Failed",
+		"Description": "An error occurred while loading the page, please repeat the data package purchase process. Don't worry, your transaction funds have not been deducted by the system.",
+		"PrimaryButtonTitle": "Back to Data Package"
+	},
+	"PackageAddOnMsisdnFailedPopup": {
+		"Title": "Invalid SIM Card Number",
+		"Description": "Please contact Customer Service for more information about purchasing this data package.",
+		"PrimaryButtonTitle": "Contact Us",
+		"SecondaryButtonTitle": "Back to Dashboard"
+	},
+	"UserPurchaseExceedsTheUsageLimitPopup": {
+		"Title": "This Purchase Exceeds The Usage Limit",
+		"Description": "If postpaid usage reaches 3 months, contact Telkomsel Call Center at 188 to increase the usage limit.",
+		"PrimaryButtonTitle": "Understand"
+	},
+	"PaymentFailedPopup": {
+		"Title": "Payment Failed",
+		"Description": "Your payment process failed, click Try Again to go back to payment process.",
+		"PrimaryButtonTitle": "Try Again",
+		"SecondaryButtonTitle": "Create Report"
+	},
+	"CurrentTransactionPaidPopup": {
+		"Title": "Transaction in Process",
+		"Description": "Your payment has been received and currently being processed. Please wait a few more moments",
+		"PrimaryButtonTitle": "Check Transaction"
+	},
+	"LogoutConfirmationPopup": {
+		"Title": "Are you sure you want to logout?",
+		"Description": "You will be logged out of your MyOrbit account and returned to the login page.",
+		"PrimaryButtonTitle": "Logout",
+		"SecondaryButtonTitle": "Cancel"
+	},
+	"MainMenuScreen": {
+		"WifiSettingTitle": "WiFi Settings",
+		"ConnectedDeviceTitle": "Connected Devices",
+		"BlockSiteTitle": "Block Sites",
+		"UsageStatisticTitle": "Usage Statistics",
+		"TelkomselPoin": "Telkomsel Poin",
+		"ReferralTitle": "Refer Orbit",
+		"HelpTitle": "Help"
+	},
+	"QuotaInfoScreen": {
+		"HeaderTitle": "My Data Package",
+		"TotalQuotaLeftTitle": "Total Quota Left",
+		"LocationTitle": "Main Location",
+		"RemainingTitle": "Remaining",
+		"ValidUntilTitle": "Valid until",
+		"PriorityQuotaTitle": "Quota priority:",
+		"CheckUsageStatisticTitle": "Do you want to check the usage of your favorite application's quota?",
+		"ViewTitle": "Click Here",
+		"PrimaryButtonTitle": "Buy Quota",
+		"SecondaryButtonTitle": "Manage Package"
+	},
+	"ManagePackageScreen": {
+		"HeaderTitle": "Manage Package",
+		"DescriptionTitle": "You can manage subscription package & Paket Keluarga Lite in here.",
+		"EmptyTransaction": {
+			"Title": "You Haven't Subscribed Yet",
+			"DescriptionTitle": "Choose a package to start subscribing.",
+			"PrimaryButtonTitle": "Buy Subscription Package"
+		},
+		"ErrorTransaction": {
+			"Title": "System Error Occured",
+			"DescriptionTitle": "Please try again later.",
+			"PrimaryButtonTitle": "Try Again"
+		}
+	},
+	"PromoListScreen": {
+		"NotFoundTitle": "No promo found, please choose another category"
+	},
+	"PromoDetailScreen": {
+		"PromoDetailTitle": "Promo Detail",
+		"PromoCodeTitle": "Promo Code",
+		"UseTitle": "Use",
+		"DescriptionTitle": "Description",
+		"TermsAndConditionTitle": "Terms and conditions",
+		"CopiedTitle": "Copied!",
+		"ShareViaTitle": "Share via:"
+	},
+	"MegaMenu": {
+		"NoModemLabel": "Modem Number",
+		"BalanceLabel": "Balance",
+		"WifiSetting": "WiFi Settings",
+		"WebFiltering": "Website Filtering",
+		"ManageDevice": "Device Settings",
+		"StatisticUsage": "Usage Statistics",
+		"Help": "Help",
+		"Refferal": "Refer Orbit",
+		"Language": "Language",
+		"Logout": "Logout",
+		"ValidUntil": "until",
+		"FeedbackTitle": "Send Your Feedback",
+		"FeedbackSubTitle": "Your feedback is important to us",
+		"CopyClipboardMsisdn": "Number copied",
+		"ForLimit": "for limit ",
+		"ModalCreditLimitService": {
+			"Title": "Reaching Usage Limit",
+			"Description": "If postpaid usage reaches 3 months, contact Telkomsel Call Center at 𝟏𝟖𝟖 to increase the usage limit."
+		}
+	},
+	"WifiSetting": {
+		"TitleHeaderPageReskin": "WiFi Settings",
+		"TitlePage": "WiFi Settings",
+		"TitlePageReskin": "WiFi Information",
+		"WifiNameLabel": "WiFi Name",
+		"WifiPasswordLabel": "WiFi Password",
+		"ButtonAction": "Edit Name & Password",
+		"Disclaimer1": "WiFi name & password settings for 5G modem is currently not available.",
+		"Disclaimer2": "The displayed WiFi name and password are the curent modem's default settings.",
+		"DisclaimerDefault": "The information above is the default setting. Refer to the manual in the modem box to change the WiFi name and password."
+	},
+	"WifiSettingChangeName": {
+		"Headline": "Edit Wifi Name & Password",
+		"WifiNameLabel": "Wifi Name",
+		"WifiNameLabelReskin": "WiFi Name",
+		"ErrorNameEmpty": "Device name cannot be empty",
+		"ErrorNameEmptyReskin": "WiFi name can't be empty",
+		"ErrorNameLimit": "WiFi name cannot be more than 16",
+		"ErrorNameLimitReskin": "WiFi name can't be more than 16 characters",
+		"ErrorNameEmoticon": "WiFi names cannot contain emoticons",
+		"WifiPasswordLabel": "Wifi Password",
+		"WifiPasswordLabelReskin": "WiFi Password",
+		"ErrorPasswordEmpty": "Wifi password cannot be empty",
+		"ErrorPasswordEmptyReskin": "Wifi password can't be empty",
+		"ErrorPasswordLessThan8": "The password must not be less than 8",
+		"ErrorPasswordMoreThan16": "The password must not be more than 32",
+		"ErrorPasswordContainUpperAndLower": "Password must contain uppercase and lowercase letters",
+		"ErrorPasswordCombinedWithNumber": "Passwords must be combined with Numbers",
+		"NoteList1": "Password must be 8-32 characters long",
+		"NoteList1Reskin": "Password must be 8-32 characters long",
+		"NoteList2": "Password must contain uppercase and lowercase letters",
+		"NoteList2Reskin": "Password must contain uppercase and lowercase letters",
+		"NoteList3": "Password must be combined with numbers",
+		"NoteList3Reskin": "Password must be combined with numbers",
+		"ButtonAction": "Save",
+		"ToastModemNotDetected": "Modem not detected!!",
+		"GuestSsidTitle": "Guest Access Settings"
+	},
+	"WifiChangeNameProgressScreen": {
+		"ToastFailedChangeSSid": "Failed to change SSID and Password !!",
+		"WaitingProgress": "Please wait, your modem is in the process of setting up",
+		"WaitingProgressReskin": "Please wait, WiFi changes are being saved",
+		"ResultFailed": {
+			"Title": "Failed Settings",
+			"Subtitle": "Connection is in trouble, please reset",
+			"ButtonAction": "Try Again"
+		},
+		"ResultFailedReskin": {
+			"Title": "Settings Failed",
+			"Subtitle": "There is a problem with the connection, please reset your WiFi name & password.",
+			"ButtonAction": "Try Again"
+		},
+		"ResultSuccess": {
+			"Title": "Successful Settings",
+			"Subtitle": "Wifi Name & Password has been successfully updated.",
+			"ButtonAction": "Understand"
+		},
+		"ResultSuccessReskin": {
+			"Title": "Changed Successfully",
+			"Subtitle": "Your WiFi name and password have been updated.",
+			"ButtonAction": "OK"
+		},
+		"ResultSuccessGuest": {
+			"Title": "Successful Settings",
+			"Subtitle": "Your guest access settings have been successful.",
+			"ButtonAction": "Understand"
+		},
+		"ResultDuplicate": {
+			"Title": "Failed to change SSID and Password",
+			"Subtitle": "SSID or password cannot be the same between main wifi and guest wifi, please try again",
+			"ButtonAction": "Try Again"
+		}
+	},
+	"WifiSettingHomeLocationCard": {
+		"Desc": "can change Main Location again on ",
+		"WarningUpdateLocationPopup": {
+			"Title": "Can’t change location yet",
+			"Desc": "You can change Main Location again on"
+		},
+		"ButtonAction": "Change"
+	},
+	"ManageDevice": {
+		"ScreenTitle": "Device Settings",
+		"AllLabel": "All",
+		"FavoriteLabel": "Favorite",
+		"ScheduleLabel": "Schedule",
+		"DevicesLabel": "Devices",
+		"ListTitle": "Device Lists",
+		"ActiveFor": "Active For",
+		"InActive": "Inactive",
+		"InActiveDescription": "To use this feature, you must be connected with",
+		"EmptyState": "No favorite devices available yet",
+		"DetailScreen": {
+			"Title": "Detail Device",
+			"ChangeLabel": "Edit",
+			"FavoritLabel": "Favorite",
+			"BlockLabel": "Block",
+			"UnblockLabel": "Unblock",
+			"UnblockLabelReskin": "Unblock",
+			"LimitTitle": "Usage Limit",
+			"LimitTitleReskin": "Usage Schedule",
+			"LimitNotes": "Click New Schedule to set up internet usage time from Telkomsel Orbit.",
+			"ErrorToastDisableRule": "Failed to activate schedule. Please try again.",
+			"ErrorToastEnableRule": "Failed to turn off schedule. Please try again.",
+			"Coachmark": {
+				"ManageFeature": {
+					"Title": "Device features",
+					"SubTitle": "With these 3 icons, you can adjust the appearance of the device, make the device as favorite, and block the device from using your internet.",
+					"SubTitle2Feature": "With these 2 icons, you can adjust the appearance of the device and make the device as favorite."
+				},
+				"EditProfileLabel": {
+					"Title": "Edit Profile",
+					"SubTitle": "Personalize this device by determining the avatar and name you prefer"
+				},
+				"FavoriteDeviceLabel": {
+					"Title": "Favorite device",
+					"SubTitle": "Make the device that you use frequently your favorite device"
+				},
+				"BlockDeviceLabel": {
+					"Title": "Block device",
+					"SubTitle": "You can disable internet access from this device by tapping here"
+				},
+				"AddNewLimitLabel": {
+					"Title": "Add new limit",
+					"SubTitle": "Add a new limit to control the internet usage of this device"
+				},
+				"LimitLabel": {
+					"Title": "Limit",
+					"SubTitle": "Create, modify and delete limits here"
+				}
+			},
+			"LimitRuleKlikButton": "Click Add to Schedule to set the internet usage time from Telkomsel Orbit.",
+			"LimitRuleNotAvailable": "This device cannot be added to Schedule",
+			"LimitRuleNotAvailable2": "The Schedule Setting feature is not yet available on this modem."
+		},
+		"EditDetail": {
+			"Headline": "Edit Details",
+			"HeadlineReskin": "Edit Profile",
+			"Title": "Edit Device Details",
+			"Subtitle": "Choose an avatar and the device name that you prefer",
+			"SubtitleReskin": "Select an icon and assign a name to personalize this device",
+			"PlaceholderDeviceName": "Device Name",
+			"ErrorDeviceNameEmpty": "Device name cannot be empty",
+			"ButtonAction": "Save",
+			"NotifSuccessEdit": "Saved Successfully",
+			"NotifSuccessEditReskin": "This device has been modified"
+		},
+		"PopupBlockDevice": {
+			"Title": "Block Device",
+			"Subtitle": "Are you sure you want to block this device?",
+			"ButtonActionYes": "Yes",
+			"ButtonActionNo": "No",
+			"NotifBlock": "This device has been blocked",
+			"NotifUnblock": "This device has been unblocked"
+		},
+		"PopupUnblockDevice": {
+			"Title": "Unblock Device",
+			"Subtitle": "Are you sure you want to unblock this device?",
+			"ButtonActionYes": "Yes",
+			"ButtonActionNo": "No"
+		},
+		"PopupRemoveFavorite": {
+			"Title": "Remove Favorit",
+			"Subtitle": "Are you sure you want to remove favorite from this device?",
+			"ButtonActionYes": "Yes",
+			"ButtonActionNo": "No"
+		},
+		"PopupFavoriteDevice": {
+			"NotifFovorite": "This device has been favorited",
+			"NotifUnfavorite": "This device has been unfavorited"
+		},
+		"PopupUsageSchedule": {
+			"Title": "Schedule",
+			"Description": "You can create, change and delete internet usage schedules for this device."
+		},
+		"PopupUsageDays": {
+			"Title": "Select the day",
+			"Description": "Choose what days the internet can be accessed by this device.",
+			"DescriptionZTE": "Choose what days the internet can't be accessed by this device."
+		},
+		"PopupUsageDuration": {
+			"Title": "Set the duration",
+			"Description": "Set a time limit for this device to can't access the internet on the day you have selected."
+		},
+		"SetNewLimit": {
+			"Headline": "New Limit Settings",
+			"LimitDaysLabel": "Days of Use",
+			"LimitTimeLabel": "Time of Use",
+			"LimitFromLabel": "From",
+			"LimitToLabel": "To",
+			"ButtonAction": "Save",
+			"AlertTimeMustHigher": "End time must be greater than the start time",
+			"AlertLimitDay": "Please choose the days of use for this limit",
+			"AlertSelectdays": "Please choose a day first",
+			"NotifSetLimit": "Access usage limit has been set up",
+			"Coachmark": {
+				"DaysOfUseLabel": {
+					"Title": "Choose day",
+					"SubTitle": "Select a day to determine when the internet can be accessed by this device"
+				},
+				"DurationOfUseLabel": {
+					"Title": "Select duration limit",
+					"SubTitle": "Set the time limit of this device in accessing the internet on a predetermined day"
+				}
+			},
+			"ModalTitleDelete": "Failed to delete data",
+			"ModalSubtitleDelete": "An error occurred in the system please try again",
+			"ModalSubtitleSave": "There is a connection problem, please set your usage schedule.",
+			"TryAgain": "Try Again",
+			"ModalTitleSave": "Failed to save Schedule"
+		},
+		"EditLimit": {
+			"Headline": "Change Limit",
+			"LimitDaysLabel": "Days of Use",
+			"LimitTimeLabel": "Time of Use",
+			"LimitFromLabel": "From",
+			"LimitToLabel": "To",
+			"ButtonActionSave": "Save",
+			"ButtonActionDelete": "Delete Schedule",
+			"ButtonActionDeleteReskin": "Delete",
+			"AlertTimeMustHigher": "End time must be greater than the start time",
+			"AlertLimitDay": "Please choose the days of use for this limit",
+			"AlertSelectdays": "Please choose a day first",
+			"NotifEditLimit": "This limit has been changed",
+			"NotifDeleteLimit": "This limit has been deleted"
+		},
+		"PopupDeleteLimit": {
+			"Title": "Delete Limit",
+			"Subtitle": "Are you sure you want to delete the limit for this device?",
+			"ButtonActionYes": "Yes",
+			"ButtonActionNo": "No"
+		},
+		"Coachmark": {
+			"AllLabel": {
+				"Title": "All",
+				"SubTitle": "This is a list of devices that have been connected to your Orbit modem"
+			},
+			"FavoriteLabel": {
+				"Title": "Favorite",
+				"SubTitle": "This is a list of your favorite devices"
+			},
+			"ConnectedLabel": {
+				"Title": "Connected Device",
+				"TitleReskin": "Device features",
+				"SubTitle": "This device is currently connected to your Orbit modem are marked green",
+				"SubTitleReskin": "You can manage the internet usage of the devices that are currently connected to WiFi."
+			}
+		}
+	},
+	"NotificationScreen": {
+		"Headline": "Notification",
+		"NoNotification": "There are no new notifications",
+		"MenuBar": {
+			"Menu1": "All",
+			"Menu2": "Promo",
+			"Menu3": "Info",
+			"Menu4": "Transaction"
+		},
+		"NotificatonDetailButton": {
+			"ButtonActionDashboard": "Go to Dashboard",
+			"ButtonActionHelp": "Help",
+			"ButtonActionCheckPackage": "Check Data Package",
+			"ButtonActionReport": "Report",
+			"ButtonActionReferral": "Use Now",
+			"ButtonActionReferralUsed": "Used",
+			"ButtonActionReferralExpired": "Expired",
+			"ButtonActionBuy": "Buy Now",
+			"ButtonActionTryAgain": "Try Again",
+			"ButtonActionConfirm": "Confirm",
+			"ButtonActionRefund": "Buy Another Data Package",
+			"ButtonActionExpired": "Expired",
+			"ButtonActionDashboardReversal": "Back to Dashboard",
+			"ButtonActionVisitLink": "Make a Report",
+			"ButtonActionRefundPoint": "Check Point History",
+			"ButtonActionBackToDashboard": "Back to Dashboard"
+		},
+		"TransactionDetail": {
+			"Headline": "Transaction",
+			"ButtonAction": "See Data"
+		},
+		"PromoDetail": {
+			"Headline": "Promo",
+			"CopyVoucherTitle": "Copy the voucher code below",
+			"CopyVoucherLabel": "Voucher Ccode",
+			"ButtonAction": "Buy Now"
+		},
+		"PopupUseReferral": {
+			"Title": "Use your",
+			"Title2": "data package reward now?",
+			"Subtitle": "After it is used, the data package will be immediately activated.",
+			"ButtonActionYes": "Yes",
+			"ButtonActionLater": "Later"
+		},
+		"PopupUseReferralFailed": {
+			"Title": "Failed to Activate Data Package",
+			"Desc": "An error occured, please try again to activate the data package.",
+			"ButtonActionYes": "Try Again",
+			"ButtonActionLater": "Later"
+		},
+		"UseReferralSuccess": {
+			"Title": "The data package has been successfully used on the main modem"
+		},
+		"PopupTimer": {
+			"Title": "Your Payment Has Expired.",
+			"Desc": "Please Repeat Purchasing Your Data Package Again",
+			"ButtonAction": "Back"
+		},
+		"PopupSuccessPayment": {
+			"Title": "Payment has been confirmed",
+			"Desc": "Thank you for your payment, the data package will be activated soon.",
+			"ButtonAction": "Understand"
+		},
+		"PopupRedeemAdditionalSuccess": {
+			"Subtitle": "You have successfully used an additional",
+			"Subtitle2": "quota for 7 days of usage time.",
+			"ButtonAction": "Yes"
+		},
+		"TransactionFailed": {
+			"Title": "Payment Failed",
+			"Desc": "Your payment process failed, click Try Again to go back to payment process.",
+			"ButtonAction": "Try Again"
+		},
+		"TransactionPending": {
+			"Title": "Pending Transaction",
+			"Desc": "Your transaction has not been confirmed yet. Please click Confirm after your transaction is successful.",
+			"ButtonAction": "Confirm"
+		},
+		"TransactionPendingEmoney": {
+			"Title": "Pending Transaction",
+			"DescGojek": "We need confirmation from you. Please immediately complete your payment process in the Gojek application.",
+			"DescOvo": "We need confirmation from you. Please immediately complete your payment process in the OVO application.",
+			"ButtonAction": "Confirm"
+		},
+		"AdditionalInformation": {
+			"PendingPayment": {
+				"TimerLimitsTitle": "Payment Confirmation Limits",
+				"PaymentTotalLabel": "Total",
+				"PaymentDetailLabel": "Payment Details",
+				"PaymentMethodLabel": "Payment Methods",
+				"PaymentDatesLabel": "Date and time of transaction",
+				"TransactionIdLabel": "Transaction ID",
+				"Purchase": "Purchase",
+				"FamilyMember": "Family Member",
+				"NomorList": "Refistered Number",
+				"PaymentTotalTransaksi": "Total Transaction"
+			},
+			"Reversal": {
+				"Desc": "Your funds have been successfully returned to your OVO account balance.",
+				"PaymentTotalLabel": "Total",
+				"PaymentDetailLabel": "Payment Details",
+				"PaymentMethodLabel": "Payment Methods",
+				"PaymentDatesLabel": "Date and time of transaction",
+				"TransactionIdLabel": "Transaction ID",
+				"RefundNotes": "Data Package Refund Conditions",
+				"RefundCondition1": "Make sure your OVO account is active",
+				"RefundCondition2": "Make sure your OVO Balance has not reached the limit (2 million for the Club / 10 million for the Premier)"
+			},
+			"FailedProvisioning": {
+				"PaymentTotalLabel": "Total",
+				"PaymentDetailLabel": "Payment Details",
+				"PaymentMethodLabel": "Payment Methods",
+				"PaymentDatesLabel": "Date and time of transaction",
+				"TransactionIdLabel": "Transaction ID"
+			},
+			"Referral": {
+				"UseBefore": "Use Before :"
+			},
+			"PaymentSuccess": {
+				"QuotaPurchase": "Purchase of Data Packages",
+				"TotalTransaction": "Total Payment",
+				"PaymentDetails": "Payment Details",
+				"PaymentMethod": "Payment Method",
+				"TransactionDate": "Date and time of the transaction",
+				"TransactionId": "Transaction ID",
+				"OrderSummary": "Order Summary",
+				"DataPackage": "Data Package",
+				"YouGotPromoDiscount": "You get a discount of",
+				"YouGotDataPackage": "You get a data package of",
+				"Purchase": "Purchase",
+				"6MonthSubscription": "6 month subscription",
+				"AdministrationCosts": "Administration Fee"
+			},
+			"RefundPoint": {
+				"TotalPoint": "Point returned"
+			}
+		},
+		"RequestModem": {
+			"CardInfo": {
+				"Label1": "Wi-Fi Name",
+				"Label2": "Applicant Account",
+				"Label3": "Orbit Modem Number"
+			},
+			"ButtonExpired": "Expired",
+			"ButtonAccept": "Approve",
+			"ButtonReject": "Ignore",
+			"PopupApprove": {
+				"Title": "Move the modem to another account?",
+				"Subtitle": "The modem data will be deleted from your account and control of the modem will be transferred to the destination account."
+			},
+			"PopupReject": {
+				"Title": "Refuse to transfer the modem to another account?"
+			},
+			"ResultApprove": {
+				"Title": "Modem Moved Successfully",
+				"Subtitle": "This modem has been removed from the list of modems in your account.",
+				"SubtitleLastModem": "The modem has been removed from the modem list and you will exit the Home page. Please login again when you have another Orbit modem.",
+				"ButtonLabel": "Back to Dashboard",
+				"ButtonLabelLastModem": "Understand"
+			},
+			"ResultReject": {
+				"Title": "Modem Transfer Rejected",
+				"Subtitle": "The transfer process has been canceled by the modem owner.",
+				"ButtonLabel": "Back to Dashboard"
+			},
+			"ResultFailed": {
+				"Title": "Failed to Process",
+				"Subtitle": "An error has occurred in the system. Please try again.",
+				"ButtonLabel": "Try Again"
+			},
+			"ResultExpired": {
+				"Title": "Request Expired",
+				"Subtitle": "You have passed the 5 minute request time limit, please wait for a new request from the requester.",
+				"ButtonLabel": "Back to Dashboard"
+			}
+		},
+		"CategoryNotification": {
+			"All": "All",
+			"Promo": "Promo",
+			"Information": "Info",
+			"Transaction": "Transaction",
+			"Security": "Security"
+		}
+	},
+	"HelpScreen": {
+		"ScreenTitle": "Help",
+		"SearchPlaceholder": "What can we help...",
+		"SearchPlaceholderReskin": "Search keywords",
+		"SearchResult": {
+			"Title": "Search results for",
+			"Subtitle": {
+				"Show": "Showing",
+				"Result": "results"
+			},
+			"NotFound": {
+				"Title": "Not Found",
+				"Description": "We couldn't find any search results. Try changing the search word.",
+				"DescriptionReskin": "Search other keywords or check for spelling errors."
+			}
+		},
+		"DeeplinkErrorTitle1": "Data not found",
+		"DeeplinkErrorDesc1": "An error occurred, please go back to continue",
+		"DeeplinkErrorButtonTitle1": "Back",
+		"DeeplinkErrorTitle2": "Failed to Load Page",
+		"DeeplinkErrorDesc2": "An error occurred, please try again to reload the page",
+		"DeeplinkErrorButtonTitle2": "try again",
+		"CategoryTitle": "Question Categories",
+		"CategoryTitleReskin": "Help By Categories",
+		"FAQ": "Frequently Asked Questions",
+		"FAQReskin": "Most Frequently Asked",
+		"FAQResult": "Search Result",
+		"QuestionAbout": "Question About ",
+		"SocialMediaTitle": "Social Media",
+		"AdvanceSetting": "Advance Setting",
+		"RelatedArticles": "Related Articles",
+		"TitleFeedback": "Is this article Helpfull?",
+		"TitleForm": "I don’t like this article because...",
+		"TitleSubTitle": "Your rating can help the quality of our service.",
+		"Note": "Note :",
+		"Warning": "Attention!",
+		"ButtonFeedback": {
+			"Send": "Send",
+			"Later": "Later"
+		},
+		"CautionForm": "Please write your reasons first.",
+		"RadioQuestion": {
+			"first": "The article is confusing",
+			"second": "Incomplete information",
+			"third": "Solution is not working",
+			"fourth": "Don't like the policy/product",
+			"fifth": "Other"
+		},
+		"PlaceholderInput": "I dont like this articles because... ",
+		"DataView": {
+			"DataAll": "View All",
+			"DataPartially": "View Partially"
+		},
+		"ContactUs": {
+			"ContactUsTitle": "Or contact us on",
+			"ContactUsTitleReskin": "Need More Information?",
+			"GeneralQuestion": "General Question",
+			"TelkomselCustomer": "Telkomsel Customer",
+			"ContactWithVeronika": "Chat with Veronika",
+			"ContactWithEmail": "Send Inquiry by Email"
+		},
+		"LegalInformation": {
+			"LegalInformationTitle": "Terms and Policy",
+			"TNC": "Terms and Conditions",
+			"PrivacyPolicy": "Privacy Policy"
+		},
+		"CategoryDetail": {
+			"Headline": "About Telkomsel Orbit",
+			"NotFound": "We could not find search results.",
+			"ChangeWord": "Try changing the search words."
+		},
+		"LiveChat": {
+			"Title": "Contact us on",
+			"CallCenter": "Contact Orbit",
+			"Email": "Email Orbit",
+			"WhatsApp": "WhatsApp Orbit"
+		}
+	},
+	"TermsAndConditionScreen": {
+		"Headline": "Terms and Conditions"
+	},
+	"PrivacyPolicyScreen": {
+		"Headline": "Privacy Policy",
+		"TitleDate": "Last update"
+	},
+	"ReferralCodeScreen": {
+		"HeaderTitle": "Refer Orbit",
+		"MainTitle": "Get 5GB free quota",
+		"MainDescriptionTitle": "You can get 5GB free quota by sharing your Orbit referral code with your friends.",
+		"ShareTitle": "Invite your friends and get 5GB Quota",
+		"YourReferralCodeTitle": "Your Referral Code",
+		"ShareCodeTitle": "Share Code",
+		"LearnMoreTitle": "Learn More",
+		"CopiedTitle": "Copied!"
+	},
+	"EntertainmentScreen": {
+		"TitleHeader": "Enter SMS Recipient Phone Number",
+		"ButtonAction": "Continue",
+		"Message": {
+			"MessageFirst": "Make sure the phone number is a Telkomsel that connected to the WhatsApp account and able to receive calls.",
+			"MessageSecond": "Activation link will be sent via SMS to this phone number.",
+			"MessageThird": "The phone number cannot be a Telkomsel Orbit or By.U SIM card number.",
+			"OnlyTelkomsel": "Only Telkomsel numbers can be used",
+			"NotTelkomsel": "This number is not a Telkomsel number",
+			"NotOrbit": "Unable to use Telkomsel Orbit SIM card number",
+			"FormatNumber": "Phone number is incorrect",
+			"Length": "Please enter 10-16 digit Telkomsel number",
+			"PhoneNumberEmpty": "Please fill your phone number",
+			"PhoneNumberNotActive": "This Number cannot be used",
+			"PhoneNumberNotPlayHome": "Can't use Price Plan Home number",
+			"PhoneNumberNotAvail": "This Telkomsel number is in grace period",
+			"PhoneNumberNotPricePlanHome": "Can't use Price Plan Home number"
+		},
+		"InputText": {
+			"Title": "SMS for activation link will be sent to"
+		},
+		"Modal": {
+			"Title": "Select Contact",
+			"Title2": "Number Cannot be Used",
+			"SubDesc": "Please activate your Telkomsel card by contacting *888*89#.",
+			"Title3": "Number in Grace Period",
+			"SubDesc2": "Complete your last month's usage payment to be able to continue with this purchase process..",
+			"Button": "Understand"
+		}
+	},
+	"ComingSoonScreen": {
+		"Headline": "Usage Statistics",
+		"Title": "Coming Soon",
+		"Desc": "See the details on your WiFi usage on Usage Statistics",
+		"ButtonAction": "Go to Dashboard"
+	},
+	"PackageDetailScreen": {
+		"ScreenTitle": "Add-on Data",
+		"Validity": "Valid for",
+		"ValidityReskin": "Validity Period",
+		"QuotaZoom": "Quota",
+		"Internet": "Internet",
+		"DataPackage": "Data Package",
+		"HomeDataPackage": "Home Data",
+		"HomeLocation": "For Location",
+		"PriceLabel": "Price",
+		"DetailPackageTitle": "Package Details",
+		"TNCTitle": "Terms and Conditions",
+		"ButtonAction": "Buy Package Data",
+		"ButtonActionReskin": "Buy",
+		"ButtonActionZoomPro": "Enter SMS Recipient Phone Number",
+		"titleFailed": "Reorder Failed",
+		"subtitleFailed": "You cannot re-order because the product is no longer available",
+		"understand": "Understand",
+		"DeskripsiPaket": "Package Description",
+		"SnK": "Terms and Conditions",
+		"ModalCreditLimitService": {
+			"Title": "Reaching Usage Limit",
+			"Description": "If postpaid usage reaches 3 months, contact Telkomsel Call Center at 𝟏𝟖𝟖 to increase the usage limit."
+		},
+		"PopupConfirmLocation": {
+			"Title": "Are you sure you want to buy a package for this location?",
+			"Desc": "If you continue, the quota will be active when your modem is in the main location.",
+			"ContentTitle": "Your current Main Location:",
+			"LabelAccept": "Yes, buy Home Quota",
+			"LabelCancel": "Cancel"
+		},
+		"PopupFamilyQuota": {
+			"AlreadyRegistered": {
+				"Title": "You Have Been Registered As Another Family Quota Manager",
+				"Desc": "Please wait for your current Family Quota to expire first.",
+				"ButtonAccept": "Understand"
+			},
+			"Error": {
+				"Title": "An Error Has Occurred In The System",
+				"Desc": "There was an error in the system while checking your main number, please try again.",
+				"ButtonAccept": "Understand"
+			}
+		},
+		"PopupPackageNotFound": {
+			"Title": "Package is no longer available",
+			"Description": "Please see other package options.",
+			"PrimaryButtonTitle": "See More Package Options"
+		}
+	},
+	"FamilyQuotaScreen": {
+		"Headline": "Claim Kuota Keluarga Orbit",
+		"SeeDetail": "See Detail",
+		"Title": "Member Registration",
+		"Desc": "Please make sure the number you entered has not been registered with another Kuota Keluarga Orbit",
+		"Notes": "Add at least 1 number to register",
+		"TextInput": {
+			"Placeholder": "Handphone Number",
+			"ErrorMessage": ""
+		},
+		"ButtonAction": "Register"
+	},
+	"PaymentMethodScreen": {
+		"Headline": "Payment Methods",
+		"QuotaLabel": "Data Package",
+		"SubTitleKuota": "Package Data Orbit",
+		"ValidityLabel": "Valid for",
+		"ValidityLabelReskin": "Valid",
+		"PaymentListTitle": "Choose a Payment Method",
+		"MsisdnTitle": "Registered Number",
+		"SecurePaymentTitle": "Secure Payment",
+		"PaymentPulsa": {
+			"Title": "Inappropriate Payment Method",
+			"NotEnoughBalance": "Insufficient balance",
+			"NotSupport": "This product not supported this payment method",
+			"BillingTitle": "Billing Fee",
+			"BalanceTitle": "Your Credit:",
+			"UsageTitle": "Usage:",
+			"TopupTitle": "Top Up"
+		},
+		"PaymentVA": {
+			"Title": "Virtual Account Transfer"
+		},
+		"PaymentEWallet": {
+			"Title": "E-Money",
+			"TitleReskin": "E-Wallet"
+		},
+		"PaymentCC": {
+			"Title": "Credit Card",
+			"TitleReskin": "Credit Card / Debit Card",
+			"Desc": "Pay with a credit card with the best security."
+		},
+		"PaymentOffline": {
+			"Title": "Retail Outlet Payment"
+		},
+		"PaymentDana": {
+			"Headline": "DANA Payment",
+			"ConnectDana": "Connect DANA",
+			"YourBalance": "Your Balance",
+			"InsufficientBalance": "Sorry, your balance is not enough to continue this transaction. Please top up your DANA balance before continuing. Refresh this page after the topup process is complete.",
+			"DisconnectDana": "Disconnect DANA",
+			"Pairing": {
+				"TNCTitle": "Terms and conditions",
+				"TNCTitleReskin": "Terms & conditions",
+				"TNCContent1": "Already have a DANA account and activation of DANA Payment",
+				"TNCContent2": "DANA balance is enough to buy products at Telkomsel Orbit",
+				"TNCContent3": "You will connect your DANA account with Telkomsel Orbit and after connected DANA can only be used as payment at Telkomsel Orbit",
+				"TNCAgreement": "By pressing the button, you agree to the Telkomsel Orbit Terms & Conditions above.",
+				"ButtonActionPairing": "Continue",
+				"ButtonActionPairingReskin": "Pairing Dana Account"
+			},
+			"Unpairing": {
+				"Title": "Disconnect Account",
+				"Subtitle": "Are you sure you want to disconnect your DANA account at Telkomsel Orbit?",
+				"ButtonActionUnpairing": "Continue",
+				"ButtonActionCancel": "Cancel"
+			},
+			"PopupFailedPairing": {
+				"Subtitle": "An error has occurred with the system, failed to connect your DANA account. Please try again.",
+				"ButtonAction": "Close"
+			}
+		},
+		"PromoCodeInput": {
+			"PlaceholderTitle": "Promo Code",
+			"SubmitButtonTitle": "Use"
+		},
+		"PromoFailedPopup": {
+			"Title": "Incorrect Promo Code",
+			"Subtitle1": "This promo code is for payment",
+			"Subtitle2": "Make sure the promo code is correct or repeat the purchase process"
+		},
+		"ModalCreditLimitServicePromo": {
+			"Title": "Promo code cannot be used when usage reaches the limit",
+			"Description": "If postpaid usage reaches 3 months, contact Telkomsel Call Center at 𝟏𝟖𝟖 to increase the usage limit."
+		},
+		"ModalCreditLimitServicePayment": {
+			"Title": "This Purchase Exceeds The Usage Limit",
+			"Description": "If postpaid usage reaches 3 months, contact Telkomsel Call Center at 𝟏𝟖𝟖 to increase the usage limit."
+		},
+		"ModalCreditLimitServicePaymentPromo": {
+			"Title": "Promo code cannot be used when usage reaches the limit",
+			"Description": "If postpaid reaches 3 months, call Telkomsel Call Center at 188 to increase the usage limit."
+		},
+		"Error": {
+			"FailedGetPaymentMethod": {
+				"Subtitle": "An error has occurred with the system, failed to load the payment method. Please try again.",
+				"ButtonAction": "Try Again"
+			},
+			"FailedKuotaBelajar": {
+				"Title": "Failed to Buy Kuota Belajar",
+				"Subtitle": "You cannot make a purchase because Kuota Belajar can only be purchased once.",
+				"ButtonAction": "Understand"
+			},
+			"FailedPaymentAkulakuEmail": {
+				"Title": "Payment Failed",
+				"Subtitle": "The email you used for registration is indicated as unsafe, please try again using another email.",
+				"ButtonAction": "Try Again"
+			}
+		},
+		"ButtonAction": "Pay",
+		"RecommendedTitle": "Recommended",
+		"Promo": {
+			"TitleModal": "Understand",
+			"SuccessCode": "Code Successfully Used",
+			"Potensial": "You can potentially get a discount",
+			"PotensialReskin": "Congratulations! You can potentially get a max discount",
+			"Max": "Max",
+			"PotensialPackage": "Congratulations! You can potentially get additional data packages",
+			"PotensialPackageReskin": "Congratulations! You can potentially get additional data packages",
+			"Discount": "Discount",
+			"OrbitPackage": "for the purchase of Orbit Data Packages",
+			"OrbitIndibox": "for the purchase"
+		},
+		"ChangeOtherPackage": "Change Other Package",
+		"RedirectMessage": "The payment process will continue on",
+		"errorOfferId": {
+			"title": "Data Package Price Adjustment",
+			"subtitle": "There are changes to the data package you selected, please choose another data package.",
+			"buttonlabel": "Go to Data Package"
+		},
+		"errorMsisdn": {
+			"title": "Incorrect SIM Card Number",
+			"subtitle": "Please contact Customer Service for more information about purchasing this data package.",
+			"buttonlabel": "Contact Customer Service",
+			"buttonlabelTwo": "Kembali ke Beranda"
+		},
+		"errorLimit": {
+			"title": "This Purchase Exceeded The Usage Limit",
+			"subtitle": "If postpaid reaches 3 months, call Telkomsel Call Center at 𝟏𝟖𝟖 to increase the usage limit.",
+			"buttonlabel": "Call 188",
+			"buttonlabelTwo": "Back to Dashboard"
+		},
+		"errorGeneral": {
+			"title": "Payment Failed",
+			"subtitle": "An error occurred while loading the page, please repeat the data package purchase process. Don't worry, your transaction funds have not been deducted by the system.",
+			"buttonlabel": "Go to Data Package"
+		},
+		"errorPulsaPromo": {
+			"title": "Promo Code Will Be Removed",
+			"subtitle": "Using 𝗽𝗵𝗼𝗻𝗲 𝗰𝗿𝗲𝗱𝗶𝘁 payment method will remove the promo code from the payment. Do you want to continue?",
+			"buttonlabel": "Continue",
+			"buttonlabelTwo": "Go Back"
+		},
+		"MaintenancePayment": {
+			"Title": "Under maintenance"
+		}
+	},
+	"VerificationPaymentScreen": {
+		"PaymentInstruction": {
+			"AccordionTitle": "How to make a payment",
+			"AccordionTitleReskin": "How to Pay"
+		},
+		"SuccessScreen": {
+			"Headline": "Payment Details",
+			"Title": "Payment Successful",
+			"Desc": "Data package will be activated soon",
+			"Desc2": "Disney+ package will be activated soon",
+			"Desc3": "Check your SMS inbox to see the account activation link.",
+			"BoxPackageTitle": "Data Purchase",
+			"Validity": "Validity",
+			"ValidityReskin": "Valid for",
+			"TotalLabel": "Total",
+			"DetailLabel": "Payment Details",
+			"AdministrationCosts": "Administration Fee",
+			"PaymentMethodLabel": "Payment Method",
+			"DateLabel": "Transaction Date and Time",
+			"InvoiceLabel": "Transaction ID",
+			"FamilyMembers": "Family Members",
+			"ButtonAction": "Go to Dashboard",
+			"Summary": "Shopping Summary",
+			"Activation": "The data package will be activated immediately within the maximum time",
+			"Time": "1x24 hours",
+			"Promo": "Promo used",
+			"BoxPromoTitle": "Promo",
+			"Reward": "You get",
+			"DiscountReward": "a discount of",
+			"PackageDataReward": "a data package of",
+			"SeeMore": "VIEW",
+			"ZoomEntertaiment": {
+				"Info": "account activation link",
+				"Info2": "will be sent via SMS",
+				"Info3": "within"
+			},
+			"Feedback": {
+				"Title": "Score Your Experience",
+				"Subtitle": "How is the process of purchasing data packages on Myorbit app?",
+				"Send": "Send",
+				"Form": {
+					"Title": "What can we improve?",
+					"Option1": "Usability",
+					"Option2": "User Interface",
+					"Option3": "Effectiveness",
+					"Option4": "Informative",
+					"Placeholder": "What can be improved from the buying process Telkomsel Orbit..."
+				},
+				"Information": {
+					"Title": "We have received your feedback",
+					"Subtitle": "Thank you for trusting us Telkomsel Orbit. We appreciate your contribution in helping us improve the quality of our services.",
+					"RatePlaystore": "Rate in Play Store",
+					"RateAppstore": "Rate in App Store"
+				}
+			}
+		},
+		"BusyScreen": {
+			"Title": "System Busy",
+			"Desc": "The system is currently busy, please try again.",
+			"ButtonAction": "Try Again"
+		},
+		"FailedScreen": {
+			"Title": "Payment Failed",
+			"Desc": "Your payment process has failed, click Retry to return to the payment process",
+			"ButtonAction": "Try Again"
+		},
+		"FailedSendDataScreen": {
+			"Title": "Failed to Send Data",
+			"Desc": "The system is currently busy, please try again.",
+			"ButtonAction": "Coba Lagi"
+		},
+		"ConfirmationVAOffline": {
+			"Headline": "Transfer Virtual Account",
+			"HeadlineReskin": "Virtual Account Transfer",
+			"HeadlineGerai": "Booth Retail Transfer",
+			"Title": "Confirm Your Payment",
+			"TitleReskin": "Confirm Your Payment",
+			"Desc1": "We need your confirmation,",
+			"Desc2": "please click Confirm after your payment process is successful.",
+			"BoxTitle": "Payment Confirmation Limit",
+			"BoxDescVA": "Complete the payment process to:",
+			"BoxDescOffline": "Complete the payment process through one of these outlets:",
+			"TotalLabel": "Total",
+			"ButtonAction": "Confirm",
+			"TimeoutScreen": {
+				"Title": "Your Session Has Expired",
+				"DescVA": "Your Virtual Account number has expired. Click Try Again to go back to the payment process.",
+				"DescOffline": "Your Outlets Payment has expired. Click Try Again to go back to the payment process.",
+				"ButtonAction": "Try Again",
+				"ButtonAction2": "Create Report"
+			},
+			"PendingScreen": {
+				"Title": "Payment Not Received",
+				"TitleReskin": "Payment Not Received",
+				"Desc": "We are unable to receive your payment. Please complete your transaction through",
+				"ExpiredLabel": "Transaction expires in",
+				"ExpiredLabelReskin": "Payment will expire on:",
+				"ButtonAction": "Try Again"
+			}
+		},
+		"PaymentCC": {
+			"ConfirmationPayment": {
+				"Headline": "Transfer Credit Card",
+				"HeadlineReskin": "Transfer Credit/Debit Card",
+				"Title": "Full Payment"
+			},
+			"FailedScreen": {
+				"Title": "Credit Card Payment Failed",
+				"Desc": "Pastikan Kartu Kredit Anda tidak terblokir atau tidak melewati limit kredit, klik Coba Lagi untuk kembali ke proses pembayaran",
+				"ButtonAction": "Coba Lagi",
+				"ButtonAction2": "Create Report"
+			}
+		},
+		"PaymentGopay": {
+			"Step1": {
+				"Headline": "Gopay Payment",
+				"Title": "Enter your phone number that has been registered on Gojek",
+				"TitleReskin": "Enter your phone number that has been registered on Gojek",
+				"Placeholder": "Enter Your Phone Number",
+				"PlaceholderReskin": "Enter your Gojek Number",
+				"Notes": "After entering your phone number, you will be redirected to Gojek App",
+				"NotesReskin": "You will be redirected to Gojek app. Make sure Gojek app is already installed on your phone",
+				"ButtonAction": "Continue"
+			},
+			"Step2": {
+				"Headline": "Gopay Payment",
+				"Title": "Confirm Your Payment",
+				"TitleReskin": "Confirm Your Payment",
+				"Desc": "We need your confirmation, please click Confirm after your payment process is successful.",
+				"BoxTitle": "Payment Confirmation Limit",
+				"BoxDesc": "Your payment has been sent. Please complete your payment on Gojek application.",
+				"TotalLabel": "Total",
+				"ButtonAction": "Confirm"
+			},
+			"AppNotFound": {
+				"Title": "Gopay Payment Failed",
+				"Desc": "Sorry, GOJEK application on your mobile was not found. Please download GOJEK app and click Try Again to complete your payment.",
+				"ButtonAction": "Try Again"
+			},
+			"TimeoutScreen": {
+				"Title": "Your Session Has Expired",
+				"Desc": "Your GOPAY Payment has expired. Click Try Again to go back to the payment process.",
+				"ButtonAction": "Try Again",
+				"ButtonAction2": "Create Report"
+			},
+			"PendingScreen": {
+				"Title": "Payment Not Received",
+				"Desc": "We are unable to receive your payment. Please complete your transaction through GOJEK App.",
+				"ExpiredLabel": "Transaction expires in",
+				"ButtonAction": "Try Again"
+			}
+		},
+		"PaymentOvo": {
+			"Step1": {
+				"Headline": "OVO Payment",
+				"Title": "Enter your phone number that has been registered on OVO",
+				"TitleReskin": "Enter your phone number that has been registered on OVO",
+				"Placeholder": "Enter Your Phone Number",
+				"PlaceholderReskin": "Enter your OVO Number",
+				"Notes": "After entering your phone number, Please continue the payment process in your OVO application",
+				"NotesReskin": "After entering the OVO number, Please continue the payment process in your OVO application.",
+				"ButtonAction": "Continue"
+			},
+			"Step2": {
+				"Headline": "OVO Payment",
+				"Title": "Confirm Your Payment",
+				"TitleReskin": "Confirm Your Payment",
+				"Desc": "We need your confirmation, please click Confirm after your payment process is successful.",
+				"BoxTitle": "Payment Confirmation Limit",
+				"BoxDesc": "Your payment has been sent. Please complete your payment on OVO application.",
+				"TotalLabel": "Total",
+				"ButtonAction": "Confirm"
+			},
+			"AppNotFound": {
+				"Title": "OVO Payment Failed",
+				"Desc": "Sorry, OVO application on your mobile was not found. Please download OVO app and click Try Again to complete your payment.",
+				"ButtonAction": "Try Again"
+			},
+			"TimeoutScreen": {
+				"Title": "Your Session Has Expired",
+				"Desc": "Your OVO Payment has expired. Click Try Again to go back to the payment process.",
+				"DescReskin": "Your virtual account number has expired. Click Retry to return to the payment process.",
+				"ButtonAction": "Try Again"
+			},
+			"PendingScreen": {
+				"Title": "Payment Not Received",
+				"TitleReskin": "Payment Not Received",
+				"Desc": "We are unable to receive your payment. Please complete your payment through OVO App.",
+				"DescReskin": "Sorry, we haven't received your payment yet. Please complete the payment via the OVO application.",
+				"ExpiredLabel": "Transaction expires in",
+				"ButtonAction": "Try Again"
+			},
+			"InvalidNumberScreen": {
+				"Title": "Invalid OVO Number",
+				"Desc": "Your OVO number is invalid. Click Try Again and use another OVO number to continue the payment process.",
+				"ButtonAction": "Try Again"
+			},
+			"PaymentCanceledScreen": {
+				"Title": "Payment Canceled",
+				"TitleReskin": "Payment Canceled",
+				"Desc": "Your payment has been canceled, click Try Again to continue the payment process.",
+				"DescReskin": "Please select another payment to repeat your payment process.",
+				"ButtonAction": "Try Again",
+				"ButtonCanceled": "Choose Other Payments"
+			}
+		},
+		"PaymentDana": {
+			"Headline": "DANA Payment",
+			"PendingScreen": {
+				"Title": "Not Received Payment",
+				"Subtitle": "Sorry we haven't received your payment or your payment is in the process, please try again",
+				"ButtonAction": "Try Again"
+			}
+		},
+		"PaymentRetailOutlets": {
+			"Headline": "Retail Outlet Transfer"
+		},
+		"CreditCardInstallmentForm": {
+			"MainTitle": "Submit Your Credit Card Data",
+			"MainTitleReskin": "Fill in Your Personal Data",
+			"CardNumberTitle": "Credit Card Number",
+			"CardNumberTitleReskin": "Credit Card/Debit Number",
+			"CardHolderTitle": "Card Owner Name",
+			"ValidityTitle": "Validity Period",
+			"CVVTitle": "CVV",
+			"ExampleTitle": "Ex: 123",
+			"EnterCVVMessage": "*Enter your 3-4 digit CVV number",
+			"SubmitButtonTitle": "Continue",
+			"FormValidation": {
+				"CardNumberEmpty": "Please fill Credit Card Number",
+				"CardHolderEmpty": "Please fill Card Owner Name",
+				"ValidityEmpty": "Please fill Validity Period and CVV",
+				"CardNumberIncorrect": "The Credit Card Number you entered is incorrect",
+				"CardHolderIncorrect": "Incorrect Card Owner Name",
+				"ValidityIncorrect": "*The CVV number or Validity Period you entered is incorrect",
+				"ValidityIncorrectReskin": "Validity Period you entered is incorrect"
+			},
+			"ChooseInstallmentTitle": "Choose Installment",
+			"ChooseInstallmentFirstMessage": "Please choose Installment first",
+			"MonthTitle": "Months",
+			"ServiceFeeTitle": "Service Fee",
+			"CVVPopupDesc": "CVV On the back of your debit/credit card",
+			"CvvRule": "Telkomsel Orbit does not store any data from your credit card transactions. Furthermore, payments by credit card installments will be adjusted on the Midtrans page"
+		},
+		"NotFound": {
+			"Title": "Payment not found",
+			"Desc": "Sorry payment was not found or payment time has expired",
+			"ButtonAction": "Back to dashboard"
+		}
+	},
+	"ModemDisconectModal": {
+		"Title": "You are not connected to",
+		"Desc": "To use the features below, you need to connect to",
+		"List1": "See WiFi status, modem, and connection.",
+		"List2": "Device Settings",
+		"List3": "SSID Configuration and Automatic Connection",
+		"List4": "Admin detail settings",
+		"List5": "Screen time/usage limit configuration"
+	},
+	"HelpEmailScreen": {
+		"Headline": "Leave a message",
+		"Inquiry": "Inquiry",
+		"Refund": "Refund",
+		"InquiryForm": {
+			"Title": "Form Inquiry",
+			"Subtitle": "For further information, we will be getting back to you in 1-2 days",
+			"NameLabel": "Name",
+			"EmailLabel": "Email Address",
+			"SubjectLabel": "Subject",
+			"DescriptionLabel": "Description",
+			"DescriptionNotes": "Please describe the details of your problem so we can help you better. ",
+			"DescriptionNotesReskin": "Please describe clearly the details of your problem.",
+			"CategoryLabel": "Category ",
+			"SubCategoryLabel": "Sub-category ",
+			"CustomerName": "Customer Name (Optional)",
+			"AttachmentLabel": "Attachment",
+			"AddAttachmentLabel": "Add attachments",
+			"ButtonAction": "Send",
+			"PlaceholderEmail": "Ex: example@gmail.com",
+			"PlaceholderSubject": "Ex: Unstable connection",
+			"PlaceHolderDescription": "Ex: The internet is often disconnected and the modem must be restarted frequently"
+		},
+		"RefundForm": {
+			"Title": "Form Refund",
+			"RefundReason": "Refund Reason (Optional)",
+			"Modified": "Has the hardware / software been modified? (Optional)",
+			"Payment": "Payment Methods (Optional)"
+		},
+		"SuccessSend": {
+			"Title": "Your Question Has Been Received",
+			"Desc": "We will be working on your question in 1-2 days.",
+			"ButtonAction": "Done"
+		},
+		"FailedAttachment": {
+			"Title": "Empty attachment",
+			"Desc": "Your attachment cannot be empty",
+			"ButtonAction": "Try Again"
+		},
+		"Failed": {
+			"Title": "Failed to be Sent",
+			"Desc": "Your input failed to send, please try again",
+			"ButtonAction": "Try Again"
+		},
+		"Validation": {
+			"Name": "Name cannot be empty",
+			"Email": "Email cannot be empty",
+			"EmailFailed": "Please fill in your email correctly",
+			"EmailFailed2": "Please fill in your email",
+			"Subject": "Subject cannot be empty",
+			"Desc": "Description cannot be empty"
+		}
+	},
+	"LoginLanguageScreen": {
+		"TitleScreen": "Enjoy Orbit network with login and modem activation",
+		"TitleScreenReskin": "Welcome to Telkomsel Orbit! Please start by logging in and activating the modem",
+		"ButtonActionLogin": "Login",
+		"ButtonActionLoginSubtitle": "Go to Dashboard & check order status",
+		"getOrbitFromTheOutlet": "Modem Activation",
+		"getOrbitFromTheOutletSubtitle": "Modem has arrived? Activate now",
+		"GetOrbitNotes": "Don't have Orbit yet?",
+		"ButtonActionGetOrbit": "Get Orbit",
+		"ModemDescription": "Got a new Orbit modem?",
+		"ActivationDescription": "activation here",
+		"Or": "or",
+		"PopUpCrash": {
+			"Title": "MyOrbit Application Has Stopped",
+			"Desc": "Please logout and clear the cache on your device before opening the app again.",
+			"ButtonAction": "Ok"
+		},
+		"PopUpRooted": {
+			"Title": "Rooted Device",
+			"Desc": "We detect your device has been modified (Rooting / Jailbreak / Xposed). For your account security, immediately return your device to its original settings",
+			"ButtonAction": "Exit"
+		}
+	},
+	"CFactoryReset": {
+		"Title": "Modem Reset",
+		"Description": "We detected changes to your modem default settings. Reconnect to use the Telkomsel Orbit modem.",
+		"DescriptionIsReset": "This process will delete your modem setting and didn't effect your mobile package data",
+		"DescriptionIsResetReskin": "This process will erase the current modem settings and will not affect your data plan.",
+		"ButtonHubungkan": "Reconnect",
+		"ButtonAccept": "Reset",
+		"ButtunNantiSaja": "Cancel"
+	},
+	"CPopupResetModem": {
+		"Title": "Press Reset Modem",
+		"Title2": "Turn Off Mobile Data on Your Mobile",
+		"Title3": "Make Sure You Are Not Connected to Another WiFi Connection",
+		"Description": "Press and hold for 5 seconds the hole behind the modem with the appropriate pin to reset your modem",
+		"DescriptionTop": "Find the \"RESET\" button (located on the back/up/down of the modem) and press it for 3 seconds to reset your modem.",
+		"DescriptionBottom": "Press and hold for 5 seconds the hole on the bottom of modem with the appropriate pin to reset your modem",
+		"Description2": "Make sure your device's mobile data is not active so that the device can connect to Telkomsel Orbit WiFi network.",
+		"Description3": "Remove WiFi networks other than Telkomsel Orbit that are connected to your device in the Settings menu.",
+		"buttonModemReseted": "Modem Was Reset",
+		"buttonCreateReport": "Create Report",
+		"buttonCancel": "Cancel",
+		"NextStep": "Next Step",
+		"buttonDone": "Done",
+		"ModalResetData": {
+			"Desc": "An error occurred in the system while resetting the data",
+			"Desc2": "please try again.",
+			"ButtonAction": "Try Again"
+		}
+	},
+	"StatisticUsage": {
+		"Title": "Usage Statistic",
+		"AmonthAgo": "Last Month",
+		"ThisMonth": "This Month",
+		"SeeUsageDaily": "Daily average",
+		"ListApplication": "List Application",
+		"More": "More",
+		"DataNotAccurate": "Data is adjusted and may not be completely accurate",
+		"TitleNoData": "No data available yet",
+		"ButtonDone": "Done",
+		"ButtonNext": "Next",
+		"Coachmark": {
+			"LastMonth": {
+				"Title": "Last month",
+				"Subtitle": "Here, Telkomsel Orbit will show you the internet usage statistics from last month"
+			},
+			"ThisMonth": {
+				"Title": "This month",
+				"Subtitle": "On this tab, you can see the internet usage statistics for this month"
+			},
+			"DataPackageTotal": {
+				"Title": "Data package total",
+				"Subtitle": "Telkomsel Orbit shows the data packages that you have used per month and calculates your average usage per day."
+			},
+			"DailyUse": {
+				"Title": "Daily Use",
+				"Subtitle": "This graph will make it easier for you to analyze internate usage every day. This will help you monitor your modem data package usage."
+			},
+			"Aplication": {
+				"Title": "Aplication",
+				"Subtitle": "Here, you can see the total data package that has been used for the applications on your device."
+			}
+		},
+		"PopupFailedUsageStatistic": {
+			"Title": "Failed to load data",
+			"Desc": "A system error has occurred when getting your statistic data, please try again later.",
+			"Button": "Understand"
+		},
+		"PopupListApplication": {
+			"Title": "List of apps",
+			"Description": "Displays a list of apps with the total usage of data packages."
+		}
+	},
+	"AdvanceSettingScreen": {
+		"FactoryReset": "Factory Reset Modem",
+		"FactoryResetReskin": "Factory Reset",
+		"SystemPassword": "System Password",
+		"Modem": "Modem",
+		"Account": "Account",
+		"ChangeAccount": "Change Email Account",
+		"DeleteAccount": "Delete Account",
+		"FullName": "Full name",
+		"EmailAddress": "Email address",
+		"Change": "Change",
+		"Popup": {
+			"Label": "Yes",
+			"Subtitle": "Change your email will also change your Telkomsel Orbit account. To create a new account, You need to re-register. Continue?",
+			"ErrorTitle": "You Have Reached Email Change Limit",
+			"ErrorSubtitle": "You will be able to change your Telkomsel Orbit account email next month.",
+			"PrimaryButtonTitle": "Go to Dashboard"
+		},
+		"EmailSent": {
+			"Heading": "Change Account Link Sent",
+			"Subtitle": "You will be logged out from this account automatically, please check email to see change account link. You can login again to account Telkomsel Orbit after change account is complete by logging in with a new email who have been registered.",
+			"Button": "Login"
+		}
+	},
+	"AdvancePasswordScreen": {
+		"SystemPassword": "System Password",
+		"CopyPassword": "Copy Password",
+		"CopyClipboard": "Successfully copying password!"
+	},
+	"CFactoryAdminPassword": {
+		"Title": "Sensitive Information",
+		"Description": "This page contain admin password, are you confirm?",
+		"DescriptionReskin": "Opening this page to view the system password will void the modem's 7 day warranty. Do you want to continue?",
+		"ButtonConfirm": "Confirm",
+		"ButtonCancel": "Cancel"
+	},
+	"TutorialManualWifi": {
+		"Title": "Connect Modem",
+		"TitleSetting": "Modem Settings",
+		"Step1Title": "Turn On Modem",
+		"Step1Desc": "Plug the modem into an available power adapter and wait for about 2 minutes for the power indicator light to turn on",
+		"Step1Button": "Modem Is Turned On",
+		"Step2Title": "Go to Settings",
+		"Step2Desc": "Connect your device to Telkomsel Orbit WiFi connection",
+		"Step2Button": "See Next Step",
+		"Step3Title": "Choose WiFi Name and Enter Your Password",
+		"Step3Ssid": "WiFi Name",
+		"Step3Password": "WiFi Password",
+		"Step3Button": "I Have Connected to Orbit",
+		"Android": {
+			"Title": "Connect Device to Network",
+			"Subtitle": "On your device's WiFi Settings, select the WiFi name and enter Telkomsel Orbit WiFi password.",
+			"WifiName": "WiFi Name",
+			"WifiPassword": "WiFi Password",
+			"Button": "Continue"
+		}
+	},
+	"TutorialManualWifiReskin": {
+		"TitlePage": "Connect Modem",
+		"TitleSettingPage": "Modem Settings",
+		"Android": {
+			"Title": "Connect Device to Network",
+			"Subtitle": "On your device's WiFi Settings, select the WiFi name and enter Telkomsel Orbit WiFi password.",
+			"WifiName": "WiFi Name",
+			"WifiPassword": "WiFi Password",
+			"Button": "Continue"
+		},
+		"Ios": {
+			"Step1": {
+				"Title": "Turn On Modem",
+				"SubTitle": "Plug the modem into an available power adapter and wait for about 2 minutes for the power indicator light to turn on",
+				"Button": "Modem Is Turned On"
+			},
+			"Step2": {
+				"Title": "Open Device Settings",
+				"SubTitle": "Connect your device to Orbit WiFi network in Settings",
+				"Button": "See Next Step"
+			},
+			"Step3": {
+				"Title": "Connect Device",
+				"SubTitle": "Select WiFi name and enter Telkomsel Orbit WiFi password",
+				"WifiName": "WiFi Name",
+				"WifiPassword": "WiFi Password",
+				"Button": "I've Already Connected to Orbit"
+			}
+		}
+	},
+	"AdvanceSettingPairingScreen": {
+		"Title": "Advance Setting",
+		"Description": "MyOrbit application password router configuration must be reconnected to the Router. Any changes will be permanent.",
+		"ButtonConfirm": "Configure",
+		"ButtonCancel": "Cancel"
+	},
+	"AdvanceSettingConfigScreen": {
+		"Title": "Advance Setting",
+		"SystemPassword": "System Password",
+		"FailedPassword": "Password Minimum 8 character",
+		"FailedPassword2": "Confirmation Password not same with Password",
+		"ButtonConfirm": "Configure"
+	},
+	"TurnOffMobileData": {
+		"Title": "Turn off the Mobile Data on Your Phone",
+		"SubTitle": "Make sure your device's mobile data is not active so that the device can connect to the Telkomsel Orbit WiFi network.",
+		"Button": "Continue"
+	},
+	"CSurvey": {
+		"Title": "Give Your Opinion",
+		"Subtitle": "How might you recommend Telkomsel Orbit to your family and friends?",
+		"ButtonAction": "Send",
+		"IndicatorNegative": "Not Very Likely",
+		"IndicatorPositive": "Very Likely",
+		"TextInputPlaceholder": "What I like most about Telkomsel Orbit...",
+		"SuccessSubmit": {
+			"Title": "We Have Received Your Survey",
+			"Subtitle": "Thank you for your response. We appreciate your involvement in helping to improve the quality of Telkomsel Orbit services.",
+			"ButtonAction": "Go to Dashboard",
+			"ButtonRatingGooglePlay": "Give Rating on Google Play"
+		},
+		"FailedSubmit": {
+			"Title": "Your Survey Failed To Submit",
+			"Subtitle": "A system error has occurred, please try again.",
+			"ButtonAction": "Back"
+		}
+	},
+	"OnBoarding": {
+		"WantToAskSomething": "Want to Ask About Telkomsel Orbit"
+	},
+	"ProfileScreen": {
+		"Title": "User Profile",
+		"ValidUntilTitle": "Valid until:",
+		"BalanceTitle": "Credit",
+		"UsageTitle": "Usage",
+		"FromLimitTitle": "From limit",
+		"HistoryTransactionTitle": "Transaction History",
+		"ShareDescriptionTitle": "Let’s invite friends and family to join Telkomsel Orbit, get an additional 5GB data package!",
+		"ShareButtonTitle": "Invite Friends",
+		"OtherMenu": {
+			"AdvanceSettingTitle": "Advanced Settings",
+			"FeedbackTitle": "Your feedback",
+			"LogoutTitle": "Logout"
+		},
+		"UpdateProfile": {
+			"DescriptionTitle": "Just a little more to complete your account info!",
+			"CTAButtonTitle": "Complete"
+		}
+	},
+	"HistoryTransactionScreen": {
+		"Title": "Transaction History",
+		"OngoingTitle": "Ongoing",
+		"CompleteTitle": "Finished",
+		"Status": {
+			"PaidTitle": "Success",
+			"PendingTitle": "Ongoing",
+			"FailedTitle": "Expired"
+		},
+		"EmptyTransaction": {
+			"Title": "No active transactions",
+			"DescriptionTitle": "You can see the status of payment transactions here."
+		},
+		"ErrorTransaction": {
+			"Title": "System Error Occured",
+			"DescriptionTitle": "Please try again later.",
+			"PrimaryButtonTitle": "Try Again"
+		}
+	},
+	"ErrorCheckTransactionPopup": {
+		"Title": "System Error Occured",
+		"DescriptionTitle": "Please try again later.",
+		"PrimaryButtonTitle": "Understand"
+	},
+	"HistoryTransactionDetailScreen": {
+		"Title": "Transaction Details",
+		"SummaryTitle": "Order Summary",
+		"TotalPaymentTitle": "Total Payment",
+		"DetailPaymentTitle": "Payment Details",
+		"PaymentMethodTitle": "Payment Method",
+		"DateTimeTitle": " Transaction date and time",
+		"InvoiceNumberTitle": "Invoice Number",
+		"TransactionIDTitle": "Transaction ID",
+		"DownloadInvoiceTitle": "Download Invoice",
+		"PrimaryButtonTitle": "Order Again",
+		"SecondaryButtonTitle": "Need Help?"
+	},
+	"TransactionProgressScreen": {
+		"TransactionTitle": "Processing transaction",
+		"DescriptionTitle": "Data package will be activated soon.",
+		"DescriptionTimeTitle": "Complete payment in:",
+		"PaymentMethodTitle": "Payment Method",
+		"VANumberTitle": "Virtual Account Number",
+		"DateTimeTitle": "Transaction date and time",
+		"TransactionIDTitle": "Transaction ID",
+		"TotalPaymentTitle": "Total Payment",
+		"ValidForTitle": "Valid for",
+		"PrimaryButtonDashboardTitle": "Go to Dashboard",
+		"PrimaryButtonCheckTitle": "I already paid",
+		"PrimaryButtonInboxTitle": "View Notification Inbox",
+		"SecondaryButtonTitle": "See Payment Guide",
+		"HowToPayTitle": "How to pay with",
+		"CloseTitle": "Close"
+	},
+	"TransactionPendingPopup": {
+		"Title": "Processing your transaction",
+		"DescriptionTitle": "The package will be activated soon, please wait a moment.",
+		"PrimaryButtonViewTitle": "See Transaction History",
+		"PrimaryButtonBackTitle": "Back to Transaction History",
+		"SecondaryButtonTitle": "Go to Dashboard"
+	},
+	"UsageStatisticScreen": {
+		"Title": "Your Favorit App & Web",
+		"LastMonthTitle": "Last Month",
+		"ThisMonthTitle": "This Month",
+		"AppListTitle": "List of App & Web",
+		"AppListDescriptionTitle": "This data is estimation and not entirely accurate. You can use it to manage applications & websites usage from the modem.",
+		"AverageTitle": "Average:",
+		"DayTitle": "day",
+		"OthersTitle": "Other",
+		"EstimationTitle": "(estimation)",
+		"Tooltip": {
+			"OtherAppTitle": "consists of applications with low data usage (<0.01 MB/day) and applications that are not identified by MyOrbit. The displayed numbers are estimation and may not be entirely accurate.",
+			"StoreAppTitle": "Quota used to update this application. If you don't want the quota to be used, please change your device settings."
+		},
+		"EmptyData": {
+			"Title": "No data available yet"
+		},
+		"ErrorData": {
+			"Title": "Failed to Load Page",
+			"DescriptionTitle": "There was an error loading data for this page. Please try again.",
+			"PrimaryButtonTitle": "Reload"
+		}
+	},
+	"UsageStatisticDetailScreen": {
+		"Title": "Daily Usage",
+		"OthersTitle": "Other",
+		"EstimationTitle": "(estimation)"
+	},
+	"UserProfile": {
+		"Title": "User Profile",
+		"EditTitle": "Edit Profile",
+		"YourCredit": "Your Credit",
+		"YourCreditReskin": "Credit:",
+		"LastTransaction": "Last Transaction",
+		"SeeAll": "See All",
+		"Purchase": "Purchase",
+		"OrderAgain": "Order Again",
+		"InviteYourFriend": "Come on Invite friends and family to join Orbit, get an additional 5GB quota!",
+		"InviteYourFriendReskin": "Invite your friends to join Orbit and get more 5GB data package!",
+		"ReferralCode": "Referral Code :",
+		"InviteYourFriendNow": "Invite a Friend Now",
+		"InviteYourFriendNowReskin": "Invite Friends",
+		"Help": "Help",
+		"Logout": "Log Out",
+		"LogoutReskin": "Logout",
+		"TitleModalLogout": "Log out from Orbit",
+		"SubtitleModalLogout": "Are you sure to Log Out from Orbit?",
+		"TitleDetail": "Transaction History",
+		"ConnectWithFacebook": "Connect With facebook",
+		"Setting": "Advance Settings",
+		"ValidUntil": "Valid Until :",
+		"ValidUntilReskin": "Valid Until:",
+		"TitleHistory": "Transaction History",
+		"SubtitleHistory": "Only displays transaction history in the last 3 months.",
+		"Feedback": "Your Feedback",
+		"UpdateProfile": {
+			"ProfileTextUpdate": "Just a little more to complete your account info!",
+			"ProfileText2Update": "Let’s complete your profile now!",
+			"ProfileText3Update": "To receive the latest info, promos, and surprises from Orbit on your birthday!",
+			"TermsTextUpdate": "Terms and Conditions Apply",
+			"ProfileButtonTextUpdate": "Complete",
+			"Form": {
+				"Name": "Name",
+				"RegisteredEmail": "Registered Email",
+				"RegisteredPhoneNumber": "Registered Phone Number",
+				"Email": "Email",
+				"PhoneNumber": "Phone Number",
+				"BirdDate": "Date of Birth",
+				"PlaceholderPhone": "628xxxxxxxxxx",
+				"PlaceholderEmail": "name@gmail.com",
+				"PlaceholderDate": "DD/MM/YY"
+			},
+			"FormValidation": {
+				"FullNameEmpty": "Please fill your fullname",
+				"PhoneNumberEmpty": "Please fill your phone number",
+				"FullNameIncorrect": "Fullname is Incorrect",
+				"PhoneNumberIncorrect": "Phone number is Incorrect",
+				"EmailIncorrect": "Email Incorrect",
+				"PhoneLength": "Please enter your 10-16 phone number",
+				"DateEmpty": "Please fill your date of birth",
+				"DateLower": "Age must not be under 13 years old"
+			},
+			"Error": {
+				"ErrorEmail": "Invalid Email",
+				"PopupTitle": "Birth year can only be changed once a year",
+				"PopupMessage": "Last update",
+				"PopupButton": "Understand"
+			},
+			"ModalDiscardChanges": {
+				"Title": "Discard Changes?",
+				"Description": "Leaving this page will delete the changes you have made. Are you sure?",
+				"Button": {
+					"Accept": "Yes, discard changes",
+					"Cancel": "Go Back"
+				}
+			},
+			"ErrorResult": {
+				"BAU": {
+					"Title": "Update Profile Failed",
+					"Description": "Sorry, a system error on our side occurred while updating your profile, Please try again."
+				},
+				"CIAM": {
+					"Title": "Update Profile Failed",
+					"Description": "Sorry, a system error occurred while updating your profile, Please try again."
+				}
+			}
+		},
+		"TransactionDetails": {
+			"TransactionDetail": "Transaction Detail",
+			"TransactionDetailReskin": "Transaction",
+			"Title": "View Transaction Detail",
+			"ShoppingSummary": "Shopping Summary",
+			"ShoppingSummaryReskin": "Order Summary",
+			"SuccessPaymentTitleReskin": "Payment Success",
+			"SuccessPaymentSubTitleReskin": "The data package will be activated soon",
+			"BadgePackageActivatedTitle": "The data package will be activated in time ",
+			"BadgePackageActivatedTitleTime": "1x24 Hours",
+			"PackageDataValidity": "Valid for",
+			"ProductDetail": "Inclusive of",
+			"SubscriptionMonth": "Month subscription",
+			"DataPackage": "Data Package",
+			"Valid": "Valid",
+			"Day": "days",
+			"TotalModemDataPackage": "Total Modem",
+			"TotalPackageAddOn": "Total",
+			"ShippingCosts": "Delivery Fee",
+			"AdministrationCosts": "Administration Fee",
+			"TotalPayment": "Total Paid",
+			"TotalPaymentReskin": "Total Payment",
+			"PaymentDetail": "Payment Detail",
+			"TransactionId": "Transaction ID",
+			"See": "SEE",
+			"SeeReskin": "View",
+			"TransactionDate": "Transaction date and time",
+			"TransactionDateReskin": "Transaction Date and Time",
+			"PaymentMethod": "Payment method",
+			"PromoUsed": "Promo used",
+			"YouGetDiscount": "You get a discount",
+			"PromoEnterpriseUsed": "Promo used",
+			"YouGet": "You get a ",
+			"ReferralCodeUsed": "Referral Code used",
+			"YouGetDataPackage": "You get a data package",
+			"OrderAgain": "Order Again",
+			"dataPackageBonus": "Data Package Bonus",
+			"FamilyMembers": "Family members",
+			"Package": "Package",
+			"PercentageTax": "Price include 11% VAT",
+			"ProofPayment": "This electronic payment receipt is valid without a signature and stamp.",
+			"Invoice": {
+				"title": "Download Invoice",
+				"title2": "Invoice File Still in Process",
+				"message": "Would you like to download an invoice?",
+				"message2": "Invoice not found or still in process, please wait a few more moments to download the invoice file.",
+				"Yes": "Yes",
+				"No": "No",
+				"Date": "Date",
+				"DeliveryTrackingNumber": "Delivery Tracking Number",
+				"InvoiceNumber": "Invoice Number",
+				"CustomerNumber": "Customer Number",
+				"Promo": "Promo",
+				"Qty": "Qty",
+				"PaymentSummary": "Payment Summary",
+				"Receipt": "Receipt",
+				"Price": "Price",
+				"Item": "Item",
+				"QuotaAddOn": "Quota Add-On",
+				"FeeAdministration": "Fee Administration",
+				"Interest": "Interest Fee"
+			}
+		},
+		"TransactionHistory": {
+			"title": "Transaction History",
+			"NotYetPaid": "NOT PAID",
+			"NotYetPaidReskin": "Not Paid",
+			"Done": "DONE",
+			"DoneReskin": "Done",
+			"subtitle1": "Data package will be activated immediately within 1x24 hours",
+			"subtitle2": "Data package will be activated immediately",
+			"subtitle3": "Remaining payment time",
+			"subtitle4": "Waiting for Payment",
+			"PayNow": "Pay Now",
+			"Canceled": "Canceled",
+			"Reversal": "Reversal",
+			"Shipment": "Delivery Period",
+			"Success": "Success",
+			"Failed": "Failed",
+			"Expired": "Expired",
+			"Info": "Info For You",
+			"WaitingPayment": "Waiting for payment",
+			"NoTransactions": {
+				"title1": "You don't have a transaction history",
+				"title2": "You don't have a history transactions that are being processed at this time",
+				"TitleReskin": "You do not have a transaction history"
+			}
+		},
+		"InsuranceInfo": {
+			"PriceTitle": "Insurance Fee"
+		}
+	},
+	"MismatchMsisdn": {
+		"PopupHeaderTitle": "SIM Not Suitable",
+		"PopupTitle": "Difference between SIM Card Numbers on Packages",
+		"PopupSubTitle": "Your SIM card number does not match. Click Create Report to submit your constraints to the Telkomsel Orbit Team.",
+		"PopupButton": "Create Report",
+		"FormAlertImageSize": "Image size cannot be larger than 10MB",
+		"FormHeaderTitle": "Create Report",
+		"FormTitle": "Send your report",
+		"FormReportType": "Report Type",
+		"FormReport": "Incorect Modem Data",
+		"FormWhatsAppTextField": "Your Whatsapp number",
+		"FormReportTextField": "Fill Report (optional)",
+		"FormImageCaption": "Photo Bottom Modem",
+		"FormImageCaption2": "Photo of SIM Card Packaging",
+		"FormHowToReport": "How to fill out a report",
+		"FormReportDescription1": "Write your WhatsApp number and describe the constraints you have.",
+		"FormReportDescription2": "Attach the bottom photo of the modem and SIM card packaging to show the condition of your modem.",
+		"FormButton": "Send Report",
+		"CallBackPopupSuccessErrorToast": "SIM numbers are still not the same",
+		"CallBackPopupSuccessTitle": "SIM Card Number Already Matched",
+		"CallBackPopupSuccessSubTitle": "Click Continue to go to the SIM card registration process.",
+		"CallBackPopupSuccessButton": "Continue",
+		"CallBackPopupTitle": "Report Sent",
+		"CallBackPopupSubTitle": "Reports are being processed and modem activation can be done again within a maximum of 1x24 hours. We will send notification of this report to your email."
+	},
+	"Feedback": {
+		"FeedbackFormHeader": "Give Feedback",
+		"FeedbackFormHeaderReskin": "Give Your Feedback",
+		"FeedbackFormTitle": "Give Your Feedback",
+		"FeedbackFormSubTitle": "Your response is important in order to maximize Telkomsel Orbit services to better suit your needs.",
+		"FeedbackFormSubTitleReskin": "We really appreciate you taking the time to provide criticism and suggestions to improve the service quality.",
+		"FeedbackFormTextFieldLabel": "Response",
+		"FeedbackFormTextFieldMax3StarLabel": "What can we improve?",
+		"FeedbackFormTextFieldMax5StarLabel": "Thank you for the rating! What do you like?",
+		"FeedbackFormPlaceholder": "Write your feedback here",
+		"FeedbackFormButton": "Send",
+		"FeedbackSuccessTitle": "We Have Received Your Feedback",
+		"FeedbackSuccessSubTitle": "Thank you for your response. We appreciate your involvement in helping improve the quality of Telkomsel Orbit services.",
+		"FeedbackSuccessSubTitleMax3StarReskin": "We're sorry for the inconvenience, we appreciate your contribution in improving Telkomsel Orbit services.",
+		"FeedbackSuccessSubTitleMax5StarReskin": "Thank you for choosing Telkomsel Orbit! We hope to always provide you the best experience with our services.",
+		"FeedbackSuccessButton": "Return to Home",
+		"FeedbackSuccessButtonReskin": "Continue"
+	},
+	"BlacklistScreen": {
+		"PopupTitle": "You haven't activated or added the URL",
+		"PopupSubtitle": "Enable or add the desired website URL to use the domain filter.",
+		"PopupButton": "Ok",
+		"Title": "Website Filtering",
+		"Title2": "Blocked Website",
+		"NoData": "Tap",
+		"NoData2": "to add the URL",
+		"NoData2Reskin": "to add the website",
+		"NoData3": "you want to block.",
+		"ButtonEdit": "Edit",
+		"PopupFailedActivation": {
+			"Title": "Failed to Activate Website Filtering",
+			"Desc": "Please check the website you registered again, make sure the url you entered is correct and there are no duplicate urls.",
+			"Button": "Understand"
+		},
+		"PopupFailedLimit": {
+			"Title": "You Have Reached the Limit of Website Filtering",
+			"Desc": "You can't add a new URL because you can only have 32 URLs / categories in Website Filtering. Remove one or more URLs / categories to add a new URL / category.",
+			"Button": "Understand"
+		},
+		"PopupFailedLimitReskin": {
+			"Title": "You have reached the website filtering limit",
+			"Desc": "Can only block max. 32 website addresses. Remove one or more to block other websites.",
+			"Button": "Understand"
+		},
+		"PopupFailedAction": {
+			"Title": "Failed to Action",
+			"Desc": "Click the close app and reopen the My Orbit app.",
+			"Button": "Close"
+		}
+	},
+	"AddingDomainBlacklist": {
+		"TitleAdd": "Add URL",
+		"TitleChange": "Change URL",
+		"TitleChangeReskin": "Block Website",
+		"Recommendation": "Choose from Recommendations",
+		"Manual": "Or Add URL Manually",
+		"ManualReskin": "Or Write Website Address",
+		"WebsiteName": "Website Name (Optional)",
+		"WebsiteUrl": "URL",
+		"WebsiteUrlReskin": "Website Address",
+		"WebsiteUrlExample": "example : website.com",
+		"Failed": "Failed",
+		"Add": "Add",
+		"Change": "Change",
+		"FailedBlockWebsite": "Failed to Block Website",
+		"NotConnected": "Your device is not connected to a modem, please go back and refresh it to connect to the modem.",
+		"NotConnectedReskin": "Your device is not connected to the modem. Make sure the device is connected to the modem to block websites.",
+		"ButtonSave": "Save",
+		"ButtonDelete": "Delete",
+		"PopupSuccess": {
+			"Title": "Success",
+			"Desc": "Successfully added",
+			"Button": "Continue"
+		},
+		"PopupSuccessReskin": {
+			"Title": "Website Blocked Successfully",
+			"Desc": "Connected devices cannot access this website while website filtering is active.",
+			"Button": "Understand"
+		},
+		"PopupFailed": {
+			"Title": "Failed",
+			"Desc": "Failed to Add",
+			"Button": "Try Again"
+		},
+		"PopupSuccessEdit": {
+			"Title": "Success",
+			"Desc": "Successfully Change",
+			"Button": "Continue"
+		},
+		"PopupFailedEdit": {
+			"Title": "Failed",
+			"Desc": "Failed to Change",
+			"Button": "Try Again"
+		},
+		"PopUpNoDataAdd": {
+			"Title": "Fill in the URL Column or Choose a Category",
+			"Desc": "Please enter the website URL or select the appropriate category before saving.",
+			"Button": "Understand"
+		},
+		"PopUpNoDataAddReskin": {
+			"Title": "Enter the website address or select a category",
+			"TitleZTE": "Enter the website address",
+			"DescZTE": "Please enter the website address before saving.",
+			"Desc": "Please enter the website address or select the right category before saving.",
+			"Button": "Understand"
+		},
+		"PopUpNoDataEdit": {
+			"Title": "Fill in the URL Field",
+			"Desc": "Please enter the appropriate website URL before saving.",
+			"Button": "Understand"
+		},
+		"PopupDelete": {
+			"Title": "Delete URL",
+			"Desc": "Are you sure you want to delete this URL?",
+			"Button1": "Yes",
+			"Button2": "No"
+		},
+		"PopupDeleteReskin": {
+			"Title": "Stop Blocking Website",
+			"Desc": "Are you sure you want to stop blocking this website?",
+			"Button1": "Yes",
+			"Button2": "No"
+		},
+		"PopupChangeCategory": {
+			"Title": "Change Category",
+			"Desc": "Leaving this page will erase any changes that you have made. Are you sure?",
+			"Button1": "Yes, switch category",
+			"Button1Reskin": "Yes, change category",
+			"Button2": "No"
+		}
+	},
+	"ListUrlCategory": {
+		"PopupDelete": {
+			"Title": "Success",
+			"Desc": "Successfully deleted category.",
+			"Button": "Continue"
+		},
+		"PopupNoData": {
+			"Title": "No URL Selected",
+			"Desc": "Please select a url to save.",
+			"Button": "Understand"
+		}
+	},
+	"CModal": {
+		"limit": "Trial limit",
+		"time": "time"
+	},
+	"DisneyPackageScreen": {
+		"Max": "Max.",
+		"Account": "account",
+		"ContactTitle": "Contact",
+		"ContactMessage": "This application wants to see your contacts.",
+		"ContactButton": "Accept",
+		"ContactAlert": "Please activate the contact permissions first",
+		"PackageListHeaderTitle": "Disney+ Premium",
+		"PackageListDevicesPerAccount": "devices per account",
+		"PackageDetaiPrice": "Package Price",
+		"PackageDetaiValidityDays": "Validity Period",
+		"PackageDetaiPopupTitle": "Number Configuration",
+		"PackageDetaiPopupErrorTitle": "The package is no longer available",
+		"PhoneNumberFormHeaderTitle": "Add Family Number",
+		"PhoneNumberFormInputPlaceholder": "Phone Number (Telkomsel)",
+		"PhoneNumberFormErrorMessageLessThan10": "The number cannot be less than 10.",
+		"PhoneNumberFormErrorMessageNotMatch": "Incorrect phone number format.",
+		"PhoneNumberFormErrorMessageSameNumber": "Numbers cannot be the same.",
+		"PhoneNumberFormErrorMessageNotEligible": "Only for Telkomsel prepaid card users.",
+		"PhoneNumberFormErrorMessageNotActive": "Number must be in active condition.",
+		"PhoneNumberFormErrorMessageNotTelkomsel": "Make sure you enter your Telkomsel number.",
+		"PhoneNumberFormErrorMessageNotOrbit": "Make sure you don't enter your Telkomsel Orbit number.",
+		"PhoneNumberFormSuccessMessage": "Verified number!",
+		"PhoneNumberFormGetContactError": "Please activate the contact permissions first",
+		"PhoneNumberFormInformationOne": "Make sure you enter your Telkomsel number.",
+		"PhoneNumberFormInformationTwo": "Make sure you don't enter any Telkomsel Orbit number.",
+		"PhoneNumberFormInformationThree": "Only for Telkomsel prepaid card users.",
+		"PhoneNumberFormInformationFour": "The number you are entering must be active.",
+		"PhoneNumberFormLoading": "Please wait...",
+		"PhoneNumberPickerHeaderTitle": "Select Contact Number",
+		"PhoneNumberPickerModalTitle": "There Is More Than One Number",
+		"PhoneNumberPickerModalSubTitle": "Please select a number from these contacts to add to your",
+		"MultiplePhoneNumberHeaderTitle": "Select a Number",
+		"MultiplePhoneNumberContactName": "Contact Number",
+		"MultiplePhoneNumberCaption": "Number"
+	},
+	"GuestSsid": {
+		"Desc": "With Guest Access, you can create WiFi for your house guests",
+		"Title": "Guest Access Remaining Time",
+		"Connected": "Connected Devices",
+		"Minute": "Minutes",
+		"TurnOn": "Turn On",
+		"TurnOff": "Turn Off",
+		"Title2": "Guest WiFi Name",
+		"PasswordLabel": "Guest WiFi Password",
+		"Duration": "Duration",
+		"Hour": "Hours",
+		"Password": "WiFi Password",
+		"Setting": "Guest Access Settings",
+		"Title3": "Guest WiFi"
+	},
+	"DeviceScheduleScreen": {
+		"NewScheduleHeaderTitle": "New Schedule",
+		"NewScheduleTitle": "Add Usage Schedule",
+		"NewScheduleSubTitle": "To set internet usage time, please use Schedule Recommendation, Schedule History, or Create a New Schedule.",
+		"NewScheduleSubRecommendation": "Schedule recommendations",
+		"NewScheduleSubHistory": "Schedule History",
+		"NewScheduleSubCreateNewSchedule": "Create a New Schedule",
+		"ScheduleRecommendationsHeaderTitle": "Schedule recommendations",
+		"ScheduleRecommendationsTile": "Preset Usage Schedule",
+		"HistoryScheduleHeaderTitle": "Schedule History",
+		"HistoryScheduleTitle": "Usage Schedule History",
+		"HistoryScheduleEmptyTitle": "You don't have a usage schedule yet. Click New Schedule to set the internet usage time from Telkomsel Orbit.",
+		"HistoryScheduleEmptyDescription": "click icon",
+		"HistoryScheduleEmptyDescriptionTwo": "to set the usage time",
+		"HistoryScheduleEmptyDescriptionThree": "Telkomsel Orbit internet.",
+		"NewScheduleSettingHeaderTitle": "New Schedule Settings",
+		"NewScheduleSettingDay": "Days of Use",
+		"NewScheduleSettingDuration": "Duration of Use",
+		"NewScheduleSettingInputLabel": "Schedule Name",
+		"NewScheduleSettingErr": "Not allowed to use same rule in this device",
+		"NewScheduleSettingErrTwo": "Time rule has reach limit",
+		"NewScheduleSettingErrThree": "Modem not connected",
+		"NewScheduleSettingErrFour": "Something went wrong, please try again!",
+		"NewScheduleSettingErrFive": "Cannot delete rules which owned by other devices",
+		"NewScheduleSettingPopupSubTitle": "New usage schedule saved",
+		"NewScheduleSettingWaitFiveMinutes": "System error occurred, please wait 5 minutes and try again."
+	},
+	"ByodPairingScreen": {
+		"Title": "MyOrbit's Full Features",
+		"SubTitle": "Connect your modem to enjoy the features below:",
+		"SettingWifi": "WiFi Settings",
+		"SettingWifiDesc": "Secure WiFi access under your full control.",
+		"SettingDevice": "Device Settings",
+		"SettingDeviceDesc": "Control devices connected to the modem.",
+		"WebsiteFiltering": "Website Filtering",
+		"WebsiteFilteringDesc": "Set access to web pages that can be visited.",
+		"ModalTitle": "Connect the Modem Later?",
+		"ModalSubTitle": "To complete the modem installation process, please access this page on the mega menu on the homepage."
+	},
+	"ByodMismatchMsisdScreen": {
+		"SuccessPopup": "Reports are being processed and modem activation can be done again within a maximum of 1x24 hours. You can still use the Orbit modem to access the internet."
+	},
+	"TelkomselPoinScreen": {
+		"CouponDetails": "Promo Details",
+		"DashboardExpiredDate": "Poin will expire on the date",
+		"DashboardLatestReward": "Newest Rewards",
+		"DataPackageTotal": "Data Package Total",
+		"FailedToLoad": "Failed To Load",
+		"FailedToLoadPageButton": "Reload",
+		"FailedToLoadPageSubtitle": "Please check your internet connection and reload.",
+		"FailedToLoadPageTitle": "Failed to Load Page",
+		"HistoryPoinTitle": "Poin History",
+		"NotEnoughPointsSubTitle": "Please buy an Orbit modem data package or top up your Telkomsel phone credit to get more poin.",
+		"NotEnoughPointsTitle": "Not Enough Poin",
+		"Point": "Poin",
+		"PointsNeeded": "Poin needed",
+		"PointsToBeEarned": "Poin to be earned",
+		"Received": "Received",
+		"SuccessRedeemButton": "Visit Catalog",
+		"SuccessRedeemTitle": "Poin Used Successfully",
+		"TotalPoint": "Your Poin",
+		"UsePoints": "Use Point",
+		"UsePointsSuccess": "points used successfully",
+		"ValidUntil": "Valid until",
+		"EmptyTitle": "You Don't have Any Point History Yet",
+		"EmptyDescription": "Please purchase Telkomsel Orbit products to get more points.",
+		"MissingExpirationDate": "Buy more Orbit data package to get more poin!"
+	},
+	"IndiboxScreen": {
+		"SliderContent1": "Access to 1000+ movie collections from IndiBOX",
+		"SliderContent2": "Remote voice control with Google Assistant",
+		"SliderContent3": "Open the game on the phone and play it on the TV screen",
+		"SliderContent4": "Use your voice to watch videos on YouTube",
+		"Guarantee1": "Free Ongkir",
+		"Guarantee2": "Easy Installation",
+		"Guarantee3": "7-Day Returns Guarantee",
+		"TitleFreeOngkir": "Free shipping up to IDR 20.000",
+		"ProductDetailTitle": "Diverse Entertainment in One Big Screen",
+		"ProductDetailSubtitle": "Enjoy thousands of collections of Video-On-Demand (VOD) from IndiBOX. Open apps and games on the Google Play Store from the TV screen. Control the viewing with your voice with a remote with Google Assistant.",
+		"ProductDetailTitle2": "Turn your TV into a Smart TV with IndiBOX",
+		"ProductDetailSubtitle2": "Just connect IndiBOX to the internet and TV at home, you can watch YouTube videos and play Android games on the TV screen. Also get access to exciting shows from Vidio, iflix, to Catchplay which is safe for children.",
+		"RemindMe": "Remind Me",
+		"BuyNow": "Buy Now",
+		"IndiboxInformStockTitle": "IndiBOX Availability Information",
+		"IndiboxInformStockSubtitle": "We will send a notification via MyOrbit application when indiBOX stock is available again",
+		"Understand": "Understand",
+		"Cancel": "Cancel",
+		"TransactionOnproccesTitle": "Unfinished Transaction",
+		"TransactionOnproccesSubtitle": "You have an unfinished transaction. Do you want to continue the transaction?",
+		"DeleteTransaction": "Delete Transaction",
+		"SuccessSubscribeTitle": "Thank you for your interest",
+		"SuccessSubscribeSubtitle": "Then you can wait until the email regarding IndiBOX stock availability information is received",
+		"IsAlreadySubscribeTitle": "You have subscribed ",
+		"IsAlreadySubscribeSubtitle": "Your email has been registered",
+		"SixMonth": "+6 Month",
+		"HavePurchased": "You have purchased an IndiBox product, one product only for one email account",
+		"TitleShipment": "Shipment",
+		"ShippingAddress": "Shipment Address",
+		"RecipientData": "Recipient Data",
+		"FullName": "Full Name",
+		"PhoneNumber": "Phone Number",
+		"FullAddress": "Complete address",
+		"DataNotFound": "DATA NOT FOUND",
+		"Province": "Province",
+		"City": "City/District",
+		"District": "District",
+		"PostalCode": "Postal Code",
+		"AddressDetail": "Enter the Address Details",
+		"ShipmentOptions": "Shipment Options",
+		"ShipmentDuration": "Shipment Duration",
+		"ShipmentDurationSubtitle": "Maximum distance of Instant and SameDay delivery courier is 30km",
+		"CourierOptions": "Courier Options",
+		"SpecialPrice": "Special Price",
+		"Free": "Free",
+		"Continue": "Continue",
+		"PleaseEnterDetailAddress": "Please fill in your address details",
+		"PleaseEnterFullName": "Please enter your full name",
+		"PleaseEnterPhoneNumber": "Please enter your phone number",
+		"WrongFormatNumber": "Incorrect Phone Number Format",
+		"WrongFormatName": "Full name does not match",
+		"PleaseEnterCityName": "Please enter your City/District Name",
+		"PleaseEnterDistrictName": "Please enter your District Name",
+		"PleaseEnterPostalCode": "Please enter your Postal Code",
+		"PleaseEnterProvinceName": "Please enter your Province Name",
+		"NoteDelivery1": "Purchases on holidays / above 2pm",
+		"NoteDelivery2": "will be sent on the next",
+		"NoteDelivery3": "working day",
+		"InsuranceIndibox": {
+			"InsuranceFee": "Shipping insurance costs",
+			"InsuranceInfo": "You will get a risk guarantee if the goods are lost or damaged during delivery",
+			"InsuranceNote": "The insurance fee will be given in an amount",
+			"InsuranceJNE": "0.25% of the item price and an admin fee of Rp 5,000",
+			"InsuranceSICEPAT": "0.25% of the item price",
+			"InsuranceANTERAJA": "0.20% of the item price"
+		},
+		"ActivePackageName": "already active",
+		"ValidDateAddonIndibox": "Valid on 30 days"
+	},
+	"IndiboxStatusWidget": {
+		"DeliveryStatus": {
+			"Delivered": {
+				"Title": "Already Received",
+				"Subtitle": "Your IndiBOX has been accepted by",
+				"NotesDate": "Product received on"
+			},
+			"OnProgress": {
+				"Title": "On Delivery",
+				"Subtitle": "IndiBOX is on its way to the delivery address.",
+				"NotesDate": "The product has been shipped on"
+			},
+			"OnProcess": {
+				"Title": "Packed",
+				"Subtitle": "IndiBOX is packed and ready to ship.",
+				"NotesDate": "The product will be shipped on"
+			},
+			"ActivationTitle": "To activate your IndiBOX, click the Activation button below",
+			"ActivationButton": "Activation"
+		},
+		"SubscriptionStatus": {
+			"PackageStatusLabel": "Package Status",
+			"ValidityLabel": "Valid up to"
+		},
+		"ErrorMessage": {
+			"FailedResponse": {
+				"Title": "Failed to Show Indibox Status",
+				"Subtitle": "Sorry, your Indibox status failed to display. Please click Reload to reload this page."
+			}
+		}
+	},
+	"IndiboxSetup": {
+		"IndiboxTutorialScreen": {
+			"Step1Title": "Turn on IndiBOX for the installation process",
+			"Step2Title": "Connect IndiBOX to the TV in your home",
+			"Step3Title": "Hubungkan IndiBOX dengan WiFi Orbit Anda",
+			"Step3Notes": "Enter the WiFi Orbit password in the field displayed on your TV screen.",
+			"Step3LabelWifi": "Wifi Name",
+			"Step3LabelPassword": "Wifi Password"
+		},
+		"IndiboxPairingScreen": {
+			"Title": "Activating...",
+			"Subtitle": "Make sure IndiBOX is connected to WiFi Orbit",
+			"ResultSuccess": {
+				"Title": "Your IndiBOX is Active",
+				"Subtitle": "Now you can enjoy various IndiBOX entertainment features from your TV.",
+				"ButtonPrimary": "Back To Dashboard"
+			},
+			"ResultFailedIndiboxBindToAnotherNumber": {
+				"Title": "Your IndiBOX Activation Failed",
+				"Subtitle": "IndiBOX device is already active in another number",
+				"ButtonPrimary": "Try again",
+				"ButtonSecondary": "Contact us"
+			},
+			"ResultFailed": {
+				"Title": "Your IndiBOX Activation Failed",
+				"Subtitle2": "please try again.",
+				"ButtonPrimary": "Try again",
+				"ButtonSecondary": "Contact us"
+			}
+		}
+	},
+	"Onboarding": {
+		"Step1": {
+			"Title": "Usage Statistics",
+			"Subtitle": "See data package usage for each month in detail.",
+			"TitleReskin": "Usage Statistics",
+			"SubtitleReskin": "See the data package usage every month in detail."
+		},
+		"Step2": {
+			"Title": "Usage Control",
+			"Subtitles": "Limit access to your home internet usage in real time.",
+			"TitleReskin": "Usage Control",
+			"SubtitlesReskin": "Limit your home internet usage access in real time."
+		},
+		"Step3": {
+			"Title": "Various Benefits",
+			"Subtitle": "Collect Telkomsel Points to be exchanged for various attractive rewards.",
+			"TitleReskin": "Various Advantages",
+			"SubtitleReskin": "Collect Telkomsel poin to be exchanged for various attractive rewards."
+		}
+	},
+	"CoachmarkStatistic": {
+		"LastMonth": {
+			"Title": "Last month",
+			"Subtitle": "Here, Telkomsel Orbit will show you the internet usage statistics from last month"
+		},
+		"ThisMonth": {
+			"Title": "This month",
+			"Subtitle": "On this tab, you can see the internet usage statistics for this month"
+		},
+		"DataPackageTotal": {
+			"Title": "Data package total",
+			"Subtitle": "Telkomsel Orbit shows the data packages that you have used per month and calculates your average usage per day."
+		},
+		"DailyUse": {
+			"Title": "Daily Use",
+			"Subtitle": "This graph will make it easier for you to analyze internate usage every day. This will help you monitor your modem data package usage."
+		},
+		"Aplication": {
+			"Title": "Aplication",
+			"Subtitle": "Here, you can see the total data package that has been used for the applications on your device."
+		},
+		"Button": {
+			"Next": "Next",
+			"Skip": "Skip",
+			"Finish": "Finish"
+		}
+	},
+	"Maintenance": {
+		"MaintenanceTips": "Tips: If you want to buy a data package, you can access the Gift feature in the MyTelkomsel application or simply call *363#."
+	},
+	"KaleidoscopeScreen": {
+		"TitleDashboard": "Your travel notes",
+		"SubtitleDashboard": "Check out our journey together here",
+		"ReferralName": "Explorer",
+		"ButtonClose": {
+			"Title": "Close Flashback?",
+			"Subtitle": "You're not done with the flashbacks yet, there's still more interesting stuff about your journey to read!",
+			"Action": "Yes, Close Flashback",
+			"CancelAction": "Cancel"
+		},
+		"Slide1": {
+			"Title": "We have orbited together",
+			"Subtitle": "We have been through many exciting adventures.",
+			"Desc": "Let's take a look at our travel history.",
+			"AdditionalInfo": "Swipe Right to Start"
+		},
+		"Slide2": {
+			"Subtitle": {
+				"One": "On",
+				"Two": "and already",
+				"Three": "you start on an adventure with Orbit as an explorer to",
+				"Four": "\n Your friend",
+				"Five": "provide a referral code \n so you can start your adventure with us."
+			}
+		},
+		"Slide3": {
+			"Title": "Your orbit modem",
+			"Desc": "You entrust your journey with this modem with a quota load",
+			"DescLanjutan": "to orbit and explore your favorite planets."
+		},
+		"Slide4": {
+			"Title": "Total quota has been spent",
+			"Desc": "During your adventure, your fuel supply consumption reaches",
+			"DescLanjutan": "from the start you orbit"
+		},
+		"Slide5": {
+			"Title": "So supply your favorite quota",
+			"Desc": "Already count",
+			"DescLanjutan": "you bring this supply quota to explore"
+		},
+		"Slide6": {
+			"Title": "Supply quota is easier to get through the MyOrbit application",
+			"Desc": "You often use",
+			"DescLanjutan": "to fill your Orbit modem supply quota!"
+		},
+		"Slide7": {
+			"Title": "The planets you frequent",
+			"Subtitle": "As long as you orbit, you very often visit these planets."
+		},
+		"Slide8": {
+			"Title": "Many adventures await in 2022",
+			"Desc": "Thank you for entrusting your journey with Orbit! For the future too, we want to continue to provide the best service on your next trip, so that you stay active and productive with Orbit."
+		},
+		"Slide9": {
+			"Title": "Orbit Space Report",
+			"Desc": "You have shared your referral code as much as",
+			"DescLanjutan": "share with your friends to get extra together",
+			"AdditionalInfo": "package data 5GB",
+			"Table": {
+				"TitleName": "Name",
+				"TitleOrbit": "Orbit Date",
+				"TitleTotalKuota": "Total supply quota 1 year"
+			},
+			"Kadet": "Congratulations, your rank is"
+		},
+		"Popup": {
+			"Title": "Thank you for orbiting with us",
+			"Subtitle": "During our adventure together, many memories have happened. Do you remember the first time you bought a modem? check our flashback below.",
+			"Action": "See Flashback"
+		}
+	},
+	"LuckyDrawScreen": {
+		"Heading": "Draw Poin",
+		"Widget": {
+			"Announcement": "Lucky draw announcement\n on",
+			"Button": "Check Details",
+			"Lottery": "Coupons",
+			"Title": "You have:"
+		},
+		"Detail": {
+			"Heading": "Coupon Details",
+			"Total": {
+				"Title": "Your lucky draw coupons:",
+				"Value": "Coupons"
+			},
+			"Description": {
+				"Title": "Description"
+			},
+			"Disclaimer": {
+				"Title": "Terms and Conditions"
+			}
+		},
+		"Error": {
+			"Title": "Failed to Display Coupons",
+			"Subtitle": "Please click Reload to see this page.",
+			"Button": "Reload"
+		}
+	},
+	"FindAccountScreen": {
+		"Header": "Find Orbit Account",
+		"Greeting": "Please enter your modem data to get account information.",
+		"InputImeiModem": {
+			"Title": "IMEI Modem or Orbit Number",
+			"Placeholder": "Ex: 081234567890",
+			"ErrorMessage": {
+				"ModemEmpty": "Please fill in the orbit number or IMEI",
+				"ModemIncorrect": "The IMEI or Orbit number you entered is incorrect or not registered",
+				"ModemNotLinked": "No Telkomsel Orbit account linked to this number yet"
+			}
+		},
+		"Note": "Find the IMEI on the back or bottom of the modem.",
+		"InvalidPopUp": {
+			"Title": "Need More Help?",
+			"Description": "The Orbit/IMEI number you entered is still not correct, please check again or click the button below to view complete information on the Orbit/IMEI number."
+		}
+	},
+	"FindAccountDetailScreen": {
+		"Greeting": {
+			"Title": "Orbit Account Found",
+			"Description": "The account below is linked to the modem data you entered. You will be directed to log back in by clicking Continue."
+		},
+		"LoginWith": {
+			"Email": "Login with Email",
+			"PhoneNumber": "Login with Phone Number",
+			"Google": "Login with Gmail",
+			"Apple": "Login with Apple ID",
+			"Facebook": "Login with Facebook"
+		}
+	},
+	"PackageAddOnListScreen": {
+		"MainTitle": "Data Package",
+		"MainPackageTitle": "Special For You",
+		"PackageListTitle": "Package Options",
+		"DefaultCategoryTitle": "All",
+		"Badge": {
+			"BuyAgainTitle": "Buy Again"
+		},
+		"FilterInfo": {
+			"FilterTitle": "Filter",
+			"ResetTitle": "Reset",
+			"CategoryTitle": "Category"
+		},
+		"SetHomebaseLocationInfo": {
+			"Title": "Let's set main location first!!",
+			"DescriptionTitle": "Home Quota options will be displayed after the main location has been set.",
+			"PrimaryButtonTitle": "Set Location"
+		},
+		"EmptyResultInfo": {
+			"Title": "Data package not available",
+			"ResetTitle": "Reset Filter"
+		},
+		"FailedInfo": {
+			"FailedTitle": "Failed to load data",
+			"NoDataTitle": "No data",
+			"RetryButtonTitle": "Refresh"
+		}
+	},
+	"DataPackage": {
+		"Header": "Data Package",
+		"Package": {
+			"Spesial": "Data Package Promo",
+			"Options": "Package Options"
+		},
+		"DefaultCategory": "All",
+		"MobilityPackageBannerTitle": "Buy Mobility quota to use Orbit modem outside your home!",
+		"LocationNotYetSet": {
+			"Title": "Let's set main location first!",
+			"Desc": "The Home Quota options will be displayed after the main location has been set.",
+			"ButtonAction": "Set Location"
+		},
+		"MainLocation": "Main Location",
+		"Error": {
+			"FailedLoad": {
+				"Title": "Failed to Display Data",
+				"Desc": "Make sure the modem is on to reload data.",
+				"ButtonLabel": "Reload"
+			},
+			"NotActive": {
+				"Desc": "To access this service, please complete your postpaid bill payment."
+			},
+			"OverLimit": {
+				"Title": "This purchase exceeds the usage limit",
+				"Desc": "Please contact Customer Service at 188 to increase the usage limit.",
+				"ButtonLabel": "Call Customer Service"
+			}
+		},
+		"Filter": {
+			"TitleFilter": "Filter",
+			"Button": {
+				"Title": "Apply"
+			}
+		},
+		"Badge": {
+			"Title": "Buy Again"
+		},
+		"Empty": {
+			"Title": "Data package not available",
+			"Subtitle": "Reset Filter"
+		}
+	},
+	"Insider": {
+		"PushNotif": {
+			"Title": "Page navigation",
+			"Subtitle": "Are you sure you want to go to another page?"
+		}
+	},
+	"DeleteAccountScreen": {
+		"ProgressScreen": {
+			"Title": "Deleting Account",
+			"Desc": "This process will take up to 1 minute to remove the account connection."
+		},
+		"PopupConfirmation": {
+			"Title": "Do you want to delete this account?",
+			"Desc": "Your access to the app will be permanently lost. Continue the account deletion process?",
+			"ButtonPrimary": "Cancel",
+			"ButtonSecondary": "Delete Account"
+		},
+		"ResultSuccess": {
+			"Title": "Account Deleted Successfully",
+			"Desc": "If there are problems, please contact the Orbit Call Center at 188.",
+			"Button": "Close"
+		},
+		"ResultRetry": {
+			"Title": "Error Occurred",
+			"Desc": "Please click Retry to repeat the account deletion process.",
+			"Button": "Try again"
+		},
+		"ResultFailed": {
+			"Title": "Server Is Busy",
+			"Desc": "Please wait 5 minutes to delete the account again.",
+			"Button": "Close"
+		},
+		"ResultNoConnection": {
+			"Title": "No internet connection",
+			"Desc": "Make sure you are connected to the internet to delete the account.",
+			"Button": "Close Application"
+		},
+		"PrivacyTerm": {
+			"Statement": "By continuing the account deletion process, I agree with ",
+			"TnC": "Terms and Conditions",
+			"And": " and ",
+			"PrivacyPolicy": "Privacy Policy",
+			"FromTelkomsel": " from Telkomsel"
+		}
+	},
+	"PrimaryModemConfigScreen": {
+		"Heading": "Main Modem Settings",
+		"Title": "Main modem is the modem that will receive quota rewards.",
+		"Badges": "Main",
+		"ButtonSet": "Set as Main Modem",
+		"DisablePostpaid": "Postpaid Modem cannot be used as the main modem",
+		"DisableInactive": "Complete the activation process of this modem to be set as main modem.",
+		"NotSupportIOS": "This modem is not yet supported by iOS. ",
+		"PopupModemList": {
+			"Title": "Select Modem",
+			"ButtonAddModem": "Add Modem",
+			"ButtonChangeMainModem": "Set Main Modem"
+		},
+		"ErrorInfo": {
+			"Message": "An error has occurred, please try again",
+			"Button": "Reload"
+		},
+		"ToastSuccess": {
+			"Title": "Main Modem changes saved successfully"
+		},
+		"Coachmark": {
+			"Title": "View & manage your Orbit modem",
+			"Subtitle": "Manage all your Orbit modems from here. The current main modem is",
+			"ButtonPrimary": "Understand",
+			"ButtonSecondary": "Set Main Modem"
+		},
+		"PopupConfirmationAddModem": {
+			"Title": "Add Modem",
+			"Subtitle": "Modems that can be added are modems that do not have an account or have not been activated.",
+			"ButtonPrimary": "Continue",
+			"ButtonSecondary": "Back"
+		}
+	},
+	"RenewalDataPackage": {
+		"Widget": {
+			"Balance": "Balance",
+			"Billing": "Billing"
+		},
+		"SwipUpModal": {
+			"Title": "Are you sure\nwill buy this package?",
+			"PackageOption": "Package Options",
+			"Validity": "Valid for ",
+			"PaymentMethod": "Payment Method",
+			"Error": {
+				"OfferIdPrepaid": "This package cannot be purchased using balance. Please change the payment method.",
+				"OfferIdPostpaid": "This package cannot be purchased using usage billing. Please change the payment method.",
+				"InsufficientBalance": "Insufficient balance. Please change the payment method.",
+				"LimitReached": "Purchases exceed the usage limit for this month, please choose another package."
+			},
+			"Balance": "Your Balance:",
+			"Billing": "Usage Bill:"
+		}
+	},
+	"HomebaseTransitionScreen": {
+		"Title": "Set your main location first!",
+		"Description": "For your Home quota usage area, because Orbit modem must be active and in the Main Location to be able to use Home quota.",
+		"MainLocation": "Main Location",
+		"InfoTitle": "Location can be changed ",
+		"Duration": "once in 6 months",
+		"LocationNotYetSet": "Not set",
+		"TncDesc": "I here by agree that the selected location will be the main location of my modem.",
+		"ChangeLocation": "Set",
+		"ButtonAction": "Save",
+		"PopupIneligibleUpdateLoc": {
+			"Title": "You have already set the main location",
+			"ContentTitle": "Your Main Location",
+			"ContentDesc": "You can change again on"
+		},
+		"PopupErrorGeneral": {
+			"Title": "Failed to load",
+			"Description": "There was a problem while processing your request, please try again."
+		}
+	},
+	"HomebaseLocationScreen": {
+		"Title": "Select Main Location",
+		"Search": "Search",
+		"InfoTitle": "Read about Main Location",
+		"CtaAboutMainLoc": "here",
+		"TncDesc": "I hereby agree that the selected location will be the main location of my modem.",
+		"ButtonAction": "Save",
+		"YourMainLocation": "Your Main Location",
+		"MainLocation": "Main Location",
+		"Popup": {
+			"NotCovered": {
+				"Title": "Orbit has not covered this location yet",
+				"Desc": "Try moving the pin to another location."
+			}
+		},
+		"ToastSuccess": {
+			"Title": "Main location {{status}} successfully",
+			"Updated": "updated",
+			"Saved": "saved"
+		}
+	},
+	"Coachmark": {
+		"HomeScreen": {
+			"ModalLanguage": "MyOrbit now comes with a new look!",
+			"Explore": "Start Exploration",
+			"WifiName": "Look at your password & your wifi name",
+			"WifiInformation": "Check your Orbit WiFi Information here!",
+			"ModemLocation": "Modem's current location",
+			"ModemLocationDescription": "Now the use of this type of quota will be adjusted based on the location of the modem",
+			"Credit": "You can monitor how much quota and credit you have left.",
+			"Quotas": "Check quotas & credits",
+			"AccessMenu": "Access Other Menus",
+			"AccessMenuDescriptions": "You can see User Profile, MyOrbit Features, and other settings here!"
+		}
+	}
+}

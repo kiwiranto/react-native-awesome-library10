@@ -1,0 +1,10 @@
+export const iconBlibli = require('./icon-blibli.png');
+export const iconJdid = require('./icon-jdid.png');
+export const iconLazada = require('./icon-lazada.png');
+export const iconShopee = require('./icon-shopee.png');
+export const iconTokopedia = require('./icon-tokopedia.png');
+export const iconBukalapak = require('./icon-bukalapak.png');
+export const iconAkulaku = require('./icon-akulaku.png');
+export const iconKlikIndomaret = require('./icon-klikindomaret.png');
+export const iconGrapari = require('./icon-grapari.png');
+export const iconTiktok = require('./icon-tiktok.png');

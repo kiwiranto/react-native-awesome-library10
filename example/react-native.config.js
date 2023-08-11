@@ -6,4 +6,9 @@ module.exports = {
       root: path.join(__dirname, '..'),
     },
   },
+  project: {
+    ios: {},
+    android: {} // grouped into "project"
+  },
+  assets: ['./src/Assets/app'] // stays the same
 };
